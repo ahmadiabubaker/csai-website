@@ -53,6 +53,22 @@ a:hover{text-decoration: underline}
     linear-gradient(90deg, rgba(0,230,255,.18), rgba(122,92,255,.18));
   box-shadow: 0 8px 28px rgba(122,92,255,0.12);
 }
+/* Center CSAI brand only on mobile */
+@media (max-width: 768px) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav .brand {
+    margin: 0 auto;
+  }
+
+  /* Optional: hide the nav links on mobile */
+  .nav-links {
+    display: none;
+  }
+}
+
 
 /* ===== Hero ===== */
 .hero{
