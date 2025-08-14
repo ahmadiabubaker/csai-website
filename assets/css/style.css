@@ -111,7 +111,7 @@ a:hover{text-decoration: underline}
 
 .section-header{display:flex; align-items:center; gap:18px; justify-content:center; margin-bottom:6px}
 
-/* ===== Grid & Cards ===== */
+/* /* ===== Grid & Cards ===== 
 .grid{display:grid; gap:18px; grid-template-columns: repeat(12, 1fr)}
 .grid .card{grid-column: span 4}
 
@@ -128,20 +128,20 @@ a:hover{text-decoration: underline}
 
 .card:hover{ transform: translateY(-4px); box-shadow: 0 18px 44px rgba(10,20,40,.20) }
 
-/* ===== Crystal Glass Profile Cards ===== */
+/* ===== Crystal Glass Profile Cards ===== 
 .grid.profiles {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 24px; /* space between cards */
+  gap: 24px; /* space between cards 
   margin-top: 24px;
 }
 
 .profile-card {
   position: relative;
-  border: 1px solid rgba(255, 255, 255, 0.2); /* soft glass border */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* soft glass border 
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.15); /* transparent glass */
-  backdrop-filter: blur(12px); /* frosted effect */
+  background: rgba(255, 255, 255, 0.15); /* transparent glass 
+  backdrop-filter: blur(12px); /* frosted effect 
   padding: 24px;
   box-shadow: 0 12px 36px rgba(10, 20, 40, 0.2);
   overflow: hidden;
@@ -159,7 +159,7 @@ a:hover{text-decoration: underline}
   box-shadow: 0 20px 48px rgba(10, 20, 40, 0.25);
 }
 
-/* subtle gradient wash inside the card for extra depth */
+/* subtle gradient wash inside the card for extra depth 
 .profile-card::before {
   content: '';
   position: absolute;
@@ -169,14 +169,14 @@ a:hover{text-decoration: underline}
   pointer-events: none;
 }
 
-/* ===== Profile Card Content ===== */
+/* ===== Profile Card Content ===== 
 .profile-avatar {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 16px;
-  border: 2px solid rgba(255,255,255,0.3);
+  border: 2px solid rgba(255,255,255,0.3); */
 
 
 
@@ -201,7 +201,7 @@ a:hover{text-decoration: underline}
 .profile-bio {
   font-size: 0.9rem;
   color: #3a4366;
-  line-height: 1.4;
+  line-height: 1.4; 
 
 
 
