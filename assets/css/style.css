@@ -204,6 +204,45 @@ a:hover{text-decoration: underline}
 .delay-2{transition-delay:.16s}
 .delay-3{transition-delay:.24s}
 
+/* ===== Blog Page ===== */
+.post-list {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-top: 32px;
+}
+
+.post-card {
+  border: 1px solid var(--glass-line);
+  border-radius: 16px;
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(8px);
+  padding: 18px;
+  box-shadow: var(--shadow);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 44px rgba(10,20,40,.20);
+}
+
+.post-card h3 {
+  margin: 0 0 8px;
+  color: var(--text);
+}
+
+.post-card p {
+  margin: 0;
+  color: #39405c;
+  font-size: 15px;
+}
+
+.post-card a {
+  color: var(--accent-2);
+  font-weight: bold;
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 960px){
   .grid .card{grid-column: span 6}
