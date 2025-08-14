@@ -99,22 +99,6 @@ a:hover{text-decoration: underline}
 .wash-b{ right:-12vw; bottom:-20vh; width:70vmax; height:70vmax;
   background: radial-gradient(closest-side, rgba(122,92,255,.20), transparent 70%); }
 
-/* Center CSAI brand only on mobile */
-@media (max-width: 768px) {
-  .nav {
-    justify-content: center;
-  }
-
-  .nav .brand {
-    margin: 0 auto;
-  }
-
-  /* Optional: hide the nav links on mobile */
-  .nav-links {
-    display: none;
-  }
-}
-
 /* ===== Sections ===== */
 .section{padding: 64px 24px}
 .section h2{
