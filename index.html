@@ -5,12 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CSAI — Home</title>
   <link rel="stylesheet" href="assets/css/style.css" />
-  <!-- Three.js for lightweight 3D accents -->
-  <script defer src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
 </head>
 <body>
 
-<!-- ===== Header (crystal glass) ===== -->
+<!-- ===== Header ===== -->
 <header class="header">
   <div class="nav container">
     <a class="brand" href="index.html" aria-label="CSAI home">CSAI</a>
@@ -26,17 +24,10 @@
 
 <!-- ===== Hero ===== -->
 <section class="hero" id="home">
-  <!-- Hero 3D canvas -->
-  <canvas id="gl-hero" class="gl-canvas" aria-hidden="true"></canvas>
-
   <div class="container">
-    <!-- soft parallax washes -->
-    <div aria-hidden="true" data-parallax="10" class="wash wash-a"></div>
-    <div aria-hidden="true" data-parallax="6" class="wash wash-b"></div>
-
     <h1 class="reveal">Where Computer Science meets AI</h1>
     <p class="reveal delay-1">
-      Projects. Workshops. Hack nights. A community pushing the frontier —
+      Projects. Workshops. Hack nights. A community pushing the frontier — 
       and having fun while doing it.
     </p>
     <div class="hero-cta reveal delay-2">
@@ -46,7 +37,7 @@
   </div>
 </section>
 
-<!-- ===== Scroll rail (MetaMask-style) ===== -->
+<!-- ===== Scroll rail ===== -->
 <nav class="side-rail" aria-label="Section navigation">
   <div class="rail-track"><div class="rail-progress"></div></div>
   <a class="rail-item active" href="#home" data-label="Home"></a>
@@ -66,27 +57,22 @@
       you’ll find collaborators, guidance, and a stage to showcase your work.
     </p>
 
-    <!-- 3D crystal accent -->
-    <div class="accent-3d reveal delay-2">
-      <canvas id="gl-crystal" class="gl-inline" aria-hidden="true"></canvas>
-    </div>
-
     <div class="grid features">
-      <div class="card crystal reveal">
+      <div class="card reveal">
         <h3>Hands-on</h3>
         <p>
           Build real systems: agentic workflows, vision pipelines, simulation tooling,
           and research-grade prototypes that become portfolio pieces.
         </p>
       </div>
-      <div class="card crystal reveal delay-1">
+      <div class="card reveal delay-1">
         <h3>Community</h3>
         <p>
           Weekly meetups, open labs, and hack nights. Pair up with mentors
           and teammates who accelerate your learning curve.
         </p>
       </div>
-      <div class="card crystal reveal delay-2">
+      <div class="card reveal delay-2">
         <h3>Showcase</h3>
         <p>
           Demo days, cross-campus collabs, and blog spotlights. Publish write-ups,
@@ -102,8 +88,6 @@
   <div class="container">
     <div class="section-header">
       <h2 class="reveal">Featured Projects</h2>
-      <!-- Parametric curve (math) -->
-      <canvas id="gl-curve" class="gl-inline small" aria-hidden="true"></canvas>
     </div>
 
     <p class="lead reveal delay-1">
@@ -112,15 +96,15 @@
     </p>
 
     <div class="grid">
-      <div class="card crystal tilt reveal">
+      <div class="card reveal">
         <h3>Smart Attendance</h3>
         <p>On-device ML for fast, privacy-first check-ins with cryptographic tokens.</p>
       </div>
-      <div class="card crystal tilt reveal delay-1">
+      <div class="card reveal delay-1">
         <h3>Robo Vision</h3>
         <p>Low-latency inference and defect detection on embedded GPU targets.</p>
       </div>
-      <div class="card crystal tilt reveal delay-2">
+      <div class="card reveal delay-2">
         <h3>Agent Lab</h3>
         <p>Composable tools, evals, and benchmarks for agentic workflows at scale.</p>
       </div>
@@ -140,15 +124,15 @@
       Workshops, hack sessions, and guest talks designed to level you up — and connect you with builders.
     </p>
     <div class="grid">
-      <div class="card crystal reveal">
+      <div class="card reveal">
         <h3>Welcome Mixer</h3>
         <p>Sep 8 — CS Atrium. Meet the team, pick a track, and grab some snacks.</p>
       </div>
-      <div class="card crystal reveal delay-1">
+      <div class="card reveal delay-1">
         <h3>AI Agents Workshop</h3>
         <p>Sep 15 — Room 204. Build your first agent with tools and evals.</p>
       </div>
-      <div class="card crystal reveal delay-2">
+      <div class="card reveal delay-2">
         <h3>Vision Hack Night</h3>
         <p>Sep 22 — Makerspace. Edge inference and data capture tracks.</p>
       </div>
@@ -167,15 +151,15 @@
       Stories and write-ups from members. Techniques, post-mortems, and things we learned the hard way.
     </p>
     <div class="grid">
-      <div class="card crystal reveal">
+      <div class="card reveal">
         <h3>Launching CSAI 2025</h3>
         <p>New tracks, a brighter site, and a packed calendar for builders.</p>
       </div>
-      <div class="card crystal reveal delay-1">
+      <div class="card reveal delay-1">
         <h3>Project Spotlight</h3>
         <p>Privacy-friendly attendance with on-device ML and signed passes.</p>
       </div>
-      <div class="card crystal reveal delay-2">
+      <div class="card reveal delay-2">
         <h3>Workshop Recap</h3>
         <p>Agents 101: tools, evals, pitfalls, and next steps.</p>
       </div>
