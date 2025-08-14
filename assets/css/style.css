@@ -295,6 +295,16 @@ a:hover{text-decoration: underline}
   margin-bottom: 16px;
   display: none;
 }
+.form .input,
+.form textarea,
+.form select {
+  margin-bottom: 16px;
+}
+
+.form .btn {
+  margin-top: 8px; /* space above the button */
+}
+
 
 /* ===== Responsive ===== */
 @media (max-width: 960px){
