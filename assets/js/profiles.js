@@ -1,7 +1,11 @@
-// profiles.js
-document.querySelectorAll('.read-more-btn').forEach(btn => {
+// Toggle Read More for profiles
+document.querySelectorAll('.profile-card').forEach(card => {
+  const btn = document.createElement('button');
+  btn.className = 'read-more-btn';
+  btn.textContent = 'Read More';
+  card.appendChild(btn);
+  
   btn.addEventListener('click', () => {
-    const card = btn.closest('.profile-card');
     card.classList.toggle('expanded');
     btn.textContent = card.classList.contains('expanded') ? 'Read Less' : 'Read More';
   });
