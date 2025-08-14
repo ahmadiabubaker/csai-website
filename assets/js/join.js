@@ -4,7 +4,7 @@
   const ok = document.getElementById('join-success');
   const err = document.getElementById('join-error');
 
-  const scriptURL = 'https://script.google.com/macros/s/AKfycby77sOsHRtJSgPLoJDY56WJi05F9jFZhsuJETKct2lka-eg6mfXOg1r7YTjvRqhgM5P/exec';
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyBsARMnKbHyQPIaiohb71go01vKsH5jbeg3yf6sIa0AM_RH2ZyTZtBRkVBAGBShadF/exec';
 
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
