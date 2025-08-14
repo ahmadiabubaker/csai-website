@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Welcome Mixer + Project Pitches",
+    "description": "Meet members, form teams, and pitch AI/CS projects.",
+    "location": "CS Building Atrium",
+    "startISO": "2025-09-08T22:00:00.000Z",
+    "endISO": "2025-09-08T23:30:00.000Z"
+  },
+  {
+    "title": "Workshop: Intro to AI Agents",
+    "description": "Hands-on session building your first agent.",
+    "location": "Room 204",
+    "startISO": "2025-09-15T21:00:00.000Z",
+    "endISO": "2025-09-15T23:00:00.000Z"
+  },
+  {
+    "title": "Hack Night: Vision & Robotics",
+    "description": "Bring your laptop; snacks provided.",
+    "location": "Makerspace",
+    "startISO": "2025-09-22T23:00:00.000Z",
+    "endISO": "2025-09-23T02:00:00.000Z"
+  }
+]

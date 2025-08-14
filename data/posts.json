@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Launching CSAI 2025",
+    "date": "2025-08-20T16:00:00.000Z",
+    "excerpt": "Welcome to a new year of projects, workshops, and hack nights.",
+    "html": "<p>We\u2019re kicking off the year with a fresh site, new project tracks, and a packed event calendar. Stay tuned!</p>"
+  },
+  {
+    "id": 2,
+    "title": "Project Spotlight: Smart Attendance",
+    "date": "2025-09-10T16:00:00.000Z",
+    "excerpt": "How we built privacy-friendly attendance using on-device ML.",
+    "html": "<p>We prototyped a lightweight, privacy-first attendance system. In this post we walk through architecture, models, and results.</p>"
+  }
+]
