@@ -1,208 +1,82 @@
-// ===== Scroll rail + active section =====
+// Smoothly highlight the active nav link while scrolling
 (function(){
-  const rail = document.querySelector('.side-rail');
-  if(!rail) return;
+  const links = [...document.querySelectorAll('.nav-links a[href^="#"]')];
+  if (!links.length) return;
 
-  const items = [...rail.querySelectorAll('.rail-item')];
-  const targets = items.map(i => document.querySelector(i.getAttribute('href'))).filter(Boolean);
-  const progress = rail.querySelector('.rail-progress');
+  const sections = links
+    .map(a => document.querySelector(a.getAttribute('href')))
+    .filter(Boolean);
 
-  // Smooth click
-  items.forEach(i => {
-    i.addEventListener('click', e => {
-      e.preventDefault();
-      const el = document.querySelector(i.getAttribute('href'));
-      el && el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
-  });
+  const setActive = (id) => {
+    links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === `#${id}`));
+  };
 
-  // Active section by viewport center
-  function setActive() {
+  // IntersectionObserver to mark active by section in view
+  const io = new IntersectionObserver((entries) => {
+    // Choose the entry with the largest intersection ratio near viewport center
     const mid = window.innerHeight * 0.5;
-    let bestIdx = 0, bestDist = Infinity;
-    targets.forEach((t, idx) => {
-      const r = t.getBoundingClientRect();
-      const center = r.top + r.height/2;
-      const d = Math.abs(center - mid);
-      if(d < bestDist){ bestDist = d; bestIdx = idx; }
-    });
-    items.forEach(i => i.classList.remove('active'));
-    items[bestIdx]?.classList.add('active');
-  }
+    let best = null;
+    for (const e of entries) {
+      const r = e.target.getBoundingClientRect();
+      if (r.top <= mid && r.bottom >= mid) { best = e; break; }
+      if (!best || e.intersectionRatio > best.intersectionRatio) best = e;
+    }
+    if (best && best.isIntersecting) setActive(best.target.id);
+  }, { threshold: [0.15, 0.6, 0.9] });
 
-  // Rail progress (overall page scroll)
-  function setProgress() {
-    const doc = document.documentElement;
-    const h = doc.scrollHeight - window.innerHeight;
-    const y = window.scrollY || doc.scrollTop || 0;
-    const pct = Math.max(0, Math.min(1, h ? y / h : 0));
-    if(progress) progress.style.height = (pct * 100) + '%';
-  }
-
-  const onScroll = () => { setActive(); setProgress(); };
-  window.addEventListener('scroll', onScroll, { passive:true });
-  window.addEventListener('resize', onScroll);
-  onScroll();
+  sections.forEach(s => io.observe(s));
 })();
 
-// ===== Parallax accents (mouse) =====
+// Contact modal: keep ARIA in sync, close on ESC / backdrop click, and trap focus
 (function(){
-  document.querySelectorAll('[data-parallax]').forEach(el => {
-    const strength = parseFloat(el.dataset.parallax) || 10;
-    window.addEventListener('mousemove', (e) => {
-      const { innerWidth:w, innerHeight:h } = window;
-      const x = (e.clientX - w/2) / (w/2);
-      const y = (e.clientY - h/2) / (h/2);
-      el.style.transform = `translate(${x*strength}px, ${y*strength}px)`;
-    }, { passive:true });
-  });
-})();
+  const toggle = document.getElementById('contact-toggle');
+  const modal  = document.getElementById('contact-modal');
+  const openBtn = document.querySelector('.contact-btn');
 
-// ===== Reveal on view =====
-(function(){
-  const els = document.querySelectorAll('.reveal');
-  if(!els.length) return;
-  const io = new IntersectionObserver((entries)=>{
-    entries.forEach(e=>{
-      if(e.isIntersecting){
-        e.target.classList.add('in');
-        io.unobserve(e.target);
-      }
-    });
-  }, { threshold: .12 });
-  els.forEach(el => io.observe(el));
-})();
+  if (!toggle || !modal || !openBtn) return;
 
-// ===== Lightweight 3D: hero crystal (glass icosahedron) =====
-(function(){
-  const canvas = document.getElementById('gl-hero');
-  if(!canvas || !window.THREE) return;
-  const renderer = new THREE.WebGLRenderer({ canvas, antialias:true, alpha:true });
-  const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(45, 2, 0.1, 50);
-  camera.position.set(0, 0, 6);
+  const focusableSel = 'a,button,input,textarea,select,[tabindex]:not([tabindex="-1"])';
 
-  const geo = new THREE.IcosahedronGeometry(1.4, 1);
-  const mat = new THREE.MeshPhysicalMaterial({
-    color: 0xffffff, metalness: 0.0, roughness: 0.05,
-    transmission: 1.0, thickness: 0.8, ior: 1.35, transparent: true,
-    attenuationColor: new THREE.Color(0x7A5CFF), attenuationDistance: 4
-  });
-  const mesh = new THREE.Mesh(geo, mat);
-  scene.add(mesh);
-
-  // soft lights
-  scene.add(new THREE.AmbientLight(0xffffff, 0.4));
-  const k1 = new THREE.DirectionalLight(0x7A5CFF, 1.2); k1.position.set(2,2,3); scene.add(k1);
-  const k2 = new THREE.DirectionalLight(0x00E6FF, 0.9); k2.position.set(-3,1,2); scene.add(k2);
-
-  // resize
-  function resize(){
-    const w = canvas.clientWidth;
-    const h = canvas.clientHeight;
-    renderer.setSize(w, h, false);
-    camera.aspect = w / h;
-    camera.updateProjectionMatrix();
+  function syncAria(){
+    const open = toggle.checked;
+    modal.setAttribute('aria-hidden', String(!open));
+    openBtn.setAttribute('aria-expanded', String(open));
+    if (open) {
+      // focus first field
+      const first = modal.querySelector(focusableSel);
+      first && first.focus();
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+      openBtn.focus();
+    }
   }
-  resize(); window.addEventListener('resize', resize);
 
-  // pointer rotate
-  let mx = 0, my = 0;
-  window.addEventListener('mousemove', (e)=>{
-    mx = (e.clientX / window.innerWidth - 0.5) * 0.4;
-    my = (e.clientY / window.innerHeight - 0.5) * 0.4;
-  }, { passive:true });
-
-  // animate
-  renderer.setAnimationLoop((t)=>{
-    mesh.rotation.x += 0.003 + (my * 0.02);
-    mesh.rotation.y += 0.004 + (mx * 0.02);
-    renderer.render(scene, camera);
+  // Backdrop click closes
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) { toggle.checked = false; syncAria(); }
   });
+
+  // ESC closes
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && toggle.checked) {
+      toggle.checked = false; syncAria();
+    }
+  });
+
+  // Simple focus trap
+  modal.addEventListener('keydown', (e) => {
+    if (!toggle.checked || e.key !== 'Tab') return;
+    const nodes = [...modal.querySelectorAll(focusableSel)].filter(el => !el.hasAttribute('disabled'));
+    if (!nodes.length) return;
+    const first = nodes[0], last = nodes[nodes.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  // Keep ARIA in sync when checkbox changes (label click)
+  toggle.addEventListener('change', syncAria);
+
+  // On load
+  syncAria();
 })();
-
-// ===== 3D accent: crystal box =====
-(function(){
-  const canvas = document.getElementById('gl-crystal');
-  if(!canvas || !window.THREE) return;
-  const renderer = new THREE.WebGLRenderer({ canvas, antialias:true, alpha:true });
-  const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(45, 2, 0.1, 50);
-  camera.position.set(0,0,6);
-
-  const geo = new THREE.BoxGeometry(2.2, 1.2, 1.2, 2,2,2);
-  const mat = new THREE.MeshPhysicalMaterial({
-    color: 0xffffff, metalness: 0, roughness: 0.08,
-    transmission: 1, thickness: 1, ior: 1.4, transparent:true
-  });
-  const box = new THREE.Mesh(geo, mat);
-  scene.add(box);
-
-  scene.add(new THREE.AmbientLight(0xffffff, 0.5));
-  const l = new THREE.DirectionalLight(0x00E6FF, 1.2); l.position.set(2,1,3); scene.add(l);
-
-  function resize(){
-    const w = canvas.clientWidth, h = canvas.clientHeight;
-    renderer.setSize(w,h,false); camera.aspect = w/h; camera.updateProjectionMatrix();
-  }
-  resize(); window.addEventListener('resize', resize);
-
-  renderer.setAnimationLoop(()=>{
-    box.rotation.x += 0.01;
-    box.rotation.y += 0.012;
-    renderer.render(scene, camera);
-  });
-})();
-
-// ===== 3D accent: parametric math curve =====
-(function(){
-  const canvas = document.getElementById('gl-curve');
-  if(!canvas || !window.THREE) return;
-  const renderer = new THREE.WebGLRenderer({ canvas, antialias:true, alpha:true });
-  const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(45, 2, 0.1, 50);
-  camera.position.set(0,0,8);
-
-  // Lissajous-like curve
-  const pts = [];
-  const n = 800, a=3, b=2, delta=Math.PI/2.5;
-  for(let i=0;i<n;i++){
-    const t = i / n * Math.PI * 2;
-    const x = Math.sin(a*t + delta) * 2.2;
-    const y = Math.sin(b*t) * 0.9;
-    const z = Math.cos(a*t) * 0.3;
-    pts.push(new THREE.Vector3(x,y,z));
-  }
-  const geo = new THREE.BufferGeometry().setFromPoints(pts);
-  const mat = new THREE.LineBasicMaterial({ color: 0x7A5CFF, transparent:true, opacity:0.9 });
-  const line = new THREE.Line(geo, mat);
-  scene.add(line);
-
-  scene.add(new THREE.AmbientLight(0xffffff, 0.7));
-
-  function resize(){
-    const w = canvas.clientWidth, h = canvas.clientHeight;
-    renderer.setSize(w,h,false); camera.aspect = w/h; camera.updateProjectionMatrix();
-  }
-  resize(); window.addEventListener('resize', resize);
-
-  renderer.setAnimationLoop(()=>{
-    line.rotation.y += 0.005;
-    line.rotation.x += 0.002;
-    renderer.render(scene, camera);
-  });
-})();
-
-// ===== Google Calendar URL (kept from your original) =====
-function googleCalendarUrl(ev){
-  function fmt(d){ return d.replace(/[-:]/g,'').split('.')[0] + 'Z'; }
-  const params = new URLSearchParams({
-    action:'TEMPLATE',
-    text: ev.title || 'CSAI Event',
-    dates: `${fmt(ev.startISO)}/${fmt(ev.endISO)}`,
-    details: ev.description || '',
-    location: ev.location || ''
-  });
-  return `https://calendar.google.com/calendar/render?${params.toString()}`;
-}
-window.CSAI = { googleCalendarUrl };
