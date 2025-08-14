@@ -97,9 +97,6 @@ a:hover{text-decoration: underline}
 .wash-b{ right:-12vw; bottom:-20vh; width:70vmax; height:70vmax;
   background: radial-gradient(closest-side, rgba(122,92,255,.20), transparent 70%); }
 
-/* canvas layering */
-.gl-canvas{ position:absolute; inset:0; width:100%; height:100%; pointer-events:none; }
-
 /* ===== Sections ===== */
 .section{padding: 64px 24px}
 .section h2{
@@ -110,12 +107,9 @@ a:hover{text-decoration: underline}
 }
 .section p.lead{max-width: 80ch; margin:8px auto 24px; text-align:center; color:#3a4366}
 
-/* section header with small inline canvas */
 .section-header{display:flex; align-items:center; gap:18px; justify-content:center; margin-bottom:6px}
-.gl-inline{width:180px; height:64px; display:block}
-.gl-inline.small{width:140px; height:54px}
 
-/* ===== Grid & Crystal Cards ===== */
+/* ===== Grid & Cards ===== */
 .grid{display:grid; gap:18px; grid-template-columns: repeat(12, 1fr)}
 .grid .card{grid-column: span 4}
 
@@ -132,66 +126,67 @@ a:hover{text-decoration: underline}
 
 .card:hover{ transform: translateY(-4px); box-shadow: 0 18px 44px rgba(10,20,40,.20) }
 
-/* “Crystal” look */
-.card.crystal{
-  position:relative; overflow:hidden;
-  background: rgba(255,255,255,0.72);
-}
-.card.crystal::before{
-  content:""; position:absolute; inset:0; pointer-events:none; border-radius:16px;
-  background: linear-gradient(140deg, rgba(0,230,255,.24), rgba(122,92,255,.20) 45%, transparent 70%);
-  mix-blend-mode: screen; opacity:.65;
-}
-.card.crystal::after{
-  content:""; position:absolute; inset:0; border-radius:16px; pointer-events:none;
-  border: 1px solid transparent;
-  background: linear-gradient(180deg, rgba(255,255,255,.7), rgba(255,255,255,0)) border-box,
-              linear-gradient(90deg, rgba(0,230,255,.4), rgba(122,92,255,.4)) padding-box;
-  -webkit-mask:
-    linear-gradient(#000, #000) content-box,
-    linear-gradient(#000, #000);
-  -webkit-mask-composite: xor; mask-composite: exclude;
+/* ===== Calendar Styles ===== */
+.calendar {
+  max-width: 900px;
+  margin: 40px auto;
+  background: var(--panel);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: var(--shadow);
 }
 
-/* 3D tilt on hover */
-.tilt{transform-style:preserve-3d}
-.tilt:hover{transform: perspective(900px) rotateX(2deg) rotateY(-2deg) translateY(-6px)}
+.cal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
 
-/* Accent 3D container */
-.accent-3d{display:flex; justify-content:center; margin: 12px 0 24px}
-.accent-3d .gl-inline{width:220px; height:110px}
+.cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
 
-/* ===== Side Scroll Rail ===== */
-.side-rail{
-  position: fixed; right: 22px; top: 50%; transform: translateY(-50%);
-  display:flex; flex-direction:column; gap:14px; z-index: 40; align-items:center;
+.cal-cell {
+  min-height: 100px;
+  border: 1px solid var(--glass-line);
+  background: rgba(255,255,255,0.6);
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
 }
-.rail-track{
-  position:absolute; left:50%; transform:translateX(-50%); width:2px; top:-40px; bottom:-40px;
-  background: linear-gradient(180deg, rgba(10,20,40,.10), rgba(10,20,40,.04));
-  border-radius:2px; overflow:hidden;
+
+.cal-day {
+  font-weight: bold;
+  margin-bottom: 4px;
 }
-.rail-progress{
-  position:absolute; left:0; top:0; width:100%; height:0;
-  background: linear-gradient(180deg, var(--accent-2), var(--accent-1));
-  box-shadow: 0 0 18px rgba(0,230,255,.25);
+
+.cal-events {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
-.rail-item{
-  width: 12px; height:12px; border-radius:999px; background:rgba(10,20,40,.25);
-  border:2px solid rgba(10,20,40,.25); transition: transform .2s ease, box-shadow .2s ease, background .2s ease; position:relative;
+
+.cal-pill {
+  background: var(--accent-1);
+  color: var(--text-invert);
+  border-radius: 8px;
+  padding: 2px 6px;
+  font-size: 12px;
 }
-.rail-item::after{
-  content: attr(data-label);
-  position: absolute; right: 150%; top:50%; transform:translateY(-50%);
-  background:#0b1220; color:#fff; padding:6px 10px; border-radius:10px; white-space:nowrap; font-size:12px;
-  opacity:0; pointer-events:none; transition: opacity .2s ease, transform .2s ease;
-  box-shadow: 0 10px 30px rgba(10,20,40,.25);
+
+.cal-legend {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
 }
-.rail-item:hover::after{opacity:1; transform:translate(-4px,-50%)}
-.rail-item.active{
-  background: linear-gradient(180deg, var(--accent-2), var(--accent-1)); border-color: transparent;
-  box-shadow: 0 0 0 8px rgba(0,230,255,.16), 0 0 18px rgba(122,92,255,.25);
-  transform: scale(1.08);
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
 }
 
 /* ===== Footer ===== */
@@ -212,7 +207,6 @@ a:hover{text-decoration: underline}
 /* ===== Responsive ===== */
 @media (max-width: 960px){
   .grid .card{grid-column: span 6}
-  .side-rail{right:12px}
 }
 @media (max-width: 720px){
   .section-header{flex-direction:column}
@@ -220,5 +214,4 @@ a:hover{text-decoration: underline}
 @media (max-width: 640px){
   .nav{flex-wrap:wrap}
   .grid .card{grid-column: span 12}
-  .side-rail{display:none}
 }
