@@ -111,7 +111,7 @@ a:hover{text-decoration: underline}
 
 .section-header{display:flex; align-items:center; gap:18px; justify-content:center; margin-bottom:6px}
 
-/* /* ===== Grid & Cards ===== 
+/* ===== Grid & Cards ===== */
 .grid{display:grid; gap:18px; grid-template-columns: repeat(12, 1fr)}
 .grid .card{grid-column: span 4}
 
