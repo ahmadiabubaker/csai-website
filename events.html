@@ -3,22 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CSAI — Blog</title>
+  <title>CSAI — Events</title>
   <link rel="stylesheet" href="assets/css/style.css" />
-  <style>
-    /* Footer stick-to-bottom fix */
-    html, body {
-      height: 100%;
-      margin: 0;
-    }
-    body {
-      display: flex;
-      flex-direction: column;
-    }
-    main {
-      flex: 1;
-    }
-  </style>
 </head>
 <body>
 <header class="header">
@@ -27,8 +13,8 @@
     <nav class="nav-links" aria-label="Main navigation">
       <a href="index.html">Home</a>
       <a href="projects.html">Projects</a>
-      <a href="events.html">Events</a>
-      <a href="blog.html" class="active">Blog</a>
+      <a href="events.html" class="active">Events</a>
+      <a href="blog.html">Blog</a>
       <a href="join.html">Join</a>
     </nav>
   </div>
@@ -37,9 +23,9 @@
 <main>
   <section class="section">
     <div class="container">
-      <h2>Blog</h2>
-      <p class="lead">News, write-ups, and research notes from CSAI.</p>
-      <div id="post-list" class="post-list"></div>
+      <h2>Events</h2>
+      <p class="lead">Upcoming talks, hackathons, and workshops from CSAI.</p>
+      <div id="events-calendar" class="calendar"></div>
     </div>
   </section>
 </main>
@@ -49,6 +35,6 @@
 </footer>
 
 <script src="assets/js/main.js"></script>
-<script src="assets/js/blog.js"></script>
+<script src="assets/js/events.js"></script>
 </body>
 </html>
