@@ -111,50 +111,27 @@ a:hover{text-decoration: underline}
 
 .section-header{display:flex; align-items:center; gap:18px; justify-content:center; margin-bottom:6px}
 
-/* ===== Grid & Cards ===== */
-.grid{display:grid; gap:18px; grid-template-columns: repeat(12, 1fr)}
-.grid .card{grid-column: span 4}
-
-.card{
-  border:1px solid var(--glass-line);
-  border-radius: 16px;
-  background: rgba(255,255,255,0.85);
-  backdrop-filter: blur(8px);
-  padding:18px; box-shadow: var(--shadow);
-  transition: transform .25s ease, box-shadow .25s ease;
-}
-.card h3{margin:0 0 8px}
-.card p{margin:0; color:#39405c}
-
-.card:hover{ transform: translateY(-4px); box-shadow: 0 18px 44px rgba(10,20,40,.20) }
-
-/* ===== Profiles Section ===== */
-.profiles {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 32px; /* space between cards */
-  margin-top: 32px;
-}
-
+/* ===== Updated Profiles Section with Gradient Hover ===== */
 .profile-card {
-  background: rgba(255, 255, 255, 0.15); /* glassy look */
-  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.10); /* more transparent glass */
+  backdrop-filter: blur(14px);
   border-radius: 20px;
-  border: 1px solid rgba(255,255,255,0.2);
-  box-shadow: 0 16px 32px rgba(0,0,0,0.15);
+  border: 1px solid rgba(255,255,255,0.15);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.18);
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 24px 16px;
+  padding: 28px 18px;
 }
 
 .profile-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 24px 48px rgba(0,0,0,0.25);
+  box-shadow: 0 28px 56px rgba(0,0,0,0.28);
+  background: linear-gradient(135deg, rgba(122,92,255,0.2), rgba(0,230,255,0.2));
 }
 
 .profile-photo {
@@ -163,31 +140,34 @@ a:hover{text-decoration: underline}
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 16px;
-  border: 2px solid rgba(255,255,255,0.3);
-  transition: transform 0.3s ease;
+  border: 2px solid rgba(255,255,255,0.25);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .profile-card:hover .profile-photo {
   transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
 
 .profile-name {
   font-weight: 700;
   font-size: 1.2rem;
-  color: #fff;
+  color: rgba(20,20,30,0.95);
+  text-shadow: 1px 1px 2px rgba(255,255,255,0.3);
   margin-bottom: 6px;
 }
 
 .profile-role {
   font-weight: 500;
   font-size: 0.95rem;
-  color: #dcdcff;
+  color: rgba(30,30,50,0.85);
   margin-bottom: 12px;
 }
 
 .profile-bio {
   font-size: 0.9rem;
-  color: #e0e0ff;
+  color: rgba(40,40,60,0.85);
   max-height: 3em;
   overflow: hidden;
   transition: max-height 0.3s ease;
@@ -200,7 +180,7 @@ a:hover{text-decoration: underline}
 .read-more-btn {
   margin-top: 12px;
   font-size: 0.85rem;
-  color: var(--accent-1);
+  color: #7A5CFF;
   background: none;
   border: none;
   cursor: pointer;
@@ -208,16 +188,51 @@ a:hover{text-decoration: underline}
 }
 
 .read-more-btn:hover {
+  color: #00E6FF;
   text-decoration: underline;
 }
 
-/* ===== Responsive ===== */
+/* Profiles grid spacing */
+.profiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  margin-top: 32px;
+}
+
+/* ===== Responsive for mobile ===== */
 @media (max-width: 768px) {
   .profiles {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 24px;
   }
+
+  .profile-card {
+    padding: 22px 14px;
+  }
+
+  .profile-photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .profile-name {
+    font-size: 1.1rem;
+  }
+
+  .profile-role {
+    font-size: 0.9rem;
+  }
+
+  .profile-bio {
+    font-size: 0.85rem;
+  }
+
+  .read-more-btn {
+    font-size: 0.8rem;
+  }
 }
+
 
 /* ===== Calendar Styles ===== */
 .calendar {
