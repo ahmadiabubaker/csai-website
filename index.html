@@ -1,97 +1,190 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CSAI — Home</title>
   <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Three.js for lightweight 3D accents -->
+  <script defer src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
 </head>
 <body>
+
+<!-- ===== Header (crystal glass) ===== -->
 <header class="header">
-    <div class="nav">
-      <a class="brand" href="index.html">
-        <div class="brand-badge" aria-hidden="true"></div>
-        <div>CSAI</div>
-      </a>
-      <div class="nav-links">
-        <a href="projects.html" >Projects</a>
-        <a href="events.html" >Events</a>
-        <a href="blog.html" >Blog</a>
-        <a href="join.html" >Join</a>
-      </div>
-    </div>
-    </header>
+  <div class="nav container">
+    <a class="brand" href="index.html" aria-label="CSAI home">CSAI</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html" class="active">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="events.html">Events</a>
+      <a href="blog.html">Blog</a>
+      <a href="join.html">Join</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== Hero ===== -->
 <section class="hero" id="home">
+  <!-- Hero 3D canvas -->
+  <canvas id="gl-hero" class="gl-canvas" aria-hidden="true"></canvas>
+
   <div class="container">
-    <div aria-hidden="true" data-parallax="10" style="position:absolute; left:-10vw; top:-10vh; width:60vmax; height:60vmax; background: radial-gradient(closest-side, rgba(0,230,255,.25), transparent 70%); border-radius:50%"></div>
-    <div aria-hidden="true" data-parallax="6" style="position:absolute; right:-12vw; bottom:-20vh; width:70vmax; height:70vmax; background: radial-gradient(closest-side, rgba(122,92,255,.22), transparent 70%); border-radius:50%"></div>
-    <h1>Where Computer Science meets AI</h1>
-    <p>Projects. Workshops. Hack nights. A community pushing the frontier — and having fun while doing it.</p>
-    <div class="hero-cta">
+    <!-- soft parallax washes -->
+    <div aria-hidden="true" data-parallax="10" class="wash wash-a"></div>
+    <div aria-hidden="true" data-parallax="6" class="wash wash-b"></div>
+
+    <h1 class="reveal">Where Computer Science meets AI</h1>
+    <p class="reveal delay-1">
+      Projects. Workshops. Hack nights. A community pushing the frontier —
+      and having fun while doing it.
+    </p>
+    <div class="hero-cta reveal delay-2">
       <a class="btn primary" href="projects.html">Explore Projects</a>
       <a class="btn" href="join.html">Join the Club</a>
     </div>
   </div>
 </section>
 
-<nav class="side-nav" aria-label="Section navigation">
-  <a class="side-dot active" href="#home" data-label="Home"></a>
-  <a class="side-dot" href="#about" data-label="About"></a>
-  <a class="side-dot" href="#feature-projects" data-label="Projects"></a>
-  <a class="side-dot" href="#feature-events" data-label="Events"></a>
-  <a class="side-dot" href="#feature-blog" data-label="Blog"></a>
+<!-- ===== Scroll rail (MetaMask-style) ===== -->
+<nav class="side-rail" aria-label="Section navigation">
+  <div class="rail-track"><div class="rail-progress"></div></div>
+  <a class="rail-item active" href="#home" data-label="Home"></a>
+  <a class="rail-item" href="#about" data-label="About"></a>
+  <a class="rail-item" href="#feature-projects" data-label="Projects"></a>
+  <a class="rail-item" href="#feature-events" data-label="Events"></a>
+  <a class="rail-item" href="#feature-blog" data-label="Blog"></a>
 </nav>
 
+<!-- ===== About ===== -->
 <section class="section" id="about">
   <div class="container">
-    <h2>About CSAI</h2>
-    <p class="lead">We’re a student-run group exploring AI and computer science through hands-on projects, talks, and mentorship. Whether you’re brand new or deep into research, there’s a place for you.</p>
-    <div class="grid">
-      <div class="card"><h3>Hands-on</h3><p>Build real projects, from agents to vision systems.</p></div>
-      <div class="card"><h3>Community</h3><p>Meet collaborators, mentors, and new friends.</p></div>
-      <div class="card"><h3>Showcase</h3><p>Present at demos day, publish on our blog, and compete.</p></div>
+    <h2 class="reveal">About CSAI</h2>
+    <p class="lead reveal delay-1">
+      We’re a student-run group exploring AI and computer science through hands-on
+      builds, talks, and mentorship. Whether you’re new or deep into research,
+      you’ll find collaborators, guidance, and a stage to showcase your work.
+    </p>
+
+    <!-- 3D crystal accent -->
+    <div class="accent-3d reveal delay-2">
+      <canvas id="gl-crystal" class="gl-inline" aria-hidden="true"></canvas>
+    </div>
+
+    <div class="grid features">
+      <div class="card crystal reveal">
+        <h3>Hands-on</h3>
+        <p>
+          Build real systems: agentic workflows, vision pipelines, simulation tooling,
+          and research-grade prototypes that become portfolio pieces.
+        </p>
+      </div>
+      <div class="card crystal reveal delay-1">
+        <h3>Community</h3>
+        <p>
+          Weekly meetups, open labs, and hack nights. Pair up with mentors
+          and teammates who accelerate your learning curve.
+        </p>
+      </div>
+      <div class="card crystal reveal delay-2">
+        <h3>Showcase</h3>
+        <p>
+          Demo days, cross-campus collabs, and blog spotlights. Publish write-ups,
+          ship public repos, and present to partners.
+        </p>
+      </div>
     </div>
   </div>
 </section>
 
+<!-- ===== Featured Projects ===== -->
 <section class="section" id="feature-projects">
   <div class="container">
-    <h2>Featured Projects</h2>
-    <p class="lead">A taste of what members are building.</p>
+    <div class="section-header">
+      <h2 class="reveal">Featured Projects</h2>
+      <!-- Parametric curve (math) -->
+      <canvas id="gl-curve" class="gl-inline small" aria-hidden="true"></canvas>
+    </div>
+
+    <p class="lead reveal delay-1">
+      A taste of what members are building — from privacy-preserving attendance
+      to real-time robotics vision and modular agent labs.
+    </p>
+
     <div class="grid">
-      <div class="card"><h3>Smart Attendance</h3><p>On-device ML for privacy-first check-ins.</p></div>
-      <div class="card"><h3>Robo Vision</h3><p>Realtime defect detection for robotics.</p></div>
-      <div class="card"><h3>Agent Lab</h3><p>Composable tools and benchmarks for agents.</p></div>
+      <div class="card crystal tilt reveal">
+        <h3>Smart Attendance</h3>
+        <p>On-device ML for fast, privacy-first check-ins with cryptographic tokens.</p>
+      </div>
+      <div class="card crystal tilt reveal delay-1">
+        <h3>Robo Vision</h3>
+        <p>Low-latency inference and defect detection on embedded GPU targets.</p>
+      </div>
+      <div class="card crystal tilt reveal delay-2">
+        <h3>Agent Lab</h3>
+        <p>Composable tools, evals, and benchmarks for agentic workflows at scale.</p>
+      </div>
+    </div>
+
+    <div class="center reveal delay-3" style="margin-top:16px">
+      <a class="btn" href="projects.html">Explore all Projects</a>
     </div>
   </div>
 </section>
 
+<!-- ===== Events ===== -->
 <section class="section" id="feature-events">
   <div class="container">
-    <h2>Upcoming Events</h2>
-    <p class="lead">From workshops to hack nights, there’s always something going on.</p>
+    <h2 class="reveal">Upcoming Events</h2>
+    <p class="lead reveal delay-1">
+      Workshops, hack sessions, and guest talks designed to level you up — and connect you with builders.
+    </p>
     <div class="grid">
-      <div class="card"><h3>Welcome Mixer</h3><p>Sep 8 — CS Atrium</p></div>
-      <div class="card"><h3>AI Agents Workshop</h3><p>Sep 15 — Room 204</p></div>
-      <div class="card"><h3>Vision Hack Night</h3><p>Sep 22 — Makerspace</p></div>
+      <div class="card crystal reveal">
+        <h3>Welcome Mixer</h3>
+        <p>Sep 8 — CS Atrium. Meet the team, pick a track, and grab some snacks.</p>
+      </div>
+      <div class="card crystal reveal delay-1">
+        <h3>AI Agents Workshop</h3>
+        <p>Sep 15 — Room 204. Build your first agent with tools and evals.</p>
+      </div>
+      <div class="card crystal reveal delay-2">
+        <h3>Vision Hack Night</h3>
+        <p>Sep 22 — Makerspace. Edge inference and data capture tracks.</p>
+      </div>
     </div>
-    <div style="text-align:center; margin-top:14px"><a class="btn" href="events.html">Open Calendar</a></div>
+    <div class="center reveal delay-3" style="margin-top:14px">
+      <a class="btn" href="events.html">Open Calendar</a>
+    </div>
   </div>
 </section>
 
+<!-- ===== Blog ===== -->
 <section class="section" id="feature-blog">
   <div class="container">
-    <h2>From the Blog</h2>
-    <p class="lead">Stories and write-ups from the community.</p>
+    <h2 class="reveal">From the Blog</h2>
+    <p class="lead reveal delay-1">
+      Stories and write-ups from members. Techniques, post-mortems, and things we learned the hard way.
+    </p>
     <div class="grid">
-      <div class="card"><h3>Launching CSAI 2025</h3><p>Fresh site, project tracks, and a packed calendar.</p></div>
-      <div class="card"><h3>Project Spotlight</h3><p>Privacy-friendly attendance with on-device ML.</p></div>
-      <div class="card"><h3>Workshop Recap</h3><p>Agents 101: what we learned building together.</p></div>
+      <div class="card crystal reveal">
+        <h3>Launching CSAI 2025</h3>
+        <p>New tracks, a brighter site, and a packed calendar for builders.</p>
+      </div>
+      <div class="card crystal reveal delay-1">
+        <h3>Project Spotlight</h3>
+        <p>Privacy-friendly attendance with on-device ML and signed passes.</p>
+      </div>
+      <div class="card crystal reveal delay-2">
+        <h3>Workshop Recap</h3>
+        <p>Agents 101: tools, evals, pitfalls, and next steps.</p>
+      </div>
     </div>
-    <div style="text-align:center; margin-top:14px"><a class="btn" href="blog.html">Read the Blog</a></div>
+    <div class="center reveal delay-3" style="margin-top:14px">
+      <a class="btn" href="blog.html">Read the Blog</a>
+    </div>
   </div>
 </section>
-
 
 <footer class="footer">
   © 2025 CSAI — Computer Science + AI Club
