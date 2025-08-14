@@ -1,61 +1,54 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CSAI — Events</title>
+  <title>CSAI — Blog</title>
   <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    /* Footer stick-to-bottom fix */
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1;
+    }
+  </style>
 </head>
 <body>
 <header class="header">
   <div class="nav container">
-    <a class="brand" href="index.html">
-      <div class="brand-badge" aria-hidden="true"></div>
-      <div>CSAI</div>
-    </a>
-    <div class="nav-links">
+    <a class="brand" href="index.html" aria-label="CSAI home">CSAI</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html">Home</a>
       <a href="projects.html">Projects</a>
-      <a href="events.html" class="active">Events</a>
-      <a href="blog.html">Blog</a>
+      <a href="events.html">Events</a>
+      <a href="blog.html" class="active">Blog</a>
       <a href="join.html">Join</a>
-    </div>
+    </nav>
   </div>
 </header>
 
-<!-- Optional side-rail for page navigation -->
-<nav class="side-rail reveal">
-  <ul>
-    <li><a href="#calendar">Calendar</a></li>
-    <!-- Add more quick links if needed -->
-  </ul>
-</nav>
-
-<section class="section">
-  <!-- Decorative wash/parallax background -->
-  <div class="wash" data-parallax>
-    <img src="assets/img/decorative-shape.svg" alt="" />
-  </div>
-
-  <div class="container">
-    <h2 class="reveal">Events Calendar</h2>
-    <p class="lead reveal">Click an event to add it to your Google Calendar.</p>
-    <div class="calendar reveal" id="calendar">
-      <div class="cal-header">
-        <button class="btn" data-cal-prev>&larr; Prev</button>
-        <h3 class="cal-title">Month YYYY</h3>
-        <button class="btn primary" data-cal-next>Next &rarr;</button>
-      </div>
-      <div class="cal-grid" role="grid"></div>
-      <div class="cal-legend"></div>
+<main>
+  <section class="section">
+    <div class="container">
+      <h2>Blog</h2>
+      <p class="lead">News, write-ups, and research notes from CSAI.</p>
+      <div id="post-list" class="post-list"></div>
     </div>
-  </div>
-</section>
+  </section>
+</main>
 
-<footer class="footer reveal">
+<footer class="footer">
   © 2025 CSAI — Computer Science + AI Club
 </footer>
 
 <script src="assets/js/main.js"></script>
-<script src="assets/js/events.js"></script>
+<script src="assets/js/blog.js"></script>
 </body>
 </html>
