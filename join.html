@@ -31,14 +31,32 @@
     <form id="join-form" class="form">
       <label class="label">Full Name</label>
       <input class="input" name="name" required />
+
       <label class="label">Email</label>
       <input class="input" type="email" name="email" required />
-      <label class="label">Major / Year</label>
-      <input class="input" name="major" placeholder="e.g., CS / Sophomore" />
-      <label class="label">Why do you want to join?</label>
-      <textarea class="input" name="motivation" rows="4"></textarea>
+
+      <label class="label">Major</label>
+      <input class="input" name="major" placeholder="e.g., Computer Science" />
+
+      <label class="label">Expected Graduation Year</label>
+      <input class="input" type="number" name="grad_year" placeholder="e.g., 2026" min="2024" max="2100" />
+
+      <label class="label">Where did you hear about us?</label>
+      <select class="input" name="referral" required>
+        <option value="" disabled selected>Select an option</option>
+        <option>Club Day</option>
+        <option>Club Mixer</option>
+        <option>Classmates</option>
+        <option>Posters</option>
+        <option>Instructor</option>
+        <option>Events</option>
+        <option>Friend</option>
+        <option>Social Media</option>
+        <option>Email Newsletter</option>
+        <option>Other</option>
+      </select>
+
       <button class="btn primary" type="submit">Submit</button>
-      <p style="color:#556; font-size:13px; margin-top:8px">Note: we’ll wire this to your Google Sheets endpoint once you share it.</p>
     </form>
   </div>
 </section>
