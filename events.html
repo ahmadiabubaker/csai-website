@@ -1,10 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CSAI — Events</title>
   <link rel="stylesheet" href="assets/css/style.css" />
+
+
 </head>
 <body>
 <header class="header">
@@ -12,25 +14,45 @@
     <a class="brand" href="index.html" aria-label="CSAI home">CSAI</a>
     <nav class="nav-links" aria-label="Main navigation">
       <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="events.html" class="active">Events</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="events.html">Events</a>
       <a href="blog.html">Blog</a>
       <a href="join.html">Join</a>
     </nav>
   </div>
 </header>
 
-<main>
-  <section class="section">
-    <div class="container">
-      <h2>Events</h2>
-      <p class="lead">Upcoming talks, hackathons, and workshops from CSAI.</p>
-      <div id="events-calendar" class="calendar"></div>
-    </div>
-  </section>
-</main>
 
-<footer class="footer">
+<!-- Optional side-rail for page navigation -->
+<nav class="side-rail reveal">
+  <ul>
+    <li><a href="#calendar">Calendar</a></li>
+    <!-- Add more quick links if needed -->
+  </ul>
+</nav>
+
+<section class="section">
+  <!-- Decorative wash/parallax background -->
+  <div class="wash" data-parallax>
+    <img src="assets/img/decorative-shape.svg" alt="" />
+  </div>
+
+  <div class="container">
+    <h2 class="reveal">Events Calendar</h2>
+    <p class="lead reveal">Click an event to add it to your Google Calendar.</p>
+    <div class="calendar reveal" id="calendar">
+      <div class="cal-header">
+        <button class="btn" data-cal-prev>&larr; Prev</button>
+        <h3 class="cal-title">Month YYYY</h3>
+        <button class="btn primary" data-cal-next>Next &rarr;</button>
+      </div>
+      <div class="cal-grid" role="grid"></div>
+      <div class="cal-legend"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer reveal">
   © 2025 CSAI — Computer Science + AI Club
 </footer>
 
