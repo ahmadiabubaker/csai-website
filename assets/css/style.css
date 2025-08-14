@@ -189,18 +189,33 @@ a:hover{text-decoration: underline}
   height: 10px;
   border-radius: 50%;
 }
-/* ===== Responsive Calendar ===== */
+/* ===== Mobile Calendar Scaling ===== */
 @media (max-width: 768px) {
-  .cal-grid {
-    overflow-x: auto;
-    display: grid;
-    grid-template-columns: repeat(7, minmax(120px, 1fr));
+  .calendar {
+    padding: 10px;
   }
 
-  .calendar {
-    padding-bottom: 10px; /* extra space for scroll thumb */
+  .cal-grid {
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+  }
+
+  .cal-cell {
+    min-height: 60px;
+    padding: 2px;
+  }
+
+  .cal-day {
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+
+  .cal-pill {
+    font-size: 10px;
+    padding: 1px 4px;
   }
 }
+
 
 
 /* ===== Footer ===== */
