@@ -128,54 +128,70 @@ a:hover{text-decoration: underline}
 
 .card:hover{ transform: translateY(-4px); box-shadow: 0 18px 44px rgba(10,20,40,.20) }
 
-/* ===== Crystal Profile Cards ===== */
+/* ===== Crystal Glass Profile Cards ===== */
+.grid.profiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px; /* space between cards */
+  margin-top: 24px;
+}
+
 .profile-card {
-  border:1px solid var(--glass-line);
-  border-radius: 16px;
-  background: rgba(255,255,255,0.85);
-  backdrop-filter: blur(12px);
-  padding:20px;
-  box-shadow: 0 12px 36px rgba(10,20,40,0.20);
-  transition: transform .25s ease, box-shadow .25s ease;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* soft glass border */
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15); /* transparent glass */
+  backdrop-filter: blur(12px); /* frosted effect */
+  padding: 24px;
+  box-shadow: 0 12px 36px rgba(10, 20, 40, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .profile-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 18px 44px rgba(10,20,40,0.22);
+  transform: translateY(-6px);
+  box-shadow: 0 20px 48px rgba(10, 20, 40, 0.25);
 }
 
-.profile-header {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  margin-bottom: 12px;
+/* subtle gradient wash inside the card for extra depth */
+.profile-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+  pointer-events: none;
 }
 
+/* ===== Profile Card Content ===== */
 .profile-avatar {
-  width: 64px;
-  height: 64px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid var(--accent-2);
+  margin-bottom: 16px;
+  border: 2px solid rgba(255,255,255,0.3);
 }
 
 .profile-name {
-  font-weight: 800;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 4px;
   color: var(--text);
 }
 
 .profile-role {
-  font-size: 14px;
-  color: #5a5f7b;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #39405c;
+  margin-bottom: 12px;
 }
 
 .profile-bio {
-  font-size: 14px;
-  color: #39405c;
-  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #3a4366;
+  line-height: 1.4;
 }
-
 
 /* ===== Calendar Styles ===== */
 .calendar {
