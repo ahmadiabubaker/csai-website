@@ -1,20 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us - Leadership Team</title>
-  <link rel="stylesheet" href="about.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CSAI — About</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
-  <section id="team" class="team-section">
-    <h2 class="reveal">Our Leadership Team</h2>
-    <p class="subtitle reveal">Meet the people guiding our vision and growth</p>
+<!-- ===== Header ===== -->
+<header class="header">
+  <div class="nav container">
+    <a class="brand" href="/" aria-label="CSAI home">CSAI</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="/" >Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="events.html">Events</a>
+      <a href="blog.html">Blog</a>
+      <a href="join.html" class="active">Join</a>
+      <a href="about.html" class="active">About</a>
+    </nav>
+  </div>
+</header>
 
-    <div class="team-grid"></div>
-  </section>
+<!-- ===== Hero ===== -->
+<section class="hero" id="about-hero">
+  <div class="container">
+    <h1 class="reveal">Meet Our Team</h1>
+    <p class="reveal delay-1">
+      CSAI is powered by students passionate about computer science and AI.  
+      From mentoring to building real projects, here’s who makes it all happen.
+    </p>
+  </div>
+</section>
 
-  <script src="about.js"></script>
+<!-- ===== Profiles Section ===== -->
+<section class="section" id="profiles">
+  <div class="container">
+    <h2 class="reveal">Our Team</h2>
+    <div class="profiles reveal delay-1">
+      <!-- Profile Card -->
+      <div class="profile-card">
+        <img class="profile-photo" src="assets/images/alex.jpg" alt="Alex Johnson" />
+        <div class="profile-name">Abubaker Ahmadi</div>
+        <div class="profile-role">President</div>
+        <div class="profile-bio">
+          Leads CSAI initiatives, organizes hack nights, and mentors students on AI projects.
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <img class="profile-photo" src="assets/images/sarah.jpg" alt="Sarah Lee" />
+        <div class="profile-name">Sarah Lee</div>
+        <div class="profile-role">VP Projects</div>
+        <div class="profile-bio">
+          Oversees hands-on projects, from vision pipelines to agentic workflows.
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <img class="profile-photo" src="assets/images/mike.jpg" alt="Mike Chen" />
+        <div class="profile-name">Anthony Joseph Carpinello</div>
+        <div class="profile-role">Voice President</div>
+        <div class="profile-bio">
+          Coordinates workshops, mixers, and hack sessions for the club community.
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <img class="profile-photo" src="assets/images/emily.jpg" alt="Emily Davis" />
+        <div class="profile-name">New officer</div>
+        <div class="profile-role">Blog & Media</div>
+        <div class="profile-bio">
+          Publishes blog posts, captures project highlights, and manages CSAI communications.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  © 2025 CSAI — Computer Science + AI Club
+</footer>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>
