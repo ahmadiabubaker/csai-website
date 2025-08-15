@@ -613,13 +613,4 @@ a:hover{text-decoration: underline}
   .nav{flex-wrap:wrap}
   .grid .card{grid-column: span 12}
 }
-/* ===== Mobile header brand centering ===== */
-@media (max-width: 768px) {
-  .nav {
-    justify-content: center;
-  }
 
-  .nav .brand {
-    margin: 0 auto;
-  }
-}
