@@ -325,13 +325,16 @@ a:hover{text-decoration: underline}
   text-decoration: underline;
 }
 
-/* Profiles grid spacing */
 .profiles {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 40px;
   margin-top: 32px;
+
+  /* Fix: prevent row items from stretching */
+  align-items: start; /* <-- add this */
 }
+
 
 /* ===== Responsive for mobile ===== */
 @media (max-width: 768px) {
