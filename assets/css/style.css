@@ -101,6 +101,22 @@ a:hover{text-decoration: underline}
   background: linear-gradient(90deg, rgba(0, 230, 255, 0.06), rgba(122, 92, 255, 0.04));
   box-shadow: 0 4px 12px rgba(122, 92, 255, 0.15);
 }
+.brand {
+  color: #ffffff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+.nav-links a {
+  color: rgba(255, 255, 255, 0.88);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+  color: #ffffff;
+  background: linear-gradient(90deg, rgba(0, 230, 255, 0.08), rgba(122, 92, 255, 0.08));
+  box-shadow: 0 4px 12px rgba(122, 92, 255, 0.25);
+}
 
 
 
