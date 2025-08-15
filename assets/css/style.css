@@ -70,9 +70,6 @@ a:hover{text-decoration: underline}
   background: linear-gradient(90deg, rgba(0,230,255,.18), rgba(122,92,255,.18));
   box-shadow: 0 8px 28px rgba(122,92,255,0.12);
 }
-.hamburger {
-  display: none; /* hide on desktop */
-}
 
 @media (max-width: 768px) {
   .header {
@@ -81,7 +78,7 @@ a:hover{text-decoration: underline}
     z-index: 50;
     max-width: 95%;
     margin: 0 auto;
-    padding: 8px 12px;
+    padding: 6px 10px;          /* slightly smaller padding */
     border-radius: 12px;
     backdrop-filter: blur(12px);
     background: rgba(255, 255, 255, 0.3);
@@ -91,67 +88,33 @@ a:hover{text-decoration: underline}
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 12px;
+    gap: 8px;                   /* reduce gap for tighter fit */
   }
 
-  /* Hamburger button on the left */
-  .hamburger {
-    display: block;
-    cursor: pointer;
-    width: 28px;
-    height: 20px;
-    position: relative;
-  }
-  .hamburger span {
-    position: absolute;
-    height: 2.5px;
-    width: 100%;
-    background: #223;
-    border-radius: 3px;
-    left: 0;
-    transition: 0.3s;
-  }
-  .hamburger span:nth-child(1) { top: 0; }
-  .hamburger span:nth-child(2) { top: 9px; }
-  .hamburger span:nth-child(3) { top: 18px; }
-
-  /* Animate hamburger into X */
-  .header.active .hamburger span:nth-child(1) { transform: rotate(45deg); top: 9px; }
-  .header.active .hamburger span:nth-child(2) { opacity: 0; }
-  .header.active .hamburger span:nth-child(3) { transform: rotate(-45deg); top: 9px; }
-
-  /* Hide normal nav links initially */
+  /* Show nav links inline instead of column */
   .nav-links {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: rgba(255,255,255,0.95);
-    backdrop-filter: blur(12px);
-    flex-direction: column;
-    gap: 10px;
-    padding: 12px 18px;
-    border-radius: 0 0 12px 12px;
-    box-shadow: 0 6px 20px rgba(10,20,40,0.06);
-  }
-
-  /* Show nav links when hamburger active */
-  .header.active .nav-links {
     display: flex;
+    flex-wrap: nowrap;           /* prevent wrapping */
+    gap: 6px;                    /* smaller gap between links */
+    overflow-x: auto;            /* allow horizontal scroll if needed */
   }
 
-  /* Highlight Join link on mobile and push to right */
+  .nav-links a {
+    font-size: 12px;             /* smaller font size */
+    padding: 4px 6px;            /* smaller padding */
+    border-radius: 10px;
+    white-space: nowrap;          /* keep text on single line */
+  }
+
+  /* Highlight Join link on mobile */
   .nav-links a[href="join.html"] {
-    margin-left: auto;
-    padding: 6px 10px;
-    border-radius: 12px;
     background: linear-gradient(90deg, rgba(0,230,255,.18), rgba(122,92,255,.18));
     box-shadow: 0 6px 20px rgba(122,92,255,0.12);
     font-weight: 800;
     color: #223;
   }
 }
+
 
 
 /* ===== Hero ===== */
