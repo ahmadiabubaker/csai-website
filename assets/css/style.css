@@ -71,6 +71,88 @@ a:hover{text-decoration: underline}
   box-shadow: 0 8px 28px rgba(122,92,255,0.12);
 }
 
+/* ===== Mobile header glass version ===== */
+@media (max-width: 768px) {
+  .header {
+    position: sticky;
+    top: 12px;                /* slightly smaller top spacing */
+    z-index: 50;
+    max-width: 95%;           /* narrower header */
+    margin: 0 auto;
+    padding: 8px 12px;        /* smaller padding */
+    border-radius: 12px;
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.3); /* transparent like desktop */
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 6px 20px rgba(10,20,40,0.06);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  /* Hamburger button on the left */
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    width: 28px;
+    height: 20px;
+    position: relative;
+  }
+  .hamburger span {
+    position: absolute;
+    height: 2.5px;
+    width: 100%;
+    background: #223;
+    border-radius: 3px;
+    left: 0;
+    transition: 0.3s;
+  }
+  .hamburger span:nth-child(1) { top: 0; }
+  .hamburger span:nth-child(2) { top: 9px; }
+  .hamburger span:nth-child(3) { top: 18px; }
+
+  /* Animate hamburger into X */
+  .header.active .hamburger span:nth-child(1) { transform: rotate(45deg); top: 9px; }
+  .header.active .hamburger span:nth-child(2) { opacity: 0; }
+  .header.active .hamburger span:nth-child(3) { transform: rotate(-45deg); top: 9px; }
+
+  /* Hide normal nav links */
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(12px);
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px 18px;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 6px 20px rgba(10,20,40,0.06);
+  }
+
+  /* Show nav links when hamburger active */
+  .header.active .nav-links {
+    display: flex;
+  }
+
+  /* Join page always visible on the right */
+  .join-btn {
+    display: inline-block;
+    font-weight: 800;
+    padding: 6px 10px;
+    border-radius: 12px;
+    background: linear-gradient(90deg, rgba(0,230,255,.18), rgba(122,92,255,.18));
+    box-shadow: 0 6px 20px rgba(122,92,255,0.12);
+    text-decoration: none;
+    color: #223;
+  }
+}
+
+
 
 /* ===== Hero ===== */
 .hero{
