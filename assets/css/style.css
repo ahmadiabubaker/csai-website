@@ -78,18 +78,17 @@ a:hover{text-decoration: underline}
 }
 
 
-/* ===== Mobile header glass version ===== */
 @media (max-width: 768px) {
   .header {
     position: sticky;
-    top: 12px;                /* slightly smaller top spacing */
+    top: 12px;
     z-index: 50;
-    max-width: 95%;           /* narrower header */
+    max-width: 95%;
     margin: 0 auto;
-    padding: 8px 12px;        /* smaller padding */
+    padding: 8px 12px;
     border-radius: 12px;
     backdrop-filter: blur(12px);
-    background: rgba(255, 255, 255, 0.3); /* transparent like desktop */
+    background: rgba(255, 255, 255, 0.3);
     border: 1px solid rgba(255,255,255,0.1);
     box-shadow: 0 6px 20px rgba(10,20,40,0.06);
 
@@ -125,7 +124,7 @@ a:hover{text-decoration: underline}
   .header.active .hamburger span:nth-child(2) { opacity: 0; }
   .header.active .hamburger span:nth-child(3) { transform: rotate(-45deg); top: 9px; }
 
-  /* Hide normal nav links */
+  /* Hide normal nav links initially */
   .nav-links {
     display: none;
     position: absolute;
@@ -146,19 +145,17 @@ a:hover{text-decoration: underline}
     display: flex;
   }
 
-  /* Join page always visible on the right */
-  .join-btn {
-    display: inline-block;
-    font-weight: 800;
+  /* Highlight Join link on mobile and push to right */
+  .nav-links a[href="join.html"] {
+    margin-left: auto;
     padding: 6px 10px;
     border-radius: 12px;
     background: linear-gradient(90deg, rgba(0,230,255,.18), rgba(122,92,255,.18));
     box-shadow: 0 6px 20px rgba(122,92,255,0.12);
-    text-decoration: none;
+    font-weight: 800;
     color: #223;
   }
 }
-
 
 
 /* ===== Hero ===== */
