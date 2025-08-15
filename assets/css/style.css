@@ -73,6 +73,9 @@ a:hover{text-decoration: underline}
 .hamburger {
   display: none; /* hide on desktop */
 }
+.join-btn {
+  display: none; /* hide by default */
+}
 
 
 /* ===== Mobile header glass version ===== */
