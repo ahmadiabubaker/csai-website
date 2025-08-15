@@ -33,24 +33,41 @@ a:hover{text-decoration: underline}
 .center{text-align:center}
 
 /* ===== Crystal Header (transparent + sticky) ===== */
-.header{
-  position: sticky; top:0; z-index: 50;
+.header {
+  position: sticky;
+  top: 18px;
+  z-index: 50;
+
+  max-width: 1500px;       /* narrower header width */
+  margin: 0 auto;         /* center horizontally */
+  border-radius: 14px;
+
   backdrop-filter: blur(12px);
-  background: linear-gradient(180deg, rgba(255,255,255,0.85), rgba(255,255,255,0.55));
-  border-bottom: 1px solid var(--glass-line);
+  background: rgba(255, 255, 255, 0.3);  /* more transparent */
+  border: 1px solid rgba(255,255,255,0.1); /* lighter border for glass effect */
   box-shadow: 0 8px 30px rgba(10,20,40,0.06);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 18px;
 }
-.nav{display:flex; align-items:center; justify-content:space-between; gap:16px}
-.brand{
-  font-weight:900; letter-spacing:.6px; font-size:18px; color:#1a2040;
+
+/* reduce text size slightly */
+
+
+.nav-links a {
+  font-weight: 800;
+  color: #223;
+  padding: 8px 10px;  /* smaller padding on sides */
+  border-radius: 12px;
+  display: inline-block;
 }
-.nav-links a{
-  font-weight:800; color:#223; padding:10px 12px; border-radius:12px; display:inline-block;
-}
-.nav-links a.active, .nav-links a:hover{
-  text-decoration:none;
-  background:
-    linear-gradient(90deg, rgba(0,230,255,.18), rgba(122,92,255,.18));
+
+.nav-links a.active, .nav-links a:hover {
+  text-decoration: none;
+  background: linear-gradient(90deg, rgba(0,230,255,.18), rgba(122,92,255,.18));
   box-shadow: 0 8px 28px rgba(122,92,255,0.12);
 }
 
