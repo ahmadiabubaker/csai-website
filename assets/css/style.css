@@ -32,7 +32,7 @@ a:hover{text-decoration: underline}
 .container{max-width:1200px; margin:0 auto; padding:24px}
 .center{text-align:center}
 
-/* ===== Crystal Header (transparent + sticky) ===== */
+/* ===== Crystal Header (transparent + sticky) ===== 
 .header{
   position: sticky; top:0; z-index: 50;
   backdrop-filter: blur(12px);
@@ -51,8 +51,57 @@ a:hover{text-decoration: underline}
   text-decoration:none;
   background:
     linear-gradient(90deg, rgba(0,230,255,.18), rgba(122,92,255,.18));
-  box-shadow: 0 8px 28px rgba(122,92,255,0.12);
+  box-shadow: 0 8px 28px rgba(122,92,255,0.12); 
 }
+*/ 
+
+.header {
+  position: sticky;
+  top: 18px; /* pushes it down from the very top */
+  z-index: 50;
+  max-width: 94%; /* prevents full width */
+  margin: 0 auto; /* centers it */
+  border-radius: 14px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.08); /* more transparent glass */
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  padding: 10px 18px;
+}
+
+/* Keep nav items in one line, even on mobile */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: nowrap;
+  overflow-x: auto; /* allows scrolling instead of wrapping */
+}
+
+/* Make brand and links more glass-like */
+.brand {
+  font-weight: 900;
+  letter-spacing: .6px;
+  font-size: 18px;
+  color: var(--text-invert);
+}
+
+.nav-links a {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.85);
+  padding: 8px 12px;
+  border-radius: 8px;
+  white-space: nowrap; /* prevents breaking into new line */
+  transition: background 0.25s ease, box-shadow 0.25s ease;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+  background: linear-gradient(90deg, rgba(0, 230, 255, 0.06), rgba(122, 92, 255, 0.04));
+  box-shadow: 0 4px 12px rgba(122, 92, 255, 0.15);
+}
+
 
 
 /* ===== Hero ===== */
