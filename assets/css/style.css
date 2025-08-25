@@ -366,6 +366,7 @@ a:hover{text-decoration: underline}
   margin-bottom: 12px;
   position: relative;
   z-index: 1;
+  align-items: center;
 }
 
 .profile-contact .contact-link {
