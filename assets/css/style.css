@@ -359,6 +359,34 @@ a:hover{text-decoration: underline}
   color: rgba(30,30,50,0.85);
   margin-bottom: 12px;
 }
+.profile-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.profile-contact .contact-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #7A5CFF;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.profile-contact .contact-link:hover {
+  color: #00E6FF;
+  text-decoration: underline;
+}
+
+.profile-contact .icon {
+  flex-shrink: 0;
+}
 
 .profile-bio {
   font-size: 0.9rem;
