@@ -675,17 +675,12 @@ a:hover{text-decoration: underline}
   margin-top: 8px; /* space above the button */
 }
 
-
-/* ===== Responsive ===== */
-@media (max-width: 960px){
-  .grid .card{grid-column: span 6}
-}
-@media (max-width: 720px){
-  .section-header{flex-direction:column}
-}
-@media (max-width: 640px){
-  .nav{flex-wrap:wrap}
-  .grid .card{grid-column: span 12}
+/* ===== Technologies Section ===== */
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
 }
 
 .tech {
@@ -718,5 +713,17 @@ a:hover{text-decoration: underline}
   font-size: 0.95rem;
   color: #2b3250;
   text-align: center;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 960px){
+  .grid .card{grid-column: span 6}
+}
+@media (max-width: 720px){
+  .section-header{flex-direction:column}
+}
+@media (max-width: 640px){
+  .nav{flex-wrap:wrap}
+  .grid .card{grid-column: span 12}
 }
 
