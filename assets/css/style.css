@@ -715,6 +715,10 @@ a:hover{text-decoration: underline}
   text-align: center;
 }
 
+.hidden-placeholder {
+  display: inline-block; /* keeps space */
+  visibility: hidden;    /* hides it but keeps layout */
+}
 /* ===== Responsive ===== */
 @media (max-width: 960px){
   .grid .card{grid-column: span 6}
