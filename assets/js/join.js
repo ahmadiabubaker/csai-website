@@ -13,10 +13,20 @@
     err.style.display = 'none';
 
     const submitBtn = form.querySelector('button[type="submit"]');
-    submitBtn.disabled = true; // disable button immediately
-    submitBtn.textContent = "Submitting..."; // feedback to user
+    submitBtn.disabled = true;
+    submitBtn.textContent = "Submitting...";
 
     const formData = new FormData(form);
+    const email = (formData.get('email') || '').trim().toLowerCase();
+
+    // ✅ email domain check
+    if (!/^[A-Za-z0-9._%+-]+@students\.mccc\.edu$/.test(email)) {
+      err.textContent = 'Please use your official school email (example@students.mccc.edu).';
+      err.style.display = 'block';
+      submitBtn.disabled = false;
+      submitBtn.textContent = "Submit";
+      return;
+    }
 
     try {
       const response = await fetch(scriptURL, {
@@ -35,7 +45,6 @@
       err.style.display = 'block';
       console.error('Error!', error.message);
     } finally {
-      // Re-enable button after 3 seconds for safety
       setTimeout(() => {
         submitBtn.disabled = false;
         submitBtn.textContent = "Submit";
