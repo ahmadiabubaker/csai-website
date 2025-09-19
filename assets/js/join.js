@@ -21,7 +21,7 @@
 
     // ✅ email domain check
     if (!/^[A-Za-z0-9._%+-]+@students\.mccc\.edu$/.test(email)) {
-      err.textContent = 'Please use your official school email (example@students.mccc.edu).';
+      err.textContent = 'Please use your official school email (firstname.lastname@students.mccc.edu).';
       err.style.display = 'block';
       submitBtn.disabled = false;
       submitBtn.textContent = "Submit";
