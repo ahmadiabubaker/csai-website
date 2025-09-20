@@ -1,27 +1,28 @@
 import requests
 import json
-import os
+import sys
 
-# --- Step 1: Fetch the full internship listings ---
 url = "https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/refs/heads/dev/.github/scripts/listings.json"
-response = requests.get(url)
 
-if response.status_code != 200:
-    print("Failed to fetch listings.json")
-    exit(1)
+try:
+    response = requests.get(url, timeout=30)
+    response.raise_for_status()
+except requests.exceptions.RequestException as e:
+    print(f"Failed to fetch listings.json: {e}")
+    sys.exit(1)
 
 all_jobs = response.json()
 
-# --- Step 2: Filter for NJ internships ---
-nj_jobs = [job for job in all_jobs if "nj" in job.get("location", "").lower()]
+# Filter for NJ internships
+nj_jobs = [
+    job for job in all_jobs
+    if "locations" in job and any(
+        "nj" in loc.lower() or "new jersey" in loc.lower()
+        for loc in job["locations"]
+    )
+]
 
-print(f"Found {len(nj_jobs)} NJ internships.")
-
-# --- Step 3: Save to your repo's nj-internships.json ---
-# Path to the JSON file in your website repo
-output_file = "nj-internships.json"
-
-with open(output_file, "w") as f:
+with open("nj-internships.json", "w") as f:
     json.dump(nj_jobs, f, indent=4)
 
-print(f"Updated {output_file} successfully.")
+print(f"Updated nj-internships.json with {len(nj_jobs)} NJ internships.")
