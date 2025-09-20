@@ -4,6 +4,7 @@ import sys
 
 url = "https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/refs/heads/dev/.github/scripts/listings.json"
 
+# Fetch the data
 try:
     response = requests.get(url, timeout=30)
     response.raise_for_status()
@@ -13,15 +14,16 @@ except requests.exceptions.RequestException as e:
 
 all_jobs = response.json()
 
-# Filter for NJ internships
+# Filter for NJ internships only
 nj_jobs = [
     job for job in all_jobs
     if "locations" in job and any(
-        "nj" in loc.lower() or "new jersey" in loc.lower()
+        loc and ("nj" in loc.lower() or "new jersey" in loc.lower())
         for loc in job["locations"]
     )
 ]
 
+# Write filtered NJ internships to JSON
 with open("nj-internships.json", "w") as f:
     json.dump(nj_jobs, f, indent=4)
 
