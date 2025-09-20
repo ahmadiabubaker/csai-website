@@ -792,6 +792,12 @@ a:hover{text-decoration: underline}
   gap: 20px;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 24px;
+  align-items: start; /* ensure cards do NOT stretch to match the tallest in the row */
+}
+
+/* ensure individual cards also opt out of stretching (extra safety) */
+.project-card {
+  align-self: start;
 }
 
 /* project card */
