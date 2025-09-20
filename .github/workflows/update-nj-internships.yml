@@ -1,0 +1,39 @@
+name: Update NJ Internships
+
+# Run weekly on Sunday at 2:00 AM
+on:
+  schedule:
+    - cron: '0 2 * * 0'
+  workflow_dispatch: # allows manual trigger
+
+jobs:
+  update_nj_jobs:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout your repo
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # Step 3: Install dependencies
+      - name: Install Requests
+        run: pip install requests
+
+      # Step 4: Run the Python script
+      - name: Update NJ Internships JSON
+        run: python update_nj_internships.py
+
+      # Step 5: Commit and push changes
+      - name: Commit updated JSON
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add nj-internships.json
+          git commit -m "Update NJ internships automatically" || echo "No changes to commit"
+          git push
