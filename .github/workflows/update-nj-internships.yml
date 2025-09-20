@@ -15,7 +15,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
 
       # Step 2: Set up Python
       - name: Set up Python
