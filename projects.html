@@ -25,14 +25,88 @@
   <div class="container">
     <h2>Projects</h2>
     <p class="lead">Explore projects across AI, systems, robotics, and more. Filter and dive in.</p>
-    <div class="grid">
-      <div class="card"><h3>Agent Lab</h3><p>Composable tools for building assistants.</p></div>
-      <div class="card"><h3>Robo Vision</h3><p>High-speed defect detection.</p></div>
-      <div class="card"><h3>Smart Attendance</h3><p>On-device ML; privacy first.</p></div>
-      <div class="card"><h3>Auto-Notes</h3><p>Lecture summarization pipelines.</p></div>
-      <div class="card"><h3>IRL GPT</h3><p>Hardware interface toolkit.</p></div>
-      <div class="card"><h3>CSAI Site</h3><p>This website — open-source.</p></div>
+
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-media"><img src="data/photos/github.png" alt="Agent Lab"></div>
+        <h3 class="project-title">Agent Lab</h3>
+        <div class="project-sub">Composable tools for building assistants.</div>
+        <div class="project-desc">
+          Agent Lab is a toolkit for building and testing multi-agent systems with visualizations and training pipelines.
+          <!-- long content can continue here; collapsed by default -->
+          <div class="project-more">Includes sample agents, RL baselines, and interactive demos. Contribute datasets and experiments.</div>
+        </div>
+        <div class="project-actions">
+          <button class="read-more-btn" type="button" aria-expanded="false">Read More</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-media"><img src="assets/img/projects/robo-vision.jpg" alt="Robo Vision"></div>
+        <h3 class="project-title">Robo Vision</h3>
+        <div class="project-sub">High-speed defect detection.</div>
+        <div class="project-desc">
+          Real-time vision pipelines for inspection and robotics.
+          <div class="project-more">Optimized models, edge deployment, and dataset collection tools for industrial settings.</div>
+        </div>
+        <div class="project-actions">
+          <button class="read-more-btn" type="button" aria-expanded="false">Read More</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-media"><img src="assets/img/projects/smart-attendance.jpg" alt="Smart Attendance"></div>
+        <h3 class="project-title">Smart Attendance</h3>
+        <div class="project-sub">On-device ML; privacy first.</div>
+        <div class="project-desc">
+          Attendance and presence detection that runs on-device.
+          <div class="project-more">Privacy-preserving embeddings, local inference, and analytics dashboards for instructors.</div>
+        </div>
+        <div class="project-actions">
+          <button class="read-more-btn" type="button" aria-expanded="false">Read More</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-media"><img src="assets/img/projects/auto-notes.jpg" alt="Auto-Notes"></div>
+        <h3 class="project-title">Auto-Notes</h3>
+        <div class="project-sub">Lecture summarization pipelines.</div>
+        <div class="project-desc">
+          End-to-end pipelines to transcribe, summarize, and tag lecture content.
+          <div class="project-more">Integrations for note export, topic indexing, and speaker diarization support.</div>
+        </div>
+        <div class="project-actions">
+          <button class="read-more-btn" type="button" aria-expanded="false">Read More</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-media"><img src="assets/img/projects/irl-gpt.jpg" alt="IRL GPT"></div>
+        <h3 class="project-title">IRL GPT</h3>
+        <div class="project-sub">Hardware interface toolkit.</div>
+        <div class="project-desc">
+          Tools for safely bridging language models and hardware.
+          <div class="project-more">Adapters, safe execution sandboxes, and hardware abstractions for research teams.</div>
+        </div>
+        <div class="project-actions">
+          <button class="read-more-btn" type="button" aria-expanded="false">Read More</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-media"><img src="assets/img/projects/csai-site.jpg" alt="CSAI Site"></div>
+        <h3 class="project-title">CSAI Site</h3>
+        <div class="project-sub">This website — open-source.</div>
+        <div class="project-desc">
+          The club website, documentation and deployment scripts.
+          <div class="project-more">Built with simple HTML/CSS/JS; contributions welcome on the repo.</div>
+        </div>
+        <div class="project-actions">
+          <button class="read-more-btn" type="button" aria-expanded="false">Read More</button>
+        </div>
+      </div>
     </div>
+
   </div>
 </section>
 
@@ -41,5 +115,6 @@
 </footer>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/projects.js"></script>
 </body>
 </html>
