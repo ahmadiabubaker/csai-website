@@ -524,41 +524,84 @@ a:hover{text-decoration: underline}
   height: 10px;
   border-radius: 50%;
 }
-/* ===== Mobile Calendar Scaling ===== */
+/* ===== Mobile Calendar Scaling (tightened to avoid overflow) ===== */
 @media (max-width: 768px) {
   .calendar {
-    padding: 10px;
+    max-width: 100%;
+    padding: 8px;
+    overflow: hidden;            /* prevent children from spilling out */
+  }
+
+  .cal-header {
+    gap: 8px;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .cal-header .btn {
+    padding: 8px 10px;
+    font-size: 13px;
+    border-radius: 8px;
+    min-width: 0;
+  }
+
+  .cal-header .cal-title {
+    flex: 1 1 auto;
+    margin: 0 6px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .cal-grid {
     grid-template-columns: repeat(7, 1fr);
-    gap: 2px;
+    gap: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    grid-auto-rows: minmax(48px, auto); /* keep rows compact and predictable */
   }
 
   .cal-cell {
-    min-height: 60px;
-    padding: 2px;
+    min-height: 56px;            /* smaller cells so grid fits */
+    padding: 6px 4px;
+    overflow: hidden;            /* avoid content overflow */
+    display: flex;
+    flex-direction: column;
   }
 
   .cal-day {
     font-size: 12px;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
+  }
+
+  .cal-events {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    overflow: hidden;
   }
 
   .cal-pill {
-    font-size: 10px;
-    padding: 1px 4px;
-  }
-
-  /* Shrink month/year text on mobile */
-  .cal-header h2 {
-    font-size: 1.2rem;
+    font-size: 11px;
+    padding: 2px 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;     /* truncate long titles instead of expanding cell */
+    max-width: 100%;
   }
 }
 
-
-
-
+/* extra-tight rules for small phones */
+@media (max-width: 480px) {
+  .calendar { padding: 6px; }
+  .cal-header .btn { padding: 6px 8px; font-size: 12px; }
+  .cal-header .cal-title { font-size: 13px; }
+  .cal-cell { min-height: 52px; padding: 4px; }
+  .cal-pill { font-size: 10px; padding: 1px 5px; border-radius: 6px; }
+}
 
 /* ===== Footer ===== */
 .footer{
