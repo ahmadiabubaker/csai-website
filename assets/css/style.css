@@ -942,40 +942,61 @@ a:hover{text-decoration: underline}
 
 /* ===== Internships — match site style & table view ===== */
 .internships-section {
-  padding: 3rem 2rem;
+  padding: 2rem 0;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.internships-section .section-header {
-  margin-bottom: 8px;
-}
-
-/* responsive table wrapper (keeps layout inside frame on mobile) */
+/* responsive table wrapper with glass-card effect matching other sections */
 .internship-table-wrap {
   margin-top: 18px;
-  overflow-x: auto; /* allow horizontal scroll on very small screens */
-  border-radius: 12px;
+  height: 680px;         /* ~10 rows x ~60px row height + header */
+  overflow-y: auto;      /* enable vertical scrolling */
+  overflow-x: auto;      /* allow horizontal scroll on very small screens */
+  
+  /* Match your site's card styling */
+  border: 1px solid var(--glass-line);
+  border-radius: 16px;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow);
 }
 
-/* table uses same panel / glass look as other site cards */
+/* Table fills the glass container without its own border */
 .internship-table {
   width: 100%;
   border-collapse: collapse;
-  background: rgba(255,255,255,0.95);
-  box-shadow: var(--shadow);
-  border: 1px solid var(--glass-line);
-  min-width: 820px; /* allows columns to remain readable on wide screens; wrapper will scroll on small devices */
+  background: transparent;
+  min-width: 820px;
 }
 
-/* header */
-.internship-table thead {
-  background: linear-gradient(90deg, rgba(122,92,255,0.06), rgba(0,230,255,0.03));
-  color: var(--text);
+/* Header matches your gradients and glass effects */
+.internship-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: 16px 14px;
+  text-align: left;
   font-weight: 800;
+  color: var(--text);
+  background: linear-gradient(90deg, 
+              rgba(255,255,255,0.97), 
+              rgba(255,255,255,0.97)),
+              linear-gradient(90deg, rgba(122,92,255,0.14), rgba(0,230,255,0.08));
+  backdrop-filter: blur(10px);
+  box-shadow: 0 1px 0 rgba(10,20,40,0.08);
 }
 
-.internship-table th,
+/* Rows get subtle hover effect like cards */
+.internship-table tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+.internship-table tbody tr:hover {
+  background: rgba(122,92,255,0.03);
+}
+
+/* Cells with consistent padding and borders */
 .internship-table td {
   padding: 12px 14px;
   text-align: left;
@@ -985,37 +1006,123 @@ a:hover{text-decoration: underline}
   color: #39405c;
 }
 
-/* compact company/title column */
-.internship-table .col-company { width: 26%; }
-.internship-table .col-title   { width: 34%; }
-.internship-table .col-location{ width: 20%; }
-.internship-table .col-terms   { width: 10%; }
-.internship-table .col-posted  { width: 10%; text-align: right; color:#6b7280; font-weight:600; }
-
-/* Apply link styled to match .btn (compact) */
+/* Apply button matches your site's primary button style */
 .internship-table a.apply-btn {
   display: inline-block;
-  padding: 8px 10px;
+  padding: 8px 12px;
   border-radius: 10px;
   background: linear-gradient(90deg, var(--accent-2), var(--accent-1));
   color: #fff;
   font-weight: 800;
   text-decoration: none;
   font-size: 0.9rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* small screens: reduce padding and allow table wrapper to scroll */
+.internship-table a.apply-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(122,92,255,0.15);
+  text-decoration: none;
+}
+
+/* ===== Make Internship Table Mobile Responsive (no horizontal scroll) ===== */
+/* Normal table on desktop, cards on mobile */
 @media (max-width: 768px) {
-  .internship-table th, .internship-table td { padding: 10px 8px; font-size: 0.9rem; }
-  .internship-table { min-width: 720px; }
+  .internship-table-wrap {
+    height: auto;        /* let it grow based on content */
+    max-height: 80vh;    /* but cap at 80% of viewport height */
+    overflow-x: hidden;  /* prevent horizontal scroll */
+  }
+
+  /* Let the table flow naturally */
+  .internship-table {
+    min-width: 0;        /* remove forced width */
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+  }
+
+  /* Hide table headers visually but keep for screen readers */
+  .internship-table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+
+  /* Make each row a card */
+  .internship-table tbody tr {
+    display: block;
+    margin-bottom: 16px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    position: relative;
+  }
+
+  /* Make all cells full width and add labels */
+  .internship-table td {
+    display: block;
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(10,20,40,0.04);
+    min-height: 24px;
+    padding-left: 120px; /* Space for label */
+    position: relative;
+  }
+  
+  /* Last cell has no border */
+  .internship-table td:last-child {
+    border-bottom: none;
+    padding-bottom: 12px;
+  }
+  
+  /* Add column headers as labels before cell content */
+  .internship-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 12px;
+    width: 100px;
+    font-weight: 700;
+    color: #2b3250;
+    text-align: left;
+  }
+
+  /* Make Apply button full-width and prominent */
+  .internship-table td.col-apply {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .internship-table a.apply-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+  }
 }
 
-/* very small phones: hide less-critical columns to improve readability (optional) */
+/* even smaller screens - further tighten spacing */
 @media (max-width: 480px) {
-  .internship-table .col-terms,
-  .internship-table .col-posted { display: none; }
-  .internship-table { min-width: 0; }
-  .internship-table th, .internship-table td { padding: 8px 6px; font-size: 0.88rem; }
+  .internship-table td {
+    padding-left: 100px;
+    font-size: 0.85rem;
+  }
+  
+  .internship-table td::before {
+    width: 85px;
+    font-size: 0.85rem;
+  }
+  
+  .internship-table a.apply-btn {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
 }
 
 
