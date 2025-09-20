@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CSAI — Internships</title>
+  <link rel="icon" type="image/png" href="data/photos/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="nav container">
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="/" >Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="events.html">Events</a>
+      <a href="blog.html" class="active">Internships</a>
+      <a href="join.html">Join</a>
+    </nav>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <h2 class="reveal">Internships</h2>
+    <p class="lead reveal">Opportunities, company projects, and application info.</p>
+
+    <div class="internships-section">
+      <div class="internship-table-wrap">
+        <table class="internship-table" id="internship-table" aria-describedby="internships-desc">
+          <caption id="internships-desc" class="hidden-placeholder">List of internships with links to apply</caption>
+          <thead>
+            <tr>
+              <th class="col-company">Company</th>
+              <th class="col-title">Role</th>
+              <th class="col-location">Location</th>
+              <th class="col-terms">Terms</th>
+              <th class="col-posted">Posted</th>
+              <th aria-hidden="true">Apply</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- filled by assets/js/internships.js -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  © 2025 CSAI — Computer Science + AI Club
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/internships.js"></script>
+<script src="header.js"></script>
+</body>
+</html>
