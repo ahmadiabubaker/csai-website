@@ -3,7 +3,7 @@ import json
 import os
 
 # --- Step 1: Fetch the full internship listings ---
-url = https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/refs/heads/dev/.github/scripts/listings.json"
+url = "https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/refs/heads/dev/.github/scripts/listings.json"
 response = requests.get(url)
 
 if response.status_code != 200:
