@@ -2,7 +2,7 @@ import requests
 import json
 import sys
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, UTC
 
 url = "https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/refs/heads/dev/.github/scripts/listings.json"
 
@@ -29,7 +29,7 @@ for job in all_jobs:
     # Use date_updated to filter jobs from 2026 or later
     if "date_updated" not in job:
         continue
-    job_date = datetime.utcfromtimestamp(job["date_updated"])
+    job_date = datetime.fromtimestamp(job["date_updated"], tz=UTC)
     if job_date.year < 2026:
         continue
 
@@ -37,13 +37,17 @@ for job in all_jobs:
     job["_sort_date"] = job_date
     new_nj_jobs.append(job)
 
-# Load existing NJ internships if file exists
+# Load existing NJ internships if file exists and is valid
 nj_file = Path("nj-internships.json")
+existing_nj_jobs = []
+
 if nj_file.exists():
-    with open(nj_file) as f:
-        existing_nj_jobs = json.load(f)
-else:
-    existing_nj_jobs = []
+    try:
+        with open(nj_file) as f:
+            existing_nj_jobs = json.load(f)
+    except json.JSONDecodeError:
+        print("Warning: nj-internships.json is empty or corrupted, starting fresh.")
+        existing_nj_jobs = []
 
 # Merge and remove duplicates by 'id'
 existing_ids = {job.get("id") for job in existing_nj_jobs if "id" in job}
@@ -61,4 +65,6 @@ for job in merged_nj_jobs:
 with open("nj-internships.json", "w") as f:
     json.dump(merged_nj_jobs, f, indent=4)
 
-print(f"Updated nj-internships.json with {len(merged_nj_jobs)} NJ internships from 2026 or later, sorted by date_updated.")
+print(f"Fetched {len(new_nj_jobs)} new NJ jobs")
+print(f"Existing file had {len(existing_nj_jobs)} jobs")
+print(f"Final merged file has {len(merged_nj_jobs)} jobs")
