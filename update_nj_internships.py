@@ -18,32 +18,24 @@ all_jobs = response.json()
 new_nj_jobs = []
 
 for job in all_jobs:
-    # Check location
+    # Check locations and keep only NJ locations
     if "locations" not in job:
         continue
     nj_locs = [loc for loc in job["locations"] if loc and ("nj" in loc.lower() or "new jersey" in loc.lower())]
     if not nj_locs:
         continue
+    job["locations"] = nj_locs
 
-    # Check date/year
-    job_date = None
-    if "start_date" in job:
-        try:
-            job_date = datetime.strptime(job["start_date"], "%Y-%m-%d")
-        except Exception:
-            continue
-    elif "year" in job:
-        try:
-            job_date = datetime(int(job["year"]), 1, 1)
-        except Exception:
-            continue
+    # Use date_updated to filter jobs from 2026 or later
+    if "date_updated" not in job:
+        continue
+    job_date = datetime.utcfromtimestamp(job["date_updated"])
+    if job_date.year < 2026:
+        continue
 
-    if job_date and job_date.year >= 2026:
-        # Keep only NJ locations
-        job["locations"] = nj_locs
-        # Add start_date as a datetime object for sorting later
-        job["_sort_date"] = job_date
-        new_nj_jobs.append(job)
+    # Add temporary _sort_date for sorting
+    job["_sort_date"] = job_date
+    new_nj_jobs.append(job)
 
 # Load existing NJ internships if file exists
 nj_file = Path("nj-internships.json")
@@ -53,20 +45,20 @@ if nj_file.exists():
 else:
     existing_nj_jobs = []
 
-# Merge and remove duplicates by 'id' if available
+# Merge and remove duplicates by 'id'
 existing_ids = {job.get("id") for job in existing_nj_jobs if "id" in job}
 merged_nj_jobs = existing_nj_jobs + [job for job in new_nj_jobs if job.get("id") not in existing_ids]
 
-# Sort by start date
-merged_nj_jobs.sort(key=lambda x: x.get("_sort_date"))
+# Sort by date_updated (newest first)
+merged_nj_jobs.sort(key=lambda x: x.get("_sort_date") or datetime.max, reverse=True)
 
-# Remove the temporary _sort_date before saving
+# Remove temporary _sort_date before saving
 for job in merged_nj_jobs:
     if "_sort_date" in job:
         del job["_sort_date"]
 
-# Save merged data
+# Save to nj-internships.json
 with open("nj-internships.json", "w") as f:
     json.dump(merged_nj_jobs, f, indent=4)
 
-print(f"Updated nj-internships.json with {len(merged_nj_jobs)} NJ internships from 2026 or later, sorted by start date.")
+print(f"Updated nj-internships.json with {len(merged_nj_jobs)} NJ internships from 2026 or later, sorted by date_updated.")
