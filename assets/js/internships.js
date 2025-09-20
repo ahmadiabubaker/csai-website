@@ -49,11 +49,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const tr = document.createElement('tr');
         tr.innerHTML = `
-          <td class="col-company"><strong>${escapeHtml(company)}</strong></td>
-          <td class="col-title">${escapeHtml(title)}</td>
-          <td class="col-location">${escapeHtml(locations)}</td>
-          <td class="col-terms">${escapeHtml(terms)}</td>
-          <td class="col-posted">${escapeHtml(posted)}</td>
+          <td class="col-company" data-label="Company"><strong>${escapeHtml(company)}</strong></td>
+          <td class="col-title" data-label="Role">${escapeHtml(title)}</td>
+          <td class="col-location" data-label="Location">${escapeHtml(locations)}</td>
+          <td class="col-terms" data-label="Terms">${escapeHtml(terms)}</td>
+          <td class="col-posted" data-label="Posted">${escapeHtml(posted)}</td>
           <td class="col-apply"><a class="apply-btn" href="${encodeURI(url)}" target="_blank" rel="noopener">Apply</a></td>
         `;
         tbody.appendChild(tr);
