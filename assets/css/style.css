@@ -1092,7 +1092,15 @@ a:hover{text-decoration: underline}
     text-align: left;
   }
 
-  /* Make Apply button full-width and prominent */
+  /* Status column adjustments */
+  .internship-table td.col-status {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: flex-start;
+  }
+  
+  /* Apply button styling */
   .internship-table td.col-apply {
     padding: 12px;
     text-align: center;
@@ -1103,7 +1111,12 @@ a:hover{text-decoration: underline}
     width: 100%;
     padding: 10px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.95rem;
+  }
+  
+  /* Status indicator in mobile view */
+  .status-indicator {
+    margin: 0 0 6px 0;
   }
 }
 
@@ -1119,9 +1132,11 @@ a:hover{text-decoration: underline}
     font-size: 0.85rem;
   }
   
-  .internship-table a.apply-btn {
-    padding: 8px;
-    font-size: 0.9rem;
+  /* Improve toggle button appearance on small screens */
+  .toggle-applied {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+    margin-top: 4px;
   }
 }
 
@@ -1132,6 +1147,7 @@ a:hover{text-decoration: underline}
   gap: 16px;
   margin-bottom: 20px;
   align-items: flex-end;
+  justify-content: center;
 }
 
 .filter-group {
@@ -1154,75 +1170,22 @@ a:hover{text-decoration: underline}
   font-size: 0.95rem;
   background: rgba(255,255,255,0.85);
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
-  cursor: pointer;
 }
 
-.filter-select:focus {
-  outline: none;
-  border-color: var(--accent-2);
-  box-shadow: 0 0 0 3px rgba(122,92,255,0.15);
-}
-
-/* Only add these styles for the internship table and filters */
-
-/* Internship table column widths */
-.internship-table .col-company {
-  width: 20%;
-  min-width: 140px;
-}
-
-.internship-table .col-title {
-  width: 25%;
-  min-width: 160px;
-}
-
-.internship-table .col-location {
-  width: 15%;
-  min-width: 100px;
-}
-
-.internship-table .col-terms {
-  width: 10%;
-  min-width: 80px;
-}
-
-.internship-table .col-status {
-  width: 15%;
-  min-width: 120px;
-}
-
-.internship-table .col-posted {
-  width: 8%;
-  min-width: 80px;
-}
-
-.internship-table .col-apply {
-  width: 7%;
-  min-width: 70px;
-  text-align: center;
-}
-
-/* Style for the toggle applied button */
+/* Toggle applied button styling */
 .toggle-applied {
   cursor: pointer;
   font-weight: 600;
-  color: #fff;
-  background: var(--accent-2);
-  border: none;
-  border-radius: 8px;
-  padding: 6px 12px;
+  color: var(--accent-2);
   font-size: 0.85rem;
-  transition: background-color 0.2s ease, transform 0.2s ease;
-  white-space: nowrap;
+  background: none;
+  border: none;
+  padding: 4px;
+  text-decoration: underline;
+  text-align: center;
 }
 
-.toggle-applied:hover {
-  background: var(--accent-1);
-  transform: translateY(-2px);
-}
-
-/* Status indicator styling */
+/* Status indicators */
 .status-indicator {
   display: inline-flex;
   align-items: center;
@@ -1231,6 +1194,7 @@ a:hover{text-decoration: underline}
   border-radius: 12px;
   padding: 3px 8px;
   margin-top: 4px;
+  text-align: center;
 }
 
 .status-applied {
@@ -1244,26 +1208,131 @@ a:hover{text-decoration: underline}
   color: #39405c;
 }
 
-/* Mobile view fixes */
+/* Table column alignments */
+.internship-table .col-status,
+.internship-table .col-posted,
+.internship-table .col-apply {
+  text-align: center;
+}
+
+/* Mobile styles */
 @media (max-width: 768px) {
-  .internship-table td.col-status {
-    padding: 8px 12px;
-    padding-left: 120px;
-    text-align: left;
+  /* Filter controls stacking */
+  .filter-controls {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
   
-  .toggle-applied {
-    display: inline-block;
-    width: auto;
+  .filter-group {
+    width: 100%;
+    align-items: center;
+  }
+  
+  .filter-group label {
+    text-align: center;
+  }
+  
+  .filter-select {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  /* Make each row a card */
+  .internship-table tbody tr {
+    display: block;
+    margin-bottom: 16px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  }
+
+  /* Make all cells full width with labels */
+  .internship-table td {
+    display: block;
     text-align: center;
     padding: 8px 12px;
+    border-bottom: 1px solid rgba(10,20,40,0.04);
+  }
+  
+  /* Add column headers as labels before cell content */
+  .internship-table td::before {
+    content: attr(data-label);
+    display: block;
+    font-weight: 700;
+    color: #2b3250;
+    text-align: center;
+    margin-bottom: 8px; /* Increased from 4px */
+    border-bottom: 1px solid rgba(10,20,40,0.06);
+    padding-bottom: 4px;
+  }
+
+  /* Apply button styling */
+  .internship-table a.apply-btn {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+  }
+  
+  /* Status indicators centered */
+  .status-indicator {
+    margin: 4px auto;
+  }
+  
+  /* Toggle applied button */
+  .toggle-applied {
+    display: block;
+    margin: 8px auto;
+    text-align: center;
   }
 }
 
+/* Add these rules to your existing CSS - they'll only affect mobile view */
+
+@media (max-width: 768px) {
+  /* Specific fix for the Role column on mobile */
+  .internship-table td.col-title {
+    /* Improve text wrapping for long role names */
+    word-break: normal;
+    word-wrap: break-word;
+    hyphens: auto;
+    overflow-wrap: break-word;
+    
+    /* Add more space between the header and content */
+    padding-top: 32px;
+    position: relative;
+  }
+  
+  /* Make the Role label float at the top with more space */
+  .internship-table td.col-title::before {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(10,20,40,0.08);
+  }
+  
+  /* Make the category appear on a new line with spacing */
+  .internship-table td.col-title div {
+    margin-top: 8px;
+    display: block;
+  }
+  
+  /* Make sure very long text doesn't overflow */
+  .internship-table td {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* Additional adjustments for even smaller screens */
 @media (max-width: 480px) {
-  .toggle-applied {
-    font-size: 0.8rem;
-    padding: 6px 10px;
+  .internship-table td.col-title {
+    padding-top: 28px;
+    line-height: 1.4;
   }
 }
 
