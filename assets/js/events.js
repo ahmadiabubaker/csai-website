@@ -75,10 +75,12 @@
     grid.innerHTML = '';
 
     const firstDay = new Date(year, month, 1);
-    const startWeekday = (firstDay.getDay() + 6) % 7;
+  // Use JS weekday (0 = Sunday) so calendar columns are Sun..Sat
+  const startWeekday = firstDay.getDay();
     const daysInMonth = new Date(year, month + 1, 0).getDate();
 
-    const names = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+  // Header names starting with Sunday
+  const names = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
     names.forEach(n => {
       const head = document.createElement('div');
       head.className = 'cal-cell';
