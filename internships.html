@@ -28,6 +28,33 @@
     <p class="lead reveal">Opportunities, company projects, and application info.</p>
 
     <div class="internships-section">
+      <!-- Add filter controls here -->
+      <div class="filter-controls">
+        <div class="filter-group">
+          <label for="role-filter">Filter by Role:</label>
+          <select id="role-filter" class="filter-select">
+            <option value="all">All Roles</option>
+            <option value="Software Engineering">Software Engineering</option>
+            <option value="Data Science">Data Science & Analytics</option>
+            <option value="Machine Learning">Machine Learning & AI</option>
+            <option value="Cybersecurity">Cybersecurity</option>
+            <option value="Product">Product Management</option>
+            <option value="Other">Other Roles</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="applied-filter">Status:</label>
+          <select id="applied-filter" class="filter-select">
+            <option value="all">All Internships</option>
+            <option value="applied">Applied</option>
+            <option value="not-applied">Not Applied</option>
+          </select>
+        </div>
+
+        <button id="clear-filters" class="btn">Clear Filters</button>
+      </div>
+
       <div class="internship-table-wrap">
         <table class="internship-table" id="internship-table" aria-describedby="internships-desc">
           <caption id="internships-desc" class="hidden-placeholder">List of internships with links to apply</caption>
@@ -37,6 +64,7 @@
               <th class="col-title">Role</th>
               <th class="col-location">Location</th>
               <th class="col-terms">Terms</th>
+              <th class="col-status">Status</th>
               <th class="col-posted">Posted</th>
               <th aria-hidden="true">Apply</th>
             </tr>
