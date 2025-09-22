@@ -1125,5 +1125,147 @@ a:hover{text-decoration: underline}
   }
 }
 
+/* Internship Filter Controls */
+.filter-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 20px;
+  align-items: flex-end;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 200px;
+}
+
+.filter-group label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #2b3250;
+}
+
+.filter-select {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--glass-line);
+  font-size: 0.95rem;
+  background: rgba(255,255,255,0.85);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: var(--accent-2);
+  box-shadow: 0 0 0 3px rgba(122,92,255,0.15);
+}
+
+/* Only add these styles for the internship table and filters */
+
+/* Internship table column widths */
+.internship-table .col-company {
+  width: 20%;
+  min-width: 140px;
+}
+
+.internship-table .col-title {
+  width: 25%;
+  min-width: 160px;
+}
+
+.internship-table .col-location {
+  width: 15%;
+  min-width: 100px;
+}
+
+.internship-table .col-terms {
+  width: 10%;
+  min-width: 80px;
+}
+
+.internship-table .col-status {
+  width: 15%;
+  min-width: 120px;
+}
+
+.internship-table .col-posted {
+  width: 8%;
+  min-width: 80px;
+}
+
+.internship-table .col-apply {
+  width: 7%;
+  min-width: 70px;
+  text-align: center;
+}
+
+/* Style for the toggle applied button */
+.toggle-applied {
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent-2);
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  white-space: nowrap;
+}
+
+.toggle-applied:hover {
+  background: var(--accent-1);
+  transform: translateY(-2px);
+}
+
+/* Status indicator styling */
+.status-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.85rem;
+  border-radius: 12px;
+  padding: 3px 8px;
+  margin-top: 4px;
+}
+
+.status-applied {
+  background: rgba(0,230,255,0.1);
+  color: var(--accent-1);
+  font-weight: 600;
+}
+
+.status-not-applied {
+  background: rgba(200,200,220,0.2);
+  color: #39405c;
+}
+
+/* Mobile view fixes */
+@media (max-width: 768px) {
+  .internship-table td.col-status {
+    padding: 8px 12px;
+    padding-left: 120px;
+    text-align: left;
+  }
+  
+  .toggle-applied {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .toggle-applied {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+}
+
 
 
