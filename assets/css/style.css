@@ -72,46 +72,53 @@ a:hover{text-decoration: underline}
 }
 
 @media (max-width: 768px) {
-  .header {
-    position: sticky;
-    top: 12px;
-    z-index: 50;
-    max-width: 95%;
-    margin: 0 auto;
-    padding: 6px 10px;          /* slightly smaller padding */
-    border-radius: 12px;
-    backdrop-filter: blur(12px);
-    background: rgba(255, 255, 255, 0.3);
-    border: 1px solid rgba(255,255,255,0.1);
-    box-shadow: 0 6px 20px rgba(10,20,40,0.06);
-
+  /* keep header on one line */
+  .header,
+  .nav.container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 8px;                   /* reduce gap for tighter fit */
+    justify-content: center;
+    gap: 6px;           /* tighter overall gap */
+    flex-wrap: nowrap;  /* prevent wrapping */
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
-  /* Show nav links inline instead of column */
-  .nav-links {
+  /* nav links row: no wrap, smaller gap, allow horizontal scroll if needed */
+  .nav.container .nav-links {
     display: flex;
-    flex-wrap: nowrap;           /* prevent wrapping */
-    gap: 6px;                    /* smaller gap between links */
-    overflow-x: auto;            /* allow horizontal scroll if needed */
+    gap: 6px;           /* reduced gap between items */
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: auto;                /* avoid layout break; scroll if too long */
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;           /* hide firefox scrollbar */
+  }
+  .nav.container .nav-links::-webkit-scrollbar { display: none; } /* hide webkit scrollbar */
+
+  /* smaller, tighter link styling */
+  .nav.container .nav-links a {
+    font-size: 12px;     /* smaller text for phones */
+    padding: 4px 6px;    /* reduced padding */
+    line-height: 1;      /* tighter height */
+    border-radius: 6px;
+    flex: 0 0 auto;      /* keep intrinsic width, don't stretch */
   }
 
-  .nav-links a {
-    font-size: 12px;             /* smaller font size */
-    padding: 4px 6px;            /* smaller padding */
-    border-radius: 10px;
-    white-space: nowrap;          /* keep text on single line */
-  }
-
-  /* Highlight Join link on mobile */
-  .nav-links a[href="join.html"] {
-    background: linear-gradient(90deg, rgba(0,230,255,.18), rgba(122,92,255,.18));
-    box-shadow: 0 6px 20px rgba(122,92,255,0.12);
+  /* join link stays prominent but compact */
+  .nav.container .nav-links a[href*="join"],
+  .mobile-join-btn {
+    font-size: 12px;
+    padding: 5px 8px;
     font-weight: 800;
-    color: #223;
+  }
+
+  /* logo/brand smaller and non-wrapping */
+  .header .logo,
+  .header .brand {
+    white-space: nowrap;
+    font-size: 13px;
+    margin: 0 6px;
   }
 }
 
