@@ -1222,5 +1222,6 @@ a:hover{text-decoration: underline}
   }
 }
 
-
-
+#diy-machine-learning li {
+  margin: 15px 0 15px 0;
+}
