@@ -4760,7 +4760,7 @@
         "company_name": "Walker & Dunlop",
         "id": "39ce3904-145b-436f-9f7c-5e4351667870",
         "title": "Capital Markets Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4911,5 +4911,110 @@
         "date_posted": 1758692580,
         "company_url": "",
         "is_visible": true
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Sharp Electronics",
+        "id": "ce2a2737-ce05-48c1-adaa-ac72944101e0",
+        "title": "AI Process Automation Intern",
+        "active": true,
+        "terms": [
+            "Winter 2025",
+            "Spring 2026"
+        ],
+        "date_updated": 1758755366,
+        "date_posted": 1758755366,
+        "url": "https://careers-sharpusa.icims.com/jobs/8568/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Mahwah, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Sharp-Electronics",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Sony",
+        "id": "c028e3f3-97c3-4afe-8b37-2585ee015c99",
+        "title": "Research Intern - Multimodal Foundation Model for Vision",
+        "active": true,
+        "terms": [
+            "Winter 2025"
+        ],
+        "date_updated": 1758883033,
+        "date_posted": 1758883033,
+        "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---Massachusetts/Research-Intern---Multimodal-Foundation-Model-for-Vision_JR-118266",
+        "locations": [
+            "California",
+            "Washington, DC",
+            "SF",
+            "LA",
+            "Texas",
+            "San Jose, CA",
+            "Jackson Township, NJ",
+            "Waterbury, CT",
+            "Colorado",
+            "NYC",
+            "Maryland",
+            "Massachusetts"
+        ],
+        "company_url": "https://simplify.jobs/c/Sony",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Master's",
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Other",
+        "company_name": "Siemens",
+        "id": "d14d4aed-e7e7-4e77-a7ac-64e04b770346",
+        "title": "Security Systems Technician Internship - Internal Services - Smart Infrastructure",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1758981588,
+        "date_posted": 1758981588,
+        "url": "https://siemens.eightfold.ai/careers/job/563156131939163",
+        "locations": [
+            "Morristown, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Siemens",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Associate's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Other",
+        "company_name": "Siemens",
+        "id": "c71e755e-e1e3-44bd-82b1-7e510aa08a37",
+        "title": "Cybersecurity Intern - Cybersecurity",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1758981516,
+        "date_posted": 1758981516,
+        "url": "https://siemens.eightfold.ai/careers/job/563156132006762",
+        "locations": [
+            "Iselin, Woodbridge Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Siemens",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
     }
 ]
