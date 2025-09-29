@@ -1132,6 +1132,115 @@ a:hover{text-decoration: underline}
   }
 }
 
+/* ===== Newsletter Signup ===== */
+.newsletter-wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  border: 1px solid var(--glass-line);
+  box-shadow: var(--shadow);
+  padding: 32px 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.newsletter-wrap::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(122,92,255,0.05), rgba(0,230,255,0.05));
+  pointer-events: none;
+}
+
+.newsletter-wrap h2,
+.newsletter-wrap p,
+.newsletter-wrap form {
+  position: relative;
+  z-index: 1;
+}
+
+.newsletter-wrap h2 {
+  margin-bottom: 12px;
+  background: linear-gradient(90deg, #0b1220, #4d49b8 60%, #7A5CFF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.newsletter-wrap p.lead {
+  margin-bottom: 24px;
+  color: #3a4366;
+}
+
+.newsletter-form {
+  margin: 0;
+}
+
+.email-input-group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+  align-items: stretch;
+}
+
+.email-input {
+  flex: 1;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+.newsletter-btn {
+  flex-shrink: 0;
+  padding: 12px 20px;
+  white-space: nowrap;
+}
+
+.newsletter-note {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin: 0;
+  font-style: italic;
+}
+
+/* Mobile newsletter styles */
+@media (max-width: 640px) {
+  .newsletter-wrap {
+    padding: 24px 18px;
+    margin: 0 12px;
+  }
+
+  .email-input-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .newsletter-btn {
+    padding: 12px 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .newsletter-wrap {
+    padding: 20px 14px;
+  }
+
+  .newsletter-wrap h2 {
+    font-size: 1.8rem;
+  }
+
+  .newsletter-wrap p.lead {
+    font-size: 0.95rem;
+  }
+
+  .email-input {
+    font-size: 16px; /* Prevent zoom on iOS */
+  }
+}
+
 /* Internship Filter Controls */
 .filter-controls {
   display: flex;
@@ -1225,3 +1334,108 @@ a:hover{text-decoration: underline}
 #diy-machine-learning li {
   margin: 15px 0 15px 0;
 }
+/* ===== Blog Post Detail — Typography + Terminal-like Code Blocks ===== */
+#post {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+#post h1 {
+  margin: 0 0 6px;
+  line-height: 1.1;
+}
+
+#post .meta {
+  color: #65708c;
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+
+#post article {
+  color: #2b3250;
+  line-height: 1.65;
+  font-size: 17px;
+}
+
+/* Inline code */
+#post article p code,
+#post article li code {
+  background: rgba(10,20,40,0.06);
+  border: 1px solid var(--glass-line);
+  border-radius: 6px;
+  padding: 0 6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: .95em;
+  color: #1e2a44;
+}
+
+/* Terminal-style blocks */
+#post article pre {
+  position: relative;
+  background: #0b1220;
+  color: #e6edf3;
+  border: 1px solid #1f2a44;
+  border-radius: 12px;
+  padding: 42px 16px 16px; /* top space for toolbar */
+  margin: 16px 0 24px;
+  overflow: auto;
+  box-shadow: 0 12px 36px rgba(10,20,40,0.30);
+}
+
+/* Toolbar + traffic lights */
+#post article pre::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 32px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  background:
+    radial-gradient(circle at 20px 16px, #ff5f56 6px, transparent 7px),
+    radial-gradient(circle at 44px 16px, #ffbd2e 6px, transparent 7px),
+    radial-gradient(circle at 68px 16px, #27c93f 6px, transparent 7px),
+    linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0));
+  pointer-events: none;
+}
+
+#post article pre code {
+  display: block;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: 13.5px;
+  line-height: 1.55;
+  tab-size: 2;
+  white-space: pre;
+}
+
+/* Copy button */
+#post article .copy-btn {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  padding: 4px 10px;
+  font-size: 12px;
+  color: #d1d9e6;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 8px;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: background .2s ease, transform .1s ease, color .2s ease;
+}
+
+#post article pre:hover .copy-btn { background: rgba(255,255,255,0.12); }
+#post article .copy-btn:active { transform: translateY(1px); }
+
+/* Post section headings */
+#post article h2 {
+  margin: 28px 0 10px;
+  font-size: clamp(20px, 2.2vw, 26px);
+  background: linear-gradient(90deg, #0b1220, #4d49b8 60%, #7A5CFF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+#post article h2 + p { margin-top: 6px; }
+
+
+

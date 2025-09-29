@@ -243,11 +243,35 @@
   </div>
 </section>
 
+<!-- ===== Newsletter Signup ===== -->
+<section class="section" id="newsletter">
+  <div class="container">
+    <div class="newsletter-wrap">
+      <h2 class="reveal">Stay Connected</h2>
+      <p class="lead reveal delay-1">
+        Get our monthly newsletter with updates on events, projects, and opportunities.
+      </p>
+
+      <div id="newsletter-success" class="success">Thanks for subscribing! Check your email for confirmation.</div>
+      <div id="newsletter-error" class="error"></div>
+
+      <form id="newsletter-form" class="newsletter-form reveal delay-2">
+        <div class="email-input-group">
+          <input class="input email-input" type="email" name="email" placeholder="Enter your email address" required />
+          <button class="btn primary newsletter-btn" type="submit">Subscribe</button>
+        </div>
+        <p class="newsletter-note">We respect your privacy. Unsubscribe at any time. <a href="unsubscribe.html" style="color: var(--accent-2);">Unsubscribe here</a></p>
+      </form>
+    </div>
+  </div>
+</section>
+
 <footer class="footer">
   © 2025 CSAI — Computer Science + AI Club
 </footer>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/newsletter.js"></script>
 <script src="header.js"></script>
 </body>
 </html>

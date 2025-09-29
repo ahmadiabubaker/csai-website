@@ -1,1766 +1,5 @@
 [
     {
-        "company_name": "BNP",
-        "locations": [
-            "Jersey City, NJ"
-        ],
-        "title": "Software Engineering Intern",
-        "date_posted": 1685419200,
-        "terms": [
-            "Summer 2024"
-        ],
-        "active": false,
-        "url": "https://bnppus.tal.net/vx/mobile-0/appcentre-ext/brand-7/candidate/so/pm/1/pl/2/opp/778-2024-Summer-Analyst-Internship-Technology/en-GB",
-        "is_visible": true,
-        "source": "Markdown",
-        "company_url": "",
-        "date_updated": 1694979171,
-        "id": "7f4d0949-8041-43af-b81f-bf9ebedadc6f",
-        "sponsorship": "Other"
-    },
-    {
-        "company_name": "Royal Bank of Canada",
-        "locations": [
-            "Jersey City, NJ"
-        ],
-        "title": "Quantitative Technology Services Intern",
-        "date_posted": 1685851200,
-        "terms": [
-            "Summer 2024"
-        ],
-        "active": false,
-        "url": "https://jobs.rbc.com/ca/en/job/RBCAA0088R0000062764EXTERNALENCA",
-        "is_visible": true,
-        "source": "Markdown",
-        "company_url": "",
-        "date_updated": 1692935810,
-        "id": "c17f442e-c215-43ef-a319-7fecfded53fc",
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Walmart",
-        "id": "9fb8a8c8-86a5-41ac-9020-d701b44d076f",
-        "title": "Supply Chain Innovation & Automation PM internship",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1689739200,
-        "url": "https://walmart.wd5.myworkdayjobs.com/WalmartExternal/job/Bentonville-AR/XMLNAME-2024-Summer-Intern--Supply-Chain-Innovation---Automation---Product-Manager_R-1437295",
-        "locations": [
-            "Bentonville, AR",
-            "Dallas, TX",
-            "Union City, NJ",
-            "Sunnyvale, CA"
-        ],
-        "company_url": "https://simplify.jobs/c/Walmart",
-        "is_visible": true,
-        "date_posted": 1689739200,
-        "sponsorship": "Offers Sponsorship"
-    },
-    {
-        "company_name": "Crestron",
-        "locations": [
-            "Plano, TX",
-            "Rockleigh, NJ"
-        ],
-        "title": "Internship Program",
-        "date_posted": 1686283200,
-        "terms": [
-            "Summer 2024"
-        ],
-        "active": false,
-        "url": "https://globalus231.dayforcehcm.com/CandidatePortal/en-US/crestron/site/candidateportal/Posting/View/820",
-        "is_visible": true,
-        "source": "Markdown",
-        "company_url": "",
-        "date_updated": 1692035736,
-        "id": "90cfc3da-afb1-420f-b238-d21e3b8c72a3",
-        "sponsorship": "Other"
-    },
-    {
-        "company_name": "Marotta Controls",
-        "locations": [
-            "Parisppany, NJ"
-        ],
-        "title": "Software Engineering Intern us",
-        "date_posted": 1688356800,
-        "terms": [
-            "Summer 2024"
-        ],
-        "active": false,
-        "url": "https://marotta.com/job-openings/?gnk=job&gni=8a7883ac879c5eca0187ef4d715d4fd8&lang=en",
-        "is_visible": true,
-        "source": "Markdown",
-        "company_url": "",
-        "date_updated": 1695235220,
-        "id": "7289db1c-18cb-4b4d-aeb1-ea963f075698",
-        "sponsorship": "Other"
-    },
-    {
-        "company_name": "Langan",
-        "locations": [
-            "Parsippany, NJ"
-        ],
-        "terms": [
-            "Fall 2023"
-        ],
-        "title": "Software Engineer Intern",
-        "date_posted": 1688702400,
-        "active": false,
-        "url": "https://careers.langan.com/job/Parsippany-Software-Development-Intern-or-Co-op-Fall-2023-NJ-07054-2172/1045849800/",
-        "is_visible": true,
-        "source": "Markdown",
-        "company_url": "",
-        "date_updated": 1712214265,
-        "id": "c1aebc26-f4f0-402a-b3c1-d1f0500a3dca",
-        "sponsorship": "Other"
-    },
-    {
-        "company_name": "Bank of America",
-        "locations": [
-            "Addison, TX",
-            "Charlotte, NC",
-            "Chicago, IL",
-            "Denver, CO",
-            "Pennington, NJ",
-            "Plano, TX",
-            "Richardson, TX",
-            "Washington, DC",
-            "Richmond, VA",
-            "NYC Metro, NY"
-        ],
-        "title": "Global Technology Summer Analyst Program",
-        "date_posted": 1688961600,
-        "terms": [
-            "Summer 2024"
-        ],
-        "active": true,
-        "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-91c0e92d74a1/candidate/so/pm/1/pl/1/opp/10165-Global-Technology-Summer-Analyst-Program-2024/en-GB",
-        "is_visible": true,
-        "source": "Markdown",
-        "company_url": "",
-        "date_updated": 1691685625,
-        "id": "0e8b2a36-22fb-4449-a4b9-81dce5f51c4c",
-        "sponsorship": "Other"
-    },
-    {
-        "company_name": "Prudential",
-        "locations": [
-            "Newark, NJ"
-        ],
-        "title": "2024 Fixed Income, Coding & Developer Internship Program",
-        "date_posted": 1689480000,
-        "terms": [
-            "Summer 2024"
-        ],
-        "active": false,
-        "url": "https://wd5.myworkdaysite.com/recruiting/pru/Careers/job/Newark-NJ-USA/PGIM--2024-Fixed-Income--Coding---Developer-Internship-Program--Technology-Solutions-Group-_R-114814-1",
-        "is_visible": true,
-        "source": "Markdown",
-        "company_url": "",
-        "date_updated": 1694463215,
-        "id": "1ec40554-6ea5-47a1-ab13-e4abb2934994",
-        "sponsorship": "Other"
-    },
-    {
-        "company_name": "Prudential",
-        "locations": [
-            "Newark, NJ"
-        ],
-        "title": "2024 Global Technology, Software Engineering Internship\tNewark, NJ",
-        "date_posted": 1689480000,
-        "terms": [
-            "Summer 2024"
-        ],
-        "active": false,
-        "url": "https://wd5.myworkdaysite.com/recruiting/pru/Careers/job/Newark-NJ-USA/Prudential--2024-Global-Technology--Software-Engineering-Internship-Program--_R-114845-2",
-        "is_visible": true,
-        "source": "Markdown",
-        "company_url": "",
-        "date_updated": 1693167385,
-        "id": "92629df7-4ab5-4c89-a010-7566df9ec5e9",
-        "sponsorship": "Other"
-    },
-    {
-        "date_updated": 1695242124,
-        "url": "https://jobs.us.pwc.com/job/birmingham/nis-cyber-security-and-technology-intern-summer-2024/932/52142558336",
-        "company_name": "PwC",
-        "title": "Cybersecurity and Technology Intern",
-        "locations": [
-            "Birmingham, AL",
-            "Fayetteville, AR",
-            "Little Rock, AR",
-            "Phoenix, AZ",
-            "Irvine, CA",
-            "Los Angeles, CA",
-            "Sacramento, CA",
-            "San Diego, CA",
-            "San Francisco, CA",
-            "Silicon Valley, CA",
-            "Denver, CO",
-            "Hartford, CT",
-            "Stamford, CT",
-            "Washington, DC",
-            "Hallandale Beach/Miami, FL",
-            "Jacksonville, FL",
-            "Orlando, FL",
-            "Tampa, FL",
-            "West Palm Beach, FL",
-            "Atlanta, GA",
-            "Des Moines, IA",
-            "Chicago, IL",
-            "Indianapolis, IN",
-            "Louisville, KY",
-            "New Orleans, LA",
-            "Boston, MA",
-            "Baltimore, MD",
-            "Detroit, MI",
-            "Grand Rapids, MI",
-            "Minneapolis, MN",
-            "Kansas City, MO",
-            "St. Louis, MO",
-            "Charlotte, NC",
-            "Greensboro, NC",
-            "Raleigh, NC",
-            "Florham Park, NJ",
-            "Las Vegas, NV",
-            "Albany, NY",
-            "Buffalo, NY",
-            "Melville, NY",
-            "New York, NY",
-            "Rochester, NY",
-            "Cincinnati, OH",
-            "Cleveland, OH",
-            "Columbus, OH",
-            "Toledo, OH",
-            "Oklahoma City, OK",
-            "Tulsa, OK",
-            "Portland, OR",
-            "Philadelphia, PA",
-            "Pittsburgh, PA",
-            "Columbia, SC",
-            "Spartanburg, SC",
-            "Nashville, TN",
-            "Austin, TX",
-            "Dallas, TX",
-            "Fort Worth, TX",
-            "Houston, TX",
-            "San Antonio, TX",
-            "Salt Lake City, UT",
-            "Richmond, VA",
-            "Montpelier, VT",
-            "Seattle, WA",
-            "Milwaukee, WI",
-            "Remote in USA"
-        ],
-        "terms": [
-            "Summer 2024"
-        ],
-        "active": false,
-        "source": "hemanthy1",
-        "id": "b82c0c9c-3134-41d2-9e59-17d0d6c06850",
-        "date_posted": 1691035200,
-        "company_url": "",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "date_updated": 1695338351,
-        "url": "https://jobs.us.pwc.com/job/-/-/932/52142564240",
-        "company_name": "PwC",
-        "title": "Data Platform Engineering Intern - Summer 2024",
-        "locations": [
-            "Birmingham, AL",
-            "Fayetteville, AR",
-            "Little Rock, AR",
-            "Phoenix, AZ",
-            "Irvine, CA",
-            "Los Angeles, CA",
-            "Sacramento, CA",
-            "San Diego, CA",
-            "San Francisco, CA",
-            "Silicon Valley, CA",
-            "Denver, CO",
-            "Hartford, CT",
-            "Stamford, CT",
-            "Washington, DC",
-            "Hallandale Beach/Miami, FL",
-            "Jacksonville, FL",
-            "Orlando, FL",
-            "Tampa, FL",
-            "West Palm Beach, FL",
-            "Atlanta, GA",
-            "Des Moines, IA",
-            "Chicago, IL",
-            "Indianapolis, IN",
-            "Louisville, KY",
-            "New Orleans, LA",
-            "Boston, MA",
-            "Baltimore, MD",
-            "Detroit, MI",
-            "Grand Rapids, MI",
-            "Minneapolis, MN",
-            "Kansas City, MO",
-            "St. Louis, MO",
-            "Charlotte, NC",
-            "Greensboro, NC",
-            "Raleigh, NC",
-            "Florham Park, NJ",
-            "Las Vegas, NV",
-            "Albany, NY",
-            "Buffalo, NY",
-            "Melville, NY",
-            "New York, NY",
-            "Rochester, NY",
-            "Cincinnati, OH",
-            "Cleveland, OH",
-            "Columbus, OH",
-            "Toledo, OH",
-            "Oklahoma City, OK",
-            "Tulsa, OK",
-            "Portland, OR",
-            "Philadelphia, PA",
-            "Pittsburgh, PA",
-            "Columbia, SC",
-            "Spartanburg, SC",
-            "Nashville, TN",
-            "Austin, TX",
-            "Dallas, TX",
-            "Fort Worth, TX",
-            "Houston, TX",
-            "San Antonio, TX",
-            "Salt Lake City, UT",
-            "Richmond, VA",
-            "Montpelier, VT",
-            "Seattle, WA",
-            "Milwaukee, WI",
-            "Remote in USA"
-        ],
-        "terms": [
-            "Summer 2024"
-        ],
-        "sponsorship": "Other",
-        "active": false,
-        "source": "mcHan18",
-        "id": "ab3e9057-9fed-4f22-b47b-0553d742c353",
-        "date_posted": 1692554726,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "date_updated": 1698084376,
-        "url": "https://jobs.thecignagroup.com/us/en/job/CIGNUS23015032EXTERNALENUS/Technology-Development-Program-TECDP-Summer-Intern-2024-Evernorth",
-        "company_name": "The Cigna Group",
-        "title": "Technology Development Program (TECDP) Summer Internship",
-        "locations": [
-            "Bloomfield, CT",
-            "Austin, TX",
-            "Bloomington, MN",
-            "Denver, CO",
-            "Morris Plains, NJ",
-            "Nashville, TN Philadelphia, PA",
-            "St. Louis, MO"
-        ],
-        "terms": [
-            "Summer 2024"
-        ],
-        "sponsorship": "Other",
-        "active": false,
-        "source": "mtlogs",
-        "id": "6e2e84e5-b550-4e3d-bdeb-59e18e227630",
-        "date_posted": 1692555166,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "date_updated": 1692902725,
-        "url": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/300729",
-        "company_name": "Tradeweb",
-        "title": "Node.JS Developer - Summer 2024 internship",
-        "locations": [
-            "Jersey City, NJ"
-        ],
-        "terms": [
-            "Summer 2024"
-        ],
-        "sponsorship": "Offers Sponsorship",
-        "active": false,
-        "source": "cwcoogan",
-        "id": "6fca476a-09bf-4bfa-aeee-5d1c5c0885c1",
-        "date_posted": 1692555679,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "date_updated": 1692903198,
-        "url": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/300723/",
-        "company_name": "Tradeweb",
-        "title": "C++ Developer - Summer 2024 internship",
-        "locations": [
-            "Jersey City, NJ"
-        ],
-        "terms": [
-            "Summer 2024"
-        ],
-        "sponsorship": "Offers Sponsorship",
-        "active": false,
-        "source": "cwcoogan",
-        "id": "b5afa13e-fc6d-4e3c-b143-692f94863f2a",
-        "date_posted": 1692555764,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "date_updated": 1692904055,
-        "url": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/300726/",
-        "company_name": "Tradeweb",
-        "title": "Java Developer - Summer 2024 Internship",
-        "locations": [
-            "Jersey City, NJ"
-        ],
-        "terms": [
-            "Summer 2024"
-        ],
-        "sponsorship": "Other",
-        "active": false,
-        "source": "cwcoogan",
-        "id": "c2c30db1-b26c-4de8-b15c-94bcb3c43f01",
-        "date_posted": 1692555783,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "date_updated": 1698045592,
-        "url": "https://jobs.zs.com/all/jobs/18389?lang=en-us",
-        "company_name": "ZS",
-        "title": "Decision Analytics Associate - Intern",
-        "locations": [
-            "Princeton, New Jersey",
-            "New York, New York",
-            "Philadelphia, Pennsylvania"
-        ],
-        "terms": [
-            "Summer 2024"
-        ],
-        "sponsorship": "Does Not Offer Sponsorship",
-        "active": false,
-        "source": "prathishpratt",
-        "id": "6840b93f-385b-476c-96f6-f5a6bbc98f7f",
-        "date_posted": 1693311719,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Walmart",
-        "id": "d281fb73-380b-466b-ba43-cf1e24a012dc",
-        "title": "2024 Summer Intern: Economist Intern",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1693322211,
-        "date_posted": 1693322211,
-        "url": "https://walmart.wd5.myworkdayjobs.com/WalmartExternal/job/New-York-NY/XMLNAME-2024-Summer-Intern--Economist-Intern_R-1640455-1",
-        "locations": [
-            "Bentonville, AR",
-            "Union City, NJ",
-            "New York, NY"
-        ],
-        "company_url": "https://simplify.jobs/c/Walmart",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "date_updated": 1693407022,
-        "url": "https://app.ripplematch.com/v2/public/job/325e9a1c/details",
-        "company_name": "Ultimate Kronos Group (UKG)",
-        "title": "Software Engineer Intern",
-        "locations": [
-            "Atlanta, GA",
-            "Lowell, MA",
-            "Weston, FL",
-            "Branchburg, NJ"
-        ],
-        "terms": [
-            "Spring 2024",
-            "Summer 2024"
-        ],
-        "sponsorship": "Does Not Offer Sponsorship",
-        "active": true,
-        "source": "mtlogs",
-        "id": "5db48ba6-6ce8-4101-9063-d3e290537d34",
-        "date_posted": 1693407022,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "date_updated": 1694186333,
-        "url": "https://broadridge.wd5.myworkdayjobs.com/Careers/job/New-York-NY/Broadridge-Technology-Internship---Summer-2024_JR1058524",
-        "company_name": "Broadridge",
-        "title": "Technology Internship \ud83d\udec2\t",
-        "locations": [
-            "New York, NY",
-            "Edgewood, NY",
-            "Newark, NJ"
-        ],
-        "terms": [
-            "Summer 2024"
-        ],
-        "sponsorship": "Other",
-        "active": false,
-        "source": "ngitman",
-        "id": "f13e21d0-fd6f-4d9d-bf52-2818993f6b2a",
-        "date_posted": 1693706589,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "date_updated": 1694186313,
-        "url": "https://careers.zebra.com/careers/job/343614986125",
-        "company_name": "Zebra Technologies Corporation",
-        "title": "Software Engineer Internship\t",
-        "locations": [
-            "New York, NY Edgewood, NY Newark, NJ"
-        ],
-        "terms": [
-            "Summer 2024"
-        ],
-        "sponsorship": "Other",
-        "active": false,
-        "source": "ngitman",
-        "id": "1bf47550-bf0f-4c01-ae85-ffa3f63b7772",
-        "date_posted": 1693706622,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "date_updated": 1694102441,
-        "url": "https://mycareer.verizon.com/jobs/r-1014349/ai-ml-engineering-summer-2024-internship/",
-        "company_name": "Verizon",
-        "title": "AI/ML Engineering Summer 2024 Internship",
-        "locations": [
-            "Basking Ridge, New Jersey",
-            "Irving, TX",
-            "Boston, Massachusetts"
-        ],
-        "terms": [
-            "Summer 2024"
-        ],
-        "sponsorship": "Does Not Offer Sponsorship",
-        "active": false,
-        "source": "j0hnxie",
-        "id": "60c59d16-f7a7-4230-be45-8e12b53b11c4",
-        "date_posted": 1694102441,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "date_updated": 1695338953,
-        "url": "https://mycareer.verizon.com/jobs/r-1014280/full-stack-software-development-summer-2024-internship/",
-        "company_name": "Verizon",
-        "title": "Full Stack Software Development Summer Internship",
-        "locations": [
-            "Basking Ridge, New Jersey",
-            "Alpharetta, Georgia",
-            "Irving, Texas",
-            "Boston, Massachusetts",
-            "Lone Tree, Colorado",
-            "Irvine, California",
-            "Walnut Creek, California"
-        ],
-        "terms": [
-            "Summer 2024"
-        ],
-        "sponsorship": "Other",
-        "active": false,
-        "source": "j0hnxie",
-        "id": "99cb82cd-6771-4e59-b857-13d41c33b4b5",
-        "date_posted": 1694102466,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "date_updated": 1694104579,
-        "url": "https://mycareer.verizon.com/jobs/r-1014366/network-performance-summer-2024-internship/",
-        "company_name": "Verizon",
-        "title": "Network Performance Summer 2024 Internship",
-        "locations": [
-            "Basking Ridge, New Jersey",
-            "Bedminster, New Jersey",
-            "Temple Terrace, Florida",
-            "Lake Mary, Florida",
-            "Walnut Creek, California",
-            "Twinsburg, Ohio",
-            "Ashburn, Virginia",
-            "Irving, Texas",
-            "Cary, North Carolina",
-            "Irvine, California",
-            "New York, New York",
-            "Rolling Meadows, Illinois",
-            "Alpharetta, Georgia",
-            "Boston, Massachusetts",
-            "Branchburg, New Jersey"
-        ],
-        "terms": [
-            "Summer 2024"
-        ],
-        "sponsorship": "Does Not Offer Sponsorship",
-        "active": false,
-        "source": "j0hnxie",
-        "id": "fcc0bd31-f868-47f5-bad3-8e4b9747575e",
-        "date_posted": 1694104579,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Nextdoor",
-        "id": "e96aaef7-62ae-4658-855b-73cd71f02181",
-        "title": "Generative AI Intern - Summer 2024",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1694186462,
-        "date_posted": 1694127925,
-        "url": "https://about.nextdoor.com/careers-list/?gh_jid=5354524",
-        "locations": [
-            "Basking Ridge, New Jersey Bedminster, New Jersey Temple Terrace, Florida Lake Mary, Florida Walnut Creek, California Twinsburg, Ohio Ashburn, Virginia Irving, Texas Cary, North Carolina Irvine, California New York, New York Rolling Meadows, Illinois Alpharetta, Georgia Boston, Massachusetts Branchburg, New Jersey"
-        ],
-        "company_url": "https://simplify.jobs/c/Nextdoor",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "date_updated": 1698118488,
-        "url": "https://mycareer.verizon.com/jobs/r-1014359/network-automation-summer-2024-internship/",
-        "company_name": "Verizon",
-        "title": "Network Automation Summer 2024 Internship",
-        "locations": [
-            "Basking Ridge, New Jersey",
-            "Irving, Texas",
-            "Ashburn, Virginia",
-            "Cary, North Carolina"
-        ],
-        "terms": [
-            "Summer 2024"
-        ],
-        "sponsorship": "Other",
-        "active": false,
-        "source": "j0hnxie",
-        "id": "bd40760a-f3bc-44ca-a50e-cc934ea626b7",
-        "date_posted": 1694148244,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Stryker",
-        "id": "5ac4fa2c-8c2e-465f-9484-551aa7956fec",
-        "title": "Materials Engineering Intern - Design Assurance",
-        "active": false,
-        "terms": [
-            "Summer 2023"
-        ],
-        "date_updated": 1694474152,
-        "date_posted": 1694474152,
-        "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Mahwah-New-Jersey/Materials-Engineering-Intern--Design-Assurance_R504950",
-        "locations": [
-            "Mahwah, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Stryker",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Walmart",
-        "id": "9314a202-25a9-4b46-b9c9-ab37502f283c",
-        "title": "2024 Summer Intern: Walmart Connect \u2013 Walmart Intern - Data Science",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1694560623,
-        "date_posted": 1694560623,
-        "url": "https://walmart.wd5.myworkdayjobs.com/WalmartExternal/job/Hoboken-NJ/XMLNAME-2024-Summer-Intern--Walmart-Connect--Data-Science--Walmart-Intern_R-1650896-1",
-        "locations": [
-            "Bentonville, AR",
-            "San Bruno, CA",
-            "Union City, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Walmart",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Bristol-Myers Squibb",
-        "id": "9381274e-6cf7-403d-b82e-31e974f07a0f",
-        "title": "Co-Op \u2013 Data Science Co-Op - Spring 2024",
-        "active": false,
-        "terms": [
-            "Spring 2024"
-        ],
-        "date_updated": 1695080054,
-        "date_posted": 1695080054,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Co-Op---Data-Science-Co-Op----Spring-2024-_R1573393",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Stryker",
-        "id": "f4dccbda-8695-43f1-a071-ad36b12186ec",
-        "title": "Intern \u2013 Sterility & Biocompatibility",
-        "active": false,
-        "terms": [
-            "Summer 2023"
-        ],
-        "date_updated": 1696023721,
-        "date_posted": 1695943298,
-        "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Mahwah-New-Jersey/Intern--Sterility---Biocompatibility_R504997",
-        "locations": [
-            "Mahwah, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Stryker",
-        "is_visible": false,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Finra",
-        "id": "f3a9363a-430c-41e7-94ca-bc2cab1d4bca",
-        "title": "2024 Summer Corporate Internship Program - Cyber Security",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1695856671,
-        "date_posted": 1695856671,
-        "url": "https://finra.wd1.myworkdayjobs.com/FINRA/job/Rockville-MD-Job-Posting/XMLNAME-2024-Summer-Corporate-Internship-Program---Cyber-Security_R-006961",
-        "locations": [
-            "Cambridge, MA",
-            "New Orleans, LA",
-            "Washington, DC",
-            "SF",
-            "LA",
-            "North Bethesda, MD",
-            "Dallas, TX",
-            "Philadelphia, PA",
-            "Boca Raton, FL",
-            "Iselin, Woodbridge Township, NJ",
-            "Chicago, IL",
-            "Kansas City, MO",
-            "Reston, VA",
-            "New York, NY",
-            "Denver, CO"
-        ],
-        "company_url": "https://simplify.jobs/c/Finra",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Walmart",
-        "id": "c1aa4791-e1f4-4453-af4d-b8f2d16f1675",
-        "title": "2024 Summer MBA Intern: Walmart Connect Product Management",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1697151958,
-        "date_posted": 1697151958,
-        "url": "https://walmart.wd5.myworkdayjobs.com/WalmartExternal/job/San-Bruno-CA/XMLNAME-2024-Summer-MBA-Intern--Walmart-Connect-Product-Management_R-1684764",
-        "locations": [
-            "San Bruno, CA",
-            "Union City, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Walmart",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Bristol-Myers Squibb",
-        "id": "adb68f63-be67-4f39-8715-43ce42904a93",
-        "title": "Summer 2024 \u2013 Internship - Machine Learning and Bioinformatics - Informatics and Predictive Science - Ips",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1697757585,
-        "date_posted": 1697757585,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Cambridge-Crossing---MA---US/Summer-2024---Machine-Learning-and-Bioinformatics---Informatics-and-Predictive-Science--IPS--Internship_R1574592",
-        "locations": [
-            "Cambridge, MA",
-            "Summit, NJ",
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "date_updated": 1698551435,
-        "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210429295/",
-        "company_name": "JPMorgan Chase & CO",
-        "title": "Software Engineer Intern",
-        "locations": [
-            "New York City, New York",
-            "Columbus, OH",
-            "Houston, TX",
-            "Chicago, IL",
-            "Wilmington, DE",
-            "Palo Alto, CA",
-            "Plano, TX",
-            "Seattle, WA",
-            "Tampla, FL",
-            "Atlanta, GA",
-            "Jersey City, NJ"
-        ],
-        "terms": [
-            "Summer 2024"
-        ],
-        "sponsorship": "Does Not Offer Sponsorship",
-        "active": true,
-        "source": "rygeorge",
-        "id": "6217e33c-f4ea-452e-886b-a96445102d2e",
-        "date_posted": 1698551435,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Bristol-Myers Squibb",
-        "id": "bfe8da5d-410a-42d0-9ec2-37a898236b0a",
-        "title": "Summer 2024 \u2013 Statistical Programming Internship - Undergraduate",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1698794326,
-        "date_posted": 1698794326,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Summer-2024---Statistical-Programming-Internship--Undergraduate-_R1574941",
-        "locations": [
-            "Seattle, WA",
-            "Summit, NJ",
-            "Princeton, NJ",
-            "San Diego, CA"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Stryker",
-        "id": "6911def1-bfc5-46cd-be5f-1633c3eb77ce",
-        "title": "Intern \u2013 Spine Biomechanics Laboratory Engineer",
-        "active": false,
-        "terms": [
-            "Summer 2023"
-        ],
-        "date_updated": 1699489748,
-        "date_posted": 1699333470,
-        "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Allendale-New-Jersey/Intern---Spine-Biomechanics-Laboratory-Engineer_R504816-1",
-        "locations": [
-            "Mahwah, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Stryker",
-        "is_visible": false,
-        "sponsorship": "Other"
-    },
-    {
-        "date_updated": 1700283332,
-        "url": "https://careers-sri.icims.com/jobs/5723/job",
-        "company_name": "SRI International",
-        "title": "Software Engineering - Intern",
-        "locations": [
-            "Menlo Park, CA",
-            "Princeton, NJ"
-        ],
-        "terms": [
-            "Summer 2024"
-        ],
-        "sponsorship": "Other",
-        "active": true,
-        "source": "vanshb03",
-        "id": "188b32d3-f5bd-42e5-99b9-8b040524f4df",
-        "date_posted": 1700283332,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "date_updated": 1700926922,
-        "url": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/300723",
-        "company_name": "Tradeweb",
-        "title": "C++ Developer - Intern",
-        "locations": [
-            "Jersey City, NJ"
-        ],
-        "terms": [
-            "Summer 2024"
-        ],
-        "sponsorship": "Other",
-        "active": true,
-        "source": "vanshb03",
-        "id": "63a6a6ee-cd49-4ccd-acbf-189d88f69c70",
-        "date_posted": 1700926922,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Dow Jones",
-        "id": "9d6582fe-5518-4cd5-a90f-a2eba934b9ef",
-        "title": "Summer 2024 Internship - Financial Analyst",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1707332324,
-        "date_posted": 1707332324,
-        "url": "https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career/job/NYC---1211-Ave-of-the-Americas/Summer-2024-Internship---Financial-Analyst_Job_Req_40290",
-        "locations": [
-            "Princeton, NJ",
-            "New York, NY"
-        ],
-        "company_url": "https://simplify.jobs/c/ebbf3772-7f04-4984-871c-606e13d4f2aa",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Dow Jones",
-        "id": "cf2daa5b-5aa4-4f3b-add6-eac41bb3d726",
-        "title": "Summer 2024 Internship - Software Engineer",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1707332322,
-        "date_posted": 1707332322,
-        "url": "https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career/job/NYC---1211-Ave-of-the-Americas/Summer-2024-Internship---Software-Engineer_Job_Req_40302",
-        "locations": [
-            "Princeton, NJ",
-            "New York, NY"
-        ],
-        "company_url": "https://simplify.jobs/c/ebbf3772-7f04-4984-871c-606e13d4f2aa",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "OwnBackup",
-        "id": "2de4be8f-184a-422b-9b26-c907034b42f4",
-        "title": "Software Engineering Intern",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1707438066,
-        "date_posted": 1707438066,
-        "url": "https://www.owndata.com/jobs?gh_jid=7116312002",
-        "locations": [
-            "Englewood, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/OwnBackup",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "OwnBackup",
-        "id": "ed879b9d-3477-4e48-974b-a25ab7a7ef89",
-        "title": "Software Engineer Intern",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1707438066,
-        "date_posted": 1707438066,
-        "url": "https://www.owndata.com/jobs?gh_jid=7116309002",
-        "locations": [
-            "Englewood, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/OwnBackup",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "OwnBackup",
-        "id": "9d4d8318-a0fa-4960-829a-f88d328b706e",
-        "title": "Data Science & Machine Learning Intern",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1707438064,
-        "date_posted": 1707438064,
-        "url": "https://www.owndata.com/jobs?gh_jid=7116368002",
-        "locations": [
-            "Englewood, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/OwnBackup",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "OwnBackup",
-        "id": "27fe3f72-c609-4f56-a9ce-cc933706f275",
-        "title": "Data Engineer Intern",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1707438064,
-        "date_posted": 1707438064,
-        "url": "https://www.owndata.com/jobs?gh_jid=7116261002",
-        "locations": [
-            "Englewood, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/OwnBackup",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "OwnBackup",
-        "id": "2ae0bd07-5d41-4181-9cfe-822288caf947",
-        "title": "Business Intelligence Intern",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1707438060,
-        "date_posted": 1707438060,
-        "url": "https://www.owndata.com/jobs?gh_jid=7116258002",
-        "locations": [
-            "Englewood, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/OwnBackup",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Legend Biotech",
-        "id": "6fef6f3a-ad22-4ca5-9afb-25c0b5c19416",
-        "title": "Enterprise Data Governance Intern",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1707797114,
-        "date_posted": 1707495015,
-        "url": "https://boards.greenhouse.io/legendcareers/jobs/4368501005",
-        "locations": [
-            "Somerset County, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Legend-Biotech",
-        "is_visible": false,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Bristol-Myers Squibb",
-        "id": "979e3625-6788-4791-b5e9-6303d6d905ab",
-        "title": "Summer 2024 \u2013 Decision Intelligence Internship",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1707869365,
-        "date_posted": 1707869365,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Summer-2024---Decision-Intelligence-Internship_R1578548",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Legend Biotech",
-        "id": "3e8366fc-755f-44df-9ab3-ac9f2fb3d218",
-        "title": "Data Analytics/Business Intelligence Intern",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1707869285,
-        "date_posted": 1707869285,
-        "url": "https://boards.greenhouse.io/legendcareers/jobs/4366367005",
-        "locations": [
-            "Somerset County, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Legend-Biotech",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Bristol-Myers Squibb",
-        "id": "7f7c6b43-acec-4502-8fdc-558fb7e6447e",
-        "title": "Summer 2024 \u2013 Commercial Data Science Internship",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1709223189,
-        "date_posted": 1709223189,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Summer-2024---Commercial-Data-Science-Internship_R1578876",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "PerformLine",
-        "id": "592faaa6-d206-4c76-932d-c3f8383d6e07",
-        "title": "Tech Internship",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1709877570,
-        "date_posted": 1709598663,
-        "url": "https://performline.com/company/career-opportunities/?gh_jid=5724590",
-        "locations": [
-            "Morristown, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/PerformLine",
-        "is_visible": false,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Bristol-Myers Squibb",
-        "id": "6dabd90f-3b57-4c65-829b-c277f63c58a4",
-        "title": "Commercial Data Science Intern",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1709877157,
-        "date_posted": 1709827830,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Commercial-Data-Science-Intern_R1579019",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": false,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Bristol-Myers Squibb",
-        "id": "463bf8d2-5cc2-460e-a84e-5fbeac118c19",
-        "title": "2024 Summer Intern EOHSS - Environment - Occupational Health Safety - And Sustainability",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1710803639,
-        "date_posted": 1710458959,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/XMLNAME-2024-Summer-Intern-EOHSS--Environment--Occupational-Health-Safety--and-Sustainability-_R1579183",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": false,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Bristol-Myers Squibb",
-        "id": "a4595eb6-33aa-4057-b773-f5b794fc2016",
-        "title": "Summer 2024 \u2013 Commercial Data Science Internship",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1710803546,
-        "date_posted": 1710545277,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Summer-2024---Commercial-Data-Science-Internship_R1579207",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": false,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "CACI",
-        "id": "d7e445bc-1f71-4850-82bb-4ee109559729",
-        "title": "Security System Administrator Intern - Summer 2024",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1710545430,
-        "date_posted": 1710545430,
-        "url": "https://caci.wd1.myworkdayjobs.com/External/job/US-NJ-Florham-Park/Security-System-Administrator-Intern---Summer-2024_293451-2",
-        "locations": [
-            "Livingston, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/CACI",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Bristol-Myers Squibb",
-        "id": "b45a6750-02bd-4905-b3aa-4d8c3fe9525f",
-        "title": "Global Engineering Intern",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1709338140,
-        "date_posted": 1709338140,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/New-Brunswick---NJ---US/Global-Engineering-Intern_R1578898",
-        "locations": [
-            "Franklin Township, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Legend Biotech",
-        "id": "df7c037b-a06b-4e44-9e00-bc211ac6be55",
-        "title": "R&D Intern",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1707437298,
-        "date_posted": 1707437298,
-        "url": "https://boards.greenhouse.io/legendcareers/jobs/4366401005",
-        "locations": [
-            "Somerset County, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Legend-Biotech",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Legend Biotech",
-        "id": "2d9ee491-f763-46eb-94cd-7bd8202252f8",
-        "title": "R&D Intern",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1707437298,
-        "date_posted": 1707437298,
-        "url": "https://boards.greenhouse.io/legendcareers/jobs/4368123005",
-        "locations": [
-            "Middlesex, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Legend-Biotech",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Stryker",
-        "id": "6c6e7eaa-fe9d-49fc-b4a9-fc0fe716cb3a",
-        "title": "Summer Internship 2024 - Marketing - New Jersey",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1694048652,
-        "date_posted": 1693610055,
-        "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Mahwah-New-Jersey/Summer-Internship-2024---Marketing---New-Jersey_R505318-1",
-        "locations": [
-            "Mahwah, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Stryker",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Triumvirate Environmental",
-        "id": "012c1bc3-8ded-4970-8c0f-2636bb82107f",
-        "title": "Environmental Specialist Intern",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1709568464,
-        "date_posted": 1709568464,
-        "url": "https://boards.greenhouse.io/triumvirateenvironmental/jobs/4332676006",
-        "locations": [
-            "Middlesex, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Triumvirate-Environmental",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "CACI",
-        "id": "0499b4c2-211a-4e5b-a7fb-94a95a798122",
-        "title": "Technology Intern - Summer 2024",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1712071757,
-        "date_posted": 1712071757,
-        "url": "https://caci.wd1.myworkdayjobs.com/External/job/US-MD-Aberdeen-Proving-Ground/Technology-Intern---Summer-2024_286167-1",
-        "locations": [
-            "Aberdeen, MD",
-            "Lakehurst, NJ",
-            "Mt Holly, NJ",
-            "Fort Belvoir, VA"
-        ],
-        "company_url": "https://simplify.jobs/c/CACI",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Cross River Bank",
-        "id": "41c2a129-a79f-4575-87c3-6faa48e1b716",
-        "title": "Capital Solutions Group \u2013 Summer Analyst 2024",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1711496686,
-        "date_posted": 1711496686,
-        "url": "https://www.crossriver.com/greenhouse?gh_jid=5932840003",
-        "locations": [
-            "Edgewater, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Cross-River",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Legend Biotech",
-        "id": "3d120ced-0be1-4581-a362-e58d70b430ab",
-        "title": "C&Q Intern",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1713921765,
-        "date_posted": 1712276105,
-        "url": "https://boards.greenhouse.io/legendcareers/jobs/4383131005",
-        "locations": [
-            "Somerset County, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Legend-Biotech",
-        "is_visible": false,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Legend Biotech",
-        "id": "8f5404b7-ce41-4264-bfed-f0e52e79d05b",
-        "title": "R&D Intern",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1707437299,
-        "date_posted": 1707437299,
-        "url": "https://boards.greenhouse.io/legendcareers/jobs/4368120005",
-        "locations": [
-            "Middlesex, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Legend-Biotech",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Legend Biotech",
-        "id": "7a9e1d8a-b83a-4f29-8e4a-910601f331d2",
-        "title": "R&D Intern",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1713602004,
-        "date_posted": 1707437299,
-        "url": "https://boards.greenhouse.io/legendcareers/jobs/4366400005",
-        "locations": [
-            "Somerset County, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Legend-Biotech",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Marcus & Millichap",
-        "id": "7496add4-d6c4-4333-a21f-28a010dbaaf5",
-        "title": "Corporate Capital Markets Intern",
-        "active": false,
-        "terms": [
-            "Spring 2024"
-        ],
-        "date_updated": 1714022783,
-        "date_posted": 1714022783,
-        "url": "https://jobs.lever.co/marcusmillichap/7d364e84-c4d3-4105-bc19-5efb0f7984a9/apply",
-        "locations": [
-            "Union City, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Marcus-Millichap",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "CACI",
-        "id": "73d10d47-a5b4-4e82-af26-db5b97033138",
-        "title": "Junior Software Developer Intern - Summer 2024",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1715037368,
-        "date_posted": 1715037368,
-        "url": "https://caci.wd1.myworkdayjobs.com/External/job/US-NJ-Florham-Park/Junior-Software-Developer-Intern---Summer-2024_295954",
-        "locations": [
-            "Livingston, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/CACI",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "TSMG",
-        "id": "2459db1a-dbbd-4ea2-b77f-e775898add98",
-        "title": "Driver / Data collector",
-        "active": false,
-        "terms": [
-            "Summer 2024"
-        ],
-        "date_updated": 1715442567,
-        "date_posted": 1715442567,
-        "url": "https://jobs.lever.co/tsmg/16868768-8136-4150-a77e-fbf8b79b507d/apply",
-        "locations": [
-            "Montclair, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/TSMG",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "date_updated": 1734501071,
-        "url": "https://www.linkedin.com/jobs/view/ai-ml-engineer-intern-summer-2025-at-cranium-3925803158/",
-        "company_name": "Cranium",
-        "title": "AI/ML Engineer Intern",
-        "locations": [
-            "Short Hills, NJ"
-        ],
-        "terms": [
-            "Summer 2025"
-        ],
-        "sponsorship": "Other",
-        "active": false,
-        "source": "yan-michael",
-        "id": "a1e33faf-24ec-4a5a-9775-99bc78dfb72a",
-        "date_posted": 1715645215,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "date_updated": 1720013424,
-        "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210527407/?keyword=2025+Software+Engineer+Program+-+Summer+Internship+%E2%80%93+United+States&mode=location",
-        "company_name": "J. P. Morgan",
-        "title": "Software Engineer Intern",
-        "locations": [
-            "Atlanta, GA Chicago, IL Columbus, OH Houston, TX Jersey City, NJ Palo Alto, CA New York, NY Plano, TX Seattle, WA Tampa, FL Austin, TX"
-        ],
-        "terms": [
-            "Summer 2025"
-        ],
-        "sponsorship": "Does Not Offer Sponsorship",
-        "active": false,
-        "source": "reddoy",
-        "id": "5c01ea70-5a11-452e-95ad-072e71881e5f",
-        "date_posted": 1719853112,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "date_updated": 1731222795,
-        "url": "https://www.wellsfargojobs.com/en/jobs/r-385829/2025-technology-summer-internship-early-careers-software-or-data-engineer/",
-        "company_name": "Wells Fargo",
-        "title": "Software Engineering Intern",
-        "locations": [
-            "Charlotte, NC",
-            "Chandler, AZ",
-            "Phoenix, AZ",
-            "Summit, NJ",
-            "Irving, TX",
-            "Addison. TX",
-            "Minneapolis, MN",
-            "Saint Louis, MO"
-        ],
-        "terms": [
-            "Summer 2025"
-        ],
-        "sponsorship": "Other",
-        "active": false,
-        "source": "jerhe3",
-        "id": "b5981e4a-fac6-47af-97e2-d3cc9b93d05f",
-        "date_posted": 1721243616,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "date_updated": 1722290812,
-        "url": "https://campus.bankofamerica.com/careers/global_technology_summer_analyst_program__2025.html",
-        "company_name": "Bank of America",
-        "title": "Global Technology Analyst Intern",
-        "locations": [
-            "Charlotte, NC",
-            "Chicago, IL",
-            "Dallas Metro, TX",
-            "Denver, CO",
-            "NY Metro",
-            "Pennington, NJ",
-            "Richmond, VA",
-            "Washington, DC"
-        ],
-        "terms": [
-            "Summer 2025"
-        ],
-        "sponsorship": "Offers Sponsorship",
-        "active": true,
-        "source": "cboiteux2765",
-        "id": "24f22926-09d3-478c-9fe1-c957d032df4e",
-        "date_posted": 1722290812,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Bristol-Myers Squibb",
-        "id": "3ad0e981-d336-43f5-b9b3-4bbd3c97acfd",
-        "title": "Digital Accelerator Program Internship - Summer 2025",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1723706831,
-        "date_posted": 1723706831,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/DigITal-Accelerator-Program-Internship---Summer-2025_R1584488",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "date_updated": 1724882154,
-        "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Software-Engineering-Intern_R45675?utm_medium=jobboard",
-        "company_name": "Trimble",
-        "title": "Software Engineer Intern",
-        "locations": [
-            "Sunnyvale, CA",
-            "Westminster, CO",
-            "Knoxville, TN",
-            "Portland, OR",
-            "Dayton, OH",
-            "Princeton, NJ"
-        ],
-        "terms": [
-            "Summer 2025"
-        ],
-        "sponsorship": "U.S. Citizenship is Required",
-        "active": true,
-        "source": "LuaanNguyen",
-        "id": "4d85d964-992e-4923-acb9-1b0964010b17",
-        "date_posted": 1724882154,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "date_updated": 1724887017,
-        "url": "https://www.jobs-ups.com/job/-/-/1187/69216247280",
-        "company_name": "UPS",
-        "title": "Technology Group Summer 2025 Internship",
-        "locations": [
-            "Parsippany, NJ"
-        ],
-        "terms": [
-            "Summer 2025"
-        ],
-        "sponsorship": "Other",
-        "active": true,
-        "source": "Ziqi-M",
-        "id": "3a883a7e-8935-4b57-b992-b3d7fc8f2406",
-        "date_posted": 1724887017,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "date_updated": 1724978356,
-        "url": "https://td.wd3.myworkdayjobs.com/fr-CA/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2025-Summer-Internship-Program----Platforms---Technology---Software-Engineer_R_1365598",
-        "company_name": "TD",
-        "title": "2025 Summer Internship Program - Platforms & Technology - Software Engineer",
-        "locations": [
-            "Mount Laurel, NJ"
-        ],
-        "terms": [
-            "Summer 2025"
-        ],
-        "sponsorship": "Other",
-        "active": true,
-        "source": "GaryZhous",
-        "id": "2f2623d5-93d5-4e97-b28a-ec5e178de75b",
-        "date_posted": 1724911932,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "date_updated": 1725163542,
-        "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?jobid=305740&siteid=5131&partnerid=25008&PageType=JobDetails#jobDetails=305740_5131",
-        "company_name": "UBS",
-        "title": "2025 Summer Internship Program - Technology",
-        "locations": [
-            "New York, NY",
-            "Weehawken, NJ"
-        ],
-        "terms": [
-            "Summer 2025"
-        ],
-        "sponsorship": "Does Not Offer Sponsorship",
-        "active": true,
-        "source": "GaryZhous",
-        "id": "e8443463-1544-4709-98f3-bdb525b49765",
-        "date_posted": 1725163542,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Stryker",
-        "id": "c4a6229d-1835-4c7b-9f06-ffa628da8b75",
-        "title": "Summer 2025 Intern - Software Engineering - New Jersey",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1725372991,
-        "date_posted": 1725363003,
-        "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Mahwah-New-Jersey/Summer-2025-Intern---Software-Engineering---New-Jersey_R527314",
-        "locations": [
-            "Mahwah, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Stryker",
-        "is_visible": true,
-        "sponsorship": "Does Not Offer Sponsorship"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Bristol-Myers Squibb",
-        "id": "ec3ab055-1c9f-4a75-9539-18a6d63bfe7d",
-        "title": "Summer 2025 \u2013 Clinical Pharmacology Analysis and Reporting/Data Science Internship",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1726600955,
-        "date_posted": 1726600955,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Summer-2025---Clinical-Pharmacology-Analysis-and-Reporting-Data-Science-Internship_R1585580",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Dow Jones",
-        "id": "54c64056-7e71-42a1-a119-0abfdfd66fe9",
-        "title": "Summer 2025 Internship \u2013 Software Engineer Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1726614837,
-        "date_posted": 1726614837,
-        "url": "https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career/job/NYC---1211-Ave-of-the-Americas/Summer-2025-Internship---Software-Engineer-Intern_Job_Req_43114",
-        "locations": [
-            "Princeton, NJ",
-            "New York, NY"
-        ],
-        "company_url": "https://simplify.jobs/c/Dow-Jones",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Bristol-Myers Squibb",
-        "id": "341b2552-1ade-42bf-aeab-1b33732baf1d",
-        "title": "Summer 2025 \u2013 Hydrogen-Deuterium Exchange data analysis Internship",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1726888309,
-        "date_posted": 1726888309,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Summer-2025---Hydrogen-Deuterium-Exchange-data-analysis-Internship_R1585747",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Bristol-Myers Squibb",
-        "id": "61ec70d4-094c-4612-aa4b-4f446b8593eb",
-        "title": "Summer 2025 \u2013 Data Science Internship",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1726888308,
-        "date_posted": 1726888308,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Princeton---NJ---US/Summer-2025---Data-Science-Internship_R1585740",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
         "date_updated": 1728965691,
         "url": "https://jobs.thecignagroup.com/us/en/summer-internship-program",
         "company_name": "Cigna",
@@ -2041,25 +280,6 @@
             "Parsippany-Troy Hills, NJ"
         ],
         "company_url": "https://simplify.jobs/c/Intel",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Stryker",
-        "id": "ace5d48c-cbe1-4ec0-99d7-7f36f215b518",
-        "title": "Summer 2025 Intern - Project/Portfolio Management",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1734036090,
-        "date_posted": 1725406951,
-        "url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Mahwah-New-Jersey/Summer-2025-Intern---Project-Portfolio-Management---New-Jersey_R527480",
-        "locations": [
-            "Mahwah, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Stryker",
         "is_visible": true,
         "sponsorship": "Other"
     },
@@ -6540,7 +4760,7 @@
         "company_name": "Walker & Dunlop",
         "id": "39ce3904-145b-436f-9f7c-5e4351667870",
         "title": "Capital Markets Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6602,6 +4822,199 @@
         "degrees": [
             "Bachelor's",
             "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Leidos",
+        "id": "0f43d7bb-9f44-4ec0-9cfe-721d7d264ada",
+        "title": "Systems Integration and Software Engineer Intern - Transportation Solutions - Air Traffic Management",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1758669987,
+        "date_posted": 1758598265,
+        "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Atlantic-City-NJ/Systems--Integration-and-Software-Engineer-Intern_R-00167228",
+        "locations": [
+            "Atlantic City, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Leidos",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Verizon Communications",
+        "id": "a1f6c567-e298-4858-b782-21a41ee75548",
+        "title": "Global Solutions Intern - Technology Solutions",
+        "active": true,
+        "terms": [
+            "Summer 2026",
+            "Fall 2025"
+        ],
+        "date_updated": 1758665639,
+        "date_posted": 1758665639,
+        "url": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Alpharetta-Georgia/Alpharetta--V-Teamer-for-a-Day-2025-Global-Solutions-Intern-Program_R-1085779",
+        "locations": [
+            "E Fowler Ave, Tampa, FL",
+            "Irvine, CA",
+            "Berkeley Heights, NJ",
+            "Ashburn, VA",
+            "Alpharetta, GA",
+            "Irving, TX"
+        ],
+        "company_url": "https://simplify.jobs/c/Verizon-Communications",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "date_updated": 1758692580,
+        "sponsorship": "U.S. Citizenship is Required",
+        "active": true,
+        "degrees": [
+            "Bachelor's"
+        ],
+        "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00285547_en&title=Technology+Summer+Analyst+-+NAELFY26",
+        "company_name": "Accenture",
+        "title": "Technology Analyst",
+        "locations": [
+            "Chicago, IL",
+            "Arlington, VA",
+            "Atlanta, GA",
+            "Austin, TX",
+            "Boston, MA",
+            "Charlotte, NC",
+            "Houston, TX",
+            "Irving, TX",
+            "Los Angeles, CA",
+            "Morristown, NJ",
+            "New York City, NY",
+            "Philadelphia, PA",
+            "San Francisco, CA",
+            "Seattle, WA"
+        ],
+        "terms": [
+            "Summer 2026"
+        ],
+        "category": "Software Engineering",
+        "source": "AlmondCroffle",
+        "id": "58507aa1-eb64-4a9c-953c-2ea12b04dd83",
+        "date_posted": 1758692580,
+        "company_url": "",
+        "is_visible": true
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Sharp Electronics",
+        "id": "ce2a2737-ce05-48c1-adaa-ac72944101e0",
+        "title": "AI Process Automation Intern",
+        "active": true,
+        "terms": [
+            "Winter 2025",
+            "Spring 2026"
+        ],
+        "date_updated": 1758755366,
+        "date_posted": 1758755366,
+        "url": "https://careers-sharpusa.icims.com/jobs/8568/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Mahwah, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Sharp-Electronics",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Sony",
+        "id": "c028e3f3-97c3-4afe-8b37-2585ee015c99",
+        "title": "Research Intern - Multimodal Foundation Model for Vision",
+        "active": true,
+        "terms": [
+            "Winter 2025"
+        ],
+        "date_updated": 1758883033,
+        "date_posted": 1758883033,
+        "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---Massachusetts/Research-Intern---Multimodal-Foundation-Model-for-Vision_JR-118266",
+        "locations": [
+            "California",
+            "Washington, DC",
+            "SF",
+            "LA",
+            "Texas",
+            "San Jose, CA",
+            "Jackson Township, NJ",
+            "Waterbury, CT",
+            "Colorado",
+            "NYC",
+            "Maryland",
+            "Massachusetts"
+        ],
+        "company_url": "https://simplify.jobs/c/Sony",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Master's",
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Other",
+        "company_name": "Siemens",
+        "id": "d14d4aed-e7e7-4e77-a7ac-64e04b770346",
+        "title": "Security Systems Technician Internship - Internal Services - Smart Infrastructure",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1758981588,
+        "date_posted": 1758981588,
+        "url": "https://siemens.eightfold.ai/careers/job/563156131939163",
+        "locations": [
+            "Morristown, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Siemens",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Associate's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Other",
+        "company_name": "Siemens",
+        "id": "c71e755e-e1e3-44bd-82b1-7e510aa08a37",
+        "title": "Cybersecurity Intern - Cybersecurity",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1758981516,
+        "date_posted": 1758981516,
+        "url": "https://siemens.eightfold.ai/careers/job/563156132006762",
+        "locations": [
+            "Iselin, Woodbridge Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Siemens",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
         ]
     }
 ]
