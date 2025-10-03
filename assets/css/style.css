@@ -98,7 +98,7 @@ a:hover{text-decoration: underline}
 
   /* smaller, tighter link styling */
   .nav.container .nav-links a {
-    font-size: 12px;     /* smaller text for phones */
+    /*font-size: 12px;    /* smaller text for phones */
     padding: 4px 6px;    /* reduced padding */
     line-height: 1;      /* tighter height */
     border-radius: 6px;
@@ -108,7 +108,7 @@ a:hover{text-decoration: underline}
   /* join link stays prominent but compact */
   .nav.container .nav-links a[href*="join"],
   .mobile-join-btn {
-    font-size: 12px;
+    /* font-size: 12px; */
     padding: 5px 8px;
     font-weight: 800;
   }
@@ -1438,4 +1438,70 @@ a:hover{text-decoration: underline}
 #post article h2 + p { margin-top: 6px; }
 
 
+/* things to add: 
+  remove the hamburger when menu open
+  add x to leave
+  make it so clicking outside will close menu 
+  add join on right
+*/
 
+/* focus on functionality first!!!!! */
+
+
+/* mobile side bar */
+
+@media (max-width: 700px) {
+  .header, .nav.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .off-screen-menu {
+    height: 100vh;
+    width: 100%;
+    max-width: 60%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    transition: .3s ease;
+    border-radius: 30px;
+    background: rgba(255,255,255,0.93); 
+  }
+  .off-screen-menu.active {
+    left: 0;
+  } 
+
+  .ham-menu {
+    height: 45px;
+    width: 45px;
+    margin-right: auto;
+    margin-left: 18px;
+    position: relative;
+  }
+
+  .ham-menu span {
+    height: 4px;
+    width: 100%;
+    background-color: black;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+  }
+
+  .ham-menu span:nth-child(1) {
+    top: 25%;
+  }
+  .ham-menu span:nth-child(3) {
+    top: 75%;
+  }
+}
