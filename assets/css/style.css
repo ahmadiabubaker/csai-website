@@ -1439,8 +1439,6 @@ a:hover{text-decoration: underline}
 
 
 /* things to add: 
-  remove the hamburger when menu open
-  add x to leave
   make it so clicking outside will close menu 
   add join on right
 */
@@ -1458,12 +1456,13 @@ a:hover{text-decoration: underline}
   }
 
   .off-screen-menu {
+    z-index: 1000;
     height: 100vh;
     width: 100%;
     max-width: 60%;
     position: fixed;
     top: 0;
-    left: 0;
+    left: -60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1478,12 +1477,15 @@ a:hover{text-decoration: underline}
     left: 0;
   } 
 
+
   .ham-menu {
+    z-index: 1001;
     height: 45px;
     width: 45px;
     margin-right: auto;
     margin-left: 18px;
     position: relative;
+    cursor: pointer;
   }
 
   .ham-menu span {
@@ -1497,11 +1499,22 @@ a:hover{text-decoration: underline}
     transform: translate(-50%, -50%);
     transition: .3s ease;
   }
-
   .ham-menu span:nth-child(1) {
     top: 25%;
   }
   .ham-menu span:nth-child(3) {
     top: 75%;
+  }
+
+  .ham-menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .ham-menu.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .ham-menu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
   }
 }
