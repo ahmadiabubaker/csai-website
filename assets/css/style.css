@@ -1448,11 +1448,16 @@ a:hover{text-decoration: underline}
 
 /* mobile side bar */
 
+.join-button {
+  display: none;
+}
+
 @media (max-width: 700px) {
   .header, .nav.container {
     display: flex;
     justify-content: space-between;
     margin: 0;
+    width: 100%;
   }
 
   .off-screen-menu {
@@ -1470,13 +1475,12 @@ a:hover{text-decoration: underline}
     text-align: center;
     font-size: 3rem;
     transition: .3s ease;
-    border-radius: 30px;
+    border-radius: 14px;
     background: rgba(255,255,255,0.93); 
   }
   .off-screen-menu.active {
     left: 0;
   } 
-
 
   .ham-menu {
     z-index: 1001;
@@ -1486,6 +1490,18 @@ a:hover{text-decoration: underline}
     margin-left: 18px;
     position: relative;
     cursor: pointer;
+  }
+
+  .join-button {
+    margin-left: auto;
+    margin-right: 13px;
+    display: block;
+    border: none;
+    background: linear-gradient(to right, var(--accent-2), var(--accent-3));  
+  }
+  .join-button a {
+    color: white;
+    font-size: 17px; 
   }
 
   .ham-menu span {
