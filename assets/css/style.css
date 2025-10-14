@@ -1462,7 +1462,7 @@ a:hover{text-decoration: underline}
     z-index: 1000;
     height: 100vh;
     width: 100%;
-    max-width: 60%;
+    max-width: 55%;
     position: fixed;
     top: 0;
     left: -60%;
@@ -1478,13 +1478,13 @@ a:hover{text-decoration: underline}
   } 
 
   .off-screen-menu div {
-    font-size: 65%;
-    margin: 40% 0 0 20px;
+    margin: 150px 0 0 20px;
     display: flex;
     flex-direction: column;
   }
   .off-screen-menu div a {
-    margin: 7% 
+    margin: 7%;
+    font-size: 55%;
   }
 
   .ham-menu {
