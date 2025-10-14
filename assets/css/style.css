@@ -624,7 +624,6 @@ a:hover{text-decoration: underline}
 
 /* ===== Footer ===== */
 .footer{
-  margin-top: 60px;
   border-top:1px solid var(--glass-line);
   background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.82));
   padding: 24px; text-align:center; color:#3a4366
@@ -1438,14 +1437,6 @@ a:hover{text-decoration: underline}
 #post article h2 + p { margin-top: 6px; }
 
 
-/* things to add: 
-  make it so clicking outside will close menu 
-  add join on right
-*/
-
-/* focus on functionality first!!!!! */
-
-
 /* mobile side bar */
 
 .join-button {
@@ -1468,19 +1459,26 @@ a:hover{text-decoration: underline}
     position: fixed;
     top: 0;
     left: -60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+
     font-size: 3rem;
     transition: .3s ease;
     border-radius: 14px;
     background: rgba(255,255,255,0.93); 
+    
   }
   .off-screen-menu.active {
     left: 0;
   } 
+
+  .off-screen-menu div {
+    font-size: 65%;
+    margin: 40% 0 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .off-screen-menu div a {
+    margin: 7% 
+  }
 
   .ham-menu {
     z-index: 1001;
