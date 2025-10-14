@@ -24,6 +24,9 @@ body{
               radial-gradient(900px 500px at 90% 100%, #f3eaff, transparent 55%),
               linear-gradient(160deg, #f7fbff, #faf6ff 40%, #fff 70%);
   color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a{color:var(--accent-2); text-decoration: none}
@@ -37,7 +40,8 @@ a:hover{text-decoration: underline}
   position: sticky;
   top: 18px;
   z-index: 50;
-
+  
+  width: 100%;
   max-width: 1500px;       /* narrower header width */
   margin: 0 auto;         /* center horizontally */
   border-radius: 14px;
@@ -624,6 +628,7 @@ a:hover{text-decoration: underline}
 
 /* ===== Footer ===== */
 .footer{
+  margin-top: auto;
   border-top:1px solid var(--glass-line);
   background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.82));
   padding: 24px; text-align:center; color:#3a4366
@@ -1435,6 +1440,8 @@ a:hover{text-decoration: underline}
   color: transparent;
 }
 #post article h2 + p { margin-top: 6px; }
+
+
 
 
 /* mobile side bar */
