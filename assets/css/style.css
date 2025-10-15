@@ -24,6 +24,9 @@ body{
               radial-gradient(900px 500px at 90% 100%, #f3eaff, transparent 55%),
               linear-gradient(160deg, #f7fbff, #faf6ff 40%, #fff 70%);
   color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a{color:var(--accent-2); text-decoration: none}
@@ -37,7 +40,8 @@ a:hover{text-decoration: underline}
   position: sticky;
   top: 18px;
   z-index: 50;
-
+  
+  width: 100%;
   max-width: 1500px;       /* narrower header width */
   margin: 0 auto;         /* center horizontally */
   border-radius: 14px;
@@ -98,7 +102,7 @@ a:hover{text-decoration: underline}
 
   /* smaller, tighter link styling */
   .nav.container .nav-links a {
-    font-size: 12px;     /* smaller text for phones */
+    /*font-size: 12px;    /* smaller text for phones */
     padding: 4px 6px;    /* reduced padding */
     line-height: 1;      /* tighter height */
     border-radius: 6px;
@@ -108,7 +112,7 @@ a:hover{text-decoration: underline}
   /* join link stays prominent but compact */
   .nav.container .nav-links a[href*="join"],
   .mobile-join-btn {
-    font-size: 12px;
+    /* font-size: 12px; */
     padding: 5px 8px;
     font-weight: 800;
   }
@@ -624,7 +628,7 @@ a:hover{text-decoration: underline}
 
 /* ===== Footer ===== */
 .footer{
-  margin-top: 60px;
+  margin-top: auto;
   border-top:1px solid var(--glass-line);
   background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.82));
   padding: 24px; text-align:center; color:#3a4366
@@ -1331,6 +1335,9 @@ a:hover{text-decoration: underline}
   }
 }
 
+#diy-machine-learning li {
+  margin: 15px 0 15px 0;
+}
 /* ===== Blog Post Detail — Typography + Terminal-like Code Blocks ===== */
 #post {
   max-width: 900px;
@@ -1436,3 +1443,96 @@ a:hover{text-decoration: underline}
 
 
 
+
+/* mobile side bar */
+
+.join-button {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .header, .nav.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+  }
+
+  .off-screen-menu {
+    z-index: 1000;
+    height: 100vh;
+    width: 100%;
+    max-width: 55%;
+    position: fixed;
+    top: 0;
+    left: -60%;
+
+    font-size: 3rem;
+    transition: .3s ease;
+    border-radius: 14px;
+    background: rgba(255,255,255,0.93); 
+    
+  }
+  .off-screen-menu.active {
+    left: 0;
+  } 
+
+  .off-screen-menu div {
+    margin: 150px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .off-screen-menu div a {
+    margin: 7%;
+    font-size: 55%;
+  }
+
+  .ham-menu {
+    z-index: 1001;
+    height: 45px;
+    width: 45px;
+    margin-right: auto;
+    margin-left: 18px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .join-button {
+    margin-left: auto;
+    margin-right: 13px;
+    display: block;
+    border: none;
+    background: linear-gradient(to right, var(--accent-2), var(--accent-3));
+    color: white;  
+  }
+
+  .ham-menu span {
+    height: 4px;
+    width: 100%;
+    background-color: black;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+  }
+  .ham-menu span:nth-child(1) {
+    top: 25%;
+  }
+  .ham-menu span:nth-child(3) {
+    top: 75%;
+  }
+
+  .ham-menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .ham-menu.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .ham-menu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+}

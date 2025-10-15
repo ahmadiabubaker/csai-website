@@ -11,14 +11,30 @@
 
 <header class="header">
   <div class="nav container">
-    <nav class="nav-links" aria-label="Main navigation">
-      <a href="/">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="events.html">Events</a>
-      <a href="blog.html" class="active">Blog</a>
-      <a href="join.html">Join</a>
+
+      <!-- hamburger -->
+      <nav>
+        <div class="ham-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+
+    <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+      <div>
+        <a href="/">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="learning.html">Learning</a>
+        <a href="events.html">Events</a>
+        <a href="blog.html" class="active">Blog</a>
+        <a href="join.html">Join</a>
+      </div>
     </nav>
+
+    <a class="join-button btn" href="join.html">Join</a>
+
   </div>
 </header>
 
@@ -32,5 +48,6 @@
 
 <script src="assets/js/main.js"></script>
 <script src="assets/js/post.js"></script>
+<script src="assets/js/side-bar.js"></script>
 </body>
 </html>

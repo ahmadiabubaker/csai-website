@@ -9,33 +9,38 @@
 </head>
 <body>
 
-<!-- ===== Header ===== -->
  <!-- ===== Header ===== -->
 <header class="header">
   <div class="nav container">
 
-    <!-- Navigation links -->
-    <nav class="nav-links" aria-label="Main navigation">
-      <a href="/" class="active">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="events.html">Events</a>
-      <a href="internships.html">Internships</a>
-      <a href="join.html">Join</a>
+    <!-- hamburger -->
+    <nav>
+      <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </nav>
+
+    <!-- Navigation links -->
+    <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+      <div>
+        <a href="/" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="learning.html">Learning</a>
+        <a href="events.html">Events</a>
+        <a href="internships.html">Internships</a>
+        <a href="join.html">Join</a>
+      </div>
+    </nav>
+
+    <a class="join-button btn" href="join.html">Join</a>
 
     <!-- Join link always visible -->
   </div>
 </header>
 
-
-
-
-
-
-
-
-  
 
 <!-- ===== Hero ===== -->
 <section class="hero" id="home">
@@ -271,6 +276,6 @@
 
 <script src="assets/js/main.js"></script>
 <script src="assets/js/newsletter.js"></script>
-<script src="header.js"></script>
+<script src="assets/js/side-bar.js"></script>
 </body>
 </html>
