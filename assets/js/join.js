@@ -18,10 +18,20 @@
 
     const formData = new FormData(form);
     const email = (formData.get('email') || '').trim().toLowerCase();
+  const studentId = (formData.get('student_id') || '').trim();
 
     // ✅ email domain check
     if (!/^[A-Za-z0-9._%+-]+@students\.mccc\.edu$/.test(email)) {
       err.textContent = 'Please use your official school email (firstname.lastname@students.mccc.edu).';
+      err.style.display = 'block';
+      submitBtn.disabled = false;
+      submitBtn.textContent = "Submit";
+      return;
+    }
+
+    // Optional: student ID validation (digits only, 5-12 chars)
+    if (studentId && !/^\d{5,12}$/.test(studentId)) {
+      err.textContent = 'Please enter a valid Student ID (digits only).';
       err.style.display = 'block';
       submitBtn.disabled = false;
       submitBtn.textContent = "Submit";
