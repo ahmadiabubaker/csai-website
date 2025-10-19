@@ -1,63 +1,6 @@
 [
     {
         "source": "Simplify",
-        "company_name": "Legend Biotech",
-        "id": "c252a216-a678-4581-815b-4d527869ba26",
-        "title": "Sap Btp Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1740068800,
-        "date_posted": 1740068800,
-        "url": "https://job-boards.greenhouse.io/legendcareers/jobs/4531290005",
-        "locations": [
-            "Somerset County, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Legend-Biotech",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Legend Biotech",
-        "id": "5f5d6930-1cc3-441d-b04e-8b55cd9de9a3",
-        "title": "Analytical Data Science \u2013 CMC Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1740084022,
-        "date_posted": 1740084022,
-        "url": "https://job-boards.greenhouse.io/legendcareers/jobs/4531331005",
-        "locations": [
-            "Somerset County, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Legend-Biotech",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Legend Biotech",
-        "id": "168d5e5e-8360-433e-aa65-9509a51b2c85",
-        "title": "Data Science Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1740084023,
-        "date_posted": 1740084023,
-        "url": "https://job-boards.greenhouse.io/legendcareers/jobs/4531237005",
-        "locations": [
-            "Bridgewater Township, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Legend-Biotech",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
         "company_name": "Teledyne",
         "id": "222e24da-b70c-4eac-9192-8110cfbe22ef",
         "title": "Software Engineer Co-Op",
@@ -2367,7 +2310,7 @@
         "company_name": "Inventing for Life",
         "id": "4ea7eb32-814b-415e-b23c-4064685a3fa5",
         "title": "Future Talent Program \u2013 Intern - Regulatory Data Science",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -2635,7 +2578,7 @@
         "company_name": "Ernst & Young",
         "id": "516ce98c-7389-4d97-93ec-89cf91aec90d",
         "title": "Intern - Tax - People Advisory Services - Pas - Tax - Rewards - Jd/LLM - Summer 2026",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -2665,7 +2608,7 @@
         "company_name": "Merck",
         "id": "c67365a7-e698-4b56-b3b5-f6358b742236",
         "title": "2026 Future Talent Program \u2013 Intern - Medical Data Scientist",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -2959,7 +2902,7 @@
         "company_name": "Merck",
         "id": "f7fe9bdd-dfdd-4bc5-ae98-04f47e7d17d5",
         "title": "2026 Future Talent Program \u2013 Intern - Global Data Management & Standards",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -3201,7 +3144,7 @@
         "company_name": "Merck",
         "id": "5050b87e-6148-4488-9b57-ec91169f370d",
         "title": "Future Talent Program \u2013 Co-Op - Technology Design & Customer Interface",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2025"
         ],
@@ -3941,7 +3884,7 @@
         "company_name": "Sharp Electronics",
         "id": "ce2a2737-ce05-48c1-adaa-ac72944101e0",
         "title": "AI Process Automation Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Winter 2025",
             "Spring 2026"
@@ -4680,7 +4623,7 @@
         "company_name": "Innovative Defense Technologies",
         "id": "f168ff4f-2678-41fb-891a-9e6542dc6b03",
         "title": "Software Engineer Intern - Multiple Teams",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4729,7 +4672,7 @@
         "company_name": "Innovative Defense Technologies",
         "id": "bd67eb0d-ac5d-4f62-98fb-00e281394eeb",
         "title": "Software Engineer Intern - Warfare Systems",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4855,7 +4798,7 @@
         "company_name": "Rolls Royce",
         "id": "3f3811f4-f90a-48ea-895e-a05d037be23a",
         "title": "Intern - AI & Data Analytics - Multiple Teams",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2026",
             "Spring 2026"
@@ -4882,9 +4825,9 @@
         "title": "Data Scientist Intern/Co-op - AI & Data Science",
         "active": true,
         "terms": [
-            "Winter 2025"
+            "Summer 2026"
         ],
-        "date_updated": 1760146792,
+        "date_updated": 1760337609,
         "date_posted": 1760146792,
         "url": "https://kenvue.wd5.myworkdayjobs.com/kenvue/job/North-America-United-States-New-Jersey-Summit/Data-Scientist-Co-op--Undergraduate-_2507039230W",
         "locations": [
@@ -4895,6 +4838,255 @@
         "sponsorship": "Other",
         "degrees": [
             "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Johnson & Johnson",
+        "id": "8221d7e2-fbba-4ac5-b28d-ebea59b6251f",
+        "title": "Software Engineering Co-Op - XENA Developer Experience",
+        "active": true,
+        "terms": [
+            "Spring 2026",
+            "Summer 2026",
+            "Fall 2026"
+        ],
+        "date_updated": 1760340141,
+        "date_posted": 1760340141,
+        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/J-J-Technology-XENA-Software-Engineering-Off-Cycle-Co-Op---March-to-September-2026_R-036152",
+        "locations": [
+            "Bridgewater Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Highmark Health",
+        "id": "dac7a73f-ff61-428a-9025-cb68b6727738",
+        "title": "Data Science Research Intern - Data Science",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1760384758,
+        "date_posted": 1760384758,
+        "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2026-Data-Science-Research-Graduate-Intern_J270569",
+        "locations": [
+            "New Mexico",
+            "Washington",
+            "Kansas",
+            "Pennsylvania",
+            "North Dakota",
+            "Oregon",
+            "Delaware",
+            "Iowa",
+            "California",
+            "Washington, DC",
+            "Vermont",
+            "Wyoming",
+            "Texas",
+            "Montana",
+            "Jackson Township, NJ",
+            "Florida",
+            "Waterbury, CT",
+            "Nevada",
+            "South Carolina",
+            "South Dakota",
+            "Georgia",
+            "Arizona",
+            "Concord, NH",
+            "Mississippi",
+            "Tennessee",
+            "Virginia",
+            "Arkansas",
+            "Minnesota",
+            "Colorado",
+            "Nebraska",
+            "Rhode Island",
+            "Utah",
+            "Kentucky",
+            "West Virginia",
+            "NYC",
+            "Maryland",
+            "Hawaii",
+            "Wisconsin",
+            "Maine",
+            "Massachusetts",
+            "North Carolina",
+            "Oklahoma",
+            "Missouri",
+            "Ohio",
+            "Indiana",
+            "Louisiana",
+            "Alaska",
+            "Michigan",
+            "Illinois",
+            "Alabama",
+            "Idaho"
+        ],
+        "company_url": "https://simplify.jobs/c/Highmark-Health",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "date_updated": 1760537701,
+        "sponsorship": "Offers Sponsorship",
+        "active": true,
+        "degrees": [
+            "Bachelor's"
+        ],
+        "url": "https://www.careers.jnj.com/en/jobs/r-035679/2026-gd-us-summer-intern",
+        "company_name": "Johnson & Johnson",
+        "title": "GD (U.S.) Summer Intern",
+        "locations": [
+            "Raritan, NJ",
+            "Spring House, PA",
+            "Titusville, NJ"
+        ],
+        "terms": [
+            "Summer 2026"
+        ],
+        "category": "Data Science, AI & Machine Learning",
+        "source": "matthewjyhan",
+        "id": "726f2155-83b7-4eb5-b4ed-ba2659ce0ef6",
+        "date_posted": 1760537701,
+        "company_url": "",
+        "is_visible": true
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Merck",
+        "id": "36adbe30-b726-4a3d-b800-e133f80ee3e1",
+        "title": "2026 Future Talent Program \u2013 Intern - Global Communications Data & Analytics",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1760663432,
+        "date_posted": 1760663432,
+        "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/XMLNAME-2026-Future-Talent-Program---Global-Communications-Data---Analytics---Intern_R368507",
+        "locations": [
+            "Linden, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Merck",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Merck",
+        "id": "3be2bd1c-29d3-4e98-b50f-08c8804b5aac",
+        "title": "2026 Future Talent Program \u2013 Co-op - Global Supplier Management Group and Global Workplace & Enterprise Services Digital Strategy &... - Ds&I - Delivery Team",
+        "active": true,
+        "terms": [
+            "Winter 2025"
+        ],
+        "date_updated": 1760663385,
+        "date_posted": 1760663385,
+        "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/XMLNAME-2026-Future-Talent-Program---Global-Supplier-Management-Group-and-Global-Workplace---Enterprise-Services-Digital-Strategy---Insights--DS-I--Delivery-Team---Co-op_R370184",
+        "locations": [
+            "North Wales, PA",
+            "Linden, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Merck",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Johnson & Johnson",
+        "id": "2cb14c47-f4da-441e-9945-a42177924f3f",
+        "title": "IDAR Summer Intern - Ease",
+        "active": true,
+        "terms": [
+            "Summer 2025"
+        ],
+        "date_updated": 1760742748,
+        "date_posted": 1760742748,
+        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/IDAR-Summer-Intern---EASE_R-037446",
+        "locations": [
+            "New Hope, PA",
+            "Bridgewater Township, NJ",
+            "Ambler, PA"
+        ],
+        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's",
+            "MBA"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Johnson & Johnson",
+        "id": "ad0b91d9-74a2-4fc9-9276-024788f523f9",
+        "title": "IDAR Summer Intern - DM & CM",
+        "active": true,
+        "terms": [
+            "Summer 2025"
+        ],
+        "date_updated": 1760751077,
+        "date_posted": 1760751077,
+        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Spring-House-Pennsylvania-United-States-of-America/IDAR-Summer-Intern---DM---CM_R-037419",
+        "locations": [
+            "New Hope, PA",
+            "Bridgewater Township, NJ",
+            "Ambler, PA"
+        ],
+        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Johnson & Johnson",
+        "id": "5ebc11ba-28f9-4766-bebe-7fa702cc98c6",
+        "title": "IDAR Summer Intern - C&Sp",
+        "active": true,
+        "terms": [
+            "Summer 2025"
+        ],
+        "date_updated": 1760751099,
+        "date_posted": 1760751099,
+        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/IDAR-Summer-Intern---C-SP_R-037817-1",
+        "locations": [
+            "Bridgewater Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's",
+            "MBA"
         ]
     }
 ]
