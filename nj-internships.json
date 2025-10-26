@@ -1,45 +1,6 @@
 [
     {
         "source": "Simplify",
-        "company_name": "Teledyne",
-        "id": "222e24da-b70c-4eac-9192-8110cfbe22ef",
-        "title": "Software Engineer Co-Op",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1740673733,
-        "date_posted": 1740673733,
-        "url": "https://flir.wd1.myworkdayjobs.com/en-US/flircareers/job/US---Chestnut-Ridge-NY/Software-Engineer-Co-Op_REQ27924",
-        "locations": [
-            "Mahwah, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/199b3c43-379a-408c-a6a8-980e79183038",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "S&P Global ",
-        "id": "0a9db25e-8a7b-4c47-afed-ea60312d45bf",
-        "title": "Data Science Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1740690251,
-        "date_posted": 1740690251,
-        "url": "https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/New-York-NY/Data-Science-Intern_312468-2",
-        "locations": [
-            "Princeton, NJ",
-            "New York, NY"
-        ],
-        "company_url": "https://simplify.jobs/c/SP-Global",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
         "company_name": "S&P Global ",
         "id": "e9f139c0-d055-4143-bc0a-bfed1e3e3d0f",
         "title": "Software Engineering Intern",
@@ -2508,18 +2469,17 @@
         "terms": [
             "Spring 2026"
         ],
-        "date_updated": 1757357986,
+        "date_updated": 1761286832,
         "date_posted": 1757357986,
         "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/New-Brunswick-New-Jersey-United-States-of-America/Enterprise-Quality-2026-Co-op_R-030539",
         "locations": [
             "Edison, NJ"
         ],
         "company_url": "https://simplify.jobs/c/Johnson-Johnson",
-        "is_visible": true,
+        "is_visible": false,
         "sponsorship": "Other",
         "degrees": [
-            "Bachelor's",
-            "Master's"
+            "Bachelor's"
         ]
     },
     {
@@ -3052,14 +3012,14 @@
             "Winter 2026",
             "Summer 2026"
         ],
-        "date_updated": 1757468931,
+        "date_updated": 1761315447,
         "date_posted": 1757468931,
         "url": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/New-Jersey-Institute-of-Technology-Product-Engineering-Co-op_R-1084736",
         "locations": [
             "Berkeley Heights, NJ"
         ],
         "company_url": "https://simplify.jobs/c/Verizon-Communications",
-        "is_visible": true,
+        "is_visible": false,
         "sponsorship": "Other",
         "degrees": [
             "Bachelor's"
@@ -3190,7 +3150,7 @@
         "company_name": "Avis Budget Group",
         "id": "705f590d-58a7-426a-9df4-1bd6e473eafb",
         "title": "Accelerate Data Analytics Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -3218,14 +3178,14 @@
         "terms": [
             "Summer 2026"
         ],
-        "date_updated": 1757550353,
+        "date_updated": 1761406144,
         "date_posted": 1757550353,
         "url": "https://avisbudget.wd1.myworkdayjobs.com/abg_careers/job/379-Interpace-Pkwy-Parsippany-07054/Accelerate-TransformationEngineer-Intern---Summer-2026_R0180713",
         "locations": [
             "Parsippany-Troy Hills, NJ"
         ],
         "company_url": "https://simplify.jobs/c/Avis-Budget-Group",
-        "is_visible": true,
+        "is_visible": false,
         "sponsorship": "Other",
         "degrees": [
             "Bachelor's"
@@ -3496,14 +3456,14 @@
         "terms": [
             "Summer 2026"
         ],
-        "date_updated": 1757984181,
+        "date_updated": 1761406690,
         "date_posted": 1757984181,
         "url": "https://comcast.wd5.myworkdayjobs.com/Comcast_Careers/job/NJ---Mount-Laurel-1800-Bishops-Gate/Comcast-Network-Automation-Intern_R419581",
         "locations": [
             "Mt Laurel Township, NJ"
         ],
         "company_url": "https://simplify.jobs/c/Comcast",
-        "is_visible": true,
+        "is_visible": false,
         "sponsorship": "Other",
         "degrees": [
             "Bachelor's"
@@ -3582,9 +3542,9 @@
         ]
     },
     {
-        "date_updated": 1758012472,
+        "date_updated": 1761406745,
         "sponsorship": "Other",
-        "active": true,
+        "active": false,
         "degrees": [
             "Bachelor's"
         ],
@@ -3603,7 +3563,7 @@
         "id": "fdcabc3c-4e19-42c5-a139-3e634ae306f5",
         "date_posted": 1758012472,
         "company_url": "",
-        "is_visible": true
+        "is_visible": false
     },
     {
         "date_updated": 1759959526,
@@ -3800,14 +3760,14 @@
         "terms": [
             "Summer 2026"
         ],
-        "date_updated": 1758669987,
+        "date_updated": 1761314304,
         "date_posted": 1758598265,
         "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Atlantic-City-NJ/Systems--Integration-and-Software-Engineer-Intern_R-00167228",
         "locations": [
             "Atlantic City, NJ"
         ],
         "company_url": "https://simplify.jobs/c/Leidos",
-        "is_visible": true,
+        "is_visible": false,
         "sponsorship": "Other",
         "degrees": [
             "Bachelor's"
@@ -3884,7 +3844,7 @@
         "company_name": "Sharp Electronics",
         "id": "ce2a2737-ce05-48c1-adaa-ac72944101e0",
         "title": "AI Process Automation Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2025",
             "Spring 2026"
@@ -4479,7 +4439,7 @@
         "terms": [
             "Summer 2026"
         ],
-        "date_updated": 1759794460,
+        "date_updated": 1761322980,
         "date_posted": 1759794460,
         "url": "https://tiaa.wd1.myworkdayjobs.com/Search/job/Charlotte-NC-USA/XMLNAME-2026-Early-Talent-Internship--Technology_R250900283-2",
         "locations": [
@@ -4487,11 +4447,10 @@
             "Charlotte, NC"
         ],
         "company_url": "https://simplify.jobs/c/TIAA",
-        "is_visible": true,
+        "is_visible": false,
         "sponsorship": "Other",
         "degrees": [
-            "Bachelor's",
-            "Master's"
+            "Bachelor's"
         ]
     },
     {
@@ -4504,7 +4463,7 @@
         "terms": [
             "Summer 2026"
         ],
-        "date_updated": 1759805202,
+        "date_updated": 1761319108,
         "date_posted": 1759805202,
         "url": "https://tiaa.wd1.myworkdayjobs.com/Search/job/Charlotte-NC-USA/XMLNAME-2026-Early-Talent-Internship--TIAA-Enterprise-Analytics_R250900286-1",
         "locations": [
@@ -4512,11 +4471,10 @@
             "Charlotte, NC"
         ],
         "company_url": "https://simplify.jobs/c/TIAA",
-        "is_visible": true,
+        "is_visible": false,
         "sponsorship": "Other",
         "degrees": [
-            "Bachelor's",
-            "Master's"
+            "Bachelor's"
         ]
     },
     {
@@ -4672,7 +4630,7 @@
         "company_name": "Innovative Defense Technologies",
         "id": "bd67eb0d-ac5d-4f62-98fb-00e281394eeb",
         "title": "Software Engineer Intern - Warfare Systems",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -4701,7 +4659,7 @@
         "terms": [
             "Summer 2026"
         ],
-        "date_updated": 1760024533,
+        "date_updated": 1761409662,
         "date_posted": 1760024533,
         "url": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Rutgers-University---2026-Global-Solutions-Technology-Summer-Internship_R-1086610",
         "locations": [
@@ -4713,7 +4671,7 @@
             "Irving, TX"
         ],
         "company_url": "https://simplify.jobs/c/Verizon-Communications",
-        "is_visible": true,
+        "is_visible": false,
         "sponsorship": "Other",
         "degrees": [
             "Bachelor's"
@@ -4729,7 +4687,7 @@
         "terms": [
             "Summer 2026"
         ],
-        "date_updated": 1760114490,
+        "date_updated": 1761332131,
         "date_posted": 1760114490,
         "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2026-Data-Science-Graduate-Intern_J270573",
         "locations": [
@@ -4786,7 +4744,7 @@
             "Idaho"
         ],
         "company_url": "https://simplify.jobs/c/Highmark-Health",
-        "is_visible": true,
+        "is_visible": false,
         "sponsorship": "Other",
         "degrees": [
             "Bachelor's"
@@ -4827,14 +4785,14 @@
         "terms": [
             "Summer 2026"
         ],
-        "date_updated": 1760337609,
+        "date_updated": 1761332231,
         "date_posted": 1760146792,
         "url": "https://kenvue.wd5.myworkdayjobs.com/kenvue/job/North-America-United-States-New-Jersey-Summit/Data-Scientist-Co-op--Undergraduate-_2507039230W",
         "locations": [
             "Summit, NJ"
         ],
         "company_url": "https://simplify.jobs/c/Kenvue",
-        "is_visible": true,
+        "is_visible": false,
         "sponsorship": "Other",
         "degrees": [
             "Bachelor's"
@@ -4876,7 +4834,7 @@
         "terms": [
             "Summer 2026"
         ],
-        "date_updated": 1760384758,
+        "date_updated": 1761332348,
         "date_posted": 1760384758,
         "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2026-Data-Science-Research-Graduate-Intern_J270569",
         "locations": [
@@ -4933,7 +4891,7 @@
             "Idaho"
         ],
         "company_url": "https://simplify.jobs/c/Highmark-Health",
-        "is_visible": true,
+        "is_visible": false,
         "sponsorship": "Other",
         "degrees": [
             "Bachelor's"
@@ -5087,6 +5045,100 @@
             "Bachelor's",
             "Master's",
             "MBA"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Verizon Communications",
+        "id": "deecfe80-4897-4e3d-b887-21d7fc40a319",
+        "title": "Thurgood Marshall Immersion Program: Incident Management Analyst Summer Internship 2026",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1761317778,
+        "date_posted": 1761012122,
+        "url": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Cary-North-Carolina/Thurgood-Marshall-Immersion-Program--Incident-Management-Analyst-Summer-Internship-2026_R-1086963",
+        "locations": [
+            "Morrisville, NC",
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Verizon-Communications",
+        "is_visible": false,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Rolls Royce",
+        "id": "775f53c7-4654-4f99-8a37-e4bbeb76fe40",
+        "title": "",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1761116270,
+        "date_posted": 1761116270,
+        "url": "https://jobs.bmwgroup.com/job/Woodcliff-Lake-Intern,-Connected-E-Mobility-Spring-2026-New/1260569601/?ats=successfactors",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Rolls-Royce-Motorcars",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "date_updated": 1761290531,
+        "sponsorship": "Does Not Offer Sponsorship",
+        "active": true,
+        "degrees": [
+            "Bachelor's"
+        ],
+        "url": "https://jj.wd5.myworkdayjobs.com/en-US/jj/job/New-Brunswick-New-Jersey-United-States-of-America/Data-Science-Co-op_R-039072",
+        "company_name": "Johnson & Johnson",
+        "title": "Data Science Co-op",
+        "locations": [
+            "New Brunswick, NJ"
+        ],
+        "terms": [
+            "Spring 2026"
+        ],
+        "category": "Data Science, AI & Machine Learning",
+        "source": "angie-hue",
+        "id": "e235697c-b922-4470-ae9e-0242a57b0ed7",
+        "date_posted": 1761290531,
+        "company_url": "",
+        "is_visible": true
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "AbbVie",
+        "id": "120b599f-fb28-4db0-bfcb-eb761c6b3fab",
+        "title": "2026 Statistics Intern - PhD",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1761351679,
+        "date_posted": 1759914563,
+        "url": "https://jobs.smartrecruiters.com/AbbVie/3743990009787112",
+        "locations": [
+            "Livingston, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/AbbVie",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "PhD"
         ]
     }
 ]
