@@ -1,162 +1,6 @@
 [
     {
         "source": "Simplify",
-        "company_name": "S&P Global ",
-        "id": "e9f139c0-d055-4143-bc0a-bfed1e3e3d0f",
-        "title": "Software Engineering Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1741122635,
-        "date_posted": 1741122635,
-        "url": "https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/New-York-NY/Software-Engineering-Intern_312375-1",
-        "locations": [
-            "Princeton, NJ",
-            "New York, NY"
-        ],
-        "company_url": "https://simplify.jobs/c/SP-Global",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Panasonic Avionics",
-        "id": "36c63921-dc73-4aa4-83fb-a586250a88fc",
-        "title": "Business Intelligence Intern",
-        "active": false,
-        "terms": [
-            "Spring 2025",
-            "Summer 2025"
-        ],
-        "date_updated": 1741162597,
-        "date_posted": 1741162597,
-        "url": "https://careers.na.panasonic.com/jobs/41158?lang=en-us&icims=1",
-        "locations": [
-            "Newark, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Panasonic-Avionics",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Panasonic Avionics",
-        "id": "cd6fc019-7c8d-45a0-87cc-0619d43b3c9b",
-        "title": "Business Data Analyst Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1741162553,
-        "date_posted": 1741162553,
-        "url": "https://careers.na.panasonic.com/jobs/41641?lang=en-us&icims=1",
-        "locations": [
-            "Newark, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Panasonic-Avionics",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Panasonic Avionics",
-        "id": "8ca1badc-793f-4a03-815c-fae83ee9c66e",
-        "title": "Data Analyst Intern",
-        "active": false,
-        "terms": [
-            "Spring 2025",
-            "Summer 2025"
-        ],
-        "date_updated": 1741162602,
-        "date_posted": 1741162602,
-        "url": "https://careers.na.panasonic.com/jobs/40427?lang=en-us&icims=1",
-        "locations": [
-            "Newark, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Panasonic-Avionics",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Panasonic Avionics",
-        "id": "fdd1db4c-1590-4fd7-b36a-e615c22fe286",
-        "title": "Data Engineer Intern",
-        "active": false,
-        "terms": [
-            "Spring 2025",
-            "Summer 2025"
-        ],
-        "date_updated": 1741162565,
-        "date_posted": 1741162565,
-        "url": "https://careers.na.panasonic.com/jobs/41162?lang=en-us&icims=1",
-        "locations": [
-            "Newark, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Panasonic-Avionics",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Nokia",
-        "id": "eae3ebe7-935a-45d2-88ac-44b524303277",
-        "title": "Bell Labs Autonomous Systems Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1741220145,
-        "date_posted": 1741220145,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/job/12541",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Nokia",
-        "id": "5a013fd0-8786-45d7-8e0c-9fabae500d8a",
-        "title": "Nokia Ventures Software Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1741220051,
-        "date_posted": 1741220051,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/job/17270",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Solar Landscape",
-        "id": "4895eb95-3a04-4815-9211-4a5864733b53",
-        "title": "Software Engineer Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1741249225,
-        "date_posted": 1741249225,
-        "url": "https://jobs.lever.co/solarlandscape/76615ad3-751a-41ac-a2a8-01fc370967be/apply",
-        "locations": [
-            "Shrewsbury, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Solar-Landscape",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
         "company_name": "Panasonic Avionics",
         "id": "39489a30-ae1e-42ce-8f62-682446fa2078",
         "title": "Data Analytics Internal Audit Intern",
@@ -1222,7 +1066,7 @@
         "company_name": "Bristol Myers Squibb",
         "id": "f92a6652-a828-4407-b347-cd9a73eba7b4",
         "title": "Technology Rotational Development Program Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -1299,7 +1143,7 @@
         "company_name": "Scientech Research",
         "id": "fdc65a61-a8f4-45c2-b2c9-35531bfb321b",
         "title": "Quantitative Researcher Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Fall 2025"
         ],
@@ -1323,7 +1167,7 @@
         "company_name": "Church & Dwight",
         "id": "2371632d-cd36-48a6-84cf-56ec6dc60319",
         "title": "Master's Data Science Co-op",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -1393,7 +1237,7 @@
         "company_name": "Johnson & Johnson",
         "id": "fae3ac45-3929-4b91-b778-ac0866ea8b29",
         "title": "Technology Fall Co-Op",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026",
             "Winter 2026"
@@ -1425,7 +1269,7 @@
         "company_name": "Johnson & Johnson",
         "id": "c8b989a3-4021-4c2b-9251-971f46e60e4f",
         "title": "Technology Co-Op",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2026",
             "Summer 2026"
@@ -1457,7 +1301,7 @@
         "company_name": "Johnson & Johnson",
         "id": "71e87491-1545-4f98-bfca-5c4330d53e09",
         "title": "Technology 2026 Summer Internship",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -1547,7 +1391,7 @@
         "company_name": "Johnson & Johnson",
         "id": "04f96fbc-6f8c-42a9-bcff-9daefceb3d4c",
         "title": "J&J Quality & Compliance Internship",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -1774,7 +1618,7 @@
         "company_name": "Hewlett Packard Enterprise",
         "id": "122f8076-b489-40d1-a9c3-22841b25efc1",
         "title": "AI Developer Intern - Undergrad",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -1798,7 +1642,7 @@
         "company_name": "Hewlett Packard Enterprise",
         "id": "58a77d9a-cdef-42ba-9a31-09dcb7f618a2",
         "title": "AI Developer Intern - Masters",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -1846,7 +1690,7 @@
         "company_name": "Stryker",
         "id": "c9389197-4749-40f6-930b-015044a4d2ad",
         "title": "2026 Summer Intern - Data Analytics",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -1895,7 +1739,7 @@
         "company_name": "Guardian Life",
         "id": "56463e4f-14a9-4d2c-a3a4-35fc5fe699a7",
         "title": "Guardian Summer Intern - Digital & Technology - Application Development",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -1920,7 +1764,7 @@
         "company_name": "Guardian Life",
         "id": "d773d525-7ef7-4917-9c40-37bc852f4bf0",
         "title": "Summer Intern - Digital & Technology - AI & Machine Learning",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -1945,7 +1789,7 @@
         "company_name": "Guardian Life",
         "id": "78fea446-98b3-4c40-9638-e76fcd5f5f17",
         "title": "2026 Guardian Summer Intern - Digital & Technology - Data Engineering",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -1970,7 +1814,7 @@
         "company_name": "Guardian Life",
         "id": "4379cbc8-ee5a-4631-a975-3fc85cc322a1",
         "title": "Summer Intern - Artificial Intelligence Business Analyst",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -1994,7 +1838,7 @@
         "company_name": "Trimble",
         "id": "9d87d164-2aab-4eb8-8db7-c9125493a517",
         "title": "Software Engineering Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026",
             "Fall 2026"
@@ -2024,7 +1868,7 @@
         "company_name": "Stryker",
         "id": "f826f079-9e5d-4173-9b16-aad4006db9e0",
         "title": "2026 Summer Intern - ML Operations",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -2048,7 +1892,7 @@
         "company_name": "Cigna Group",
         "id": "0cd749d5-5882-4dc0-b796-f8398696e0d5",
         "title": "Analytics Leadership Development Program - Aldp",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -2119,7 +1963,7 @@
         "company_name": "Broadridge",
         "id": "fc5407a3-6c0a-42ae-882f-9b4ebf69c596",
         "title": "2026 Summer Internship Program - Technology",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -2167,7 +2011,7 @@
         "company_name": "United Parcel Service (UPS)",
         "id": "49943157-2491-4f93-bafd-07f0d55e97d5",
         "title": "UPS Technology Group Summer 2026 Internship",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -2191,7 +2035,7 @@
         "company_name": "Cigna Group",
         "id": "706d81b9-30b4-4081-a1c7-61a9ff825cc2",
         "title": "Technology Development Program - Tecdp",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -2318,7 +2162,7 @@
         "company_name": "Inventing for Life",
         "id": "a157b0b9-72f7-451f-949f-d77c0b0922fc",
         "title": "IT Emerging Talent Summer Intern Program",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -2465,7 +2309,7 @@
         "company_name": "Johnson & Johnson",
         "id": "71b46981-088f-4d82-a080-9607a6ed98b9",
         "title": "Enterprise Quality Co-op",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -2488,7 +2332,7 @@
         "company_name": "Verisk",
         "id": "b456dde8-8bbb-4326-be4b-3c643badfca2",
         "title": "Tech Internship",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -2673,11 +2517,11 @@
         "company_name": "TD Securities",
         "id": "a2f23612-7208-41fe-8689-641fb46a4751",
         "title": "Summer Internship Program - Platforms and Technology - Software Engineer",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
-        "date_updated": 1757388420,
+        "date_updated": 1761617330,
         "date_posted": 1757388420,
         "url": "https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2026-Summer-Internship-Program---Platforms-and-Technology---Software-Engineer_R_1443921",
         "locations": [
@@ -2696,7 +2540,7 @@
         "company_name": "TD Securities",
         "id": "8a60f41b-a398-4f9d-8964-88bb4ae928cd",
         "title": "2026 Summer Internship Program - Platforms and Technology - Data Science",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -2766,7 +2610,7 @@
         "company_name": "TD Securities",
         "id": "fe1114c5-bda8-44fd-affb-b2813504b48e",
         "title": "2026 Summer Internship Program - Platforms and Technology - Data Science",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -2812,11 +2656,11 @@
         "company_name": "TD Securities",
         "id": "14e413ee-a57a-4636-8e6d-e47be8031b4c",
         "title": "Summer Internship Program - Platforms and Technology - Software Engineer",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
-        "date_updated": 1757385790,
+        "date_updated": 1761617387,
         "date_posted": 1757385790,
         "url": "https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2026-Summer-Internship-Program---Platforms-and-Technology---Software-Engineer_R_1443892",
         "locations": [
@@ -2956,7 +2800,7 @@
         "company_name": "Merck",
         "id": "e2590a21-2a62-448a-9451-eb9544caf49a",
         "title": "Future Talent Program \u2013 Intern - Clinical Data Management - Early Development",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -3007,7 +2851,7 @@
         "company_name": "Verizon Communications",
         "id": "8622bed2-d8a5-47f8-8c35-978426eee8d8",
         "title": "Institute of Technology Product Engineering Co-op",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2026",
             "Summer 2026"
@@ -3174,7 +3018,7 @@
         "company_name": "Avis Budget Group",
         "id": "d4e99e58-257c-436c-b6f2-c3be0109fd49",
         "title": "Accelerate Transformation Engineer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -3452,7 +3296,7 @@
         "company_name": "Comcast",
         "id": "1507adb0-af92-4b4d-9240-b771e020a6a1",
         "title": "Comcast Network Automation Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -3475,7 +3319,7 @@
         "company_name": "Barclays",
         "id": "fb82418d-f398-40dd-9008-fd031b04efdc",
         "title": "Technology Developer Summer Internship Program 2026",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -3523,7 +3367,7 @@
         "company_name": "Barclays",
         "id": "6e53752e-61ad-43d3-8723-7452b3dfa17c",
         "title": "Technology Analyst Summer Internship Program 2026",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -3594,7 +3438,7 @@
         "company_name": "L3Harris Technologies",
         "id": "8c54165f-c531-421a-8b3f-c7e076a2d845",
         "title": "Integration and Test Engineering Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -3617,7 +3461,7 @@
         "company_name": "L3Harris Technologies",
         "id": "f0548932-e128-4d40-8525-c1d450ce6624",
         "title": "Software Engineering Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -3640,7 +3484,7 @@
         "company_name": "L3Harris Technologies",
         "id": "254078cd-9a53-44c2-8b06-bc1a9148032f",
         "title": "Software Engineering Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -3663,7 +3507,7 @@
         "company_name": "L3Harris Technologies",
         "id": "709b658c-97d4-46b2-89f1-862b314fbf8a",
         "title": "Software Engineering Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -3709,7 +3553,7 @@
         "company_name": "Bristol Myers Squibb",
         "id": "127efffb-ad3b-44eb-88ae-c73c06f72891",
         "title": "PhD Data Science Internship",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -3732,7 +3576,7 @@
         "company_name": "Prudential Financial",
         "id": "4625166a-93a4-46f5-a490-28d50aac6830",
         "title": "Investment Analyst - Portfolio Analysis Group",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -3756,7 +3600,7 @@
         "company_name": "Leidos",
         "id": "0f43d7bb-9f44-4ec0-9cfe-721d7d264ada",
         "title": "Systems Integration and Software Engineer Intern - Transportation Solutions - Air Traffic Management",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -3779,7 +3623,7 @@
         "company_name": "Verizon Communications",
         "id": "a1f6c567-e298-4858-b782-21a41ee75548",
         "title": "Global Solutions Intern - Technology Solutions",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026",
             "Fall 2025"
@@ -3868,7 +3712,7 @@
         "company_name": "Sony",
         "id": "c028e3f3-97c3-4afe-8b37-2585ee015c99",
         "title": "Research Intern - Multimodal Foundation Model for Vision",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2025"
         ],
@@ -3972,7 +3816,7 @@
         "company_name": "State Street",
         "id": "55bbd51b-fc0e-41d1-be06-1a3cbb70975f",
         "title": "Software Engineer \u2013 Co-Op",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2025",
             "Summer 2025"
@@ -3998,7 +3842,7 @@
         "company_name": "Avis Budget Group",
         "id": "fd5e2e01-647f-43fa-8537-8858ec807d1c",
         "title": "Data Analytics Intern - Multiple Teams",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4164,7 +4008,7 @@
         "company_name": "Highmark Health",
         "id": "a07923a7-8e0d-40f0-be1b-7d4396f34a2c",
         "title": "Data Test Engineering Intern - Multiple Teams",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4340,7 +4184,7 @@
         "company_name": "Merck",
         "id": "4e4bbecb-9778-4b25-96cd-ff40a15e130d",
         "title": "Intern - Global Statistics and Data Management",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4363,7 +4207,7 @@
         "company_name": "Merck",
         "id": "82f768e4-6a69-4f64-b188-9e80b92dd572",
         "title": "Intern - Animal Health Clinical Data Management",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4386,7 +4230,7 @@
         "company_name": "Charles River Associates (CRA)",
         "id": "ef5908ac-9947-4cd8-9560-c6cf32debc36",
         "title": "Data Analytics Consulting Analyst/Associate Intern - Life Sciences/Analytics",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4435,7 +4279,7 @@
         "company_name": "TIAA",
         "id": "d32de456-3943-460c-85ed-243ffe70b689",
         "title": "Technology Intern - Multiple Teams",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4459,7 +4303,7 @@
         "company_name": "TIAA",
         "id": "003eb8eb-633c-40a5-bc2c-d33970649eae",
         "title": "Intern - Analytics Team",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4483,7 +4327,7 @@
         "company_name": "Highmark Health",
         "id": "4ad3cc3a-0382-40e2-9641-93867ef93aab",
         "title": "Evaluation Analytics Graduate Intern - Analytics",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4557,7 +4401,7 @@
         "company_name": "Atlantic Health System",
         "id": "3cad8143-0608-4a68-80fe-50759d39023b",
         "title": "Project Coordinator - Digital Transformation Intern - Digital Transformation - Information and Security Systems",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4605,7 +4449,7 @@
         "company_name": "Innovative Defense Technologies",
         "id": "ce489666-e127-4fa7-ba58-e6e11ea473ab",
         "title": "Artificial Intelligence Engineer Intern - Warfare Systems",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4630,7 +4474,7 @@
         "company_name": "Innovative Defense Technologies",
         "id": "bd67eb0d-ac5d-4f62-98fb-00e281394eeb",
         "title": "Software Engineer Intern - Warfare Systems",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4655,7 +4499,7 @@
         "company_name": "Verizon Communications",
         "id": "41224132-d81d-4c1b-82b3-959a93d14388",
         "title": "Global Solutions Technology Intern - Multiple Teams",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4683,7 +4527,7 @@
         "company_name": "Highmark Health",
         "id": "aea04632-aba6-45f5-a57a-be8dc0c107fc",
         "title": "Data Science Intern - Multiple Teams",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4781,7 +4625,7 @@
         "company_name": "Kenvue",
         "id": "de7888df-ebc1-4f1a-9431-6de747503380",
         "title": "Data Scientist Intern/Co-op - AI & Data Science",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4804,7 +4648,7 @@
         "company_name": "Johnson & Johnson",
         "id": "8221d7e2-fbba-4ac5-b28d-ebea59b6251f",
         "title": "Software Engineering Co-Op - XENA Developer Experience",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026",
             "Summer 2026",
@@ -4830,7 +4674,7 @@
         "company_name": "Highmark Health",
         "id": "dac7a73f-ff61-428a-9025-cb68b6727738",
         "title": "Data Science Research Intern - Data Science",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4928,7 +4772,7 @@
         "company_name": "Merck",
         "id": "36adbe30-b726-4a3d-b800-e133f80ee3e1",
         "title": "2026 Future Talent Program \u2013 Intern - Global Communications Data & Analytics",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4951,7 +4795,7 @@
         "company_name": "Merck",
         "id": "3be2bd1c-29d3-4e98-b50f-08c8804b5aac",
         "title": "2026 Future Talent Program \u2013 Co-op - Global Supplier Management Group and Global Workplace & Enterprise Services Digital Strategy &... - Ds&I - Delivery Team",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2025"
         ],
@@ -4976,7 +4820,7 @@
         "company_name": "Johnson & Johnson",
         "id": "2cb14c47-f4da-441e-9945-a42177924f3f",
         "title": "IDAR Summer Intern - Ease",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2025"
         ],
@@ -5003,7 +4847,7 @@
         "company_name": "Johnson & Johnson",
         "id": "ad0b91d9-74a2-4fc9-9276-024788f523f9",
         "title": "IDAR Summer Intern - DM & CM",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2025"
         ],
@@ -5028,7 +4872,7 @@
         "company_name": "Johnson & Johnson",
         "id": "5ebc11ba-28f9-4766-bebe-7fa702cc98c6",
         "title": "IDAR Summer Intern - C&Sp",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2025"
         ],
@@ -5077,7 +4921,7 @@
         "company_name": "Rolls Royce",
         "id": "775f53c7-4654-4f99-8a37-e4bbeb76fe40",
         "title": "",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -5124,7 +4968,7 @@
         "company_name": "AbbVie",
         "id": "120b599f-fb28-4db0-bfcb-eb761c6b3fab",
         "title": "2026 Statistics Intern - PhD",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -5139,6 +4983,356 @@
         "sponsorship": "Other",
         "degrees": [
             "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Kyowa Kirin ",
+        "id": "b8d9dc0a-2d1a-4ab8-aea1-4d0968124c2c",
+        "title": "Translational Research Intern - Summer 2026",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1760039544,
+        "date_posted": 1760039544,
+        "url": "https://job-boards.greenhouse.io/kyowakirinusa90/jobs/7493006003",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Kyowa-Kirin",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "date_updated": 1761864507,
+        "sponsorship": "Does Not Offer Sponsorship",
+        "active": true,
+        "degrees": [
+            "Bachelor's"
+        ],
+        "url": "https://www.kpmguscareers.com/jobdetail/?jobId=129155",
+        "company_name": "KPMG",
+        "title": "Intern, Software Engineer",
+        "locations": [
+            "Denver, CO",
+            "Montvale, NJ"
+        ],
+        "terms": [
+            "Summer 2026"
+        ],
+        "category": "Software Engineering",
+        "source": "angie-hue",
+        "id": "8aadf4dc-4891-45cb-b5d4-a172b6d9d1a5",
+        "date_posted": 1761864507,
+        "company_url": "",
+        "is_visible": true
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Highmark Health",
+        "id": "51b0bc14-7cd3-4a00-bf15-27c89b5da0f3",
+        "title": "Summer 2026 Clinical and Population Health Undergraduate Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1761876147,
+        "date_posted": 1761876147,
+        "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2026-Clinical-and-Population-Health-Undergraduate-Intern_J270837",
+        "locations": [
+            "New Mexico",
+            "Washington",
+            "Kansas",
+            "Pennsylvania",
+            "North Dakota",
+            "Oregon",
+            "Delaware",
+            "Iowa",
+            "California",
+            "Washington, DC",
+            "Vermont",
+            "Wyoming",
+            "Texas",
+            "Montana",
+            "Jackson Township, NJ",
+            "Florida",
+            "Waterbury, CT",
+            "Nevada",
+            "South Carolina",
+            "South Dakota",
+            "Georgia",
+            "Arizona",
+            "Concord, NH",
+            "Mississippi",
+            "Tennessee",
+            "Virginia",
+            "Arkansas",
+            "Colorado",
+            "Nebraska",
+            "Rhode Island",
+            "Utah",
+            "Kentucky",
+            "West Virginia",
+            "NYC",
+            "Maryland",
+            "Hawaii",
+            "Wisconsin",
+            "Maine",
+            "Massachusetts",
+            "North Carolina",
+            "Oklahoma",
+            "Missouri",
+            "Ohio",
+            "Indiana",
+            "Louisiana",
+            "Alaska",
+            "Michigan",
+            "Illinois",
+            "Alabama",
+            "Idaho"
+        ],
+        "company_url": "https://simplify.jobs/c/Highmark-Health",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Highmark Health",
+        "id": "6e7da5ea-9a2c-47e0-9e27-aef6e7dfaf49",
+        "title": "Summer 2026 Data Analytics Graduate Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1761876033,
+        "date_posted": 1761876033,
+        "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2026-Data-Analytics-Graduate-Intern_J270605",
+        "locations": [
+            "New Mexico",
+            "Independence, KS",
+            "Washington",
+            "Cunningham, KS",
+            "Kansas",
+            "Pennsylvania",
+            "Oconomowoc, WI",
+            "California",
+            "Wyoming",
+            "Texas",
+            "Jackson Township, NJ",
+            "Joplin, MO",
+            "Florida",
+            "Waterbury, CT",
+            "Nevada",
+            "Wichita, KS",
+            "South Carolina",
+            "South Dakota",
+            "Edmond, OK",
+            "Concord, NH",
+            "Tennessee",
+            "Council Bluffs, IA",
+            "Rhode Island",
+            "Kentucky",
+            "West Virginia",
+            "Fort Gibson, OK",
+            "North Carolina",
+            "Missouri",
+            "Illinois",
+            "Alabama",
+            "United States",
+            "McKenzie, TN"
+        ],
+        "company_url": "https://simplify.jobs/c/Highmark-Health",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "General Dynamics Mission Systems",
+        "id": "eedf0d79-3cf1-4daa-b021-23f95e99eca5",
+        "title": "Intern Software Engineer",
+        "active": true,
+        "terms": [
+            "Winter 2025"
+        ],
+        "date_updated": 1761915017,
+        "date_posted": 1761915017,
+        "url": "https://careers-gdms.icims.com/jobs/68655/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Livingston, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/General-Dynamics-Mission-Systems",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Merck",
+        "id": "6757cf49-5c58-47c9-9167-6d2ae98b7d13",
+        "title": "2026 Future Talent Program \u2013 Operational Excellence Intern - Environmental Health and Safety - Ehs",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1761914981,
+        "date_posted": 1761914981,
+        "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---West-Point/XMLNAME-2026-Future-Talent-Program---Environmental-Health-and-Safety--EHS--Operational-Excellence-Intern_R367396",
+        "locations": [
+            "North Wales, PA",
+            "Linden, NJ",
+            "Dublin, Ireland"
+        ],
+        "company_url": "https://simplify.jobs/c/Merck",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Bristol Myers Squibb",
+        "id": "d22a4b48-eae2-4fbf-9448-c7fc10ca4034",
+        "title": "Summer 2026 \u2013 Clinical Pharmacology & Pharmacometrics Internship",
+        "active": true,
+        "terms": [
+            "Winter 2025"
+        ],
+        "date_updated": 1761858461,
+        "date_posted": 1759477232,
+        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/bms/job/Princeton---NJ---US/Summer-2026---Clinical-Pharmacology---Pharmacometrics-Internship_R1595679",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's",
+            "MBA",
+            "PharmD",
+            "PhD",
+            "Associate's",
+            "JD",
+            "MD",
+            "Bootcamp",
+            "Certificate",
+            "Incomplete"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Walmart",
+        "id": "bd4dc047-a0ab-4dbe-bb92-74ec584792f9",
+        "title": "2026 Summer Undergrad Corporate Intern: Economist",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1761859538,
+        "date_posted": 1757711399,
+        "url": "https://walmart.wd5.myworkdayjobs.com/WalmartExternal/job/Bentonville-AR/XMLNAME-2026-Summer-Undergrad-Corporate-Intern--Economist_R-2295897-1",
+        "locations": [
+            "Bentonville, AR",
+            "Union City, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Walmart",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Highmark Health",
+        "id": "5d14d087-0c7c-4cf0-a2a5-2079b3007731",
+        "title": "Summer 2026 Clinical and Population Health Graduate Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1761896947,
+        "date_posted": 1761896947,
+        "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2026-Clinical-and-Population-Health-Graduate-Intern_J270343",
+        "locations": [
+            "New Mexico",
+            "Washington",
+            "Kansas",
+            "Pennsylvania",
+            "North Dakota",
+            "Oregon",
+            "Delaware",
+            "Iowa",
+            "California",
+            "Washington, DC",
+            "Vermont",
+            "Wyoming",
+            "Texas",
+            "Jackson Township, NJ",
+            "Florida",
+            "Waterbury, CT",
+            "Nevada",
+            "South Carolina",
+            "South Dakota",
+            "Georgia",
+            "Arizona",
+            "Concord, NH",
+            "Mississippi",
+            "Tennessee",
+            "Virginia",
+            "Arkansas",
+            "Minnesota",
+            "Colorado",
+            "Rhode Island",
+            "Utah",
+            "Northeastern United States",
+            "Kentucky",
+            "West Virginia",
+            "NYC",
+            "Maryland",
+            "Hawaii",
+            "Wisconsin",
+            "Maine",
+            "Massachusetts",
+            "North Carolina",
+            "Oklahoma",
+            "Missouri",
+            "Ohio",
+            "Louisiana",
+            "Alaska",
+            "Michigan",
+            "Illinois",
+            "Alabama",
+            "United States",
+            "Idaho"
+        ],
+        "company_url": "https://simplify.jobs/c/Highmark-Health",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
         ]
     }
 ]
