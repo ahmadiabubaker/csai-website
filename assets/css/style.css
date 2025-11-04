@@ -599,6 +599,7 @@ a:hover{text-decoration: underline}
     white-space: normal;
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -618,6 +619,7 @@ a:hover{text-decoration: underline}
     white-space: normal;
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1446,6 +1448,12 @@ a:hover{text-decoration: underline}
   margin-bottom: -1px;
 }
 
+
+/* Presentation CTA at top of post */
+#post .presentation-cta{
+  text-align: center;
+  margin: 12px 0 20px;
+}
 #robotics-project-list {
   margin-top: -7px;
 }
