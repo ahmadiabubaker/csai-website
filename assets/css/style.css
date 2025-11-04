@@ -1441,6 +1441,13 @@ a:hover{text-decoration: underline}
 }
 #post article h2 + p { margin-top: 6px; }
 
+#mercer-m {
+  width: 30px;
+}
+
+#robotics-project-list {
+  margin-top: -7px;
+}
 
 
 
