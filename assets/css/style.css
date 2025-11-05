@@ -805,13 +805,11 @@ a:hover{text-decoration: underline}
   gap: 20px;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 24px;
-  align-items: start; /* ensure cards do NOT stretch to match the tallest in the row */
+  align-items: stretch; /* make cards in each row equal height */
 }
 
-/* ensure individual cards also opt out of stretching (extra safety) */
-.project-card {
-  align-self: start;
-}
+/* ensure individual cards stretch to fill the row height */
+.project-card { align-self: stretch; }
 
 /* project card */
 .project-card {
@@ -1443,6 +1441,10 @@ a:hover{text-decoration: underline}
 }
 #post article h2 + p { margin-top: 6px; }
 
+#mercer-m {
+  width: 20px;
+  margin-bottom: -1px;
+}
 
 
 /* Presentation CTA at top of post */
@@ -1450,7 +1452,9 @@ a:hover{text-decoration: underline}
   text-align: center;
   margin: 12px 0 20px;
 }
-
+#robotics-project-list {
+  margin-top: -7px;
+}
 
 /* mobile side bar */
 
