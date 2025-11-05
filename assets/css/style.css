@@ -1674,9 +1674,13 @@ body.dark-mode #post article h2 {
     font-size: 3rem;
     transition: .3s ease;
     border-radius: 14px;
-    background: var(--header-bg);
+    background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(20px);
     
+  }
+  
+  body.dark-mode .off-screen-menu {
+    background: rgba(25, 25, 25, 0.95);
   }
   .off-screen-menu.active {
     left: 0;
