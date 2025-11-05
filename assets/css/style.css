@@ -633,7 +633,51 @@ a:hover{text-decoration: underline}
   margin-top: auto;
   border-top:1px solid var(--glass-line);
   background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.82));
-  padding: 24px; text-align:center; color:#3a4366
+  padding: 28px 0; color:#3a4366
+}
+
+/* New footer layout */
+.footer .footer-inner{ max-width:1200px; margin:0 auto; padding:0 24px; }
+.footer .footer-grid{
+  display:grid; gap:20px; align-items:start;
+  grid-template-columns: repeat(4, minmax(0,1fr));
+}
+@media (max-width: 900px){ .footer .footer-grid{ grid-template-columns: repeat(2,1fr); } }
+@media (max-width: 560px){ .footer .footer-grid{ grid-template-columns: 1fr; } }
+
+.footer .footer-col h4{ margin:0 0 8px; font-size:1rem; font-weight:800; color:#2b3250 }
+.footer .footer-links{ list-style:none; margin:0; padding:0; display:grid; gap:8px }
+.footer .footer-links a{ color:#3a4366; text-decoration:none }
+.footer .footer-links a:hover{ color:var(--accent-2); text-decoration:underline }
+
+/* Make the Pages list two columns on wider screens */
+.footer .footer-col:nth-of-type(2) .footer-links{
+  grid-template-columns: repeat(2, minmax(140px, 1fr));
+  gap: 8px 18px;
+}
+@media (max-width: 560px){
+  .footer .footer-col:nth-of-type(2) .footer-links{ grid-template-columns: 1fr; }
+}
+
+.footer .footer-brand-row{ display:flex; gap:12px; align-items:center }
+.footer .footer-logo{ width:36px; height:36px; border-radius:8px; object-fit:cover }
+.footer .footer-title{ font-weight:900; color:#1e2438 }
+.footer .footer-tag{ font-size:.9rem; color:#5a6484 }
+
+.footer .social-links{ display:flex; gap:12px; align-items:center; margin-top:6px }
+.footer .social-links a{ display:inline-flex; align-items:center; justify-content:center; width:36px; height:36px; border-radius:10px; background: rgba(255,255,255,0.8); border:1px solid var(--glass-line); box-shadow: var(--shadow); color:#2b3250 }
+.footer .social-links a:hover{ transform: translateY(-2px); text-decoration:none }
+
+.footer .legal{ border-top:1px solid var(--glass-line); margin-top:18px; padding-top:12px; font-size:.92rem; text-align:center }
+
+/* Mobile centering for footer */
+@media (max-width: 700px){
+  .footer .footer-inner{ text-align: center; }
+  .footer .footer-grid{ justify-items: center; }
+  .footer .footer-col{ text-align: center; }
+  .footer .footer-brand-row{ justify-content: center; }
+  .footer .footer-links{ justify-items: center; }
+  .footer .social-links{ justify-content: center; }
 }
 
 /* ===== Reveal animations ===== */
