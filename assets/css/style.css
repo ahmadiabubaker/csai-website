@@ -640,6 +640,12 @@ body.dark-mode .section h2{
 .embed-frame iframe { width: 100%; height: 100%; display: block; border: 0; }
 .embed-note { text-align: center; color: var(--card-text-color, #51607a); margin: 10px 0 0; }
 
+/* ===== Embed Page — keep desktop size exactly as provided (1280x740) ===== */
+.embed-page .embed-shell { max-width: 100%; overflow-x: auto; }
+.embed-page .section > .container { max-width: 1400px; }
+.embed-page .embed-frame { width: 1280px; height: 740px; aspect-ratio: auto; }
+.embed-page .embed-frame iframe { width: 1280px !important; height: 740px !important; }
+
 /* Mobile-only message is hidden by default (desktop/tablet) */
 .embed-page .embed-mobile-block { display: none; }
 .embed-page .mobile-back { display: none; }
