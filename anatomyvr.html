@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CSAI — AnatomyVR Demo</title>
+  <link rel="icon" type="image/png" href="data/photos/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- ===== Header ===== -->
+<header class="header">
+  <div class="nav container">
+
+    <!-- hamburger -->
+    <nav>
+      <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+      <div>
+        <a href="/">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="learning.html">Learning</a>
+        <a href="events.html">Events</a>
+        <a href="internships.html">Internships</a>
+        <a href="join.html">Join</a>
+      </div>
+    </nav>
+
+    <a class="join-button btn" href="join.html">Join</a>
+  </div>
+</header>
+
+<!-- ===== AnatomyVR Demo Section ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>AnatomyVR — Demo</h2>
+    </div>
+    <p class="lead center">Interactive embed preview for the AnatomyVR project. Fullscreen is disabled for a consistent in-page experience.</p>
+
+    <div class="embed-shell">
+      <div class="embed-frame">
+        <!-- Note: intentionally no allowfullscreen to prevent fullscreen -->
+        <iframe frameborder="0" src="https://itch.io/embed-upload/15457127?color=333333" width="1280" height="740" title="AnatomyVR Demo"></iframe>
+      </div>
+      <p class="embed-note">Having trouble? Open on itch.io: 
+        <a href="https://abubaker45.itch.io/ptproject" target="_blank" rel="noopener">PtProject</a>
+      </p>
+    </div>
+
+    <div class="center" style="margin-top: 20px;">
+      <a class="btn" href="projects.html">← Back to Projects</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  © 2025 CSAI — Computer Science + AI Club
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/side-bar.js"></script>
+</body>
+</html>
