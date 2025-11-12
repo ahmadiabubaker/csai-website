@@ -269,6 +269,16 @@ body.dark-mode .hero h1{
   opacity:.0; transition: opacity .3s ease;
 }
 .btn.primary:hover::after{opacity:.15}
+.btn.success{
+  color:#fff; border:none; position:relative; overflow:hidden;
+  background: linear-gradient(90deg, #16a34a, #22c55e); /* green gradient */
+}
+.btn.success::after{
+  content:""; position:absolute; inset:-2px;
+  background: linear-gradient(90deg, rgba(34,197,94,.25), rgba(22,163,74,.25));
+  opacity:.0; transition: opacity .3s ease;
+}
+.btn.success:hover::after{opacity:.15}
 .btn:hover{transform: translateY(-2px); box-shadow: 0 16px 44px rgba(10,20,40,.18)}
 
 /* subtle hero washes */
@@ -1917,4 +1927,36 @@ body.dark-mode #post article h2 {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
   }
+}
+
+/* ===== Feedback form: match Join form styles on AnatomyVR page ===== */
+.embed-page .feedback-panel {
+  /* Neutral wrapper: rely on .form styling for the card look */
+  padding: 0;
+  border: none;
+  background: transparent;
+  max-width: 600px; /* same max as .form */
+}
+
+.embed-page .feedback-panel .form {
+  margin: 0 auto;
+}
+
+/* Override earlier page-specific textarea to use join form appearance */
+.embed-page .feedback-panel .form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--glass-line);
+  font-size: 16px;
+  background: var(--input-bg);
+  color: var(--text);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.embed-page .feedback-panel .form textarea:focus {
+  outline: none;
+  border-color: var(--accent-2);
+  box-shadow: 0 0 0 3px rgba(122,92,255,0.15);
 }
