@@ -1,3 +1,47 @@
+/* AnatomyVR page enhancements */
+.embed-page .beta-notice {
+  font-size: 1.1rem; /* a bit larger */
+  line-height: 1.5;
+}
+
+.embed-page .feedback-panel {
+  margin-top: 24px;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,0.12);
+  background: rgba(0,0,0,0.03);
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.embed-page .feedback-panel h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.embed-page .feedback-panel textarea {
+  width: 100%;
+  min-height: 140px;
+  resize: vertical;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.04);
+  color: inherit;
+}
+
+.embed-page .feedback-panel textarea:focus {
+  outline: 2px solid rgba(0, 120, 255, 0.4);
+  outline-offset: 2px;
+}
+
+/* Hide feedback form on mobile */
+@media (max-width: 640px) {
+  .embed-page .feedback-panel {
+    display: none;
+  }
+}
 :root{
   /* Brightened palette */
   --bg:#0b1220;
@@ -641,10 +685,22 @@ body.dark-mode .section h2{
 .embed-note { text-align: center; color: var(--card-text-color, #51607a); margin: 10px 0 0; }
 
 /* ===== Embed Page — keep desktop size exactly as provided (1280x740) ===== */
-.embed-page .embed-shell { max-width: 100%; overflow-x: auto; }
+.embed-page .embed-shell { max-width: 100%; display:flex; justify-content:center; }
 .embed-page .section > .container { max-width: 1400px; }
-.embed-page .embed-frame { width: 1280px; height: 740px; aspect-ratio: auto; }
-.embed-page .embed-frame iframe { width: 1280px !important; height: 740px !important; }
+/* Make embed responsive on desktop so it fills the container (removes black bars) */
+.embed-page .embed-frame {
+  width: 100%;
+  max-width: 1280px;
+  aspect-ratio: 1280 / 740;
+  height: auto;
+  background: transparent; /* remove dark background behind the iframe */
+}
+.embed-page .embed-frame iframe {
+  width: 100% !important;
+  height: 100% !important;
+  background: transparent !important;
+  border: 0 !important;
+}
 
 /* Mobile-only message is hidden by default (desktop/tablet) */
 .embed-page .embed-mobile-block { display: none; }

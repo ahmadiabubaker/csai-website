@@ -44,12 +44,14 @@
     <div class="section-header">
       <h2>AnatomyVR — Demo</h2>
     </div>
-    <p class="lead center">Interactive embed preview for the AnatomyVR project. Fullscreen is disabled for a consistent in-page experience.</p>
+  <p class="lead center">Interactive embed preview for the AnatomyVR project. Fullscreen is disabled for a consistent in-page experience.</p>
 
-    <div class="embed-shell">
+  <p class="center beta-notice">This is the beta verison of this project. The quizzes require exact and presise answers, and spelling. we are working thowrds having loss rules regarding the exact match of the answer. if you get stuck with any quiz, after 3 wrong attempts you will be able to see the correct answer</p>
+
+  <div class="embed-shell">
       <div class="embed-frame">
-        <!-- Note: intentionally no allowfullscreen to prevent fullscreen -->
-        <iframe frameborder="0" src="https://itch.io/embed-upload/15457278?color=333333" width="1280" height="740" title="AnatomyVR Demo"></iframe>
+  <!-- Embedded itch.io build (user-provided) -->
+  <iframe frameborder="0" src="https://itch.io/embed-upload/15516368?color=333333" allowfullscreen="" width="1280" height="740"><a href="https://pmthev.itch.io/final-one">Play FINAL ONE on itch.io</a></iframe>
       </div>
     </div>
 
@@ -64,6 +66,19 @@
 
     <div class="center desktop-back" style="margin-top: 20px;">
       <a class="btn" href="projects.html">← Back to Projects</a>
+    </div>
+
+    <!-- Desktop-only feedback form -->
+    <div class="feedback-panel" aria-labelledby="feedback-title">
+      <h3 id="feedback-title" class="center">Submit feedback</h3>
+      <!-- To connect with Google Apps Script later, set the action attribute to your Web App URL -->
+      <form id="feedback-form" method="POST" action="" novalidate>
+        <label for="feedback-text">Your feedback</label>
+        <textarea id="feedback-text" name="feedback" placeholder="Write your feedback here..." rows="6"></textarea>
+        <div class="center" style="margin-top: 12px;">
+          <button type="submit" class="btn">Submit Feedback</button>
+        </div>
+      </form>
     </div>
   </div>
 </section>
