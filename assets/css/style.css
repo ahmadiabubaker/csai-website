@@ -1,7 +1,7 @@
 /* AnatomyVR page enhancements */
 .embed-page .beta-notice {
-  font-size: 1.1rem; /* a bit larger */
-  line-height: 1.5;
+  font-size: 1.25rem; /* larger for readability */
+  line-height: 1.7;
 }
 
 .embed-page .feedback-panel {
@@ -42,6 +42,65 @@
     display: none;
   }
 }
+/* Terminal-style notice box similar to blog code blocks */
+.embed-page .terminal-box {
+  position: relative;
+  background: #0b1220;
+  color: #f4f7ff; /* higher contrast text */
+  border: 1px solid #1f2a44;
+  border-radius: 12px;
+  padding: 42px 16px 16px; /* top space for toolbar */
+  margin: 16px auto 24px;
+  box-shadow: 0 12px 36px rgba(10,20,40,0.30);
+  max-width: 980px;
+}
+
+.embed-page .terminal-box::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 32px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  background:
+    radial-gradient(circle at 20px 16px, #ff5f56 6px, transparent 7px),
+    radial-gradient(circle at 44px 16px, #ffbd2e 6px, transparent 7px),
+    radial-gradient(circle at 68px 16px, #27c93f 6px, transparent 7px),
+    linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0));
+  pointer-events: none;
+}
+
+.embed-page .terminal-box .terminal-title {
+  position: absolute;
+  top: 6px;
+  left: 92px; /* after traffic lights at ~68px */
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(230,237,243,0.8);
+}
+
+.embed-page .terminal-box p {
+  margin: 0 0 12px;
+  font-size: 1.1em; /* bump paragraph size */
+  letter-spacing: 0.2px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.embed-page .terminal-box p:last-child { margin-bottom: 0; }
+
+/* Ordered list styling inside the terminal notice */
+.embed-page .terminal-box ol {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+.embed-page .terminal-box li {
+  margin: 0 0 10px;
+  font-size: 1.1em;
+  letter-spacing: 0.2px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.embed-page .terminal-box li:last-child { margin-bottom: 0; }
 :root{
   /* Brightened palette */
   --bg:#0b1220;
