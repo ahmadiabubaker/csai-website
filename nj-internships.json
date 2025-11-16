@@ -1,45 +1,6 @@
 [
     {
         "source": "Simplify",
-        "company_name": "Epicor",
-        "id": "c772e95f-8ffa-458c-8a6a-4ebe2f59341c",
-        "title": "Intern \u2013 Product Developer",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1742339756,
-        "date_posted": 1742339756,
-        "url": "https://epicorsoftware.wd5.myworkdayjobs.com/epicorjobs/job/US-Bensalem/Intern--Product-Developer_JR101646",
-        "locations": [
-            "Delanco, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Epicor",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "S & P Global",
-        "id": "5b31d53c-7d6d-4047-9b8c-55b809a5d740",
-        "title": "Software Engineer Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1743571113,
-        "date_posted": 1742513035,
-        "url": "https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/New-York-NY/Software-Engineer-Intern_312255-2",
-        "locations": [
-            "New York, NY",
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/SP-Global",
-        "is_visible": true,
-        "sponsorship": "Offers Sponsorship"
-    },
-    {
-        "source": "Simplify",
         "company_name": "Veolia",
         "id": "74bfcb2f-0d90-4ee5-9e06-ef63875462af",
         "title": "2025 Summer Intern - Laboratory",
@@ -1211,7 +1172,7 @@
         "company_name": "Johnson & Johnson",
         "id": "c8b989a3-4021-4c2b-9251-971f46e60e4f",
         "title": "Technology Co-Op",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2026",
             "Summer 2026"
@@ -1243,7 +1204,7 @@
         "company_name": "Johnson & Johnson",
         "id": "71e87491-1545-4f98-bfca-5c4330d53e09",
         "title": "Technology 2026 Summer Internship",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -1632,7 +1593,7 @@
         "company_name": "Stryker",
         "id": "c9389197-4749-40f6-930b-015044a4d2ad",
         "title": "2026 Summer Intern - Data Analytics",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -1681,7 +1642,7 @@
         "company_name": "Guardian Life",
         "id": "56463e4f-14a9-4d2c-a3a4-35fc5fe699a7",
         "title": "Guardian Summer Intern - Digital & Technology - Application Development",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -1706,7 +1667,7 @@
         "company_name": "Guardian Life",
         "id": "d773d525-7ef7-4917-9c40-37bc852f4bf0",
         "title": "Summer Intern - Digital & Technology - AI & Machine Learning",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -1731,7 +1692,7 @@
         "company_name": "Guardian Life",
         "id": "78fea446-98b3-4c40-9638-e76fcd5f5f17",
         "title": "2026 Guardian Summer Intern - Digital & Technology - Data Engineering",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -1756,7 +1717,7 @@
         "company_name": "Guardian Life",
         "id": "4379cbc8-ee5a-4631-a975-3fc85cc322a1",
         "title": "Summer Intern - Artificial Intelligence Business Analyst",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -1977,7 +1938,7 @@
         "company_name": "Cigna Group",
         "id": "706d81b9-30b4-4081-a1c7-61a9ff825cc2",
         "title": "Technology Development Program - Tecdp",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -2200,7 +2161,7 @@
         "company_name": "Nokia",
         "id": "ada6be86-d781-4aa2-b133-ae06c3aa7c72",
         "title": "Pipeline RR: Bell Labs Core Research Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -2766,7 +2727,7 @@
         "company_name": "Nokia",
         "id": "fa19b62a-5232-447b-a27a-9957bb633ff6",
         "title": "Pipeline RR: Bell Labs Solutions Research Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -2913,7 +2874,7 @@
         "company_name": "Merck",
         "id": "08345ad1-93b2-463e-90e9-25e8f210382b",
         "title": "2026 Future Talent Program \u2013 Intern - Data Analytics and Insights",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -3784,7 +3745,7 @@
         "company_name": "Avis Budget Group",
         "id": "fd5e2e01-647f-43fa-8537-8858ec807d1c",
         "title": "Data Analytics Intern - Multiple Teams",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4074,7 +4035,7 @@
         "company_name": "Cigna Group",
         "id": "39b338d7-7a0f-47ea-a47f-3095c49cf851",
         "title": "Data Science Intern - Enterprise Data Science - Evernorth Health Services",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4149,7 +4110,7 @@
         "company_name": "Merck",
         "id": "82f768e4-6a69-4f64-b188-9e80b92dd572",
         "title": "Intern - Animal Health Clinical Data Management",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4789,7 +4750,7 @@
         "company_name": "Johnson & Johnson",
         "id": "ad0b91d9-74a2-4fc9-9276-024788f523f9",
         "title": "IDAR Summer Intern - DM & CM",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2025"
         ],
@@ -4814,7 +4775,7 @@
         "company_name": "Johnson & Johnson",
         "id": "5ebc11ba-28f9-4766-bebe-7fa702cc98c6",
         "title": "IDAR Summer Intern - C&Sp",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2025"
         ],
@@ -4863,7 +4824,7 @@
         "company_name": "Rolls Royce",
         "id": "775f53c7-4654-4f99-8a37-e4bbeb76fe40",
         "title": "",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -5154,7 +5115,7 @@
         "company_name": "Bristol Myers Squibb",
         "id": "d22a4b48-eae2-4fbf-9448-c7fc10ca4034",
         "title": "Summer 2026 \u2013 Clinical Pharmacology & Pharmacometrics Internship",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2025"
         ],
@@ -5211,7 +5172,7 @@
         "company_name": "Highmark Health",
         "id": "5d14d087-0c7c-4cf0-a2a5-2079b3007731",
         "title": "Summer 2026 Clinical and Population Health Graduate Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -5517,7 +5478,7 @@
         "company_name": "Bristol Myers Squibb",
         "id": "425906da-ee29-4e8d-b827-e6333846dec9",
         "title": "2026 Summer Intern PhD Student - Engineering/Computational Scientist for Drug Product Development",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -5560,7 +5521,7 @@
         "company_name": "Bristol Myers Squibb",
         "id": "603d51ce-1af8-4482-895a-fc059e0ac619",
         "title": "Summer 2026 \u2013 Research Engineering Internship - Research Engineering",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -5699,7 +5660,7 @@
         "company_name": "Chubb",
         "id": "7a4e4a8b-eec7-42e0-b1df-36ecf759e223",
         "title": "2026 Intern: Risk Engineering",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -5720,7 +5681,7 @@
         "company_name": "Chubb",
         "id": "cd924da7-8cd0-4b81-a64e-0c4dc036a69b",
         "title": "2026 Risk Engineering Intern - Global Underwriting Support",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -5741,7 +5702,7 @@
         "company_name": "Analog Devices",
         "id": "792f95cf-587d-4abc-b7a2-c8315e03b58b",
         "title": "Product Engineering \u2013 Intern - Prod Dev",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2025"
         ],
@@ -5763,7 +5724,7 @@
         "company_name": "Nokia",
         "id": "e9641a9d-a590-4c0e-af51-19bccc208d2f",
         "title": "Bell Labs Platform & ASIC Research Co-op",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2026",
             "Spring 2026"
@@ -5785,7 +5746,7 @@
         "company_name": "Nokia",
         "id": "742dd5ed-88d0-48bb-bcda-0a9d765b6720",
         "title": "Optical Hardware Development Co-Op",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -5806,7 +5767,7 @@
         "company_name": "Nokia",
         "id": "f2aad6b4-6c7b-4a63-9e9d-546c5b31391d",
         "title": "Optical Networking Co-op",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2026",
             "Spring 2026",
@@ -5851,7 +5812,7 @@
         "company_name": "Atlantic Health System",
         "id": "30663826-82f2-48c9-b0c0-7fa62d0d9cb1",
         "title": "Digital Outcomes Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -5872,7 +5833,7 @@
         "company_name": "Bristol Myers Squibb",
         "id": "055a4b72-65ee-4815-9158-e9290771e0cd",
         "title": "Summer 2026 \u2013 Informatics and Predictive Sciences Internship",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -5895,7 +5856,7 @@
         "company_name": "Bristol Myers Squibb",
         "id": "cd377dfb-98f4-4505-96af-ba3cef5d3540",
         "title": "Summer 2026 \u2013 Knowledge & Data Integration Internship",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6012,7 +5973,7 @@
         "company_name": "Highmark Health",
         "id": "0fbca23d-4741-4f57-8511-58a86e504b15",
         "title": "Summer 2026 Clinical and Population Health Graduate Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6081,7 +6042,7 @@
         "company_name": "Bristol Myers Squibb",
         "id": "b15b3169-e2a0-40c8-bf89-9efb3d8dc311",
         "title": "Graduate/PhD Mechanistic Modeling Internship - Clinical Pharmacology & Pharmacometrics - Mechanistic Modeling",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6152,7 +6113,7 @@
         "company_name": "WSP",
         "id": "34aea5a5-dbed-459b-ba41-f5b1463456a2",
         "title": "Geology Intern - Earth and Environment",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6173,7 +6134,7 @@
         "company_name": "Merck",
         "id": "b6f7a175-82db-40ab-83e4-50641b251e85",
         "title": "Future Talent Program Intern - Bioanalytics & Data Automation",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6195,7 +6156,7 @@
         "company_name": "Mondelez International",
         "id": "79339d30-85a4-46f4-b2b5-8434c26aa183",
         "title": "Research and Development Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6216,7 +6177,7 @@
         "company_name": "Legrand",
         "id": "990ef33c-969a-45f9-b9f3-674f96b7935d",
         "title": "Intern \u2013 Engineering Firmware",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2025"
         ],
@@ -6258,7 +6219,7 @@
         "company_name": "Merck",
         "id": "a36d38b2-63d6-4b1a-a25b-0b0b22b658a1",
         "title": "2026 Future Talent Program \u2013 Summer Intern - Research Innovation and Information Management Hyperautomation",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6325,7 +6286,7 @@
         "company_name": "Signify",
         "id": "05391790-7b64-4937-a5e4-008fe329aac9",
         "title": "Automation & Continuous Improvement Intern - Automation & Continuous Improvement",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -6357,6 +6318,472 @@
             "Livingston, NJ"
         ],
         "company_url": "https://simplify.jobs/c/AbbVie",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Signify",
+        "id": "978e61cf-c13c-478d-b40b-deefb0e22012",
+        "title": "Marketing Analytics Intern - Spring 2026",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1762906200,
+        "date_posted": 1762906200,
+        "url": "https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Bridgewater-NJ/Marketing-Analytics-Intern---Spring-2026_361784",
+        "locations": [
+            "Bridgewater Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Signify",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "State Street",
+        "id": "ae5efd4c-2b1a-465a-b61a-cc638bad1699",
+        "title": "Software Engineer Intern - ML/Data Engineer",
+        "active": true,
+        "terms": [
+            "Winter 2026",
+            "Summer 2026"
+        ],
+        "date_updated": 1762923660,
+        "date_posted": 1762923660,
+        "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Princeton-New-Jersey/Software-Engineering---ML-Data-Engineer--Internship--Full-Time--Jan---June-2026--Internship_R-779531-1",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/State-Street",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Thermo Fisher Scientific",
+        "id": "aecbcd3e-6e92-40cf-8c9d-cb0631568cc4",
+        "title": "Field Service Engineer Apprentice - Multiple Locations",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1761993168,
+        "date_posted": 1761993168,
+        "url": "https://thermofisher.wd5.myworkdayjobs.com/ThermoFisherCareers/job/Cambridge-Massachusetts-USA/Field-Service-Engineer-Apprentice---Multiple-Locations_R-01331676",
+        "locations": [
+            "Lexington, KY",
+            "Cambridge, MA",
+            "Madison, WI",
+            "Indianapolis, IN",
+            "Houston, TX",
+            "SF",
+            "North Bethesda, MD",
+            "Richmond, VA",
+            "Newark, NJ",
+            "Chicago, IL",
+            "Webster, NY",
+            "Lenexa, KS",
+            "Selinsgrove, PA",
+            "NYC",
+            "San Diego, CA"
+        ],
+        "company_url": "https://simplify.jobs/c/Thermo-Fisher-Scientific",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Analog Devices",
+        "id": "3539a820-273a-4d25-a68c-fa8da1b03077",
+        "title": "Test Engineering \u2013 Product Development Intern",
+        "active": false,
+        "terms": [
+            "Winter 2025"
+        ],
+        "date_updated": 1762923465,
+        "date_posted": 1761822184,
+        "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Chelmsford-Elizabeth/Test-Engineering---Product-Development-Intern_R256313",
+        "locations": [
+            "Lowell, MA",
+            "Linden, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Analog-Devices",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Highmark Health",
+        "id": "5c951258-3a70-467d-b8ab-16f49e9cb2a2",
+        "title": "Summer 2026 Associate Technical Engineer Undergraduate Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1761509046,
+        "date_posted": 1761509046,
+        "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2026-Associate-Technical-Engineer-Undergraduate-Intern_J271129",
+        "locations": [
+            "New Mexico",
+            "Washington",
+            "Kansas",
+            "Pennsylvania",
+            "North Dakota",
+            "Oregon",
+            "Delaware",
+            "Iowa",
+            "California",
+            "Washington, DC",
+            "Vermont",
+            "Wyoming",
+            "Texas",
+            "Jackson Township, NJ",
+            "Florida",
+            "Waterbury, CT",
+            "Nevada",
+            "South Carolina",
+            "South Dakota",
+            "Georgia",
+            "Arizona",
+            "Concord, NH",
+            "Mississippi",
+            "Tennessee",
+            "Virginia",
+            "Arkansas",
+            "Minnesota",
+            "Colorado",
+            "Nebraska",
+            "Rhode Island",
+            "Utah",
+            "Kentucky",
+            "West Virginia",
+            "NYC",
+            "Maryland",
+            "Hawaii",
+            "Wisconsin",
+            "Maine",
+            "Massachusetts",
+            "North Carolina",
+            "Oklahoma",
+            "Missouri",
+            "Ohio",
+            "Indiana",
+            "Louisiana",
+            "Alaska",
+            "Michigan",
+            "Illinois",
+            "Alabama",
+            "Idaho"
+        ],
+        "company_url": "https://simplify.jobs/c/Highmark-Health",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Thorlabs",
+        "id": "03af8085-a555-422e-9ec2-a25fe91e5890",
+        "title": "Summer 2026 Internship",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1761846949,
+        "date_posted": 1757554453,
+        "url": "https://apply.workable.com/thorlabs/j/56AD4A6C40/apply",
+        "locations": [
+            "Branchville, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Thorlabs",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Nokia",
+        "id": "a4c58659-8236-4b94-80eb-e73edc4852a7",
+        "title": "Spatial computing/communications Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1762992478,
+        "date_posted": 1762992478,
+        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26927",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nokia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Nokia",
+        "id": "3dd5475e-0767-4e8b-9d17-6914a3442e9c",
+        "title": "AI/ML Systems Research",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1762992477,
+        "date_posted": 1762992477,
+        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26436",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nokia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Zoetis",
+        "id": "56d03aa2-cbc4-4cb2-8a99-0b5327e0d012",
+        "title": "AI Full Stack Developer Intern",
+        "active": true,
+        "terms": [
+            "Winter 2025"
+        ],
+        "date_updated": 1762992139,
+        "date_posted": 1762992139,
+        "url": "https://zoetis.wd5.myworkdayjobs.com/zoetis/job/Parsippany/AI-Full-Stack-Developer-Intern_JR00019537-2",
+        "locations": [
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Zoetis",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Atlantic Health System",
+        "id": "a4919469-7b1c-4d32-a210-64acf67cf1e5",
+        "title": "Data Management Intern - Clinical Education",
+        "active": true,
+        "terms": [
+            "Winter 2025"
+        ],
+        "date_updated": 1763051253,
+        "date_posted": 1763051253,
+        "url": "https://erqh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/23855",
+        "locations": [
+            "Morristown, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Atlantic-Health-System",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "Highmark Health",
+        "id": "050d34c6-4520-4675-91ea-b05c8ac0baa0",
+        "title": "Summer 2026 Product Owner Graduate Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1763050974,
+        "date_posted": 1763050974,
+        "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2026-Product-Owner-Graduate-Intern_J272331",
+        "locations": [
+            "New Mexico",
+            "Washington",
+            "Kansas",
+            "Pennsylvania",
+            "North Dakota",
+            "Oregon",
+            "Delaware",
+            "Iowa",
+            "California",
+            "Washington, DC",
+            "Vermont",
+            "Wyoming",
+            "Texas",
+            "Jackson Township, NJ",
+            "Florida",
+            "Waterbury, CT",
+            "Nevada",
+            "South Carolina",
+            "South Dakota",
+            "Georgia",
+            "Arizona",
+            "Concord, NH",
+            "Mississippi",
+            "Tennessee",
+            "Arkansas",
+            "Colorado",
+            "Rhode Island",
+            "Utah",
+            "Kentucky",
+            "West Virginia",
+            "Maryland",
+            "Hawaii",
+            "Maine",
+            "North Carolina",
+            "Oklahoma",
+            "Missouri",
+            "Ohio",
+            "Indiana",
+            "Louisiana",
+            "Alaska",
+            "Illinois",
+            "Alabama",
+            "Idaho"
+        ],
+        "company_url": "https://simplify.jobs/c/Highmark-Health",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Crum & Forster Insurance",
+        "id": "a107b137-4940-4d3d-9a72-4010d3eebc39",
+        "title": "Data Science Intern",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1763086085,
+        "date_posted": 1762618796,
+        "url": "https://careers-cfins.icims.com/jobs/4645/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Morristown, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Crum-And-Forster-Insurance",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "S&P Global ",
+        "id": "7f7a76be-ed38-45dc-802c-13e907129cd6",
+        "title": "Software Developer Intern",
+        "active": true,
+        "terms": [
+            "Winter 2025"
+        ],
+        "date_updated": 1763089013,
+        "date_posted": 1763089013,
+        "url": "https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/Princeton-NJ/Software-Developer-Intern_322244-1",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/SP-Global",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Avis Budget Group",
+        "id": "67f3247a-bf70-494c-b643-e37fc9d18645",
+        "title": "Accelerate \u2013 And Analytics Intern - Commercial Strategy - Technology",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1763087307,
+        "date_posted": 1763087307,
+        "url": "https://avisbudget.wd1.myworkdayjobs.com/abg_careers/job/379-Interpace-Pkwy-Parsippany-07054/Accelerate---Commercial-Strategy--Technology--and-Analytics-Intern---Summer-2026_R0182085",
+        "locations": [
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Avis-Budget-Group",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Rolls Royce",
+        "id": "04ac374d-ed62-4868-a2f8-408a1d725c58",
+        "title": "Intern \u2013 US Quality and Requirements - Vehicle Interior & Exterior - Fall 2025",
+        "active": true,
+        "terms": [
+            "Fall 2025"
+        ],
+        "date_updated": 1761898228,
+        "date_posted": 1761898228,
+        "url": "https://jobs.bmwgroup.com/job/Woodcliff-Lake-Intern,-US-Quality-and-Requirements,-Vehicle-Interior-&-Exterior-Fall-2025-New/1234380401/?ats=successfactors",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Rolls-Royce-Motorcars",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "AtkinsR\u00e9alis",
+        "id": "d5a7f37b-f9ed-4f2a-bda5-413d0cf7b5c6",
+        "title": "Engineering Traffic Analyst Intern - Summer 2026",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1761900125,
+        "date_posted": 1761900125,
+        "url": "https://slihrms.wd3.myworkdayjobs.com/careers/job/USNJEdison/Engineering-Traffic-Analyst-Intern---Summer-2026_R-135325-1",
+        "locations": [
+            "Edison, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/AtkinsRealis",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Nokia",
+        "id": "e6a6556d-1aa5-4b0e-87a5-4cc470148c55",
+        "title": "Bell Labs AI Research Solutions Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1763163716,
+        "date_posted": 1763163716,
+        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26761",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nokia",
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": []
