@@ -1246,11 +1246,12 @@ body.dark-mode .section h2{
   gap: 20px;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 24px;
-  align-items: stretch; /* make cards in each row equal height */
+  align-items: start; /* change back to stretch to make everything aligned */
 }
 
+/* uuncomment below to make everything aligned */
 /* ensure individual cards stretch to fill the row height */
-.project-card { align-self: stretch; }
+/* .project-card { align-self: stretch; } */
 
 /* project card */
 .project-card {
