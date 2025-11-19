@@ -102,6 +102,12 @@
 }
 .embed-page .terminal-box li:last-child { margin-bottom: 0; }
 
+/* Emphasis for critical instruction (README item 4) */
+.embed-page .terminal-box li.highlight-rotate {
+  color: #e53935; /* accessible red on dark bg */
+  font-weight: 800;
+}
+
 /* Responsive YouTube video wrapper (visible on all devices) */
 .embed-page .video-shell {
   max-width: 980px;
