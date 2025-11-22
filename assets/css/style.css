@@ -2048,3 +2048,26 @@ body.dark-mode #post article h2 {
   border-color: var(--accent-2);
   box-shadow: 0 0 0 3px rgba(122,92,255,0.15);
 }
+
+/* resources page */
+.resources-container {
+  /* background-color: teal; */
+  width: 50%;
+  margin: auto;
+}
+
+.list-container h2 {
+  text-align: left
+}
+
+@media (max-width: 1000px) {
+  .resources-container {
+    /* background-color: teal; */
+    width: 75%;
+    margin: auto;
+  }
+  
+  .list-container h2 {
+    text-align: left
+  }
+}
