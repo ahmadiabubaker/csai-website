@@ -1,0 +1,142 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSAI — Research Opportunities</title>
+    <link rel="icon" type="image/png" href="data/photos/logo.png">
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- ===== Header ===== -->
+
+<header class="header">
+    <div class="nav container">
+        <nav>
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+            <div>
+                <a href="/">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="learning.html">Learning</a>
+                <a href="events.html">Events</a>
+                <a href="research.html" class="active">Research</a>
+                <a href="internships.html">Internships</a>
+                <a href="join.html">Join</a>
+            </div>
+        </nav>
+        <a class="join-button btn" href="join.html">Join</a>
+    </div>
+</header>
+
+
+<main class="section" style="background:#fff;">
+    <div class="container">
+        <h2 class="reveal">Research Opportunities</h2>
+        <p class="lead reveal">Opportunities, projects, and application info.</p>
+
+        <div class="internships-section">
+            <div class="filter-controls">
+                <div class="filter-group">
+                    <label for="field-filter">Filter by Field:</label>
+                    <select id="field-filter" class="filter-select">
+                        <option value="all">All Fields</option>
+                        <option value="AI Healthcare">AI in Healthcare</option>
+                        <option value="ML Social">Machine Learning for Social Good</option>
+                        <option value="Robotics">Robotics & Automation</option>
+                        <option value="Other">Other Research</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="status-filter">Status:</label>
+                    <select id="status-filter" class="filter-select">
+                        <option value="all">All Opportunities</option>
+                        <option value="open">Open</option>
+                        <option value="closed">Closed</option>
+                    </select>
+                </div>
+                <button id="clear-filters" class="btn">Clear Filters</button>
+            </div>
+
+            <div class="internship-table-wrap">
+                <table class="internship-table" id="research-table" aria-describedby="research-desc">
+                    <caption id="research-desc" class="hidden-placeholder">List of research opportunities with links to apply</caption>
+                    <thead>
+                        <tr>
+                            <th class="col-name">Name</th>
+                            <th class="col-role">Role</th>
+                            <th class="col-location">Location</th>
+                            <th class="col-app-dates">Application Dates</th>
+                            <th class="col-opp-dates">Opportunity Dates</th>
+                            <th class="col-status">Status</th>
+                            <th class="col-apply">Apply</th>
+                            <th class="col-applied">Applied</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example static rows; JS can fill dynamically -->
+                        <tr>
+                            <td>AI in Healthcare</td>
+                            <td>Research Assistant</td>
+                            <td>Remote</td>
+                            <td>Dec 1, 2025 – Jan 15, 2026</td>
+                            <td>Feb 1, 2026 – Aug 1, 2026</td>
+                            <td>Open</td>
+                            <td><a class="apply-btn" href="mailto:ai-health@csai.org">Apply</a></td>
+                            <td><button class="toggle-applied" type="button">Mark as Applied</button></td>
+                        </tr>
+                        <tr>
+                            <td>ML for Social Good</td>
+                            <td>Data Scientist</td>
+                            <td>On Campus</td>
+                            <td>Nov 15, 2025 – Jan 10, 2026</td>
+                            <td>Feb 15, 2026 – July 30, 2026</td>
+                            <td>Open</td>
+                            <td><a class="apply-btn" href="mailto:ml-social@csai.org">Apply</a></td>
+                            <td><button class="toggle-applied" type="button">Mark as Applied</button></td>
+                        </tr>
+                        <tr>
+                            <td>Robotics & Automation</td>
+                            <td>Robotics Intern</td>
+                            <td>Remote</td>
+                            <td>Dec 10, 2025 – Feb 1, 2026</td>
+                            <td>Mar 1, 2026 – Aug 15, 2026</td>
+                            <td>Open</td>
+                            <td><a class="apply-btn" href="mailto:robotics@csai.org">Apply</a></td>
+                            <td><button class="toggle-applied" type="button">Mark as Applied</button></td>
+                        </tr>
+                        <tr>
+                            <td>Open to New Proposals</td>
+                            <td>Research Collaborator</td>
+                            <td>Flexible</td>
+                            <td>Anytime</td>
+                            <td>Flexible</td>
+                            <td>Open</td>
+                            <td><a class="apply-btn" href="mailto:research@csai.org">Apply</a></td>
+                            <td><button class="toggle-applied" type="button">Mark as Applied</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<footer class="footer">
+    © 2025 CSAI — Computer Science + AI Club
+</footer>
+
+<script src="assets/js/main.js"></script>
+<!-- <script src="assets/js/research.js"></script> -->
+<script src="assets/js/side-bar.js"></script>
+</body>
+</html>
