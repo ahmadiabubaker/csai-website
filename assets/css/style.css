@@ -2048,3 +2048,64 @@ body.dark-mode #post article h2 {
   border-color: var(--accent-2);
   box-shadow: 0 0 0 3px rgba(122,92,255,0.15);
 }
+
+/* ===== Testimonials (continuous horizontal marquee with drag & hover-pause) ===== */
+.testimonials-section { padding-top: 18px; padding-bottom: 6px; }
+.testimonials { overflow: hidden; position: relative; margin: 12px auto 0; max-width: 1200px; width: 100%; }
+.testimonials-track {
+  display: flex;
+  gap: 16px;
+  align-items: center; /* vertically center cards inside row */
+  white-space: nowrap;
+  will-change: transform;
+  /* remove transition so instant wrapping is not animated/jumpy */
+  transition: none;
+  height: 100%;
+}
+.testimonial {
+  /* landscape cards: wider fixed width to improve readability */
+  flex: 0 0 560px; /* larger fixed width on desktops */
+  min-height: 180px;   /* increase vertical space so longest testimonials fit */
+  height: auto; /* allow card to grow if needed */
+  min-width: 360px;
+  max-width: 820px;
+  padding: 14px 20px;
+  border-radius: 12px;
+  background: var(--card-bg);
+  border: 1px solid var(--glass-line);
+  box-shadow: 0 12px 36px rgba(10,20,40,0.12);
+  color: var(--card-text-color);
+  font-size: 0.98rem;
+  line-height: 1.4;
+  user-select: none;
+  cursor: grab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left; /* left-align for readability */
+  white-space: normal; /* allow wrapping */
+  overflow: auto; /* allow scrolling if a testimonial is exceptionally long */
+}
+.testimonial:active { cursor: grabbing; }
+
+@media (max-width: 720px) {
+  .testimonials-track { gap: 12px; }
+  .testimonial { flex: 0 0 420px; min-height: 150px; height: auto; min-width: 220px; max-width: 520px; padding: 12px; }
+}
+
+/* On very small screens allow cards to expand vertically so text is not chopped */
+@media (max-width: 480px) {
+  .testimonials { height: auto; }
+  .testimonials-track { flex-wrap: nowrap; }
+  .testimonial { flex: 0 0 300px; height: auto; min-width: 220px; max-width: 380px; padding: 12px; text-align: left; }
+  .testimonial p { margin: 0; }
+}
+
+/* Provide a subtle overlay to hint draggable area on touch devices */
+.testimonials::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(255,255,255,0.0), rgba(255,255,255,0.02) 10%, rgba(255,255,255,0.02) 90%, rgba(255,255,255,0.0));
+}
