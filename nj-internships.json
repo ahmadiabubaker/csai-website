@@ -1,44 +1,6 @@
 [
     {
         "source": "Simplify",
-        "company_name": "Nokia",
-        "id": "edaa86cf-7e22-451b-aa51-24b5c2f7661d",
-        "title": "Nokia Ventures Software Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1743575148,
-        "date_posted": 1743575148,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/job/18955",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Onto Innovation",
-        "id": "f0331478-8e1d-4919-b59f-4dff48208381",
-        "title": "Software Engineer Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1743578980,
-        "date_posted": 1743578980,
-        "url": "https://onto.wd1.myworkdayjobs.com/onto_careers/job/Budd-Lake-NJ/Software-Engineer-Intern_R-4488",
-        "locations": [
-            "Stanhope, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Onto-Innovation",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
         "company_name": "TD Bank",
         "id": "6b3b9fbd-5670-4ab7-8b86-212099228a35",
         "title": "2025 Summer Internship Program - Data & Analytics",
@@ -957,7 +919,7 @@
         "company_name": "Johnson & Johnson",
         "id": "71e87491-1545-4f98-bfca-5c4330d53e09",
         "title": "Technology 2026 Summer Internship",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -1274,7 +1236,7 @@
         "company_name": "Hewlett Packard Enterprise",
         "id": "122f8076-b489-40d1-a9c3-22841b25efc1",
         "title": "AI Developer Intern - Undergrad",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -1298,7 +1260,7 @@
         "company_name": "Hewlett Packard Enterprise",
         "id": "58a77d9a-cdef-42ba-9a31-09dcb7f618a2",
         "title": "AI Developer Intern - Masters",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -1494,7 +1456,7 @@
         "company_name": "Trimble",
         "id": "9d87d164-2aab-4eb8-8db7-c9125493a517",
         "title": "Software Engineering Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026",
             "Fall 2026"
@@ -1619,7 +1581,7 @@
         "company_name": "Broadridge",
         "id": "fc5407a3-6c0a-42ae-882f-9b4ebf69c596",
         "title": "2026 Summer Internship Program - Technology",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -3664,7 +3626,7 @@
         "company_name": "Highmark Health",
         "id": "a07923a7-8e0d-40f0-be1b-7d4396f34a2c",
         "title": "Data Test Engineering Intern - Multiple Teams",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -4766,7 +4728,7 @@
         "company_name": "Highmark Health",
         "id": "6e7da5ea-9a2c-47e0-9e27-aef6e7dfaf49",
         "title": "Summer 2026 Data Analytics Graduate Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -5018,7 +4980,7 @@
         "company_name": "Highmark Health",
         "id": "f94a36ac-0497-4ac6-baf5-1743c31b127b",
         "title": "Sumer 2026 Analytic Enablement Graduate Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -5088,7 +5050,7 @@
         "company_name": "Highmark Health",
         "id": "3c3a66bb-f70b-44b1-acae-abae412e633d",
         "title": "Summer 2026 Applied Gen AI/Data Scientist Graduate Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -5139,7 +5101,7 @@
         "company_name": "Highmark Health",
         "id": "e8679950-b678-4bf2-98bc-69c23bfb8fa1",
         "title": "Software Engineer Internship",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -5296,7 +5258,7 @@
         "company_name": "Highmark Health",
         "id": "5f0294ec-e6e3-4240-b50d-0b5ccd5f4822",
         "title": "Summer 2026 Reporting Analyst Undergraduate Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -5361,7 +5323,7 @@
         "company_name": "Highmark Health",
         "id": "f2f75ff6-3d77-4596-b097-9556fc8aed55",
         "title": "Summer 2026 Software Engineer/Architect \u2013 Python Graduate Intern - Python",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -5543,7 +5505,7 @@
         "company_name": "Cencora",
         "id": "9f84106d-4749-4864-8bab-8fa6c8aaebae",
         "title": "Data & Analytics Intern - Data Analytics",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -6181,7 +6143,7 @@
         "company_name": "Highmark Health",
         "id": "5c951258-3a70-467d-b8ab-16f49e9cb2a2",
         "title": "Summer 2026 Associate Technical Engineer Undergraduate Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -6314,7 +6276,7 @@
         "company_name": "Zoetis",
         "id": "56d03aa2-cbc4-4cb2-8a99-0b5327e0d012",
         "title": "AI Full Stack Developer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2025"
         ],
@@ -6335,7 +6297,7 @@
         "company_name": "Atlantic Health System",
         "id": "a4919469-7b1c-4d32-a210-64acf67cf1e5",
         "title": "Data Management Intern - Clinical Education",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2025"
         ],
@@ -6461,7 +6423,7 @@
         "company_name": "Avis Budget Group",
         "id": "67f3247a-bf70-494c-b643-e37fc9d18645",
         "title": "Accelerate \u2013 And Analytics Intern - Commercial Strategy - Technology",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -6484,7 +6446,7 @@
         "company_name": "Rolls Royce",
         "id": "04ac374d-ed62-4868-a2f8-408a1d725c58",
         "title": "Intern \u2013 US Quality and Requirements - Vehicle Interior & Exterior - Fall 2025",
-        "active": true,
+        "active": false,
         "terms": [
             "Fall 2025"
         ],
@@ -6505,7 +6467,7 @@
         "company_name": "AtkinsR\u00e9alis",
         "id": "d5a7f37b-f9ed-4f2a-bda5-413d0cf7b5c6",
         "title": "Engineering Traffic Analyst Intern - Summer 2026",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -6635,7 +6597,7 @@
         "company_name": "Johnson & Johnson",
         "id": "47526592-a406-43c7-9bfc-a83deed589d7",
         "title": "Statistics & Decision Sciences Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -6659,7 +6621,7 @@
         "company_name": "SRI International",
         "id": "603b17d3-05d5-4bbe-83a1-17d30513c3d4",
         "title": "Drexel University Co-op: Systems Engineering",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2025"
         ],
@@ -6680,7 +6642,7 @@
         "company_name": "SRI International",
         "id": "185db282-0dc3-4839-93ea-c3e7758acc70",
         "title": "Drexel University Co-op: Software Engineering",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2025",
             "Spring 2025",
@@ -6715,6 +6677,94 @@
             "Livingston, NJ"
         ],
         "company_url": "https://simplify.jobs/c/General-Dynamics-Mission-Systems",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Red Bull",
+        "id": "1d1ac864-cac4-4703-8198-4651618383e2",
+        "title": "Intern - Academy Performance Analysis",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1763969338,
+        "date_posted": 1763969338,
+        "url": "https://jobs.smartrecruiters.com/RedBull/744000095044055",
+        "locations": [
+            "Livingston, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Red-Bull",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "date_updated": 1764088142,
+        "sponsorship": "U.S. Citizenship is Required",
+        "active": true,
+        "degrees": [
+            "Bachelor's"
+        ],
+        "url": "https://jobs.baesystems.com/global/en/job/BAE1US118688BREXTERNAL/Software-Intern-Summer-2026",
+        "company_name": "BAE Systems",
+        "title": "Software Intern, Summer 2026",
+        "locations": [
+            "Totowa, NJ"
+        ],
+        "terms": [
+            "Summer 2026"
+        ],
+        "category": "Software Engineering",
+        "source": "angie-hue",
+        "id": "e0a1771c-1c61-4ac4-8b5f-a0228b75180b",
+        "date_posted": 1764088142,
+        "company_url": "",
+        "is_visible": true
+    },
+    {
+        "date_updated": 1764174295,
+        "sponsorship": "Other",
+        "active": true,
+        "degrees": [
+            "Bachelor's"
+        ],
+        "url": "https://kla.wd1.myworkdayjobs.com/en-US/UR/job/Totowa-NJ/VC---Software-Developer-Intern_2532831",
+        "company_name": "KLA",
+        "title": "VC++ Software Developer Intern",
+        "locations": [
+            "Totowa, NJ"
+        ],
+        "terms": [
+            "Summer 2026"
+        ],
+        "category": "Software Engineering",
+        "source": "angie-hue",
+        "id": "69f5c8fa-a8f9-4d44-95b6-cfc2c676a252",
+        "date_posted": 1764174295,
+        "company_url": "",
+        "is_visible": true
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Virtua Health",
+        "id": "3ea30991-c634-406a-84b0-b8db3457408e",
+        "title": "Intern Data Scientist - Data Science",
+        "active": false,
+        "terms": [
+            "Winter 2025"
+        ],
+        "date_updated": 1764210912,
+        "date_posted": 1764210912,
+        "url": "https://virtua.wd1.myworkdayjobs.com/Virtua_Health_External_Career_Site/job/Lippincott---301-Lippincott-Drive/Intern---Data-Science_R1057839",
+        "locations": [
+            "Mt Laurel Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Virtua-Health",
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": []
