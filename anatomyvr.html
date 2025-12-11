@@ -53,8 +53,14 @@
     <div class="section-header">
       <h2>AnatomyVR — Demo</h2>
     </div>
-  <div class="beta-notice terminal-box">
+  <div class="beta-notice terminal-box" id="readme-box">
     <div class="terminal-title">README</div>
+    <button id="readme-toggle" class="readme-toggle-btn" aria-label="Minimize README" title="Minimize">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="2" y="6" width="10" height="2" rx="1" fill="currentColor"/>
+      </svg>
+    </button>
+    <div class="readme-content" id="readme-content">
     <p><strong>Dear Users,</strong></p>
     <p>Thank you for informing us of the spelling errors. They have since been corrected. Please accept our sincere apologies for any inconveniences.</p>
     <ol style="margin-bottom: 16px;">
@@ -76,7 +82,27 @@
       <li>Any clicks should stay in the answer box. It does not clear, backspace works.</li>
       <li>We appreciate your feedback to help improve this Project.</li>
     </ol>
+    </div>
   </div>
+
+  <script>
+    // README minimize/expand toggle
+    (function(){
+      const toggleBtn = document.getElementById('readme-toggle');
+      const content = document.getElementById('readme-content');
+      const box = document.getElementById('readme-box');
+      if (!toggleBtn || !content || !box) return;
+
+      toggleBtn.addEventListener('click', function(){
+        const isMinimized = box.classList.toggle('minimized');
+        toggleBtn.setAttribute('aria-label', isMinimized ? 'Expand README' : 'Minimize README');
+        toggleBtn.setAttribute('title', isMinimized ? 'Expand' : 'Minimize');
+        toggleBtn.innerHTML = isMinimized
+          ? '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="6" width="10" height="2" rx="1" fill="currentColor"/><rect x="6" y="2" width="2" height="10" rx="1" fill="currentColor"/></svg>'
+          : '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="6" width="10" height="2" rx="1" fill="currentColor"/></svg>';
+      });
+    })();
+  </script>
 
   <!-- Tutorial video: visible on desktop and mobile -->
   <div class="video-shell">

@@ -53,6 +53,49 @@
   margin: 16px auto 24px;
   box-shadow: 0 12px 36px rgba(10,20,40,0.30);
   max-width: 980px;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  overflow: hidden;
+}
+
+/* Minimized state */
+.embed-page .terminal-box.minimized {
+  max-height: 42px;
+  padding: 42px 16px 6px;
+}
+
+.embed-page .terminal-box.minimized .readme-content {
+  display: none;
+}
+
+/* README toggle button */
+.readme-toggle-btn {
+  position: absolute;
+  top: 6px;
+  right: 12px;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: rgba(255,255,255,0.08);
+  border-radius: 6px;
+  color: #d1d9e6;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease, transform 0.1s ease;
+  z-index: 10;
+}
+
+.readme-toggle-btn:hover {
+  background: rgba(255,255,255,0.14);
+}
+
+.readme-toggle-btn:active {
+  transform: scale(0.95);
+}
+
+.readme-content {
+  display: block;
 }
 
 .embed-page .terminal-box::before {
