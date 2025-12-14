@@ -2,165 +2,6 @@
     {
         "source": "Simplify",
         "company_name": "Veolia",
-        "id": "5196b209-29c9-4566-9011-3ad4bcf21bfd",
-        "title": "Junior Drupal Development Intern",
-        "active": false,
-        "terms": [],
-        "date_updated": 1744353735,
-        "date_posted": 1744353735,
-        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000053148205",
-        "locations": [
-            "Paramus, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Veolia",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Veolia",
-        "id": "9e30b060-72a4-4bcc-97df-bdb2c98df6fe",
-        "title": "Junior Java Development Intern",
-        "active": false,
-        "terms": [],
-        "date_updated": 1744353719,
-        "date_posted": 1744353719,
-        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000053145599",
-        "locations": [
-            "Paramus, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Veolia",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Veolia",
-        "id": "93b0f04f-1a34-4ffa-af75-13f3e4f0fc18",
-        "title": "GIS Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1744353705,
-        "date_posted": 1744353705,
-        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000053171795",
-        "locations": [
-            "Moonachie, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Veolia",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Veolia",
-        "id": "389188e8-5fe2-47a4-9332-ba4d90f906bb",
-        "title": "GIS Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1744353704,
-        "date_posted": 1744353704,
-        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000053171855",
-        "locations": [
-            "Saddle Brook, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Veolia",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Becton Dickinson",
-        "id": "93c612bc-e843-4e44-ad9a-3a4313012a56",
-        "title": "AI Solution Analyst \u2013 Internship",
-        "active": false,
-        "terms": [],
-        "date_updated": 1744720291,
-        "date_posted": 1744720291,
-        "url": "https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA/job/USA-NJ---Franklin-Lakes/AI-Solution-Analyst---Internship_R-516027",
-        "locations": [
-            "Midland Park, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Becton-Dickinson",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "International Flavors & Fragrances",
-        "id": "8a3a998b-b0fd-4ad1-9194-677ce55906f5",
-        "title": "Intern \u2013 Data Analytics",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1744733492,
-        "date_posted": 1744733492,
-        "url": "https://iff.wd5.myworkdayjobs.com/IFF_Careers/job/USA-Union-Bch-Off/Intern---Data-Analytics_R7102",
-        "locations": [
-            "Matawan, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/International-Flavors-Fragrances",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Becton Dickinson",
-        "id": "85749ff9-596f-4d39-9e78-760ee22c79d4",
-        "title": "AI Solution Analyst \u2013 Internship",
-        "active": false,
-        "terms": [],
-        "date_updated": 1744736704,
-        "date_posted": 1744736704,
-        "url": "https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA/job/USA-NJ---Franklin-Lakes/AI-Solution-Analyst---Internship_R-515675",
-        "locations": [
-            "Midland Park, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Becton-Dickinson",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "United Parcel Service (UPS)",
-        "id": "d9b7c2ac-fa75-4c3c-b8e3-b18670dd44a2",
-        "title": "ISM Co-op",
-        "active": false,
-        "terms": [],
-        "date_updated": 1744788311,
-        "date_posted": 1744788311,
-        "url": "https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/US---IS-PARSIPPANY-NJPRS/ISM-Co-op_R25007859",
-        "locations": [
-            "Parsippany-Troy Hills, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/United-Parcel-Service",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Veolia",
-        "id": "a37b1819-ab2f-4d38-b530-5fdbe0015ea4",
-        "title": "Junior Automation Developer Intern",
-        "active": false,
-        "terms": [],
-        "date_updated": 1744872504,
-        "date_posted": 1744872504,
-        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000054392840",
-        "locations": [
-            "Paramus, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Veolia",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Veolia",
         "id": "97121f60-1485-4460-80f1-866b65b9c103",
         "title": "New Business Intern",
         "active": false,
@@ -625,7 +466,7 @@
         "company_name": "Bristol Myers Squibb",
         "id": "f92a6652-a828-4407-b347-cd9a73eba7b4",
         "title": "Technology Rotational Development Program Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -3375,7 +3216,7 @@
         "company_name": "State Street",
         "id": "55bbd51b-fc0e-41d1-be06-1a3cbb70975f",
         "title": "Software Engineer \u2013 Co-Op",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2025",
             "Summer 2025"
@@ -3567,7 +3408,7 @@
         "company_name": "Highmark Health",
         "id": "a07923a7-8e0d-40f0-be1b-7d4396f34a2c",
         "title": "Data Test Engineering Intern - Multiple Teams",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -4354,7 +4195,7 @@
         "company_name": "Merck",
         "id": "3be2bd1c-29d3-4e98-b50f-08c8804b5aac",
         "title": "2026 Future Talent Program \u2013 Co-op - Global Supplier Management Group and Global Workplace & Enterprise Services Digital Strategy &... - Ds&I - Delivery Team",
-        "active": false,
+        "active": true,
         "terms": [
             "Winter 2025"
         ],
@@ -4669,7 +4510,7 @@
         "company_name": "Highmark Health",
         "id": "6e7da5ea-9a2c-47e0-9e27-aef6e7dfaf49",
         "title": "Summer 2026 Data Analytics Graduate Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -5199,7 +5040,7 @@
         "company_name": "Highmark Health",
         "id": "5f0294ec-e6e3-4240-b50d-0b5ccd5f4822",
         "title": "Summer 2026 Reporting Analyst Undergraduate Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6084,7 +5925,7 @@
         "company_name": "Highmark Health",
         "id": "5c951258-3a70-467d-b8ab-16f49e9cb2a2",
         "title": "Summer 2026 Associate Technical Engineer Undergraduate Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6583,7 +6424,7 @@
         "company_name": "SRI International",
         "id": "185db282-0dc3-4839-93ea-c3e7758acc70",
         "title": "Drexel University Co-op: Software Engineering",
-        "active": false,
+        "active": true,
         "terms": [
             "Winter 2025",
             "Spring 2025",
@@ -6821,7 +6662,7 @@
         "company_name": "Sony",
         "id": "6fac482f-97c8-49bc-94b9-7088623f5f3f",
         "title": "Engineering Intern - AI Ethics",
-        "active": false,
+        "active": true,
         "terms": [
             "Spring 2026"
         ],
@@ -7171,6 +7012,261 @@
             "Middletown Township, NJ"
         ],
         "company_url": "https://simplify.jobs/c/ATT",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Sharp Electronics",
+        "id": "19771832-913b-4f67-b8b5-f8a7b5936cbd",
+        "title": "AI Process Automation Intern",
+        "active": true,
+        "terms": [
+            "Winter 2025"
+        ],
+        "date_updated": 1765241023,
+        "date_posted": 1759650423,
+        "url": "https://careers-sharpusa.icims.com/jobs/8567/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Mahwah, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Sharp-Electronics",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "GE Healthcare",
+        "id": "606f7c06-a20e-483e-afeb-22ac84219504",
+        "title": "Field Engineer Apprentice",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1765251841,
+        "date_posted": 1765251841,
+        "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Remote/Field-Engineer-Apprentice--Central-New-Jersey--NJ-_R4023412-1",
+        "locations": [
+            "Jackson Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/GE-Healthcare",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "date_updated": 1765288214,
+        "sponsorship": "Does Not Offer Sponsorship",
+        "active": true,
+        "degrees": [
+            "Bachelor's"
+        ],
+        "url": "https://careers-sharpusa.icims.com/jobs/8567/ai-process-automation-intern/job",
+        "company_name": "Sharp Electronics",
+        "title": "AI Process Automation Intern",
+        "locations": [
+            "Montvale, NJ"
+        ],
+        "terms": [
+            "Spring 2026"
+        ],
+        "category": "Data Science, AI & Machine Learning",
+        "source": "AlmondCroffle",
+        "id": "1c807a36-6e7e-4362-9c09-e982d95cf7b3",
+        "date_posted": 1765288214,
+        "company_url": "",
+        "is_visible": true
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "SRI International",
+        "id": "7cf25536-d1d6-4a35-aff8-d73fed35038f",
+        "title": "Drexel University Co-op: Software Engineering/Full stack development",
+        "active": false,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1765328501,
+        "date_posted": 1759429253,
+        "url": "https://careers-sri.icims.com/jobs/6263/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/SRI-International",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Zoetis",
+        "id": "a5f4b474-a438-41c4-b204-e98b01c83da6",
+        "title": "ZOETIS Tech & Digital \u2013 Solutions Architecture & Engineering Intern - Ztd - Gms",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1765377631,
+        "date_posted": 1765377631,
+        "url": "https://zoetis.wd5.myworkdayjobs.com/zoetis/job/Parsippany/ZOETIS-Tech---Digital--ZTD--Solutions-Architecture---Engineering-Intern--GMS_JR00019615-2",
+        "locations": [
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Zoetis",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Gilead Sciences",
+        "id": "c7c6c9ac-a549-4565-9ba8-e75405b01a24",
+        "title": "Intern \u2013 Market Research - Advanced Analytics",
+        "active": true,
+        "terms": [
+            "Summer 2025"
+        ],
+        "date_updated": 1765386573,
+        "date_posted": 1764486853,
+        "url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern--Market-Research--Advanced-Analytics_R0048355",
+        "locations": [
+            "San Mateo, CA",
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Gilead-Sciences",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Nokia",
+        "id": "c2771724-65e0-4832-9bd6-37edc0f48251",
+        "title": "Decentralized AI Intern - AI",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1765408011,
+        "date_posted": 1765408011,
+        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/28483",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nokia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Nokia",
+        "id": "85936719-64fd-4449-85a0-07ced6ced379",
+        "title": "GenAI Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1765408021,
+        "date_posted": 1765408021,
+        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27970",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nokia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Nokia",
+        "id": "7f6e95f6-60be-41e6-b5bc-5c87b50cc1fe",
+        "title": "AI/ML Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1765408946,
+        "date_posted": 1765408946,
+        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27580",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nokia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Public Service Enterprise Group",
+        "id": "63490c4b-5714-45f8-a160-2ab0befd7b96",
+        "title": "Summer 2026 \u2013 Technical Intern - Electric Asset Strategy",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1765418747,
+        "date_posted": 1765418747,
+        "url": "https://jobs.pseg.com/job/South-Plainfield-Summer-2026-Technical-Intern-Electric-Asset-Strategy-NJ-07080/1348924600/?ats=successfactors",
+        "locations": [
+            "South Plainfield, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Public-Service-Enterprise-Group",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Nokia",
+        "id": "b807a63c-2fe7-485f-9f8a-279c1b5d16f1",
+        "title": "Bell Labs Radio Systems 6G Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1765494299,
+        "date_posted": 1765494299,
+        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/28494",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nokia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Nokia",
+        "id": "fcbd10cc-1fff-4531-9a3f-5581a21400f1",
+        "title": "Software Developer Intern/Co-op",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1765556447,
+        "date_posted": 1765556447,
+        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/28479",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nokia",
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": []
