@@ -1,63 +1,6 @@
 [
     {
         "source": "Simplify",
-        "company_name": "Veolia",
-        "id": "97121f60-1485-4460-80f1-866b65b9c103",
-        "title": "New Business Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1744959008,
-        "date_posted": 1744959008,
-        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000054617125",
-        "locations": [
-            "Moonachie, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Veolia",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "Veolia",
-        "id": "68d84b4a-ebe4-4661-bb94-b658682b6ba6",
-        "title": "New Business Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1745448243,
-        "date_posted": 1745448243,
-        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000055378125",
-        "locations": [
-            "Moonachie, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Veolia",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "company_name": "C&S Wholesale Grocers",
-        "id": "b9eaf433-9987-4763-ba0c-b32d2113d047",
-        "title": "Data Science Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1745542346,
-        "date_posted": 1745542346,
-        "url": "https://cswg.wd1.myworkdayjobs.com/cs_careers/job/Edison-NJ/Data-Science-Intern---June-2025_R-262114",
-        "locations": [
-            "Edison, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/CS-Wholesale-Grocers",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
         "category": "Hardware",
         "company_name": "Teledyne",
         "id": "931f4f2b-bcd4-4000-bead-79848a156f15",
@@ -466,7 +409,7 @@
         "company_name": "Bristol Myers Squibb",
         "id": "f92a6652-a828-4407-b347-cd9a73eba7b4",
         "title": "Technology Rotational Development Program Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -5287,7 +5230,7 @@
         "company_name": "Cencora",
         "id": "9f84106d-4749-4864-8bab-8fa6c8aaebae",
         "title": "Data & Analytics Intern - Data Analytics",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -5825,7 +5768,7 @@
         "company_name": "Signify",
         "id": "978e61cf-c13c-478d-b40b-deefb0e22012",
         "title": "Marketing Analytics Intern - Spring 2026",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -6270,7 +6213,7 @@
         "company_name": "Nokia",
         "id": "e6a6556d-1aa5-4b0e-87a5-4cc470148c55",
         "title": "Bell Labs AI Research Solutions Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6424,7 +6367,7 @@
         "company_name": "SRI International",
         "id": "185db282-0dc3-4839-93ea-c3e7758acc70",
         "title": "Drexel University Co-op: Software Engineering",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2025",
             "Spring 2025",
@@ -6578,7 +6521,7 @@
         "company_name": "Fiserv",
         "id": "589af6f6-9f42-4bff-afe4-60e33759767f",
         "title": "Technology Intern Program - Application Development",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6686,7 +6629,7 @@
         ]
     },
     {
-        "date_updated": 1764689264,
+        "date_updated": 1766007614,
         "sponsorship": "U.S. Citizenship is Required",
         "active": true,
         "degrees": [
@@ -6706,7 +6649,7 @@
         "id": "6e148dc8-ffbd-410d-8319-0f3e634b80ae",
         "date_posted": 1764689264,
         "company_url": "",
-        "is_visible": true
+        "is_visible": false
     },
     {
         "source": "Simplify",
@@ -6829,7 +6772,7 @@
         "company_name": "ServiceNow",
         "id": "40374267-4927-48b8-ac35-6314c39e4a5f",
         "title": "Service Offering Automation Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2027"
         ],
@@ -6879,7 +6822,7 @@
         "company_name": "General Dynamics Mission Systems",
         "id": "7b11bf5f-cd09-4430-8131-82170a947b9f",
         "title": "Intern Engineer",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -6993,7 +6936,7 @@
         "company_name": "AT&T",
         "id": "d636941a-f03a-4646-9a6d-36941ee55059",
         "title": "AT&T Labs Internship - Undergraduate and Masters Degrees",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7022,7 +6965,7 @@
         "company_name": "Sharp Electronics",
         "id": "19771832-913b-4f67-b8b5-f8a7b5936cbd",
         "title": "AI Process Automation Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2025"
         ],
@@ -7108,7 +7051,7 @@
         "company_name": "Zoetis",
         "id": "a5f4b474-a438-41c4-b204-e98b01c83da6",
         "title": "ZOETIS Tech & Digital \u2013 Solutions Architecture & Engineering Intern - Ztd - Gms",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -7129,7 +7072,7 @@
         "company_name": "Gilead Sciences",
         "id": "c7c6c9ac-a549-4565-9ba8-e75405b01a24",
         "title": "Intern \u2013 Market Research - Advanced Analytics",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2025"
         ],
@@ -7267,6 +7210,563 @@
             "Berkeley Heights, NJ"
         ],
         "company_url": "https://simplify.jobs/c/Nokia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Tiffany & Co.",
+        "id": "e3b539e1-45c3-4811-86f1-080d73e220aa",
+        "title": "Intern - IT Integrations",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1765815431,
+        "date_posted": 1765815431,
+        "url": "https://eljs.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/62232",
+        "locations": [
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Tiffany-And-Co",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Tiffany & Co.",
+        "id": "190ee7db-9989-49ec-922f-a0ed12922f0f",
+        "title": "Software Development Intern - Software Developer",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1765815996,
+        "date_posted": 1765815996,
+        "url": "https://eljs.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/62228",
+        "locations": [
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Tiffany-And-Co",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Nokia",
+        "id": "7afa12b7-ae28-459e-999a-edce9ba2de91",
+        "title": "Bell Labs AI-RAN Research Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1765840020,
+        "date_posted": 1765840020,
+        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/28730",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nokia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Nokia",
+        "id": "03438dda-fb6e-4115-9eb8-7ad522a90fad",
+        "title": "Optical Networking Intern/Co-op",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1765840022,
+        "date_posted": 1765840022,
+        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/28164",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nokia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Analytical Mechanics Associates",
+        "id": "a5f6ffa2-3fb6-47d4-b836-920cc33d5476",
+        "title": "Materials Testing Intern - Spring 2026",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1765905166,
+        "date_posted": 1765905166,
+        "url": "https://amainc.wd12.myworkdayjobs.com/ama_careers/job/Hampton-VA/Materials-Testing-Intern---Spring-2026_R-100433",
+        "locations": [
+            "New Mexico",
+            "Washington",
+            "Kansas",
+            "Pennsylvania",
+            "North Dakota",
+            "Oregon",
+            "Delaware",
+            "Iowa",
+            "California",
+            "Washington, DC",
+            "Vermont",
+            "Wyoming",
+            "Texas",
+            "Montana",
+            "Jackson Township, NJ",
+            "Florida",
+            "Waterbury, CT",
+            "Nevada",
+            "South Carolina",
+            "South Dakota",
+            "Georgia",
+            "Hampton, VA",
+            "Arizona",
+            "Concord, NH",
+            "Mississippi",
+            "Tennessee",
+            "Virginia",
+            "Arkansas",
+            "Minnesota",
+            "Colorado",
+            "Nebraska",
+            "Rhode Island",
+            "Utah",
+            "Kentucky",
+            "West Virginia",
+            "NYC",
+            "Maryland",
+            "Hawaii",
+            "Wisconsin",
+            "Maine",
+            "Massachusetts",
+            "North Carolina",
+            "Oklahoma",
+            "Missouri",
+            "Ohio",
+            "Indiana",
+            "Louisiana",
+            "Alaska",
+            "Michigan",
+            "Illinois",
+            "Alabama",
+            "Idaho"
+        ],
+        "company_url": "https://simplify.jobs/c/Analytical-Mechanics-Associates",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Nokia",
+        "id": "857e3079-6700-42fa-8b54-06397c8aade1",
+        "title": "Hardware Failure Analysis Intern/Co-op",
+        "active": true,
+        "terms": [
+            "Fall 2025"
+        ],
+        "date_updated": 1765927316,
+        "date_posted": 1765927316,
+        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/28674",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nokia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Nokia",
+        "id": "11128f16-8245-4feb-bbcc-e3d013efe7e1",
+        "title": "Bell Labs Math and Algorithms Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1765926431,
+        "date_posted": 1765926431,
+        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/28751",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nokia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Nokia",
+        "id": "06f4e5be-94ab-4706-b11e-b38fba811d01",
+        "title": "Transport Network Architecture Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1765926438,
+        "date_posted": 1765926438,
+        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/28170",
+        "locations": [
+            "Jackson Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nokia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "NRG Energy",
+        "id": "e5167a4f-6954-429b-aebf-5b7cdb96f53a",
+        "title": "Life Cycle Optimization Intern",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1765988826,
+        "date_posted": 1765988826,
+        "url": "https://careers.nrgenergy.com/nrg/job/Princeton-Life-Cycle-Optimization-Intern-NJ-08540/1350440100/?ats=successfactors",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/NRG-Energy",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Genmab",
+        "id": "be8b2800-818e-411e-beda-8deff34c6f5d",
+        "title": "Applied AI & Clinical Technology Innovation Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1766013579,
+        "date_posted": 1766013579,
+        "url": "https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton/Applied-AI---Clinical-Technology-Innovation-Intern_R14895-1",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Genmab",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Genmab",
+        "id": "748edbfe-9594-496d-b992-1d5be6a9170e",
+        "title": "Histopathology Imaging Data Science Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1766013585,
+        "date_posted": 1766013585,
+        "url": "https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton/Histopathology-Imaging-Data-Science-Intern_R14684",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Genmab",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Genmab",
+        "id": "91a09c24-a82c-496a-9169-747909f02bf1",
+        "title": "External Data Management Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1766016854,
+        "date_posted": 1766016854,
+        "url": "https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton/External-Data-Management-Intern_R14859-1",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Genmab",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Genmab",
+        "id": "6a615ff6-2e8b-4c94-b1da-b35686068f08",
+        "title": "Global Data Governance Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1766013569,
+        "date_posted": 1766013569,
+        "url": "https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton/Global-Data---Governance-Intern_R14991",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Genmab",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Crane Co.",
+        "id": "16532752-edcd-4d51-b75f-798ae474270b",
+        "title": "Hardware Engineer Intern",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1766013753,
+        "date_posted": 1766013753,
+        "url": "https://cranecompany.wd5.myworkdayjobs.com/Careers/job/Saddle-Brook-New-Jersey/Hardware-Engineer-Intern_JR100690",
+        "locations": [
+            "Saddle Brook, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Crane-Co",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Genmab",
+        "id": "e0774945-3249-448e-99d9-8c572c9bafa4",
+        "title": "Translational Imaging & Multi-Omics Data Science Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1766013574,
+        "date_posted": 1766013574,
+        "url": "https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton/Translational-Imaging---Multi-Omics-Data-Science-Intern_R14688-1",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Genmab",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Genmab",
+        "id": "0c7654aa-87f5-488a-8815-c621674dcc9a",
+        "title": "Clinical Development Data Science Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1766013573,
+        "date_posted": 1766013573,
+        "url": "https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton/Clinical-Development-Data-Science-Intern_R14835-1",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Genmab",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Crane Co.",
+        "id": "03f529ba-ec2e-4f9c-91f6-058feebe17d8",
+        "title": "Software Engineer",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1766024454,
+        "date_posted": 1766024454,
+        "url": "https://cranecompany.wd5.myworkdayjobs.com/Careers/job/Saddle-Brook-New-Jersey/Software-Engineer-Intern_JR100691",
+        "locations": [
+            "Saddle Brook, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Crane-Co",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Public Service Enterprise Group",
+        "id": "a43b20f9-c373-46c1-8822-dec2f52f1a08",
+        "title": "Technical Intern - Gas Operations GIS",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1766074297,
+        "date_posted": 1766074297,
+        "url": "https://jobs.pseg.com/job/Edison-Summer-2026-Technical-Intern-Gas-Operations-GIS-NJ-08817/1350745900/?ats=successfactors",
+        "locations": [
+            "Edison, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Public-Service-Enterprise-Group",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Public Service Enterprise Group",
+        "id": "9b26b7fa-d718-42f9-97d9-2aba6dc24221",
+        "title": "Summer 2026 \u2013 Technical Intern - Transmission Asset Strategy",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1766099793,
+        "date_posted": 1766099793,
+        "url": "https://jobs.pseg.com/job/South-Plainfield-Summer-2026-Technical-Intern-Transmission-Asset-Strategy-NJ-07080/1350823500/?ats=successfactors",
+        "locations": [
+            "South Plainfield, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Public-Service-Enterprise-Group",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "Zoetis",
+        "id": "5dcf84c1-a608-4f4a-81bc-d30098c7ddf2",
+        "title": "Intern-ERP Finance Product",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1766099077,
+        "date_posted": 1766099077,
+        "url": "https://zoetis.wd5.myworkdayjobs.com/zoetis/job/Parsippany/Intern-ERP-Finance-Product_JR00019760-3",
+        "locations": [
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Zoetis",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Zoetis",
+        "id": "c2b9b682-81f0-4cf3-82c7-3d7382da05c4",
+        "title": "Robotic Process Automation Developer Intern - RPA",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1766128526,
+        "date_posted": 1766128526,
+        "url": "https://zoetis.wd5.myworkdayjobs.com/zoetis/job/Parsippany/Robotic-Process-Automation--RPA--Developer-Intern_JR00019798-2",
+        "locations": [
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Zoetis",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Geosyntec Consultants",
+        "id": "97200b49-b97d-4a22-a5ee-93dfb16c860e",
+        "title": "Environmental Intern",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1766161637,
+        "date_posted": 1761896973,
+        "url": "https://careers-geosyntec.icims.com/jobs/3889/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Lawrence Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Geosyntec-Consultants",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Roche",
+        "id": "1a4328ef-dc13-4c6e-b095-fbeea1124d21",
+        "title": "Intern - Data Insights Unit",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1766175007,
+        "date_posted": 1766175007,
+        "url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Branchburg/XMLNAME-2026-Summer-Intern---Data-Insights-Unit_202512-132013",
+        "locations": [
+            "Somerset County, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Roche",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Atlantic Health System",
+        "id": "4b3b2fab-4f4b-4625-8fa0-b212a5c814db",
+        "title": "Pharmacy \u2013 Intern - Data Analytics",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1766185746,
+        "date_posted": 1766185746,
+        "url": "https://erqh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/24720",
+        "locations": [
+            "Morristown, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Atlantic-Health-System",
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": []
