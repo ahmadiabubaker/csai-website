@@ -20,30 +20,72 @@
 <header class="header">
   <div class="nav container">
 
-        <!-- hamburger -->
-        <nav>
-          <div class="ham-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </nav>
-
-    <nav class="nav-links off-screen-menu" aria-label="Main navigation">
-      <div>
-        <a href="/">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html" class="active">Projects</a>
-        <a href="learning.html">Learning</a>
-        <!-- <a href="resources.html">Resources</a> -->
-        <a href="events.html">Events</a>
-        <a href="internships.html">Internships</a>
-        <a href="join.html">Join</a>
-      </div>
+    <!-- Hamburger menu (mobile only) -->
+    <nav>
+      <button class="ham-menu" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </nav>
 
-    <a class="join-button btn" href="join.html">Join</a>
+    <!-- Navigation links - shared markup for desktop and mobile -->
+    <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="/" class="nav-link">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">About</a>
+        </li>
+        
+        <!-- Projects with dropdown -->
+        <li class="nav-item has-dropdown">
+          <a href="projects.html" class="nav-link active">Projects</a>
+          <button class="dropdown-toggle" aria-label="Toggle Projects submenu" aria-expanded="false">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+              <path d="M8 11L3 6h10z"/>
+            </svg>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="projects.html">All Projects</a></li>
+            <li><a href="anatomyvr.html">AnatomyVR</a></li>
+            <li><a href="digitaltwin.html">Digital Twin</a></li>
+          </ul>
+        </li>
+        
+        <!-- Learning with dropdown -->
+        <li class="nav-item has-dropdown">
+          <a href="learning.html" class="nav-link">Learning</a>
+          <button class="dropdown-toggle" aria-label="Toggle Learning submenu" aria-expanded="false">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+              <path d="M8 11L3 6h10z"/>
+            </svg>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="learning.html">Tutorials</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item">
+          <a href="events.html" class="nav-link">Events</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="internships.html" class="nav-link">Internships</a>
+        </li>
+        
+        <li class="nav-item mobile-only">
+          <a href="join.html" class="nav-link">Join</a>
+        </li>
+      </ul>
+    </nav>
 
+    <!-- Join button (desktop only) -->
+    <a class="join-button btn" href="join.html">Join</a>
   </div>
 </header>
 
