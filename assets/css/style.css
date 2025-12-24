@@ -289,6 +289,114 @@ a:hover{text-decoration: underline}
   padding: 12px 18px;
 }
 
+/* ===== Navigation Dropdown System ===== */
+
+/* Reset list styles */
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nav-item {
+  position: relative;
+}
+
+/* Desktop: nav items inline */
+.nav-link {
+  font-weight: 800;
+  color: var(--nav-link-color);
+  padding: 8px 10px;
+  border-radius: 12px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  text-decoration: none;
+  background: linear-gradient(90deg, rgba(0,230,255,.18), rgba(122,92,255,.18));
+  box-shadow: 0 8px 28px rgba(122,92,255,0.12);
+}
+
+/* Desktop: dropdown toggle hidden */
+.dropdown-toggle {
+  display: none;
+}
+
+/* Desktop: has-dropdown styling */
+.nav-item.has-dropdown {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+/* Desktop: dropdown menu */
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  min-width: 180px;
+  list-style: none;
+  margin: 0;
+  padding: 8px;
+  
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-line);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+  
+  z-index: 100;
+}
+
+/* Desktop: show dropdown on hover */
+.nav-item.has-dropdown:hover .dropdown-menu,
+.nav-item.has-dropdown:focus-within .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 14px;
+  color: var(--text);
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background 0.2s ease;
+}
+
+.dropdown-menu a:hover {
+  background: linear-gradient(90deg, rgba(0,230,255,.12), rgba(122,92,255,.12));
+  text-decoration: none;
+}
+
+/* Mobile-only nav item (Join link) hidden on desktop */
+.nav-item.mobile-only {
+  display: none;
+}
+
+/* Desktop: hide hamburger menu completely */
+.ham-menu {
+  display: none;
+}
+
 /* reduce text size slightly */
 
 
@@ -1968,6 +2076,7 @@ body.dark-mode #post article h2 {
   display: none;
 }
 
+/* ===== Mobile Navigation & Hamburger Menu ===== */
 @media (max-width: 700px) {
   .header, .nav.container {
     display: flex;
@@ -1976,6 +2085,7 @@ body.dark-mode #post article h2 {
     width: 100%;
   }
 
+  /* Mobile: Off-screen sidebar menu */
   .off-screen-menu {
     z-index: 1000;
     height: 100vh;
@@ -1984,33 +2094,170 @@ body.dark-mode #post article h2 {
     position: fixed;
     top: 0;
     left: -60%;
-
+    
     font-size: 3rem;
-    transition: .3s ease;
+    transition: 0.3s ease;
     border-radius: 14px;
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(20px);
-    
   }
   
   body.dark-mode .off-screen-menu {
     background: rgba(25, 25, 25, 0.95);
   }
+  
   .off-screen-menu.active {
     left: 0;
-  } 
+  }
 
-  .off-screen-menu div {
-    margin: 150px 0 0 20px;
-    display: flex;
+  /* Mobile: Navigation menu layout */
+  .nav-menu {
     flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    margin: 150px 0 0 20px;
+    padding: 0;
   }
-  .off-screen-menu div a {
-    margin: 7%;
+  
+  /* Mobile: Nav items stack vertically */
+  .nav-item {
+    position: relative;
+    margin: 7% 0;
+  }
+  
+  /* Mobile: has-dropdown items - keep block display for proper alignment */
+  .nav-item.has-dropdown {
+    display: block;
+    position: relative;
+  }
+  
+  /* Mobile: nav links - restore original styling */
+  .nav-link {
+    display: inline-block;
+    padding: 0;
     font-size: 55%;
+    border-radius: 0;
+    background: transparent !important;
+    box-shadow: none !important;
+    color: var(--nav-link-color);
+    font-weight: 800;
+    max-width: 70%;
+  }
+  
+  /* Mobile: show dropdown toggle button as +/- */
+  .dropdown-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    
+    width: 32px;
+    height: 32px;
+    
+    background: transparent;
+    border: none;
+    
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    
+    color: var(--nav-link-color);
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1;
+  }
+  
+  /* Change icon content with CSS */
+  .dropdown-toggle svg {
+    display: none;
+  }
+  
+  .dropdown-toggle::before {
+    content: '+';
+    display: block;
+    font-size: 28px;
+    line-height: 1;
+  }
+  
+  /* Mobile: change + to - when expanded */
+  .nav-item.has-dropdown.expanded .dropdown-toggle::before {
+    content: '−';
+  }
+  
+  .dropdown-toggle:active {
+    transform: scale(0.9);
+  }
+  
+  /* Mobile: dropdown menu styling (accordion) */
+  .dropdown-menu {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    
+    background: transparent;
+    backdrop-filter: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  body.dark-mode .dropdown-menu {
+    background: transparent;
+  }
+  
+  /* Mobile: expanded state */
+  .nav-item.has-dropdown.expanded .dropdown-menu {
+    max-height: 500px;
+    margin-top: 7%;
+  }
+  
+  .dropdown-menu li {
+    margin: 5% 0 5% 10%;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 0;
+    font-size: 45%;
+    border-radius: 0;
+    color: var(--nav-link-color);
+    font-weight: 700;
+    opacity: 0.85;
+  }
+  
+  .dropdown-menu a:hover {
+    opacity: 1;
+    background: transparent;
+  }
+  
+  /* Mobile: show the Join link in the menu */
+  .nav-item.mobile-only {
+    display: block;
+  }
+  
+  /* Mobile: show desktop Join button */
+  .join-button {
+    margin-left: auto;
+    margin-right: 13px;
+    display: block;
+    border: none;
+    background: linear-gradient(to right, var(--accent-2), var(--accent-3));
+    color: white;
   }
 
+  /* Hamburger menu styling - now visible on mobile */
   .ham-menu {
+    display: block;
     z-index: 1001;
     height: 45px;
     width: 45px;
@@ -2018,15 +2265,9 @@ body.dark-mode #post article h2 {
     margin-left: 18px;
     position: relative;
     cursor: pointer;
-  }
-
-  .join-button {
-    margin-left: auto;
-    margin-right: 13px;
-    display: block;
+    background: transparent;
     border: none;
-    background: linear-gradient(to right, var(--accent-2), var(--accent-3));
-    color: white;  
+    padding: 0;
   }
 
   .ham-menu span {
@@ -2038,11 +2279,14 @@ body.dark-mode #post article h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition: .3s ease;
+    transition: 0.3s ease;
+    pointer-events: none;
   }
+  
   .ham-menu span:nth-child(1) {
     top: 25%;
   }
+  
   .ham-menu span:nth-child(3) {
     top: 75%;
   }
@@ -2051,9 +2295,11 @@ body.dark-mode #post article h2 {
     top: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
   }
+  
   .ham-menu.active span:nth-child(2) {
     opacity: 0;
   }
+  
   .ham-menu.active span:nth-child(3) {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
