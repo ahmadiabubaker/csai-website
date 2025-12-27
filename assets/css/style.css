@@ -2160,6 +2160,7 @@ body.dark-mode #post article h2 {
     width: 25px;
     height: 25px;
     color: white;
+    box-shadow: 0px 2px 3px rgb(155, 155, 155);
   }
   
   /* Change icon content with CSS */
@@ -2180,6 +2181,7 @@ body.dark-mode #post article h2 {
   
   .dropdown-toggle:active {
     transform: scale(0.9);
+    box-shadow: none;
   }
   
   /* Mobile: dropdown menu styling (accordion) */
