@@ -170,3 +170,19 @@ function initDarkMode() {
     }
   });
 }
+
+const modal = document.getElementById("imageModal")
+const modalImage = document.getElementById("modalImage")
+const closeBtn = document.getElementById("closeModal")
+
+document.querySelectorAll(".education-package-image").forEach(img => {
+  img.addEventListener("click", () => {
+    modalImage.src = img.src
+    modal.classList.add("active")
+  })
+})
+
+closeBtn.addEventListener("click", () => {
+  modal.classList.remove("active")
+})
+

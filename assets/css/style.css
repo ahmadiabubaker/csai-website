@@ -1441,10 +1441,13 @@ body.dark-mode .section h2{
 }
 
 /* extra content area (optional) */
-.project-more { display:block; }
+.project-more { 
+  overflow: visible;
+  display:block; 
+}
 
 /* expanded state reveals full description */
-.project-card.expanded .project-desc { max-height: 1000px; }
+.project-card.expanded .project-desc { max-height: 2000px; }
 
 /* only one button */
 .project-actions { margin-top: auto; display:flex; gap:8px; align-items:center; }
@@ -2476,4 +2479,53 @@ body.dark-mode #post article h2 {
   .list-container h2 {
     text-align: left
   }
+}
+
+#education-package {
+  margin-bottom: 0;
+}
+
+.education-package-list {
+  margin-top: 10px;
+}
+
+.education-package-image {
+  width: 245px;
+  height: auto;
+}
+
+.image-container {
+  margin: 20px 0 20px 0;
+}
+
+.image-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.image-modal.active {
+  display: flex;
+}
+
+.image-modal img {
+  max-width: 98vw;
+  max-height: auto;
+  border-radius: 8px;
+  background: white;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 32px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
