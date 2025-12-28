@@ -44,7 +44,6 @@
 }
 /* Terminal-style notice box similar to blog code blocks */
 .embed-page .terminal-box {
-  position: relative;
   background: #0b1220;
   color: #f4f7ff; /* higher contrast text */
   border: 1px solid #1f2a44;
@@ -1280,7 +1279,6 @@ body.dark-mode .section h2{
   padding: 24px;
   border-radius: 16px;
   box-shadow: var(--shadow);
-  backdrop-filter: blur(8px);
 }
 
 .label {
@@ -1443,10 +1441,13 @@ body.dark-mode .section h2{
 }
 
 /* extra content area (optional) */
-.project-more { display:block; }
+.project-more { 
+  overflow: visible;
+  display:block; 
+}
 
 /* expanded state reveals full description */
-.project-card.expanded .project-desc { max-height: 1000px; }
+.project-card.expanded .project-desc { max-height: 2000px; }
 
 /* only one button */
 .project-actions { margin-top: auto; display:flex; gap:8px; align-items:center; }
@@ -2115,14 +2116,14 @@ body.dark-mode #post article h2 {
     flex-direction: column;
     align-items: stretch;
     gap: 0;
-    margin: 150px 0 0 20px;
+    margin: 115px 0 0 20px;
     padding: 0;
   }
   
   /* Mobile: Nav items stack vertically */
   .nav-item {
     position: relative;
-    margin: 7% 0;
+    margin: 5% 0;
   }
   
   /* Mobile: has-dropdown items - keep block display for proper alignment */
@@ -2151,21 +2152,18 @@ body.dark-mode #post article h2 {
     justify-content: center;
     position: absolute;
     right: 15px;
-    top: 0;
+    margin-top: 24px;
+    border: 3px solid transparent;
+    border-radius: 20px;
+
+    background:
+      linear-gradient(transparent, transparent) padding-box,
+      linear-gradient(90deg, var(--accent-2), var(--accent-3)) border-box;
     
-    width: 32px;
-    height: 32px;
-    
-    background: transparent;
-    border: none;
-    
-    cursor: pointer;
-    transition: transform 0.2s ease;
-    
-    color: var(--nav-link-color);
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 1;
+    width: 25px;
+    height: 25px;
+    color: white;
+    box-shadow: 0px 2px 3px rgb(155, 155, 155);
   }
   
   /* Change icon content with CSS */
@@ -2176,8 +2174,7 @@ body.dark-mode #post article h2 {
   .dropdown-toggle::before {
     content: '+';
     display: block;
-    font-size: 28px;
-    line-height: 1;
+    font-size: 25px;
   }
   
   /* Mobile: change + to - when expanded */
@@ -2187,6 +2184,7 @@ body.dark-mode #post article h2 {
   
   .dropdown-toggle:active {
     transform: scale(0.9);
+    box-shadow: none;
   }
   
   /* Mobile: dropdown menu styling (accordion) */
@@ -2218,11 +2216,11 @@ body.dark-mode #post article h2 {
   /* Mobile: expanded state */
   .nav-item.has-dropdown.expanded .dropdown-menu {
     max-height: 500px;
-    margin-top: 7%;
+    /* margin-top: 7%; */
   }
   
   .dropdown-menu li {
-    margin: 5% 0 5% 10%;
+    margin: 7% 0 7% 10%;
   }
   
   .dropdown-menu a {
@@ -2481,4 +2479,53 @@ body.dark-mode #post article h2 {
   .list-container h2 {
     text-align: left
   }
+}
+
+#education-package {
+  margin-bottom: 0;
+}
+
+.education-package-list {
+  margin-top: 10px;
+}
+
+.education-package-image {
+  width: 245px;
+  height: auto;
+}
+
+.image-container {
+  margin: 20px 0 20px 0;
+}
+
+.image-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.image-modal.active {
+  display: flex;
+}
+
+.image-modal img {
+  max-width: 98vw;
+  max-height: auto;
+  border-radius: 8px;
+  background: white;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 32px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
