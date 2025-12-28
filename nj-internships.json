@@ -1,26 +1,6 @@
 [
     {
         "source": "Simplify",
-        "category": "Hardware",
-        "company_name": "Teledyne",
-        "id": "931f4f2b-bcd4-4000-bead-79848a156f15",
-        "title": "Hardware Engineer Intern",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1745743956,
-        "date_posted": 1745743956,
-        "url": "https://flir.wd1.myworkdayjobs.com/en-US/flircareers/job/US---Chestnut-Ridge-NY/Hardware-Engineer-Intern_REQ29011",
-        "locations": [
-            "Mahwah, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/199b3c43-379a-408c-a6a8-980e79183038",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
         "category": "AI/ML/Data",
         "company_name": "C&S Wholesale Grocers",
         "id": "549bac53-685d-4bd4-960f-3b5e2f820a45",
@@ -1306,7 +1286,7 @@
         "company_name": "Broadridge",
         "id": "fc5407a3-6c0a-42ae-882f-9b4ebf69c596",
         "title": "2026 Summer Internship Program - Technology",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6936,7 +6916,7 @@
         "company_name": "AT&T",
         "id": "d636941a-f03a-4646-9a6d-36941ee55059",
         "title": "AT&T Labs Internship - Undergraduate and Masters Degrees",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -7051,7 +7031,7 @@
         "company_name": "Zoetis",
         "id": "a5f4b474-a438-41c4-b204-e98b01c83da6",
         "title": "ZOETIS Tech & Digital \u2013 Solutions Architecture & Engineering Intern - Ztd - Gms",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7157,7 +7137,7 @@
         "company_name": "Public Service Enterprise Group",
         "id": "63490c4b-5714-45f8-a160-2ab0befd7b96",
         "title": "Summer 2026 \u2013 Technical Intern - Electric Asset Strategy",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
