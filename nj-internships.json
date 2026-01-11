@@ -1,47 +1,6 @@
 [
     {
         "source": "Simplify",
-        "category": "Hardware",
-        "company_name": "Nokia",
-        "id": "740a26ac-ced3-4d48-90b0-463d9fbf34a8",
-        "title": "Hardware Development Co-Op",
-        "active": false,
-        "terms": [
-            "Fall 2025",
-            "Winter 2025"
-        ],
-        "date_updated": 1746819633,
-        "date_posted": 1746819633,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/20045",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "S&P Global ",
-        "id": "5959704a-920a-4913-a38b-2e016c8d2136",
-        "title": "AI Product Analyst Intern - Early Careers",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1747354820,
-        "date_posted": 1747354820,
-        "url": "https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/Princeton-NJ/AI-Product-Analyst-Intern--Early-Careers-_309872-1",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/SP-Global",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
         "category": "Software",
         "company_name": "United Parcel Service (UPS)",
         "id": "8d574959-501d-4917-9a26-884149db7bda",
@@ -1099,7 +1058,7 @@
         "company_name": "Trimble",
         "id": "9d87d164-2aab-4eb8-8db7-c9125493a517",
         "title": "Software Engineering Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026",
             "Fall 2026"
@@ -3909,7 +3868,7 @@
         "company_name": "Johnson & Johnson",
         "id": "8221d7e2-fbba-4ac5-b28d-ebea59b6251f",
         "title": "Software Engineering Co-Op - XENA Developer Experience",
-        "active": false,
+        "active": true,
         "terms": [
             "Spring 2026",
             "Summer 2026",
@@ -4966,7 +4925,7 @@
         "company_name": "Highmark Health",
         "id": "f2f75ff6-3d77-4596-b097-9556fc8aed55",
         "title": "Summer 2026 Software Engineer/Architect \u2013 Python Graduate Intern - Python",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6825,7 +6784,7 @@
         "company_name": "AT&T",
         "id": "f56b005e-88d3-4b9d-b5e4-1b1d5ce98e4a",
         "title": "AT&T Labs Intern - Advanced Degrees",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6883,7 +6842,7 @@
         "company_name": "Sharp Electronics",
         "id": "19771832-913b-4f67-b8b5-f8a7b5936cbd",
         "title": "AI Process Automation Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2025"
         ],
@@ -6920,9 +6879,9 @@
         "degrees": []
     },
     {
-        "date_updated": 1765288214,
+        "date_updated": 1767712029,
         "sponsorship": "Does Not Offer Sponsorship",
-        "active": true,
+        "active": false,
         "degrees": [
             "Bachelor's"
         ],
@@ -6990,7 +6949,7 @@
         "company_name": "Gilead Sciences",
         "id": "c7c6c9ac-a549-4565-9ba8-e75405b01a24",
         "title": "Intern \u2013 Market Research - Advanced Analytics",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2025"
         ],
@@ -7378,7 +7337,7 @@
         "company_name": "Genmab",
         "id": "be8b2800-818e-411e-beda-8deff34c6f5d",
         "title": "Applied AI & Clinical Technology Innovation Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7399,7 +7358,7 @@
         "company_name": "Genmab",
         "id": "748edbfe-9594-496d-b992-1d5be6a9170e",
         "title": "Histopathology Imaging Data Science Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7420,7 +7379,7 @@
         "company_name": "Genmab",
         "id": "91a09c24-a82c-496a-9169-747909f02bf1",
         "title": "External Data Management Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7441,7 +7400,7 @@
         "company_name": "Genmab",
         "id": "6a615ff6-2e8b-4c94-b1da-b35686068f08",
         "title": "Global Data Governance Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7483,7 +7442,7 @@
         "company_name": "Genmab",
         "id": "e0774945-3249-448e-99d9-8c572c9bafa4",
         "title": "Translational Imaging & Multi-Omics Data Science Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7504,7 +7463,7 @@
         "company_name": "Genmab",
         "id": "0c7654aa-87f5-488a-8815-c621674dcc9a",
         "title": "Clinical Development Data Science Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7611,7 +7570,7 @@
         "company_name": "Zoetis",
         "id": "c2b9b682-81f0-4cf3-82c7-3d7382da05c4",
         "title": "Robotic Process Automation Developer Intern - RPA",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -7695,7 +7654,7 @@
         "company_name": "TD Bank",
         "id": "16f6f038-f271-42cd-b835-a3ae3262ad6d",
         "title": "Intern - Platforms & Technology - Data Analyst",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7716,7 +7675,7 @@
         "company_name": "TD Bank",
         "id": "bd460941-75fc-4633-8617-7cf871ddb5af",
         "title": "2026 Summer Internship Program - Platforms & Technology - Software Engineer",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7886,7 +7845,7 @@
         "company_name": "Public Service Enterprise Group",
         "id": "1692df5f-e87d-4d6a-ad69-81bab76d7446",
         "title": "Technical Intern - Outside Plant Distribution Asset Mgmt",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7907,7 +7866,7 @@
         "company_name": "Genmab",
         "id": "97a254d5-6d5d-48b0-835f-1aee401e2d58",
         "title": "Clinical Pharmacology and Quantitative Science Intern - Programming/Computer Science",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -8016,7 +7975,7 @@
         "company_name": "Genmab",
         "id": "1f5d21f9-26cf-4878-9ee8-e5f4cf9994dc",
         "title": "AI-Driven Radiomics and Multimodal Biomarker Discovery Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8037,7 +7996,7 @@
         "company_name": "Zoetis",
         "id": "7d0d02d8-8858-47ab-8a16-1d14e1f59758",
         "title": "Data Science Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -8098,5 +8057,74 @@
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Zoetis",
+        "id": "1666130c-fe9c-4600-91b5-abe7af4fe194",
+        "title": "Enterprise Architecture Intern",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1767740846,
+        "date_posted": 1767740846,
+        "url": "https://zoetis.wd5.myworkdayjobs.com/zoetis/job/Parsippany/Enterprise-Architecture-Intern_JR00019759-2",
+        "locations": [
+            "Remote in USA",
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Zoetis",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Red Bull",
+        "id": "544a60d6-4acb-4da7-a139-d7a61d0521b7",
+        "title": "Intern - Academy Performance Analysis",
+        "active": false,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1767925590,
+        "date_posted": 1767925590,
+        "url": "https://jobs.smartrecruiters.com/RedBull/744000102417128",
+        "locations": [
+            "Livingston, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Red-Bull",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "KLA",
+        "id": "68a5c4c4-0281-4735-9b76-9aa50bcaed3a",
+        "title": "Product Development Engineering Intern",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1767974971,
+        "date_posted": 1767974971,
+        "url": "https://kla.wd1.myworkdayjobs.com/UR/job/Totowa-NJ/Product-Development-Engineering-Intern_2533189",
+        "locations": [
+            "Paterson, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/KLA",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
     }
 ]
