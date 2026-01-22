@@ -186,3 +186,82 @@ closeBtn.addEventListener("click", () => {
   modal.classList.remove("active")
 })
 
+
+// ===== Homepage Events Auto-Update =====
+(async function() {
+  const eventContainer = document.querySelector('#feature-events .grid');
+  if (!eventContainer) return; // Only run on homepage
+
+  const calendarId = "c4769cf5e094f410896fe0672353e6cfcbc5caa1c173a4aca481c41463da0e7d@group.calendar.google.com";
+  const apiKey = "AIzaSyCz4WpkbLSLDxRJV8XoUIayrmbAtEC6wnI";
+  
+  const now = new Date();
+  const startISO = now.toISOString();
+
+  // Fetch upcoming events
+  const url = `https://www.googleapis.com/calendar/v3/calendars/${calendarId}/events?key=${apiKey}&singleEvents=true&orderBy=startTime&timeMin=${encodeURIComponent(startISO)}&maxResults=20`;
+
+  try {
+    const res = await fetch(url);
+    const data = await res.json();
+    
+    if (!data.items) return;
+
+    const seenTitles = new Set();
+    const validEvents = [];
+    
+    for (const ev of data.items) {
+      const title = (ev.summary || '').trim();
+      if (!title) continue;
+
+      // Filter ignored events
+      if (title.includes("Club Meeting") || title.includes("DTAI-Weekly MTG")) {
+        continue;
+      }
+      
+      // Deduplicate
+      if (seenTitles.has(title)) continue;
+      
+      seenTitles.add(title);
+      validEvents.push(ev);
+      
+      if (validEvents.length >= 3) break;
+    }
+    
+    if (validEvents.length > 0) {
+      // Create HTML for the cards
+      const html = validEvents.map((ev, idx) => {
+        const title = ev.summary || 'Event';
+        const start = new Date(ev.start.dateTime || ev.start.date);
+        const isAllDay = !ev.start.dateTime;
+        
+        const mon = start.toLocaleString('en-US', { month: 'short' });
+        const day = start.getDate();
+        const timePart = isAllDay ? '' : ` — ${start.toLocaleString('en-US', { hour: 'numeric', minute: '2-digit' })}`;
+        
+        const loc = ev.location ? ` - ${ev.location}` : '';
+        
+        let desc = ev.description || '';
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = desc;
+        desc = tempDiv.textContent || tempDiv.innerText || '';
+        if (desc.length > 80) desc = desc.substring(0, 80) + '...';
+
+        const delay = idx > 0 ? ` delay-${idx}` : ''; 
+        
+        return `
+          <div class="card reveal${delay} in">
+            <h3>${title}</h3>
+            <p>${mon} ${day}${timePart}${loc}. ${desc}</p>
+          </div>
+        `;
+      }).join('');
+      
+      eventContainer.innerHTML = html;
+    }
+
+  } catch (err) {
+    console.warn('Could not fetch upcoming events:', err);
+  }
+})();
+
