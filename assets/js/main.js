@@ -171,27 +171,36 @@ function initDarkMode() {
   });
 }
 
-const modal = document.getElementById("imageModal")
-const modalImage = document.getElementById("modalImage")
-const closeBtn = document.getElementById("closeModal")
+// ===== Image Modal (if present) =====
+(function(){
+  const modal = document.getElementById("imageModal");
+  const modalImage = document.getElementById("modalImage");
+  const closeBtn = document.getElementById("closeModal");
 
-document.querySelectorAll(".education-package-image").forEach(img => {
-  img.addEventListener("click", () => {
-    modalImage.src = img.src
-    modal.classList.add("active")
-  })
-})
+  if (!modal || !modalImage || !closeBtn) return;
 
-closeBtn.addEventListener("click", () => {
-  modal.classList.remove("active")
-})
+  document.querySelectorAll(".education-package-image").forEach(img => {
+    img.addEventListener("click", () => {
+      modalImage.src = img.src;
+      modal.classList.add("active");
+    });
+  });
+
+  closeBtn.addEventListener("click", () => {
+    modal.classList.remove("active");
+  });
+})();
 
 
 // ===== Homepage Events Auto-Update =====
 (async function() {
   const eventContainer = document.querySelector('#feature-events .grid');
-  if (!eventContainer) return; // Only run on homepage
+  if (!eventContainer) {
+    console.log('Event container not found - not on homepage');
+    return; // Only run on homepage
+  }
 
+  console.log('Starting event fetch...');
   const calendarId = "c4769cf5e094f410896fe0672353e6cfcbc5caa1c173a4aca481c41463da0e7d@group.calendar.google.com";
   const apiKey = "AIzaSyCz4WpkbLSLDxRJV8XoUIayrmbAtEC6wnI";
   
@@ -204,9 +213,14 @@ closeBtn.addEventListener("click", () => {
   try {
     const res = await fetch(url);
     const data = await res.json();
+    console.log('Calendar data received:', data);
     
-    if (!data.items) return;
+    if (!data.items) {
+      console.log('No events found in calendar');
+      return;
+    }
 
+    console.log(`Processing ${data.items.length} events from calendar`);
     const seenTitles = new Set();
     const validEvents = [];
     
@@ -227,6 +241,8 @@ closeBtn.addEventListener("click", () => {
       
       if (validEvents.length >= 3) break;
     }
+    
+    console.log(`Found ${validEvents.length} valid events after filtering`);
     
     if (validEvents.length > 0) {
       // Create HTML for the cards
@@ -257,6 +273,7 @@ closeBtn.addEventListener("click", () => {
         `;
       }).join('');
       
+      console.log('Updating event container with new HTML');
       eventContainer.innerHTML = html;
     }
 
