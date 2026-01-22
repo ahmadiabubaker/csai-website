@@ -44,6 +44,7 @@
 }
 /* Terminal-style notice box similar to blog code blocks */
 .embed-page .terminal-box {
+  position: relative;
   background: #0b1220;
   color: #f4f7ff; /* higher contrast text */
   border: 1px solid #1f2a44;
