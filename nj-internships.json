@@ -6539,7 +6539,7 @@
         "company_name": "AT&T",
         "id": "7096c3ca-a59e-46db-bab7-533b7aaa191b",
         "title": "AT&T Labs Internship - Advanced Degrees - Cnv",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6675,7 +6675,7 @@
         "company_name": "AT&T",
         "id": "f541afa2-bf20-464f-89a1-a39af6c738e9",
         "title": "AT&T Labs Internship - Undergraduate and Masters Degrees - Cnv",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8093,7 +8093,7 @@
         "company_name": "Red Bull",
         "id": "544a60d6-4acb-4da7-a139-d7a61d0521b7",
         "title": "Intern - Academy Performance Analysis",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -8112,7 +8112,7 @@
         "source": "Simplify",
         "category": "Hardware",
         "company_name": "KLA",
-        "id": "68a5c4c4-0281-4735-9b76-9aa50bcaed3a",
+        "id": "6d5dd94f-5ebb-43bd-b9ee-ded0ecd21256",
         "title": "Product Development Engineering Intern",
         "active": true,
         "terms": [
@@ -8210,7 +8210,7 @@
         "company_name": "Commvault",
         "id": "c6de2776-dffd-48d6-a05e-3e84d0e0bbad",
         "title": "Technical Enablement Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8231,7 +8231,7 @@
         "company_name": "AT&T",
         "id": "5eabb7b9-2c8c-464a-9848-96fc90320411",
         "title": "Technology Development Program Intern - 2026",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8255,9 +8255,9 @@
         "source": "Simplify",
         "category": "AI/ML/Data",
         "company_name": "Benjamin Moore",
-        "id": "2cc928e2-4fd8-4c0d-b0eb-79f78bfd6142",
+        "id": "1cb16f00-6d9a-4f12-95be-a4fc2a5d2534",
         "title": "Data Science & Analytics Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Spring 2026"
         ],
@@ -8331,7 +8331,7 @@
         "company_name": "Avis Budget Group",
         "id": "d5d7b662-9d2d-4c7b-8158-ade634cbe221",
         "title": "Accelerate Postgraduate Opportunity - Deployed Transformation Engineer",
-        "active": true,
+        "active": false,
         "terms": [
             "N/A"
         ],
@@ -8425,7 +8425,7 @@
         "company_name": "Prudential Financial",
         "id": "afca5f9b-973f-4f8a-b29f-9193c572ea3d",
         "title": "Prudential: 2026 Global Technology & Operations \u2013 Internship Program",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8448,7 +8448,7 @@
         "company_name": "BMO ",
         "id": "0c9e1387-98f2-4988-94d1-9d6ac35faeb1",
         "title": "AI Developer Internship",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8471,7 +8471,7 @@
         "company_name": "Samsung",
         "id": "5d2be618-51fc-47c6-9390-338da73b22d8",
         "title": "AI Analyst",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8510,6 +8510,208 @@
         "sponsorship": "Other",
         "degrees": [
             "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "SRI International",
+        "id": "ccc5d866-d969-44f6-affc-413e4a2be808",
+        "title": "Intern",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1769027720,
+        "date_posted": 1769027720,
+        "url": "https://careers-sri.icims.com/jobs/6315/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/SRI-International",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "Fiserv",
+        "id": "60afcc6b-8fa5-4bfe-8310-51c5cb70bb58",
+        "title": "Corporate Internship Program - Product Management - Berkeley Heights NJ",
+        "active": true,
+        "terms": [
+            "Winter 2026",
+            "Spring 2027",
+            "Summer 2027",
+            "Fall 2027",
+            "Winter 2027",
+            "Spring 2028",
+            "Summer 2028"
+        ],
+        "date_updated": 1769027865,
+        "date_posted": 1769027865,
+        "url": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/Corporate-Internship-Program---Product-Management--Berkeley-Heights--NJ-_R-10385976",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Fiserv",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "CVS Health",
+        "id": "babec1c8-b872-44d6-a724-e706daaf68c1",
+        "title": "Full-Stack Engineer Training Program",
+        "active": false,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1769029100,
+        "date_posted": 1769029100,
+        "url": "https://cvshealth.wd1.myworkdayjobs.com/Private_Postings_Intern_Conversion_ONLY/job/CT---Work-from-home/Full-Stack-Engineer-Training-Program---June-2026-Cohort_R0784945-2",
+        "locations": [
+            "New Mexico",
+            "Independence, KS",
+            "Washington",
+            "Cunningham, KS",
+            "Kansas",
+            "Pennsylvania",
+            "Oconomowoc, WI",
+            "California",
+            "Wyoming",
+            "Texas",
+            "Jackson Township, NJ",
+            "Florida",
+            "Waterbury, CT",
+            "Nevada",
+            "Wichita, KS",
+            "South Carolina",
+            "South Dakota",
+            "Edmond, OK",
+            "Concord, NH",
+            "Tennessee",
+            "Vinita, OK",
+            "Minnesota",
+            "Nebraska",
+            "Rhode Island",
+            "Kentucky",
+            "West Virginia",
+            "Fort Gibson, OK",
+            "NYC",
+            "Wisconsin",
+            "North Carolina",
+            "Missouri",
+            "Illinois",
+            "Alabama",
+            "United States",
+            "McKenzie, TN"
+        ],
+        "company_url": "https://simplify.jobs/c/CVS-Health",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "KLA",
+        "id": "68a5c4c4-0281-4735-9b76-9aa50bcaed3a",
+        "title": "Product Development Engineering Intern",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1767974971,
+        "date_posted": 1767974971,
+        "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Totowa-NJ/Product-Development-Engineering-Intern_2533189-1",
+        "locations": [
+            "Paterson, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/KLA",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "KLA",
+        "id": "0a518495-bd05-4ad1-bafd-841ea6a3357b",
+        "title": "Product Marketing Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1768956409,
+        "date_posted": 1768956409,
+        "url": "https://kla.wd1.myworkdayjobs.com/UR/job/Totowa-NJ/Product-Marketing-Intern_2533061",
+        "locations": [
+            "Paterson, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/KLA",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Kearny Bank",
+        "id": "5f5a82fc-3a12-4ff3-ad7d-87fa5fc12848",
+        "title": "Data Analytics Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1769123220,
+        "date_posted": 1769123220,
+        "url": "https://careers-kearnybank.icims.com/jobs/3004/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Wayne, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Kearny-Bank",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Legend Biotech",
+        "id": "ca707cd4-9ec0-463a-981f-a19ba14f7e33",
+        "title": "Manufacturing Automation Intern",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1769124377,
+        "date_posted": 1769124377,
+        "url": "https://job-boards.greenhouse.io/legendcareers/jobs/4652556005",
+        "locations": [
+            "Somerset County, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Legend-Biotech",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
         ]
     }
 ]
