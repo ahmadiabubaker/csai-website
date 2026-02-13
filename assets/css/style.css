@@ -1521,7 +1521,7 @@ body.dark-mode .section h2{
   gap: 20px;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 24px;
-  align-items: start; /* change back to stretch to make everything aligned */
+  align-items: start;
 }
 
 /* uuncomment below to make everything aligned */
