@@ -32,6 +32,48 @@
 </head>
 <body>
 
+<!-- ===== Splash / Page Load Animation ===== -->
+<div id="splash" class="splash" aria-hidden="true">
+  <div class="splash-inner">
+    <!-- Animated SVG Logo: neural-node circuit mark -->
+    <svg class="splash-logo" viewBox="0 0 200 200" width="120" height="120" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <!-- Connecting lines (drawn on) -->
+      <line class="splash-line" x1="100" y1="40" x2="50"  y2="100" stroke="url(#lg1)" stroke-width="2.5" stroke-linecap="round"/>
+      <line class="splash-line" x1="100" y1="40" x2="150" y2="100" stroke="url(#lg1)" stroke-width="2.5" stroke-linecap="round"/>
+      <line class="splash-line" x1="50"  y1="100" x2="100" y2="160" stroke="url(#lg1)" stroke-width="2.5" stroke-linecap="round"/>
+      <line class="splash-line" x1="150" y1="100" x2="100" y2="160" stroke="url(#lg1)" stroke-width="2.5" stroke-linecap="round"/>
+      <line class="splash-line" x1="50"  y1="100" x2="150" y2="100" stroke="url(#lg1)" stroke-width="2.5" stroke-linecap="round"/>
+      <line class="splash-line" x1="100" y1="40" x2="100" y2="160" stroke="url(#lg1)" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+      <!-- Nodes (scale in) -->
+      <circle class="splash-node n1" cx="100" cy="40"  r="10" fill="url(#lg2)"/>
+      <circle class="splash-node n2" cx="50"  cy="100" r="10" fill="url(#lg2)"/>
+      <circle class="splash-node n3" cx="150" cy="100" r="10" fill="url(#lg2)"/>
+      <circle class="splash-node n4" cx="100" cy="160" r="10" fill="url(#lg2)"/>
+      <!-- Center brain dot -->
+      <circle class="splash-node n5" cx="100" cy="100" r="7" fill="#fff" opacity="0.9"/>
+      <!-- Gradients -->
+      <defs>
+        <linearGradient id="lg1" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#7A5CFF"/>
+          <stop offset="100%" stop-color="#00E6FF"/>
+        </linearGradient>
+        <linearGradient id="lg2" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#7A5CFF"/>
+          <stop offset="50%" stop-color="#00E6FF"/>
+          <stop offset="100%" stop-color="#FF7AE6"/>
+        </linearGradient>
+      </defs>
+    </svg>
+    <div class="splash-text">
+      <span class="splash-letter">C</span>
+      <span class="splash-letter">S</span>
+      <span class="splash-letter">A</span>
+      <span class="splash-letter">I</span>
+    </div>
+    <div class="splash-tagline">Computer Science + AI Club</div>
+  </div>
+</div>
+
  <!-- ===== Header ===== -->
 <header class="header">
   <div class="nav container">

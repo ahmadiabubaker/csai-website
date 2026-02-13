@@ -1,6 +1,34 @@
 // ===================================================================
-// HOMEPAGE ENHANCEMENTS — Particles, Tilt, Counters, Shine tracking
+// HOMEPAGE ENHANCEMENTS — Splash, Particles, Tilt, Counters, Shine
 // ===================================================================
+
+// ===== 0. Splash Screen =====
+(function () {
+  const splash = document.getElementById('splash');
+  if (!splash) return;
+
+  // Lock scroll during splash
+  document.body.classList.add('splash-active');
+
+  // Only show splash once per session
+  if (sessionStorage.getItem('splashShown')) {
+    splash.remove();
+    document.body.classList.remove('splash-active');
+    return;
+  }
+
+  sessionStorage.setItem('splashShown', '1');
+
+  // Dismiss after animations complete (~2.2s)
+  setTimeout(() => {
+    splash.classList.add('done');
+    document.body.classList.remove('splash-active');
+    document.body.classList.add('splash-reveal');
+
+    // Remove from DOM after fade-out
+    setTimeout(() => splash.remove(), 700);
+  }, 2200);
+})();
 
 // ===== 1. Neural-net Particle Canvas =====
 (function () {
