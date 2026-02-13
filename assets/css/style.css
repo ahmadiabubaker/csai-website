@@ -2825,6 +2825,7 @@ body.dark-mode #post article h2 {
   overflow: hidden;
   position: relative;
   width: 100%;
+  max-width: 100%;
   padding: 16px 0;
   -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 8%, #000 92%, transparent 100%);
   mask-image: linear-gradient(90deg, transparent 0%, #000 8%, #000 92%, transparent 100%);
@@ -2857,9 +2858,29 @@ body.dark-mode #post article h2 {
   to   { transform: translateX(-50%); }
 }
 
+/* Technologies section mobile containment */
+#technologies {
+  overflow: hidden;
+  max-width: 100vw;
+  box-sizing: border-box;
+}
+
+#technologies .section-content {
+  overflow: hidden;
+  max-width: 100%;
+}
+
 @media (max-width: 640px) {
+  #technologies {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
   .tech-marquee-track { gap: 16px; }
   .tech-marquee .tech { min-width: 100px; padding: 14px; }
+  .tech-marquee .tech .tech-logo img {
+    max-width: 48px;
+    max-height: 48px;
+  }
 }
 
 /* ===== Enhanced Card Hover States ===== */
