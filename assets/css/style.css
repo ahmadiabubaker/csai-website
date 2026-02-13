@@ -2377,6 +2377,12 @@ body.dark-mode #post article h2 {
     width: 100%;
   }
 
+  #achievements {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
   /* Mobile: Off-screen sidebar menu */
   .off-screen-menu {
     z-index: 1000;
@@ -3085,3 +3091,12 @@ body.dark-mode #post article h2 {
 .delay-9{transition-delay:.72s}
 .delay-10{transition-delay:.80s}
 .delay-11{transition-delay:.88s}
+
+#achievements {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card.reveal {
+  max-width: 500px;
+}
