@@ -1,0 +1,44 @@
+[
+  {
+    "id": "hackathon-spring-2026",
+    "name": "RAISE-26",
+    "organizer": "Rutgers University",
+    "description": "National AI-Informatics competition! Teams of 2–5 analyze how AI is transforming human behavior using data science, NLP, and machine learning. Open to undergrad and grad students across disciplines. Compete for up to $20,000 and present at Rutgers University.",
+    "prize": "$20,000",
+    "difficulty": "Intermediate",
+    "start_date": "2026-01-19T09:00:00",
+    "end_date": "2026-04-17T09:00:00",
+    "details_url": "https://sites.rutgers.edu/raise/raise-2026/",
+    "tags": ["AI", "Data Science", "Data Analytics"],
+    "featured": false,
+    "visible": true
+  },
+  {
+    "id": "cybersecurity-ctf",
+    "name": "CyberSec CTF Championship",
+    "organizer": "Security Alliance",
+    "description": "Test your cybersecurity skills in this Capture The Flag competition. Challenges include cryptography, reverse engineering, web exploitation, and forensics. Perfect for aspiring security professionals.",
+    "prize": "$3,000",
+    "difficulty": "Intermediate",
+    "start_date": "2026-02-10T10:00:00",
+    "end_date": "2026-02-28T22:00:00",
+    "details_url": "https://example.com/details",
+    "tags": ["Cybersecurity", "CTF", "Cryptography", "Hacking"],
+    "featured": false,
+    "visible": true
+  },
+  {
+    "id": "data-science-olympics",
+    "name": "Data Science Olympics",
+    "organizer": "DataCorp",
+    "description": "Compete in the ultimate data science challenge! Analyze real-world datasets, build predictive models, and present your findings. Weekly mini-challenges lead up to the grand finale.",
+    "prize": "$15,000",
+    "difficulty": "Advanced",
+    "start_date": "2026-04-01T00:00:00",
+    "end_date": "2026-05-31T23:59:59",
+    "details_url": "https://example.com/details",
+    "tags": ["Data Science", "Analytics", "Python", "R"],
+    "featured": false,
+    "visible": true
+  }
+]
