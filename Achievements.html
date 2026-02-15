@@ -1,13 +1,23 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+
+    gtag('config', 'G-3D4TYEWL38');
+  </script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CSAI — DIY Learning</title>
+  <title>CSAI — Achievements</title>
   <link rel="icon" type="image/png" href="data/photos/logo.png">
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
+
 <header class="header">
   <div class="nav container">
 
@@ -57,7 +67,6 @@
           <ul class="dropdown-menu">
             <li><a href="learning.html">Tutorials</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="resources.html">Resources</a></li>
           </ul>
         </li>
         
@@ -65,8 +74,18 @@
           <a href="events.html" class="nav-link">Events</a>
         </li>
         
-        <li class="nav-item">
-          <a href="internships.html" class="nav-link">Internships</a>
+        <!-- Achievements with dropdown -->
+        <li class="nav-item has-dropdown">
+          <a href="Achievements.html" class="nav-link">Achievements</a>
+          <button class="dropdown-toggle" aria-label="Toggle Achievements submenu" aria-expanded="false">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+              <path d="M8 11L3 6h10z"/>
+            </svg>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="competitions.html">Competitions</a></li>
+            <li><a href="publications.html">Publications</a></li>
+          </ul>
         </li>
         
         <li class="nav-item">
@@ -81,44 +100,28 @@
 </header>
 
 <section class="section">
-  <div class="resources-container">
+  <div class="container">
+    <h2 class="reveal">Achievements</h2>
+    <p class="lead reveal">See how our members engage in challenges and advance knowledge through research.</p>
 
-    <div class="list-container">
-      <h2>Opportunities</h2>
-      <ul class="resource-list">
-        <li><a href="https://form.jotform.com/251055384401146" target="_blank">AI Internship for community college students</a></li>
-        <!-- <li>idea</li>
-        <li>idea</li> -->
-      </ul>
-    </div>
-    
-    <div class="list-container">
-      <h2>Ideas - Personal Digital Twin</h2>
-      <ul class="resource-list">
-        <li><a href="https://refreshmiami.com/news/digital-twin-platform-mindbank-ai-lands-1-2m-government-grant-to-optimize-your-mind-and-its-literally-out-of-this-world/#:~:text=How%20can%20I%20build%20on,%E2%80%9Cdashboards%20of%20the%20mind.%E2%80%9D" target="_blank">Building the Digital Twin of the Mind</a></li>
-        <li>idea</li>
-        <li>idea</li>
-      </ul>
-    </div>
+    <div class="grid" id="achievements">
+      
+      <!-- Competitions Card -->
+      <div class="card reveal">
+        <h3>🏆 Competitions</h3>
+        <p>Browse past and upcoming competitions, hackathons, and coding challenges that our members have participated in.</p>
+        <br>
+        <a href="competitions.html" class="btn">View Competitions</a>
+      </div>
 
-    <div class="list-container">
-      <h2>National Artificial Intelligence Research Resource</h2>
-      <ul class="resource-list">
-        <li><a href="https://nairrpilot.org/" target="_blank">NAIRR</a></li>
-        <!-- <li>idea</li>
-        <li>idea</li> -->
-      </ul>
-    </div>
+      <!-- Publications Card -->
+      <div class="card reveal">
+        <h3>📚 Publications</h3>
+        <p>Explore research papers, articles, and academic publications authored by CSAI members and collaborators.</p>
+        <br>
+        <a href="publications.html" class="btn">View Publications</a>
+      </div>
 
-    
-
-    <div class="list-container">
-      <h2>Bake Sale Recipes</h2>
-      <ul class="resource-list">
-        <li>recipe</li>
-        <li>recipe</li>
-        <li>recipe</li>
-      </ul>
     </div>
   </div>
 </section>
@@ -128,7 +131,7 @@
 </footer>
 
 <script src="assets/js/main.js"></script>
-<script src="assets/js/projects.js"></script>
+<script src="header.js"></script>
 <script src="assets/js/side-bar.js"></script>
 </body>
 </html>

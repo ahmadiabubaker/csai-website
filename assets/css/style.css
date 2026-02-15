@@ -2377,15 +2377,21 @@ body.dark-mode #post article h2 {
     width: 100%;
   }
 
+  #achievements {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
   /* Mobile: Off-screen sidebar menu */
   .off-screen-menu {
     z-index: 1000;
     height: 100vh;
     width: 100%;
-    max-width: 55%;
+    max-width: 70%;
     position: fixed;
     top: 0;
-    left: -60%;
+    left: -70%;
     
     font-size: 3rem;
     transition: 0.3s ease;
@@ -2442,8 +2448,8 @@ body.dark-mode #post article h2 {
     align-items: center;
     justify-content: center;
     position: absolute;
-    right: 15px;
-    margin-top: 24px;
+    right: -30px;
+    margin-top: 25px;
     border: 3px solid transparent;
     border-radius: 20px;
 
@@ -3085,3 +3091,12 @@ body.dark-mode #post article h2 {
 .delay-9{transition-delay:.72s}
 .delay-10{transition-delay:.80s}
 .delay-11{transition-delay:.88s}
+
+#achievements {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card.reveal {
+  max-width: 500px;
+}

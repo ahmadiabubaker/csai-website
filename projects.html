@@ -66,20 +66,27 @@
           <ul class="dropdown-menu">
             <li><a href="learning.html">Tutorials</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="resources.html">Resources</a></li>
           </ul>
         </li>
 
         <li class="nav-item">
           <a href="events.html" class="nav-link">Events</a>
         </li>
-
-        <li class="nav-item">
-          <a href="internships.html" class="nav-link">Internships</a>
+        
+       <!-- Achievements with dropdown -->
+        <li class="nav-item has-dropdown">
+          <a href="Achievements.html" class="nav-link">Achievements</a>
+          <button class="dropdown-toggle" aria-label="Toggle Achievements submenu" aria-expanded="false">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+              <path d="M8 11L3 6h10z"/>
+            </svg>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="competitions.html">Competitions</a></li>
+            <li><a href="publications.html">Publications</a></li>
+          </ul>
         </li>
 
-        <li class="nav-item mobile-only">
-        
         <li class="nav-item">
           <a href="join.html" class="nav-link">Join</a>
         </li>
@@ -100,7 +107,7 @@
       <div class="project-card">
         <div class="project-media"><img src="data/photos/DTAI.png" alt="Agent Lab"></div>
         <h3 class="project-title">Digital Twin Powered by AI</h3>
-        <div class="project-sub">Technologies: Blender, Hyperskill, C#, Unity</div>
+        <div class="project-sub">Blender, Hyperskill, C#, Unity</div>
         <div class="project-desc">
           Developed an immersive digital simulation depicting the chip packaging process in collaboration with Princeton University. Designed as training material for device packaging technicians and enthusiasts in VR.
 
@@ -134,7 +141,7 @@
       <div class="project-card">
         <div class="project-media"><img src="data/photos/csaiwebsite.png" alt="CSAI Site"></div>
         <h3 class="project-title">CSAI Website</h3>
-        <div class="project-sub">Technologies: HTML, CSS, JavaScript</div>
+        <div class="project-sub">HTML, CSS, JavaScript</div>
         <div class="project-desc">
           The CSAI website is an interactive and user-friendly platform built using HTML, CSS, and JavaScript, designed to showcase the club’s activities, projects, and resources.
           It features a clean and modern layout, intuitive navigation, and dynamic content that highlights ongoing initiatives, upcoming events, and member contributions.
@@ -149,7 +156,7 @@
       <div class="project-card">
         <div class="project-media"><img src="data/photos/sci.png" alt="Auto-Notes"></div>
         <h3 class="project-title">AnatomyVR</h3>
-        <div class="project-sub">Technologies: Blender, Unity</div>
+        <div class="project-sub">Blender, Unity</div>
         <div class="project-desc">
           This project is a virtual 3D simulation platform focused on human muscles, designed for anatomy and physical therapy students.
           It provides detailed, interactive 3D models that allow students to explore, identify, and understand the structure and function of each muscle.
@@ -166,7 +173,7 @@
       <div class="project-card">
         <div class="project-media"><img src="data/photos/photonics.jpeg" alt="photonics"></div>
         <h3 class="project-title">DTAI&ML for Photonics Learning & Training</h3>
-        <div class="project-sub">Technologies: Blender, Unity, Hyperskill, C#, Python, AI&ML algorithm software</div>
+        <div class="project-sub">Blender, Unity, Hyperskill, C#, Python, AI&ML</div>
         <div class="project-desc">
           This project aims to use DTAI&ML to create immersive and interactive 3D learning & training content for the photonics workforce.
           Photonics, using light (photons) as opposed to electricity (electrons), is the latest wave of innovation, such as Silicon Photonics that combines optical components with electric circuits into one single chip, leveraging on semiconductor technology and manufacturing capabilities and experience.
@@ -190,22 +197,10 @@
       <!-- new card -->
       <div class="project-card">
         <div class="project-media"><img src="data/photos/robots.png" alt="A futuristic drone hovering next to an assembly robot that has a human-like hand."></div>
-        <h3 class="project-title">Mercer Robotics: Drone, Hands, Arm (Work In Progress)</h3>
-        <div class="project-sub">Control(Raspberry pi pico, Arduino); DTAI&ML(Blender, Nvidia Infinigen-Sim, Stanford Mujoco Physics Sim, Python)</div>
-        <div class="project-desc">
-          This project is a joint effort between the CSAI and Robotics clubs.
-          Members will:
-          <ul>
-            <li>Design, build and program robots using mechanical, electrical, and computer science (programming, AI, and ML) skills in circuits, sensors, and motors.</li>
-            <li>Focus on reading assembly instructions, schematics and using hand-tools to build robotic hands and arms.</li>
-            <li>Create or using API's with existing digital twins with the Mercer Robotics club.</li>
-          </ul>
-        <div class="project-media"><img src="data/photos/robots.png" alt="robots"></div>
-        <h3 class="project-title"><img id="mercer-m" src="data/photos/Mercer logo.png" alt="Mercer Logo">ercer Robotics (Work In Progress)</h3>
-        <div class="project-sub">Technologies: Raspberry Pi, Arduino, Blender, Python, Nvidia Sim</div>
+        <h3 class="project-title"><img id="mercer-m" src="data/photos/Mercer logo.png" alt="Mercer Logo">ercer Robotics: Drone, Hands, Arm (Work In Progress)</h3>
+        <div class="project-sub">Control(Raspberry pi pico, Arduino); DTAI&ML</div>
         <div class="project-desc">
           A joint effort between the CSAI and Robotics clubs building drones, robotic hands, and arms using mechanical, electrical, and computer science skills.
-          
           <!-- long content can continue here; collapsed by default -->
           <div class="project-more">
             <ul>
@@ -240,24 +235,12 @@
               </li>
               <li>
                 Arm Info
-              <li>Training sessions in S26 Semester. See Events Calender for details</li>
-              <li><a target="_blank" href="https://spectrum.ieee.org/tag/automation">Smart Manufacturing and Supply Chains</a></li>
-              <li>Drone</li>
-              <ul>
-                <li>tbd</li>
-              </ul>
-              <li>Hands</li>
-              <ul>
-                <li><a target="_blank" href="https://hand-erc.org/about/">HAND</a></li>
-                <li><a target="_blank" href="https://v1.leaphand.com/">Leaphand v1</a></li>
-                <li><a target="_blank" href="https://v2.leaphand.com/">Leaphand v2</a></li>
-                <li><a target="_blank" href="https://v2-adv.leaphand.com/">Leaphand v2 Advanced</a></li>
-              </ul>           
-              <li>Arm</li>
                 <ul>
                   <li>TBD</li>
                 </ul>
               </li>
+              <li>Training sessions in S26 Semester. See Events Calendar for details</li>
+              <li><a target="_blank" href="https://spectrum.ieee.org/tag/automation">Smart Manufacturing and Supply Chains</a></li>
             </ul>
           </div>
         </div>
@@ -265,34 +248,63 @@
           <button class="read-more-btn" type="button" aria-expanded="false">Read More</button>
         </div>
       </div>
-        <div class="project-actions">
-          <button class="read-more-btn" type="button" aria-expanded="false">Read More</button>
-        </div>
-      </div>
 
       <!-- new card -->
-      <div class="project-card">
+      <div class="project-card ori">
         <div class="project-media"><img src="data/photos/sddefault.jpg" alt="Kirigami"></div>
         <h3 class="project-title">Origami/Kirigami Engineering (Work In Progress)</h3>
-        <div class="project-sub"></div>
+        <div class="project-sub"><br></div>
         <div class="project-desc">
-          <p>Kyushu Institute of Technology (Kyutech) engages in origami engineering,
-          leveraging traditional Japanese paper-folding art for advanced applications, especially in space, creating deployable, compact structures like solar panels and habitation modules for satellites and lunar bases, focusing on self-deployment and large-scale structures from small volumes, a key area in aerospace design
-          This research, alongside Kyushu University, uses origami principles for creating complex 3D shapes, honeycomb cores, and efficient mechanisms for space exploration, aligning with Japan's strong cultural ties to origami.</p>
+          <div class="project-more">
+            <p>Kyushu Institute of Technology (Kyutech) engages in origami engineering,
+            leveraging traditional Japanese paper-folding art for advanced applications, especially in space, creating deployable, compact structures like solar panels and habitation modules for satellites and lunar bases, focusing on self-deployment and large-scale structures from small volumes, a key area in aerospace design
+            This research, alongside Kyushu University, uses origami principles for creating complex 3D shapes, honeycomb cores, and efficient mechanisms for space exploration, aligning with Japan's strong cultural ties to origami.</p>
 
-          <ul>
-            <li><a target="_blank" href="https://kyushu-u.elsevierpure.com/en/publications/%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF%E3%81%AE%E7%A7%91%E5%AD%A6%E3%81%A8%E7%94%9F%E7%89%A9%E6%A8%A1%E5%80%A3%E5%B7%A5%E5%AD%A6/#:~:text=Abstract,products%20with%20foldable/deployable%20functions.">Kyushu University</a></li>
-            <li><a target="_blank" href="https://www.youtube.com/watch?v=2nOSsCMeZJU">Origami Engineering: Unfolding Hidden Potential - Science View</a></li>
-          </ul>
-
+            <ul>
+              <li><a target="_blank" href="https://kyushu-u.elsevierpure.com/en/publications/%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF%E3%81%AE%E7%A7%91%E5%AD%A6%E3%81%A8%E7%94%9F%E7%89%A9%E6%A8%A1%E5%80%A3%E5%B7%A5%E5%AD%A6/#:~:text=Abstract,products%20with%20foldable/deployable%20functions.">Kyushu University</a></li>
+              <li><a target="_blank" href="https://www.youtube.com/watch?v=2nOSsCMeZJU">Origami Engineering: Unfolding Hidden Potential - Science View</a></li>
+            </ul>
+          
+          </div>
         </div>
         <div class="project-actions">
           <button class="read-more-btn" type="button" aria-expanded="false">Read More</button>
         </div>
       </div>
 
-    </div>
+      <!-- mercer g-arm -->
+      <div class="project-card">
+        <div class="project-media"><img src="data/photos/Maker Faire Robot.jpg" alt="G-ARM Robot"></div>
+        <h3 class="project-title"><img id="mercer-m" src="data/photos/Mercer logo.png" alt="Mercer Logo">ercer Robotics G-ARM: Open-Source Robotics</h3>
+        <div class="project-sub">CircuitPython/Arduino/MicroPython, ROS 2, URDF/Xacro, Python</div>
+        <div class="project-desc">
+          <div class="project-more">          
+            An interactive robotic exhibit built on the open-source <a href="https://github.com/njdrz400/mercer_garm" target="_blank">g-arm project</a>, combining hands-on engineering education with public engagement at <a href="https://philly.makerfaire.com/" target="_blank">Maker Faire Philadelphia</a>.
+            <p>Using <strong>ROS 2</strong> as the software backbone, students gain experience in robot modeling (URDF/Xacro), motion planning, control systems, and human-robot interaction through real-world development workflows.</p>
 
+            <p>Visitors can play <strong>tic-tac-toe against the robotic arm</strong> using an <a href="https://www.adafruit.com/product/5128" target="_blank">Adafruit keypad</a>. The system detects player moves, computes strategy, and executes precise motion trajectories—demonstrating kinematics, path planning, and closed-loop control in an engaging format.</p>
+
+            <p><strong>Project Goals:</strong></p>
+            <ul>
+              <li>Showcase student competencies in robotics, programming, and systems integration</li>
+              <li>Promote workforce-ready STEM education</li>
+              <li>Demonstrate open-source technology as a cost-effective learning pathway</li>
+              <li>Inspire K-12 and community participants to explore careers in robotics and engineering</li>
+            </ul>
+
+            <h3>Resources</h3>
+            <ul>
+              <li><a href="https://github.com/njdrz400/mercer_garm" target="_blank">GitHub Repository</a></li>
+              <li><a href="https://philly.makerfaire.com/" target="_blank">Maker Faire Philadelphia</a></li>
+              <li><a href="https://www.adafruit.com/product/5128" target="_blank">Adafruit Keypad Kit</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-actions">
+          <button class="read-more-btn" type="button" aria-expanded="false">Read More</button>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "sample-publication-1",
+    "title": "Sample Research Publication",
+    "authors": ["Author 1", "Author 2"],
+    "venue": "Conference on AI",
+    "year": 2025,
+    "type": "Conference",
+    "url": "https://example.com/paper",
+    "date_posted": 1738886400,
+    "is_visible": true
+  }
+]
