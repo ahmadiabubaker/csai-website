@@ -1,45 +1,5 @@
 [
     {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "United Parcel Service (UPS)",
-        "id": "8d574959-501d-4917-9a26-884149db7bda",
-        "title": "ISM Co-Op",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1749265727,
-        "date_posted": 1749265727,
-        "url": "https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/US---IS-PARSIPPANY-NJPRS/ISM-Co-Op_R25015025",
-        "locations": [
-            "Parsippany-Troy Hills, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/United-Parcel-Service",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "United Parcel Service (UPS)",
-        "id": "97c78a04-9659-4c0b-98c7-070b2fb5335b",
-        "title": "ISM Co-op",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1749265709,
-        "date_posted": 1749265709,
-        "url": "https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/US---IS-PARSIPPANY-NJPRS/ISM-Co-op_R25015026",
-        "locations": [
-            "Parsippany-Troy Hills, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/United-Parcel-Service",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
         "date_updated": 1751938726,
         "url": "https://blackrock.tal.net/vx/lang-en-GB/mobile-0/brand-3/xf-e774a855fe31/candidate/so/pm/1/pl/1/opp/9601-2026-Summer-Internship-Program-AMERS/en-GB",
         "locations": [
@@ -2825,7 +2785,7 @@
         "company_name": "Leidos",
         "id": "0f43d7bb-9f44-4ec0-9cfe-721d7d264ada",
         "title": "Systems Integration and Software Engineer Intern - Transportation Solutions - Air Traffic Management",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -5862,7 +5822,7 @@
         "company_name": "Nokia",
         "id": "3dd5475e-0767-4e8b-9d17-6914a3442e9c",
         "title": "AI/ML Systems Research",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6466,7 +6426,7 @@
         "company_name": "Nokia",
         "id": "14a2d01b-6734-41d9-b82a-3904455c23a7",
         "title": "Software Developer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6539,7 +6499,7 @@
         "company_name": "AT&T",
         "id": "7096c3ca-a59e-46db-bab7-533b7aaa191b",
         "title": "AT&T Labs Internship - Advanced Degrees - Cnv",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6610,7 +6570,7 @@
         "company_name": "Nokia",
         "id": "77c37ecf-56b1-4f5b-bf06-b8360f3a052f",
         "title": "Network Systems Summer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6675,7 +6635,7 @@
         "company_name": "AT&T",
         "id": "f541afa2-bf20-464f-89a1-a39af6c738e9",
         "title": "AT&T Labs Internship - Undergraduate and Masters Degrees - Cnv",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7279,7 +7239,7 @@
         "company_name": "Nokia",
         "id": "11128f16-8245-4feb-bbcc-e3d013efe7e1",
         "title": "Bell Labs Math and Algorithms Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7911,7 +7871,7 @@
         "source": "Simplify",
         "category": "AI/ML/Data",
         "company_name": "AbbVie",
-        "id": "e59f2a10-8710-46ab-8ea7-30a8f2af1194",
+        "id": "e2367c3d-4be5-4b5d-aff3-039fec081dac",
         "title": "Statistics Intern - PhD",
         "active": true,
         "terms": [
@@ -8093,7 +8053,7 @@
         "company_name": "Red Bull",
         "id": "544a60d6-4acb-4da7-a139-d7a61d0521b7",
         "title": "Intern - Academy Performance Analysis",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -8112,7 +8072,7 @@
         "source": "Simplify",
         "category": "Hardware",
         "company_name": "KLA",
-        "id": "68a5c4c4-0281-4735-9b76-9aa50bcaed3a",
+        "id": "6d5dd94f-5ebb-43bd-b9ee-ded0ecd21256",
         "title": "Product Development Engineering Intern",
         "active": true,
         "terms": [
@@ -8162,7 +8122,7 @@
         "company_name": "Prudential Financial",
         "id": "491db16c-1030-4f0c-ae80-8fb6bf61aa6b",
         "title": "PGIM: Quantitative Solutions \u2013 Investment Technology Associate Intern - MBA/Masters",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8185,7 +8145,7 @@
         "company_name": "Prudential Financial",
         "id": "acb989f6-837e-45f5-95c2-376bd9963297",
         "title": "PGIM: 2026 Quantitative Solutions \u2013 Multi-Asset Summer Associate Internship - PhD/MBA/Masters",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8210,7 +8170,7 @@
         "company_name": "Commvault",
         "id": "c6de2776-dffd-48d6-a05e-3e84d0e0bbad",
         "title": "Technical Enablement Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8231,7 +8191,7 @@
         "company_name": "AT&T",
         "id": "5eabb7b9-2c8c-464a-9848-96fc90320411",
         "title": "Technology Development Program Intern - 2026",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8255,9 +8215,9 @@
         "source": "Simplify",
         "category": "AI/ML/Data",
         "company_name": "Benjamin Moore",
-        "id": "2cc928e2-4fd8-4c0d-b0eb-79f78bfd6142",
+        "id": "1cb16f00-6d9a-4f12-95be-a4fc2a5d2534",
         "title": "Data Science & Analytics Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Spring 2026"
         ],
@@ -8331,7 +8291,7 @@
         "company_name": "Avis Budget Group",
         "id": "d5d7b662-9d2d-4c7b-8158-ade634cbe221",
         "title": "Accelerate Postgraduate Opportunity - Deployed Transformation Engineer",
-        "active": true,
+        "active": false,
         "terms": [
             "N/A"
         ],
@@ -8354,7 +8314,7 @@
         "company_name": "Genmab",
         "id": "3189ff40-123b-4cd0-aff2-989d5bc00a49",
         "title": "Business Operations and Analytics Intern - US Market Commercial",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8377,7 +8337,7 @@
         "company_name": "Prudential Financial",
         "id": "7c05e7c8-7442-4664-b51c-198bd2a96225",
         "title": "PGIM: 2027 Public Fixed Income \u2013 Summer Investment Analyst Program - Credit Research Group",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2027"
         ],
@@ -8401,7 +8361,7 @@
         "company_name": "Prudential Financial",
         "id": "81cc3587-f271-40e6-908a-ba39add02156",
         "title": "Public Fixed Income Investment Analyst Intern - Portfolio Analysis Group",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2027"
         ],
@@ -8425,7 +8385,7 @@
         "company_name": "Prudential Financial",
         "id": "afca5f9b-973f-4f8a-b29f-9193c572ea3d",
         "title": "Prudential: 2026 Global Technology & Operations \u2013 Internship Program",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8448,7 +8408,7 @@
         "company_name": "BMO ",
         "id": "0c9e1387-98f2-4988-94d1-9d6ac35faeb1",
         "title": "AI Developer Internship",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8471,7 +8431,7 @@
         "company_name": "Samsung",
         "id": "5d2be618-51fc-47c6-9390-338da73b22d8",
         "title": "AI Analyst",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8510,6 +8470,1035 @@
         "sponsorship": "Other",
         "degrees": [
             "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "SRI International",
+        "id": "ccc5d866-d969-44f6-affc-413e4a2be808",
+        "title": "Intern",
+        "active": false,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1769027720,
+        "date_posted": 1769027720,
+        "url": "https://careers-sri.icims.com/jobs/6315/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/SRI-International",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "Fiserv",
+        "id": "60afcc6b-8fa5-4bfe-8310-51c5cb70bb58",
+        "title": "Corporate Internship Program - Product Management - Berkeley Heights NJ",
+        "active": false,
+        "terms": [
+            "Winter 2026",
+            "Spring 2027",
+            "Summer 2027",
+            "Fall 2027",
+            "Winter 2027",
+            "Spring 2028",
+            "Summer 2028"
+        ],
+        "date_updated": 1769027865,
+        "date_posted": 1769027865,
+        "url": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/Corporate-Internship-Program---Product-Management--Berkeley-Heights--NJ-_R-10385976",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Fiserv",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "CVS Health",
+        "id": "babec1c8-b872-44d6-a724-e706daaf68c1",
+        "title": "Full-Stack Engineer Training Program",
+        "active": false,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1769029100,
+        "date_posted": 1769029100,
+        "url": "https://cvshealth.wd1.myworkdayjobs.com/Private_Postings_Intern_Conversion_ONLY/job/CT---Work-from-home/Full-Stack-Engineer-Training-Program---June-2026-Cohort_R0784945-2",
+        "locations": [
+            "New Mexico",
+            "Independence, KS",
+            "Washington",
+            "Cunningham, KS",
+            "Kansas",
+            "Pennsylvania",
+            "Oconomowoc, WI",
+            "California",
+            "Wyoming",
+            "Texas",
+            "Jackson Township, NJ",
+            "Florida",
+            "Waterbury, CT",
+            "Nevada",
+            "Wichita, KS",
+            "South Carolina",
+            "South Dakota",
+            "Edmond, OK",
+            "Concord, NH",
+            "Tennessee",
+            "Vinita, OK",
+            "Minnesota",
+            "Nebraska",
+            "Rhode Island",
+            "Kentucky",
+            "West Virginia",
+            "Fort Gibson, OK",
+            "NYC",
+            "Wisconsin",
+            "North Carolina",
+            "Missouri",
+            "Illinois",
+            "Alabama",
+            "United States",
+            "McKenzie, TN"
+        ],
+        "company_url": "https://simplify.jobs/c/CVS-Health",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "KLA",
+        "id": "68a5c4c4-0281-4735-9b76-9aa50bcaed3a",
+        "title": "Product Development Engineering Intern",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1767974971,
+        "date_posted": 1767974971,
+        "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Totowa-NJ/Product-Development-Engineering-Intern_2533189-1",
+        "locations": [
+            "Paterson, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/KLA",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "KLA",
+        "id": "0a518495-bd05-4ad1-bafd-841ea6a3357b",
+        "title": "Product Marketing Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1768956409,
+        "date_posted": 1768956409,
+        "url": "https://kla.wd1.myworkdayjobs.com/UR/job/Totowa-NJ/Product-Marketing-Intern_2533061",
+        "locations": [
+            "Paterson, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/KLA",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Kearny Bank",
+        "id": "5f5a82fc-3a12-4ff3-ad7d-87fa5fc12848",
+        "title": "Data Analytics Intern",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1769123220,
+        "date_posted": 1769123220,
+        "url": "https://careers-kearnybank.icims.com/jobs/3004/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Wayne, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Kearny-Bank",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Legend Biotech",
+        "id": "ca707cd4-9ec0-463a-981f-a19ba14f7e33",
+        "title": "Manufacturing Automation Intern",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1769124377,
+        "date_posted": 1769124377,
+        "url": "https://job-boards.greenhouse.io/legendcareers/jobs/4652556005",
+        "locations": [
+            "Somerset County, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Legend-Biotech",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "HNTB",
+        "id": "47b04ea4-7874-45ad-9f9c-79efe7d6d1ac",
+        "title": "Tolling Intern - Summer 2026",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1769384129,
+        "date_posted": 1769384129,
+        "url": "https://hntb.wd5.myworkdayjobs.com/hntb_careers/job/Parsippany-NJ-Fairfield/Tolling-Intern---Summer-2026_R-28881-2",
+        "locations": [
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/HNTB",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "HNTB",
+        "id": "dfaae1c6-e4d7-47fc-904b-e5de20df6b51",
+        "title": "Tolling Intern - Summer 2026",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1769384020,
+        "date_posted": 1769384020,
+        "url": "https://hntb.wd5.myworkdayjobs.com/hntb_university_careers/job/Parsippany-NJ-Fairfield/Tolling-Intern---Summer-2026_R-28881-1",
+        "locations": [
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/HNTB",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "AT&T",
+        "id": "6963b3b0-f5c0-41d3-9f1b-5dcd01b67e71",
+        "title": "AT&T Labs Intern - Advanced Degrees",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1769469663,
+        "date_posted": 1769469663,
+        "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Middletown-New-Jersey/AT-T-Labs-Internship---Advanced-Degrees_R-89564-1",
+        "locations": [
+            "Austin, TX",
+            "Bothell, WA",
+            "Dallas, TX",
+            "San Ramon, CA",
+            "Redmond, WA",
+            "Plano, TX",
+            "Bedminster, NJ",
+            "Alpharetta, GA",
+            "Middletown Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/ATT",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "SRI International",
+        "id": "1f6d95a2-2f9c-4443-b27c-098d48dfbe74",
+        "title": "Drexel University Co-op: Software Engineering/Full stack development",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1769468938,
+        "date_posted": 1769468938,
+        "url": "https://careers-sri.icims.com/jobs/6323/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/SRI-International",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Amynta Group",
+        "id": "1e53d165-77ee-4c0f-badc-89853aa42141",
+        "title": "IT Technical Intern",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1769471554,
+        "date_posted": 1769212391,
+        "url": "https://amynta.wd5.myworkdayjobs.com/global/job/TX---Remote/Technical-Analyst-Intern_2601-0039",
+        "locations": [
+            "Texas",
+            "Jackson Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Amynta-Group",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Virtua Health",
+        "id": "8b5a9e58-d37f-4505-a3d4-3d1feca50b49",
+        "title": "IT Data Science Intern - IT Data Science",
+        "active": false,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1769556305,
+        "date_posted": 1769556305,
+        "url": "https://virtua.wd1.myworkdayjobs.com/Virtua_Health_External_Career_Site/job/Lippincott---301-Lippincott-Drive/IT-Data-Science-Intern_R1059091",
+        "locations": [
+            "Mt Laurel Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Virtua-Health",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Sharp Electronics",
+        "id": "3b35756e-7286-42b2-94bb-f51c37e5049e",
+        "title": "Intern - HR Data Analyst",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1769555569,
+        "date_posted": 1769555569,
+        "url": "https://careers-sharpusa.icims.com/jobs/8680/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Mahwah, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Sharp-Electronics",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Prudential Financial",
+        "id": "aecabefe-9158-434b-9c47-a352a530b308",
+        "title": "PGIM Real Estate - Data Management & Innovation MBA Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1769558340,
+        "date_posted": 1769558340,
+        "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2026-Real-Estate--Data-Management---Innovation-MBA-Internship_R-123342-2",
+        "locations": [
+            "Newark, NJ",
+            "NYC"
+        ],
+        "company_url": "https://simplify.jobs/c/Prudential-Financial",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "MBA"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Nestle",
+        "id": "a3fdae0e-0985-4611-86e7-d60be0e1bc79",
+        "title": "Nestl\u00e9 Health Science-Engineering Intern",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1769642288,
+        "date_posted": 1769642288,
+        "url": "https://jobdetails.nestle.com/job/Bridgewater-Nestl%C3%A9-Health-Science-Engineering-Intern-NJ-08807/1288239201/?ats=successfactors",
+        "locations": [
+            "Bridgewater Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nestle",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Withum",
+        "id": "0359fbb9-d20c-445c-be99-87de9e9644ad",
+        "title": "Product Development Innovation Intern",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1769643745,
+        "date_posted": 1769643745,
+        "url": "https://job-boards.greenhouse.io/campusopportunities/jobs/8380820002",
+        "locations": [
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Withum",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Nestle",
+        "id": "9d15eb19-6112-4bc4-a472-3373e26ce813",
+        "title": "Nestl\u00e9 Health Science \u2013 R&D Sustainability Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1769642274,
+        "date_posted": 1769642274,
+        "url": "https://jobdetails.nestle.com/job/Bridgewater-Nestl%C3%A9-Health-Science-R&D-Sustainability-Intern-NJ-08807/1288245101/?ats=successfactors",
+        "locations": [
+            "Bridgewater Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nestle",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "AbbVie",
+        "id": "7fec43ed-10c3-491c-aebc-6951783bab2c",
+        "title": "Statistics Intern - PhD",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1769728557,
+        "date_posted": 1769728557,
+        "url": "https://jobs.smartrecruiters.com/AbbVie/3743990011422616",
+        "locations": [
+            "Livingston, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/AbbVie",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "S&P Global ",
+        "id": "46757f36-a235-4f97-adf5-4692b2864e01",
+        "title": "Intern - Data Scientist",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1769734062,
+        "date_posted": 1769734062,
+        "url": "https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/Princeton-NJ/Summer-Intern--Data-Scientist_324561-1",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/SP-Global",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "AT&T",
+        "id": "2c5931a1-57ff-4da6-bb97-271e3d86f6c4",
+        "title": "AT&T Summer Internship - Technology",
+        "active": false,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1769757826,
+        "date_posted": 1769757826,
+        "url": "https://att.wd1.myworkdayjobs.com/attcollege/job/Dallas-Texas/AT-T-Summer-Internship---Technology_R-98647",
+        "locations": [
+            "Washington, DC",
+            "Bothell, WA",
+            "Dallas, TX",
+            "Bedminster, NJ",
+            "Middletown Township, NJ",
+            "Atlanta, GA"
+        ],
+        "company_url": "https://simplify.jobs/c/ATT",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Verizon Communications",
+        "id": "df1acfa6-86d1-47f9-90aa-1a2b4c63fc79",
+        "title": "Verizon Consumer Experience Strategy Summer 2026 Internship: New Jersey Institute of Technology - New York University - & Rutgers University",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1769815467,
+        "date_posted": 1769815467,
+        "url": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Verizon-Consumer-Experience-Strategy-Summer-2026-Internship--New-Jersey-Institute-of-Technology--New-York-University----Rutgers-University_R-1090518",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Verizon-Communications",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Nestle",
+        "id": "f572235a-e059-49c1-b6ac-99513f88bb92",
+        "title": "Nestl\u00e9 Health Science R&D Digital Intern",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1769815125,
+        "date_posted": 1769815125,
+        "url": "https://jobdetails.nestle.com/job/Bridgewater-Nestl%C3%A9-Health-Science-R&D-Digital-Intern-NJ-08807/1289101801/?ats=successfactors",
+        "locations": [
+            "Bridgewater Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nestle",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Genmab",
+        "id": "d15150d9-3e3b-4091-ba3a-950255de497a",
+        "title": "Programming Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1769816384,
+        "date_posted": 1769816384,
+        "url": "https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton/Programming-Intern_R15389",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Genmab",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Sharp Electronics",
+        "id": "15f8f10e-f63e-4c23-b045-cea0fecbedfc",
+        "title": "Intern-Web Developer",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1769825317,
+        "date_posted": 1769825317,
+        "url": "https://careers-sharpusa.icims.com/jobs/8679/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Mahwah, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Sharp-Electronics",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Virtua Health",
+        "id": "5ee2a623-56ae-4f2b-816e-375a1dbd874e",
+        "title": "IT Informatics Intern",
+        "active": false,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1769860843,
+        "date_posted": 1769613827,
+        "url": "https://virtua.wd1.myworkdayjobs.com/Virtua_Health_External_Career_Site/job/Lippincott---301-Lippincott-Drive/IT-Informatics-Intern_R1059084",
+        "locations": [
+            "Mt Laurel Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Virtua-Health",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "SRI International",
+        "id": "2063c7a6-4c3d-4ab5-aa9c-e0859bbcb054",
+        "title": "Drexel Co-op: Software Engineering",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770073870,
+        "date_posted": 1770073870,
+        "url": "https://careers-sri.icims.com/jobs/6326/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/SRI-International",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "Sharp Electronics",
+        "id": "03e119ef-f26f-4b47-b102-4347145c6ff5",
+        "title": "Intern Product Manager",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770160220,
+        "date_posted": 1770160220,
+        "url": "https://careers-sharpusa.icims.com/jobs/8678/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Sharp-Electronics",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Interdigital",
+        "id": "ea035afc-1439-4967-ab1a-dd5ab5780e5b",
+        "title": "Ph.D. Intern - 6G Wireless Systems - AI/ML",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770171283,
+        "date_posted": 1770171283,
+        "url": "https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Manhattan_NY/PhD-Intern--6G-Wireless-Systems--AI-ML-_REQ25-1055",
+        "locations": [
+            "Plainview, NY",
+            "Union City, NJ",
+            "Conshohocken, PA"
+        ],
+        "company_url": "https://simplify.jobs/c/Interdigital",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Interdigital",
+        "id": "24f04b19-3a95-477e-808e-7fb98a49aeb6",
+        "title": "Ph.D. Intern - 6G Wireless Systems - AI/ML",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770171276,
+        "date_posted": 1770171276,
+        "url": "https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Melville-NY/PhD-Intern--6G-Wireless-Systems--AI-ML-_REQ25-1053",
+        "locations": [
+            "Plainview, NY",
+            "Union City, NJ",
+            "Conshohocken, PA"
+        ],
+        "company_url": "https://simplify.jobs/c/Interdigital",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Roche",
+        "id": "8b025885-e38f-4947-96c2-fcd01b386db0",
+        "title": "2026 Summer Intern - Finance Insights and Data Analyst - Branchburg",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770172092,
+        "date_posted": 1770172092,
+        "url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Branchburg/XMLNAME-2026-Summer-Intern---Finance-Insights-and-Data-Analyst--Branchburg-_202602-102713",
+        "locations": [
+            "Somerset County, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Roche",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "S&P Global ",
+        "id": "1ce9b9a6-3491-45d7-919c-2e6c9540df85",
+        "title": "Data Engineer Intern \u2013 Early Career",
+        "active": true,
+        "terms": [
+            "Winter 2026",
+            "Spring 2026",
+            "Summer 2026",
+            "Fall 2026",
+            "Winter 2027",
+            "Spring 2027"
+        ],
+        "date_updated": 1770190336,
+        "date_posted": 1770190336,
+        "url": "https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/Princeton-NJ/Data-Engineer-Intern---Early-Career-_325487-1",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/SP-Global",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Johnson & Johnson",
+        "id": "317f491d-616b-42fd-ac38-18f0ea21b2bd",
+        "title": "Supply Chain and Data Management Intern/Co-op",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770220229,
+        "date_posted": 1770220229,
+        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/New-Brunswick-New-Jersey-United-States-of-America/Supply-Chain-and-Data-Management-Co-OP_R-056192",
+        "locations": [
+            "Edison, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Everest",
+        "id": "b6d28334-e19f-4f62-a1b0-4ab34d3dc192",
+        "title": "Human Resources - Data Analytics Internship Program",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770247292,
+        "date_posted": 1770247292,
+        "url": "https://everestre.wd5.myworkdayjobs.com/careers/job/Warren-NJ/Human-Resources---People-Services---Operations-Internship-Program_R6913",
+        "locations": [
+            "Middlesex, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Everest",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Samsung",
+        "id": "2715007c-61b8-4435-96e4-1a91712ddfdb",
+        "title": "Samsung Care AI Data Analytics Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770247431,
+        "date_posted": 1770247431,
+        "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/700-Sylvan-Ave-Englewood-Cliffs-NJ-USA/Samsung-Care-AI-Data-Analytic-Intern_R114055",
+        "locations": [
+            "Englewood, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Samsung",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "PatientPoint",
+        "id": "22ece212-db1a-46d4-ba59-68fc1530ebeb",
+        "title": "Tech Program Management Intern",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770247186,
+        "date_posted": 1770247186,
+        "url": "https://job-boards.greenhouse.io/patientpoint/jobs/4656902005",
+        "locations": [
+            "Indianapolis, IN",
+            "Newark, NJ",
+            "Charlotte, NC",
+            "NYC",
+            "Atlanta, GA",
+            "Cincinnati, OH"
+        ],
+        "company_url": "https://simplify.jobs/c/PatientPoint",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Legend Biotech",
+        "id": "4de3f72e-3d6e-45e3-8ea6-4d3ef3a95f47",
+        "title": "Pipeline and Corporate IT Co-Op",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770333985,
+        "date_posted": 1770333985,
+        "url": "https://job-boards.greenhouse.io/legendcareers/jobs/4657565005",
+        "locations": [
+            "Somerset County, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Legend-Biotech",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "Nestle",
+        "id": "f3e83cec-f8da-4b13-889a-96586ee5e90a",
+        "title": "Nestl\u00e9 Health Science \u2013 Innovations and Insights Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770333361,
+        "date_posted": 1770333361,
+        "url": "https://jobdetails.nestle.com/job/Bridgewater-Nestl%C3%A9-Health-Science-Innovations-and-Insights-Intern-NJ-08807/1291054801/?ats=successfactors",
+        "locations": [
+            "Bridgewater Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nestle",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "Samsung",
+        "id": "66bdfda1-2762-4e2a-a068-f0aaec014d42",
+        "title": "Product Management Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770333479,
+        "date_posted": 1770333479,
+        "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/700-Sylvan-Ave-Englewood-Cliffs-NJ-USA/Product-Management-Intern_R114114",
+        "locations": [
+            "Englewood, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Samsung",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Merck",
+        "id": "998c5619-0de8-4683-aafe-30563066ad48",
+        "title": "Future Talent Program Image Data Analytics Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770334414,
+        "date_posted": 1770334414,
+        "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---West-Point/XMLNAME-2026-Future-Talent-Program---Image-Data-Analytics-Intern_R384659",
+        "locations": [
+            "Cambridge, MA",
+            "Boston, MA",
+            "North Wales, PA",
+            "Linden, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Merck",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Guardian Life",
+        "id": "86a02306-9372-4840-a44a-7eee82de88e8",
+        "title": "Early Career Program - Technology Associate - Digital & Technology Rotational Program",
+        "active": true,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1770362511,
+        "date_posted": 1770362511,
+        "url": "https://guardianlife.wd5.myworkdayjobs.com/guardian-life-careers/job/Bethlehem/XMLNAME-2026-Early-Career-Program---Technology-Associate--Digital---Technology-Rotational-Program_R000107513",
+        "locations": [
+            "Holmdel, NJ",
+            "NYC",
+            "Bethlehem, PA"
+        ],
+        "company_url": "https://simplify.jobs/c/Guardian-Life",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Bootcamp"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Samsung",
+        "id": "9cc80f56-8151-4f62-a1fb-fea04a44ec30",
+        "title": "AI Applications Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770419805,
+        "date_posted": 1770419805,
+        "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/700-Sylvan-Ave-Englewood-Cliffs-NJ-USA/AI-Applications-Intern_R114052",
+        "locations": [
+            "Englewood, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Samsung",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
         ]
     }
 ]
