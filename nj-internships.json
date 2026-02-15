@@ -6405,7 +6405,7 @@
         "company_name": "Nokia",
         "id": "447212d4-cb69-4c25-a94e-76f4421a6edc",
         "title": "Software Developer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7873,7 +7873,7 @@
         "company_name": "AbbVie",
         "id": "e2367c3d-4be5-4b5d-aff3-039fec081dac",
         "title": "Statistics Intern - PhD",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8029,7 +8029,7 @@
         "company_name": "Zoetis",
         "id": "1666130c-fe9c-4600-91b5-abe7af4fe194",
         "title": "Enterprise Architecture Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -8241,7 +8241,7 @@
         "company_name": "Major League Baseball",
         "id": "3e6c6676-620d-4ed3-b372-fd8020e224c5",
         "title": "Video & Technology Associate",
-        "active": true,
+        "active": false,
         "terms": [
             "N/A"
         ],
@@ -8633,7 +8633,7 @@
         "company_name": "Kearny Bank",
         "id": "5f5a82fc-3a12-4ff3-ad7d-87fa5fc12848",
         "title": "Data Analytics Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -8757,7 +8757,7 @@
         "company_name": "SRI International",
         "id": "1f6d95a2-2f9c-4443-b27c-098d48dfbe74",
         "title": "Drexel University Co-op: Software Engineering/Full stack development",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -8778,7 +8778,7 @@
         "company_name": "Amynta Group",
         "id": "1e53d165-77ee-4c0f-badc-89853aa42141",
         "title": "IT Technical Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -9014,7 +9014,7 @@
         "company_name": "Verizon Communications",
         "id": "df1acfa6-86d1-47f9-90aa-1a2b4c63fc79",
         "title": "Verizon Consumer Experience Strategy Summer 2026 Internship: New Jersey Institute of Technology - New York University - & Rutgers University",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9128,7 +9128,7 @@
         "company_name": "SRI International",
         "id": "2063c7a6-4c3d-4ab5-aa9c-e0859bbcb054",
         "title": "Drexel Co-op: Software Engineering",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9220,7 +9220,7 @@
         "company_name": "Roche",
         "id": "8b025885-e38f-4947-96c2-fcd01b386db0",
         "title": "2026 Summer Intern - Finance Insights and Data Analyst - Branchburg",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9499,6 +9499,227 @@
         "degrees": [
             "Bachelor's",
             "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "Zoetis",
+        "id": "874eea30-e8ce-4343-a302-1f70eb060ed6",
+        "title": "Product Analyst GMS ERP Intern",
+        "active": true,
+        "terms": [
+            "Spring 2026"
+        ],
+        "date_updated": 1770678934,
+        "date_posted": 1770678934,
+        "url": "https://zoetis.wd5.myworkdayjobs.com/zoetis/job/Parsippany/Product-Analyst-GMS-ERP-Intern_JR00020144-1",
+        "locations": [
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Zoetis",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Bank of Montreal",
+        "id": "7a71f8a9-05a2-473d-aadc-63fe073565f4",
+        "title": "AI Developer Intern - Weeks",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770680537,
+        "date_posted": 1770680537,
+        "url": "https://bmo.wd3.myworkdayjobs.com/Privileged/job/Berkeley-Heights-NJ-USA/AI-Developer--Summer-2026--Internship----10-Weeks_R260001796",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/BMO",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Leidos",
+        "id": "3772797f-c6b4-48ce-9253-69a8f4e17fd1",
+        "title": "Software Engineer \u2013 Intern",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770765913,
+        "date_posted": 1770765913,
+        "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Atlantic-City-NJ/Software-Engineer---Intern_R-00174970",
+        "locations": [
+            "Gaithersburg, MD",
+            "Atlantic City, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Leidos",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Teledyne",
+        "id": "ea0c0373-c713-4f29-8542-9cddf885c093",
+        "title": "Software Engineer Co-Op",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770853117,
+        "date_posted": 1770853117,
+        "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Chestnut-Ridge-NY/Software-Engineer-Co-Op_REQ32641",
+        "locations": [
+            "Mahwah, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/199b3c43-379a-408c-a6a8-980e79183038",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Epicor",
+        "id": "8c62a75e-e699-4e47-9b83-6c18e47c5a5e",
+        "title": "Intern Product Developer",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770937541,
+        "date_posted": 1770937541,
+        "url": "https://epicorsoftware.wd5.myworkdayjobs.com/epicorjobs/job/US-Bensalem/Intern---Product-Developer_JR104108",
+        "locations": [
+            "Delanco, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Epicor",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Johnson & Johnson",
+        "id": "bfcca76e-90a1-4daf-aa1c-60d2b0f5975c",
+        "title": "Obs Health Data Analytics Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770940767,
+        "date_posted": 1770940767,
+        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/OBS-HEALTH-DATA-ANALYTICS-INTERN_R-055679-1",
+        "locations": [
+            "Bridgewater Township, NJ",
+            "Horsham, PA",
+            "New Hope, PA"
+        ],
+        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Chubb",
+        "id": "b528598a-5a55-4b97-8001-88f1aee07ef9",
+        "title": "AI Engineering Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1770949003,
+        "date_posted": 1770949003,
+        "url": "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/30501",
+        "locations": [
+            "Bedminster, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Chubb",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "SRI International",
+        "id": "32f24635-178c-460b-bf0c-42b0531a10e5",
+        "title": "RIT Co-op: Test Engineering",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771024249,
+        "date_posted": 1771024249,
+        "url": "https://careers-sri.icims.com/jobs/6332/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/SRI-International",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Johnson & Johnson",
+        "id": "0d919448-2f84-48e5-9c2c-6659946e5877",
+        "title": "R&D DSDH Integrated Data Products Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771026228,
+        "date_posted": 1771026228,
+        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/New-Brunswick-New-Jersey-United-States-of-America/R-D-DSDH-Integrated-Data-Products-Intern_R-056750",
+        "locations": [
+            "Edison, NJ",
+            "Boston, MA",
+            "San Bruno, CA",
+            "Cambridge, MA",
+            "Bridgewater Township, NJ",
+            "San Diego, CA",
+            "Ambler, PA",
+            "New Hope, PA"
+        ],
+        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's",
+            "PhD"
         ]
     }
 ]
