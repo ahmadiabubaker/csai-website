@@ -2388,10 +2388,10 @@ body.dark-mode #post article h2 {
     z-index: 1000;
     height: 100vh;
     width: 100%;
-    max-width: 55%;
+    max-width: 70%;
     position: fixed;
     top: 0;
-    left: -60%;
+    left: -70%;
     
     font-size: 3rem;
     transition: 0.3s ease;
@@ -2448,8 +2448,8 @@ body.dark-mode #post article h2 {
     align-items: center;
     justify-content: center;
     position: absolute;
-    right: 15px;
-    margin-top: 24px;
+    right: -30px;
+    margin-top: 25px;
     border: 3px solid transparent;
     border-radius: 20px;
 
