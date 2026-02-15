@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
     <script
@@ -17,7 +17,7 @@
     </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>CSAI — Events</title>
+    <title>CSAI — Scholarships</title>
     <link rel="icon" type="image/png" href="data/photos/logo.png" />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
@@ -99,12 +99,14 @@
             </li>
 
             <li class="nav-item">
-              <a href="events.html" class="nav-link active">Events</a>
+              <a href="events.html" class="nav-link">Events</a>
             </li>
 
             <!-- Opportunities with dropdown -->
             <li class="nav-item has-dropdown">
-              <a href="internships.html" class="nav-link">Opportunities</a>
+              <a href="internships.html" class="nav-link active"
+                >Opportunities</a
+              >
               <button
                 class="dropdown-toggle"
                 aria-label="Toggle Opportunities submenu"
@@ -138,36 +140,96 @@
       </div>
     </header>
 
-    <section class="section">
-      <!-- Decorative wash/parallax background -->
-      <div class="wash" data-parallax>
-        <img src="assets/img/decorative-shape.svg" alt="" />
-      </div>
-
+    <main class="section">
       <div class="container">
-        <h2 class="reveal">Events Calendar</h2>
+        <h2 class="reveal">Scholarships</h2>
         <p class="lead reveal">
-          Click an event to add it to your Google Calendar.
+          Scholarships and funding opportunities for students in STEM fields.
         </p>
-        <div class="calendar reveal" id="calendar">
-          <div class="cal-header">
-            <button class="btn" data-cal-prev>&larr; Prev</button>
-            <h3 class="cal-title">Month YYYY</h3>
-            <button class="btn primary" data-cal-next>Next &rarr;</button>
+
+        <div class="featured-grid">
+          <!-- HSF Scholarship -->
+          <div class="featured-item">
+            <h4>Hispanic Scholarship Fund</h4>
+            <p class="featured-type">Scholarship</p>
+            <p>
+              HSF selects 10,000 outstanding students annually as HSF Scholars,
+              with access to career services, mentorship, and scholarships
+              ranging from $500–$5,000. Open to students of all races who
+              identify as Hispanic heritage.
+            </p>
+            <p>
+              <small
+                ><strong>Status:</strong> Open now — deadline Feb 15,
+                2026</small
+              >
+            </p>
+            <a
+              href="https://www.hsf.net/scholarship"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+              >Apply Now</a
+            >
           </div>
-          <div class="cal-grid" role="grid"></div>
-          <div class="cal-legend"></div>
+
+          <!-- SMEEF Scholarship -->
+          <div class="featured-item">
+            <h4>SME Education Foundation Scholarships</h4>
+            <p class="featured-type">Scholarship</p>
+            <p>
+              The nation's largest scholarship program for manufacturing and
+              engineering students. One application covers all eligible
+              scholarships, ranging from $2,500–$20,000. Nearly $1M awarded
+              annually.
+            </p>
+            <p>
+              <small
+                ><strong>Status:</strong> Closed for 2026–2027 — recurs annually
+                (deadline typically Feb 1)</small
+              >
+            </p>
+            <a
+              href="https://scholarships.smeef.org/applications/"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+              >Learn More</a
+            >
+          </div>
+
+          <!-- Princeton TSI -->
+          <div class="featured-item">
+            <h4>Princeton Transfer Scholars Initiative</h4>
+            <p class="featured-type">Summer Program</p>
+            <p>
+              Free 8-week summer program for community college students
+              considering transfer to selective four-year colleges. Includes a
+              for-credit Princeton course, campus resources, and transfer
+              success programming. Stipend provided.
+            </p>
+            <p>
+              <small
+                ><strong>Status:</strong> Open now — Summer 2026 (June 28 – Aug
+                14)</small
+              >
+            </p>
+            <a
+              href="https://tsi-ebcao.princeton.edu"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+              >Apply Now</a
+            >
+          </div>
         </div>
       </div>
-    </section>
+    </main>
 
-    <footer class="footer reveal">
-      © 2025 CSAI — Computer Science + AI Club
-    </footer>
+    <footer class="footer">© 2025 CSAI — Computer Science + AI Club</footer>
 
     <script src="assets/js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/rrule@2.7.1/dist/es5/rrule.min.js"></script>
-    <script src="assets/js/events.js"></script>
+    <script src="header.js"></script>
     <script src="assets/js/side-bar.js"></script>
   </body>
 </html>

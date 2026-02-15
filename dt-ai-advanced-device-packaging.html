@@ -1,109 +1,167 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CSAI — Digital Twin Powered by AI</title>
-  <link rel="icon" type="image/png" href="data/photos/logo.png">
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body class="embed-page">
-
-<header class="header">
-  <div class="nav container">
-
-    <!-- Hamburger menu (mobile only) -->
-    <nav>
-      <button class="ham-menu" aria-label="Toggle menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </nav>
-
-    <!-- Navigation links - shared markup for desktop and mobile -->
-    <nav class="nav-links off-screen-menu" aria-label="Main navigation">
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="/" class="nav-link">Home</a>
-        </li>
-        
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">About</a>
-        </li>
-        
-        <!-- Projects with dropdown -->
-        <li class="nav-item has-dropdown">
-          <a href="projects.html" class="nav-link active">Projects</a>
-          <button class="dropdown-toggle" aria-label="Toggle Projects submenu" aria-expanded="false">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-              <path d="M8 11L3 6h10z"/>
-            </svg>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSAI — Digital Twin Powered by AI</title>
+    <link rel="icon" type="image/png" href="data/photos/logo.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="embed-page">
+    <header class="header">
+      <div class="nav container">
+        <!-- Hamburger menu (mobile only) -->
+        <nav>
+          <button
+            class="ham-menu"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
           </button>
-          <ul class="dropdown-menu">
-            <li><a href="projects.html">All Projects</a></li>
-            <li><a href="anatomyvr.html">AnatomyVR</a></li>
-            <li><a href="digitaltwin.html">Digital Twin</a></li>
+        </nav>
+
+        <!-- Navigation links - shared markup for desktop and mobile -->
+        <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+
+            <!-- Projects with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="projects.html" class="nav-link active">Projects</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Projects submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="projects.html">All Projects</a></li>
+                <li><a href="anatomyvr.html">AnatomyVR</a></li>
+                <li><a href="digitaltwin.html">Digital Twin</a></li>
+              </ul>
+            </li>
+
+            <!-- Learning with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="learning.html" class="nav-link">Learning</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Learning submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="learning.html">Tutorials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="resources.html">Resources</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="events.html" class="nav-link">Events</a>
+            </li>
+
+            <!-- Opportunities with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="internships.html" class="nav-link">Opportunities</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Opportunities submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="scholarships.html">Scholarships</a></li>
+                <li><a href="research.html">Research</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="join.html" class="nav-link">Join</a>
+            </li>
           </ul>
-        </li>
-        
-        <!-- Learning with dropdown -->
-        <li class="nav-item has-dropdown">
-          <a href="learning.html" class="nav-link">Learning</a>
-          <button class="dropdown-toggle" aria-label="Toggle Learning submenu" aria-expanded="false">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-              <path d="M8 11L3 6h10z"/>
-            </svg>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a href="learning.html">Tutorials</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="resources.html">Resources</a></li>
-          </ul>
-        </li>
-        
-        <li class="nav-item">
-          <a href="events.html" class="nav-link">Events</a>
-        </li>
-        
-        <li class="nav-item">
-          <a href="internships.html" class="nav-link">Internships</a>
-        </li>
-        
-        <li class="nav-item">
-          <a href="join.html" class="nav-link">Join</a>
-        </li>
-      </ul>
-    </nav>
+        </nav>
 
-    <!-- Join button (mobile only) -->
-    <a class="join-button btn mobile-only" href="join.html">Join</a>
-  </div>
-</header>
-
-<section class="section">
-  <div class="container">
-    <div class="section-header">
-      <h2>Digital Twin Powered by AI</h2>
-    </div>
-
-    <div class="video-shell">
-      <div class="video-frame">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-2dOfGoxh7E?si=t_U48dVT6BZaGmMD" title="Digital Twin Powered by AI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- Join button (mobile only) -->
+        <a class="join-button btn mobile-only" href="join.html">Join</a>
       </div>
-    </div>
+    </header>
 
-    <div class="center desktop-back" style="margin-top: 20px;">
-      <a class="btn" href="projects.html">← Back to Projects</a>
-    </div>
-  </div>
-</section>
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Digital Twin Powered by AI</h2>
+        </div>
 
-<footer class="footer">
-  © 2025 CSAI — Computer Science + AI Club
-</footer>
+        <div class="video-shell">
+          <div class="video-frame">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/-2dOfGoxh7E?si=t_U48dVT6BZaGmMD"
+              title="Digital Twin Powered by AI"
+              frameborder="0"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
 
-<script src="assets/js/main.js"></script>
-<script src="assets/js/side-bar.js"></script>
-</body>
+        <div class="center desktop-back" style="margin-top: 20px">
+          <a class="btn" href="projects.html">← Back to Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">© 2025 CSAI — Computer Science + AI Club</footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/side-bar.js"></script>
+  </body>
 </html>

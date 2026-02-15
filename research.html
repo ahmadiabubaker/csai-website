@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-3D4TYEWL38");
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSAI — Research</title>
+    <link rel="icon" type="image/png" href="data/photos/logo.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav container">
+        <!-- Hamburger menu (mobile only) -->
+        <nav>
+          <button
+            class="ham-menu"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+
+        <!-- Navigation links - shared markup for desktop and mobile -->
+        <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+
+            <!-- Projects with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="projects.html" class="nav-link">Projects</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Projects submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="projects.html">All Projects</a></li>
+                <li><a href="anatomyvr.html">AnatomyVR</a></li>
+                <li><a href="digitaltwin.html">Digital Twin</a></li>
+              </ul>
+            </li>
+
+            <!-- Learning with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="learning.html" class="nav-link">Learning</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Learning submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="learning.html">Tutorials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="resources.html">Resources</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="events.html" class="nav-link">Events</a>
+            </li>
+
+            <!-- Opportunities with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="internships.html" class="nav-link active"
+                >Opportunities</a
+              >
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Opportunities submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="scholarships.html">Scholarships</a></li>
+                <li><a href="research.html">Research</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="join.html" class="nav-link">Join</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Join button (mobile only) -->
+        <a class="join-button btn mobile-only" href="join.html">Join</a>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <h2 class="reveal">Research Opportunities</h2>
+        <p class="lead reveal">
+          Research programs, REUs, and hands-on STEM experiences for
+          undergraduates.
+        </p>
+
+        <div class="featured-grid">
+          <!-- NSF ETAP Common Application -->
+          <div class="featured-item">
+            <h4>NSF ETAP — Common App for Research</h4>
+            <p class="featured-type">Research Platform</p>
+            <p>
+              A common application for NSF Research Experiences for Undergrads.
+              Upload your letter of reference, personal statement, and
+              transcript once, then apply to hundreds of research opportunities
+              across the country. Currently listing 333+ open opportunities.
+            </p>
+            <p>
+              <small
+                ><strong>Status:</strong> Always open — new opportunities added
+                each term</small
+              >
+            </p>
+            <a
+              href="https://etap.nsf.gov/search"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+              >Browse Opportunities</a
+            >
+          </div>
+
+          <!-- Princeton REU Database -->
+          <div class="featured-item">
+            <h4>Princeton REU Database</h4>
+            <p class="featured-type">Research Database</p>
+            <p>
+              Open-access database of 900+ paid summer research opportunities
+              for undergraduates in STEM disciplines at institutions across the
+              US. Searchable by program name, institution, or research area.
+            </p>
+            <p>
+              <small
+                ><strong>Status:</strong> Evergreen resource — verify individual
+                program deadlines</small
+              >
+            </p>
+            <a
+              href="https://engineering.princeton.edu/undergraduate-studies/summer-research-experiences"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+              >Search Database</a
+            >
+          </div>
+
+          <!-- Duke TUNL REU -->
+          <div class="featured-item">
+            <h4>Duke TUNL REU — Nuclear & Particle Physics</h4>
+            <p class="featured-type">Research</p>
+            <p>
+              10-week summer REU in nuclear and particle physics at Duke/TUNL.
+              Option to work at CERN with the High-Energy Physics group.
+              Includes lecture series, seminars, and social activities.
+            </p>
+            <p>
+              <small
+                ><strong>Status:</strong> Open now — 2026 application portal
+                accepting submissions</small
+              >
+            </p>
+            <a
+              href="https://tunl.duke.edu/education/reu"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+              >Apply Now</a
+            >
+          </div>
+
+          <!-- UD CHARM REU -->
+          <div class="featured-item">
+            <h4>UD CHARM REU — Materials Science</h4>
+            <p class="featured-type">Research</p>
+            <p>
+              10-week summer research in materials science and engineering at
+              the University of Delaware. $6,000 stipend, on-campus housing, and
+              professional development. Experimental and computational projects
+              available.
+            </p>
+            <p>
+              <small
+                ><strong>Status:</strong> Still accepting applications (priority
+                deadline passed Feb 1) — Summer 2026</small
+              >
+            </p>
+            <a
+              href="https://mrsec.udel.edu/undergraduate-education-and-outreach/reu/"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+              >Apply Now</a
+            >
+          </div>
+
+          <!-- Columbia Fusion REU -->
+          <div class="featured-item">
+            <h4>Columbia REU — Plasma Physics & Fusion</h4>
+            <p class="featured-type">Research</p>
+            <p>
+              REU in plasma physics, astrophysics, and fusion research at
+              Columbia University. The first and only REU site dedicated to
+              these fields. Experimental and computational roles available.
+            </p>
+            <p>
+              <small
+                ><strong>Status:</strong> Closed for 2026 — recurs every
+                summer</small
+              >
+            </p>
+            <a
+              href="https://fusion.columbia.edu/reu-site"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+              >Learn More</a
+            >
+          </div>
+
+          <!-- Caltech LIGO SURF -->
+          <div class="featured-item">
+            <h4>Caltech LIGO SURF</h4>
+            <p class="featured-type">Research</p>
+            <p>
+              Summer Undergraduate Research Fellowships in gravitational-wave
+              physics at Caltech, LIGO Hanford, and LIGO Livingston. Applies
+              through NSF ETAP.
+            </p>
+            <p>
+              <small
+                ><strong>Status:</strong> Closed for 2026 — recurs every summer
+                (apply Nov–Jan)</small
+              >
+            </p>
+            <a
+              href="https://labcit.ligo.caltech.edu/LIGO_web/students/SURF/apply.shtml"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+              >Learn More</a
+            >
+          </div>
+
+          <!-- DOE CCI -->
+          <div class="featured-item">
+            <h4>DOE Community College Internships</h4>
+            <p class="featured-type">Research Internship</p>
+            <p>
+              Paid 10-week internships at one of 17 Department of Energy
+              national labs. Fields vary across STEM. Available in summer, fall,
+              and spring terms.
+            </p>
+            <p>
+              <small
+                ><strong>Status:</strong> Closed for Summer 2026 — recurs every
+                term</small
+              >
+            </p>
+            <a
+              href="https://science.osti.gov/wdts/cci"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+              >Learn More</a
+            >
+          </div>
+
+          <!-- CICOES UW -->
+          <div class="featured-item">
+            <h4>CICOES REU — Environmental Sciences</h4>
+            <p class="featured-type">Research</p>
+            <p>
+              9-week summer research at the University of Washington with
+              NOAA/USGS mentors. $5,850 stipend, housing, meals, and transit
+              provided. Focused on climate, ocean, and ecosystem studies.
+            </p>
+            <p>
+              <small
+                ><strong>Status:</strong> Closed for 2026 — recurs every summer
+                (apply in January)</small
+              >
+            </p>
+            <a
+              href="https://cicoes.uw.edu/education/internships/"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">© 2025 CSAI — Computer Science + AI Club</footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="header.js"></script>
+    <script src="assets/js/side-bar.js"></script>
+  </body>
+</html>

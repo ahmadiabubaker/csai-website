@@ -267,28 +267,4 @@ document.addEventListener("DOMContentLoaded", () => {
     appliedFilter.value = "all";
     renderInternships();
   });
-
-  // Subtab switching functionality
-  const subtabBtns = document.querySelectorAll(".subtab-btn");
-  const searchTab = document.getElementById("search-tab");
-  const featuredTab = document.getElementById("featured-tab");
-
-  subtabBtns.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const tabName = btn.getAttribute("data-tab");
-
-      // Update button active states
-      subtabBtns.forEach((b) => b.classList.remove("active"));
-      btn.classList.add("active");
-
-      // Show/hide tab content
-      if (tabName === "search") {
-        searchTab.classList.remove("hidden");
-        featuredTab.classList.add("hidden");
-      } else if (tabName === "featured") {
-        searchTab.classList.add("hidden");
-        featuredTab.classList.remove("hidden");
-      }
-    });
-  });
 });

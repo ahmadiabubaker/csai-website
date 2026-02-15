@@ -1,237 +1,317 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Navigation System Demo - CSAI</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <style>
-    /* Demo-specific styles */
-    body {
-      margin: 0;
-      min-height: 200vh; /* Allow scrolling to test sticky header */
-    }
-    
-    .demo-content {
-      padding: 100px 24px 24px;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-    
-    .demo-section {
-      margin-bottom: 40px;
-      padding: 24px;
-      background: var(--card-bg);
-      border-radius: 16px;
-      border: 1px solid var(--glass-line);
-    }
-    
-    .demo-section h2 {
-      margin-top: 0;
-      color: var(--text);
-    }
-    
-    .demo-section ul {
-      line-height: 1.8;
-    }
-    
-    .demo-section code {
-      background: rgba(122, 92, 255, 0.1);
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-family: 'Courier New', monospace;
-    }
-    
-    .behavior-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-      margin-top: 20px;
-    }
-    
-    @media (max-width: 768px) {
-      .behavior-grid {
-        grid-template-columns: 1fr;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation System Demo - CSAI</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+      /* Demo-specific styles */
+      body {
+        margin: 0;
+        min-height: 200vh; /* Allow scrolling to test sticky header */
       }
-    }
-    
-    .behavior-card {
-      padding: 16px;
-      background: rgba(0, 230, 255, 0.08);
-      border-radius: 12px;
-      border-left: 4px solid var(--accent-1);
-    }
-    
-    .behavior-card.mobile {
-      background: rgba(122, 92, 255, 0.08);
-      border-left-color: var(--accent-2);
-    }
-    
-    .behavior-card h3 {
-      margin-top: 0;
-      font-size: 1.2rem;
-    }
-  </style>
-</head>
-<body>
 
-  <!-- ===== Header (Same as index.html) ===== -->
-  <header class="header">
-    <div class="nav container">
-      <!-- Hamburger menu (mobile only) -->
-      <nav>
-        <button class="ham-menu" aria-label="Toggle menu" aria-expanded="false">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </nav>
+      .demo-content {
+        padding: 100px 24px 24px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
 
-      <!-- Navigation links -->
-      <nav class="nav-links off-screen-menu" aria-label="Main navigation">
-        <ul class="nav-menu">
-          <li class="nav-item">
-            <a href="/" class="nav-link active">Home</a>
-          </li>
-          
-          <li class="nav-item">
-            <a href="about.html" class="nav-link">About</a>
-          </li>
-          
-          <!-- Projects with dropdown -->
-          <li class="nav-item has-dropdown">
-            <a href="projects.html" class="nav-link">Projects</a>
-            <button class="dropdown-toggle" aria-label="Toggle Projects submenu" aria-expanded="false">
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-                <path d="M8 11L3 6h10z"/>
-              </svg>
-            </button>
-            <ul class="dropdown-menu">
-              <li><a href="projects.html">All Projects</a></li>
-              <li><a href="anatomyvr.html">AnatomyVR</a></li>
-              <li><a href="digitaltwin.html">Digital Twin</a></li>
+      .demo-section {
+        margin-bottom: 40px;
+        padding: 24px;
+        background: var(--card-bg);
+        border-radius: 16px;
+        border: 1px solid var(--glass-line);
+      }
+
+      .demo-section h2 {
+        margin-top: 0;
+        color: var(--text);
+      }
+
+      .demo-section ul {
+        line-height: 1.8;
+      }
+
+      .demo-section code {
+        background: rgba(122, 92, 255, 0.1);
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-family: "Courier New", monospace;
+      }
+
+      .behavior-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin-top: 20px;
+      }
+
+      @media (max-width: 768px) {
+        .behavior-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .behavior-card {
+        padding: 16px;
+        background: rgba(0, 230, 255, 0.08);
+        border-radius: 12px;
+        border-left: 4px solid var(--accent-1);
+      }
+
+      .behavior-card.mobile {
+        background: rgba(122, 92, 255, 0.08);
+        border-left-color: var(--accent-2);
+      }
+
+      .behavior-card h3 {
+        margin-top: 0;
+        font-size: 1.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ===== Header (Same as index.html) ===== -->
+    <header class="header">
+      <div class="nav container">
+        <!-- Hamburger menu (mobile only) -->
+        <nav>
+          <button
+            class="ham-menu"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+
+        <!-- Navigation links -->
+        <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="/" class="nav-link active">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+
+            <!-- Projects with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="projects.html" class="nav-link">Projects</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Projects submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="projects.html">All Projects</a></li>
+                <li><a href="anatomyvr.html">AnatomyVR</a></li>
+                <li><a href="digitaltwin.html">Digital Twin</a></li>
+              </ul>
+            </li>
+
+            <!-- Learning with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="learning.html" class="nav-link">Learning</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Learning submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="learning.html">Tutorials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="resources.html">Resources</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="events.html" class="nav-link">Events</a>
+            </li>
+
+            <!-- Opportunities with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="internships.html" class="nav-link">Opportunities</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Opportunities submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="scholarships.html">Scholarships</a></li>
+                <li><a href="research.html">Research</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="join.html" class="nav-link">Join</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Join button (mobile only) -->
+        <a class="join-button btn mobile-only" href="join.html">Join</a>
+      </div>
+    </header>
+
+    <!-- ===== Demo Content ===== -->
+    <div class="demo-content">
+      <div class="demo-section">
+        <h2>🎉 Navigation Dropdown System Demo</h2>
+        <p>
+          This page demonstrates the new responsive navigation system with
+          different behaviors for desktop and mobile.
+        </p>
+      </div>
+
+      <div class="demo-section">
+        <h2>📋 Testing Instructions</h2>
+
+        <div class="behavior-grid">
+          <div class="behavior-card">
+            <h3>🖥️ Desktop Testing (> 700px)</h3>
+            <ul>
+              <li><strong>Hover</strong> over "Projects" or "Learning"</li>
+              <li>Dropdown menu should appear below</li>
+              <li>Menu disappears when you move mouse away</li>
+              <li>Use <code>Tab</code> key to navigate</li>
+              <li>Dropdowns open on keyboard focus too</li>
             </ul>
-          </li>
-          
-          <!-- Learning with dropdown -->
-          <li class="nav-item has-dropdown">
-            <a href="learning.html" class="nav-link">Learning</a>
-            <button class="dropdown-toggle" aria-label="Toggle Learning submenu" aria-expanded="false">
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-                <path d="M8 11L3 6h10z"/>
-              </svg>
-            </button>
-            <ul class="dropdown-menu">
-              <li><a href="learning.html">Tutorials</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="resources.html">Resources</a></li>
+          </div>
+
+          <div class="behavior-card mobile">
+            <h3>📱 Mobile Testing (≤ 700px)</h3>
+            <ul>
+              <li>
+                Click <strong>hamburger menu</strong> (☰) to open sidebar
+              </li>
+              <li>Menu slides in from the left</li>
+              <li>Tap <strong>"+</strong> button next to Projects/Learning</li>
+              <li>Submenu expands inline (accordion style)</li>
+              <li>Only one submenu can be open at a time</li>
+              <li>Tap any link to close the menu</li>
+              <li>Click outside to close the menu</li>
             </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="demo-section">
+        <h2>✅ Key Features</h2>
+        <ul>
+          <li>
+            <strong>Single HTML structure</strong> - No duplicated markup for
+            mobile vs desktop
           </li>
-          
-          <li class="nav-item">
-            <a href="events.html" class="nav-link">Events</a>
+          <li>
+            <strong>CSS-only desktop dropdowns</strong> - Hover-based, no
+            JavaScript needed
           </li>
-          
-          <li class="nav-item">
-            <a href="internships.html" class="nav-link">Internships</a>
+          <li>
+            <strong>Accordion mobile submenus</strong> - Only one submenu open
+            at a time
           </li>
-          
-          <li class="nav-item">
-            <a href="join.html" class="nav-link">Join</a>
+          <li>
+            <strong>Keyboard accessible</strong> - Full keyboard navigation
+            support
+          </li>
+          <li><strong>ARIA attributes</strong> - Screen reader friendly</li>
+          <li>
+            <strong>Smooth animations</strong> - Hardware-accelerated
+            transitions
+          </li>
+          <li><strong>Dark mode support</strong> - Uses CSS variables</li>
+        </ul>
+      </div>
+
+      <div class="demo-section">
+        <h2>🔧 How to Customize</h2>
+        <p>
+          See <code>NAVIGATION_GUIDE.md</code> for detailed documentation
+          including:
+        </p>
+        <ul>
+          <li>Adding new navigation items</li>
+          <li>Creating new dropdown menus</li>
+          <li>Changing colors and animations</li>
+          <li>Modifying the breakpoint (currently 700px)</li>
+          <li>Troubleshooting common issues</li>
+        </ul>
+      </div>
+
+      <div class="demo-section">
+        <h2>📂 Files Modified</h2>
+        <ul>
+          <li><code>index.html</code> - Updated header HTML structure</li>
+          <li>
+            <code>assets/css/style.css</code> - Added dropdown and mobile
+            accordion styles
+          </li>
+          <li>
+            <code>assets/js/side-bar.js</code> - Enhanced mobile menu JavaScript
+          </li>
+          <li>
+            <code>NAVIGATION_GUIDE.md</code> - Complete documentation (NEW)
           </li>
         </ul>
-      </nav>
+      </div>
 
-      <!-- Join button (mobile only) -->
-    <a class="join-button btn mobile-only" href="join.html">Join</a>
-    </div>
-  </header>
-
-  <!-- ===== Demo Content ===== -->
-  <div class="demo-content">
-    <div class="demo-section">
-      <h2>🎉 Navigation Dropdown System Demo</h2>
-      <p>This page demonstrates the new responsive navigation system with different behaviors for desktop and mobile.</p>
-    </div>
-
-    <div class="demo-section">
-      <h2>📋 Testing Instructions</h2>
-      
-      <div class="behavior-grid">
-        <div class="behavior-card">
-          <h3>🖥️ Desktop Testing (> 700px)</h3>
-          <ul>
-            <li><strong>Hover</strong> over "Projects" or "Learning"</li>
-            <li>Dropdown menu should appear below</li>
-            <li>Menu disappears when you move mouse away</li>
-            <li>Use <code>Tab</code> key to navigate</li>
-            <li>Dropdowns open on keyboard focus too</li>
-          </ul>
-        </div>
-        
-        <div class="behavior-card mobile">
-          <h3>📱 Mobile Testing (≤ 700px)</h3>
-          <ul>
-            <li>Click <strong>hamburger menu</strong> (☰) to open sidebar</li>
-            <li>Menu slides in from the left</li>
-            <li>Tap <strong>"+</strong> button next to Projects/Learning</li>
-            <li>Submenu expands inline (accordion style)</li>
-            <li>Only one submenu can be open at a time</li>
-            <li>Tap any link to close the menu</li>
-            <li>Click outside to close the menu</li>
-          </ul>
-        </div>
+      <div class="demo-section">
+        <h2>🎨 Resize Your Browser</h2>
+        <p>
+          Try resizing your browser window to see how the navigation adapts:
+        </p>
+        <ul>
+          <li>
+            <strong>Wide (> 700px):</strong> Desktop mode with hover dropdowns
+          </li>
+          <li>
+            <strong>Narrow (≤ 700px):</strong> Mobile mode with hamburger menu
+            and accordion submenus
+          </li>
+        </ul>
       </div>
     </div>
 
-    <div class="demo-section">
-      <h2>✅ Key Features</h2>
-      <ul>
-        <li><strong>Single HTML structure</strong> - No duplicated markup for mobile vs desktop</li>
-        <li><strong>CSS-only desktop dropdowns</strong> - Hover-based, no JavaScript needed</li>
-        <li><strong>Accordion mobile submenus</strong> - Only one submenu open at a time</li>
-        <li><strong>Keyboard accessible</strong> - Full keyboard navigation support</li>
-        <li><strong>ARIA attributes</strong> - Screen reader friendly</li>
-        <li><strong>Smooth animations</strong> - Hardware-accelerated transitions</li>
-        <li><strong>Dark mode support</strong> - Uses CSS variables</li>
-      </ul>
-    </div>
-
-    <div class="demo-section">
-      <h2>🔧 How to Customize</h2>
-      <p>See <code>NAVIGATION_GUIDE.md</code> for detailed documentation including:</p>
-      <ul>
-        <li>Adding new navigation items</li>
-        <li>Creating new dropdown menus</li>
-        <li>Changing colors and animations</li>
-        <li>Modifying the breakpoint (currently 700px)</li>
-        <li>Troubleshooting common issues</li>
-      </ul>
-    </div>
-
-    <div class="demo-section">
-      <h2>📂 Files Modified</h2>
-      <ul>
-        <li><code>index.html</code> - Updated header HTML structure</li>
-        <li><code>assets/css/style.css</code> - Added dropdown and mobile accordion styles</li>
-        <li><code>assets/js/side-bar.js</code> - Enhanced mobile menu JavaScript</li>
-        <li><code>NAVIGATION_GUIDE.md</code> - Complete documentation (NEW)</li>
-      </ul>
-    </div>
-
-    <div class="demo-section">
-      <h2>🎨 Resize Your Browser</h2>
-      <p>Try resizing your browser window to see how the navigation adapts:</p>
-      <ul>
-        <li><strong>Wide (> 700px):</strong> Desktop mode with hover dropdowns</li>
-        <li><strong>Narrow (≤ 700px):</strong> Mobile mode with hamburger menu and accordion submenus</li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- JavaScript -->
-  <script src="assets/js/side-bar.js"></script>
-  <script src="assets/js/main.js"></script>
-
-</body>
+    <!-- JavaScript -->
+    <script src="assets/js/side-bar.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
