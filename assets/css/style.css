@@ -3110,13 +3110,18 @@ body.dark-mode #post article h2 {
   .nav-link {
     display: inline-block;
     padding: 0;
-    font-size: 55%;
+    font-size: 45%;
     border-radius: 0;
     background: transparent !important;
     box-shadow: none !important;
     color: var(--nav-link-color);
     font-weight: 800;
-    max-width: 70%;
+    max-width: 100%;
+  }
+
+  /* Mobile: nav links with dropdowns need extra padding */
+  .nav-item.has-dropdown > .nav-link {
+    padding-right: 50px;
   }
 
   /* Mobile: show dropdown toggle button as +/- */
@@ -3125,8 +3130,8 @@ body.dark-mode #post article h2 {
     align-items: center;
     justify-content: center;
     position: absolute;
-    right: 15px;
-    margin-top: 24px;
+    right: 0px;
+    margin-top: 33px;
     border: 3px solid transparent;
     border-radius: 20px;
 
@@ -3134,8 +3139,8 @@ body.dark-mode #post article h2 {
       linear-gradient(transparent, transparent) padding-box,
       linear-gradient(90deg, var(--accent-2), var(--accent-3)) border-box;
 
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     color: white;
     box-shadow: 0px 2px 3px rgb(155, 155, 155);
   }
@@ -3148,7 +3153,7 @@ body.dark-mode #post article h2 {
   .dropdown-toggle::before {
     content: "+";
     display: block;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   /* Mobile: change + to - when expanded */
