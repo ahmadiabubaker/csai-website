@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-3D4TYEWL38");
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSAI — Opportunities</title>
+    <link rel="icon" type="image/png" href="data/photos/logo.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+      .opportunities-hero {
+        text-align: center;
+        padding: 3rem 0;
+      }
+
+      .opportunities-hero h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .opportunities-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2.5rem;
+        padding: 2rem 0;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .opportunity-card {
+        position: relative;
+        background: #fff;
+        border-radius: 20px;
+        padding: 2.5rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        overflow: hidden;
+        border: 1px solid rgba(102, 126, 234, 0.1);
+      }
+
+      .opportunity-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 6px;
+        background: linear-gradient(135deg, var(--card-color-1) 0%, var(--card-color-2) 100%);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.4s ease;
+      }
+
+      .opportunity-card:hover::before {
+        transform: scaleX(1);
+      }
+
+      .opportunity-card:hover {
+        transform: translateY(-12px);
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+      }
+
+      .opportunity-card.internships {
+        --card-color-1: #667eea;
+        --card-color-2: #764ba2;
+      }
+
+      .opportunity-card.scholarships {
+        --card-color-1: #f093fb;
+        --card-color-2: #f5576c;
+      }
+
+      .opportunity-card.research {
+        --card-color-1: #4facfe;
+        --card-color-2: #00f2fe;
+      }
+
+      .card-icon {
+        width: 70px;
+        height: 70px;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+        background: linear-gradient(135deg, var(--card-color-1) 0%, var(--card-color-2) 100%);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        transition: all 0.3s ease;
+      }
+
+      .opportunity-card:hover .card-icon {
+        transform: scale(1.1) rotate(5deg);
+      }
+
+      .card-icon svg {
+        width: 36px;
+        height: 36px;
+        fill: #fff;
+      }
+
+      .opportunity-card h3 {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+        color: #1a202c;
+        font-weight: 700;
+      }
+
+      .opportunity-card p {
+        color: #4a5568;
+        line-height: 1.7;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+      }
+
+      .opportunity-card .btn {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: 600;
+        background: linear-gradient(135deg, var(--card-color-1) 0%, var(--card-color-2) 100%);
+        border: none;
+        border-radius: 12px;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .opportunity-card .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+      }
+
+      .card-stats {
+        display: flex;
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid rgba(0, 0, 0, 0.08);
+      }
+
+      .stat-item {
+        flex: 1;
+        text-align: center;
+      }
+
+      .stat-value {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 700;
+        background: linear-gradient(135deg, var(--card-color-1) 0%, var(--card-color-2) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 0.25rem;
+      }
+
+      .stat-label {
+        display: block;
+        font-size: 0.75rem;
+        color: #718096;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      @media (max-width: 768px) {
+        .opportunities-hero h2 {
+          font-size: 2rem;
+        }
+        
+        .opportunities-grid {
+          grid-template-columns: 1fr;
+          gap: 2rem;
+        }
+
+        .opportunity-card {
+          padding: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav container">
+        <!-- Hamburger menu (mobile only) -->
+        <nav>
+          <button
+            class="ham-menu"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+
+        <!-- Navigation links - shared markup for desktop and mobile -->
+        <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+
+            <!-- Projects with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="projects.html" class="nav-link">Projects</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Projects submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="projects.html">All Projects</a></li>
+                <li><a href="anatomyvr.html">AnatomyVR</a></li>
+                <li><a href="digitaltwin.html">Digital Twin</a></li>
+              </ul>
+            </li>
+
+            <!-- Learning with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="learning.html" class="nav-link">Learning</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Learning submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="learning.html">Tutorials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="resources.html">Resources</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="events.html" class="nav-link">Events</a>
+            </li>
+
+            <!-- Opportunities with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="opportunities.html" class="nav-link active"
+                >Opportunities</a
+              >
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Opportunities submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="scholarships.html">Scholarships</a></li>
+                <li><a href="research.html">Research</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="join.html" class="nav-link">Join</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Join button (mobile only) -->
+        <a class="join-button btn mobile-only" href="join.html">Join</a>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <div class="opportunities-hero">
+          <h2 class="reveal">Explore Your Future</h2>
+          <p class="lead reveal">
+            Discover internships, scholarships, and research opportunities to advance your career in tech and AI.
+          </p>
+        </div>
+
+        <div class="opportunities-grid">
+          <!-- Internships Card -->
+          <article class="opportunity-card internships reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/>
+              </svg>
+            </div>
+            <h3>Internships</h3>
+            <p>
+              Gain real-world experience with local and regional internship opportunities in tech, AI, and software engineering. Build your resume and network with industry professionals.
+            </p>
+            <a href="internships.html" class="btn">Browse Internships →</a>
+            <div class="card-stats">
+              <div class="stat-item">
+                <span class="stat-value">50+</span>
+                <span class="stat-label">Opportunities</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value">Live</span>
+                <span class="stat-label">Tracking</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Scholarships Card -->
+          <article class="opportunity-card scholarships reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L1 7l11 5 9-4.09V17h2V7L12 2zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/>
+              </svg>
+            </div>
+            <h3>Scholarships</h3>
+            <p>
+              Access financial support for your education with scholarships and funding opportunities specifically designed for students in STEM and computer science fields.
+            </p>
+            <a href="scholarships.html" class="btn">Find Scholarships →</a>
+            <div class="card-stats">
+              <div class="stat-item">
+                <span class="stat-value">$1M+</span>
+                <span class="stat-label">Available</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value">Year-Round</span>
+                <span class="stat-label">Deadlines</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Research Card -->
+          <article class="opportunity-card research reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.5 3.5L18 2l-1.5 1.5L15 2l-1.5 1.5L12 2l-1.5 1.5L9 2 7.5 3.5 6 2v14H3v3c0 1.66 1.34 3 3 3h12c1.66 0 3-1.34 3-3V2l-1.5 1.5zM19 19c0 .55-.45 1-1 1s-1-.45-1-1v-3H8V5h11v14z"/>
+                <circle cx="9" cy="7" r="1"/>
+                <circle cx="9" cy="10" r="1"/>
+                <circle cx="9" cy="13" r="1"/>
+              </svg>
+            </div>
+            <h3>Research</h3>
+            <p>
+              Contribute to cutting-edge academic research and innovation. Explore research opportunities and programs that let you work alongside leading scientists and researchers.
+            </p>
+            <a href="research.html" class="btn">Explore Research →</a>
+            <div class="card-stats">
+              <div class="stat-item">
+                <span class="stat-value">100+</span>
+                <span class="stat-label">Programs</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value">Paid</span>
+                <span class="stat-label">Positions</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">© 2025 CSAI — Computer Science + AI Club</footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/projects.js"></script>
+    <script src="assets/js/side-bar.js"></script>
+  </body>
+</html>

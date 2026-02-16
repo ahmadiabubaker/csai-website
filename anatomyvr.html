@@ -1,285 +1,525 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);} 
-    gtag('js', new Date());
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'G-3D4TYEWL38');
-  </script>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CSAI — AnatomyVR Demo</title>
-  <link rel="icon" type="image/png" href="data/photos/logo.png">
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body class="embed-page">
-
-<!-- ===== Header ===== -->
-<header class="header">
-  <div class="nav container">
-
-    <!-- Hamburger menu (mobile only) -->
-    <nav>
-      <button class="ham-menu" aria-label="Toggle menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </nav>
-
-    <!-- Navigation links - shared markup for desktop and mobile -->
-    <nav class="nav-links off-screen-menu" aria-label="Main navigation">
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="/" class="nav-link">Home</a>
-        </li>
-        
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">About</a>
-        </li>
-        
-        <!-- Projects with dropdown -->
-        <li class="nav-item has-dropdown">
-          <a href="projects.html" class="nav-link active">Projects</a>
-          <button class="dropdown-toggle" aria-label="Toggle Projects submenu" aria-expanded="false">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-              <path d="M8 11L3 6h10z"/>
-            </svg>
+      gtag("config", "G-3D4TYEWL38");
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSAI — AnatomyVR Demo</title>
+    <link rel="icon" type="image/png" href="data/photos/logo.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="embed-page">
+    <!-- ===== Header ===== -->
+    <header class="header">
+      <div class="nav container">
+        <!-- Hamburger menu (mobile only) -->
+        <nav>
+          <button
+            class="ham-menu"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
           </button>
-          <ul class="dropdown-menu">
-            <li><a href="projects.html">All Projects</a></li>
-            <li><a href="anatomyvr.html">AnatomyVR</a></li>
-            <li><a href="digitaltwin.html">Digital Twin</a></li>
+        </nav>
+
+        <!-- Navigation links - shared markup for desktop and mobile -->
+        <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+
+            <!-- Projects with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="projects.html" class="nav-link active">Projects</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Projects submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="projects.html">All Projects</a></li>
+                <li><a href="anatomyvr.html">AnatomyVR</a></li>
+                <li><a href="digitaltwin.html">Digital Twin</a></li>
+              </ul>
+            </li>
+
+            <!-- Learning with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="learning.html" class="nav-link">Learning</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Learning submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="learning.html">Tutorials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="resources.html">Resources</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="events.html" class="nav-link">Events</a>
+            </li>
+
+            <!-- Opportunities with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="opportunities.html" class="nav-link">Opportunities</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Opportunities submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="scholarships.html">Scholarships</a></li>
+                <li><a href="research.html">Research</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="join.html" class="nav-link">Join</a>
+            </li>
           </ul>
-        </li>
-        
-        <!-- Learning with dropdown -->
-        <li class="nav-item has-dropdown">
-          <a href="learning.html" class="nav-link">Learning</a>
-          <button class="dropdown-toggle" aria-label="Toggle Learning submenu" aria-expanded="false">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-              <path d="M8 11L3 6h10z"/>
-            </svg>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a href="learning.html">Tutorials</a></li>
-            <li><a href="blog.html">Blog</a></li>
-          </ul>
-        </li>
-        
-        <li class="nav-item">
-          <a href="events.html" class="nav-link">Events</a>
-        </li>
-        
-        <!-- Achievements with dropdown -->
-        <li class="nav-item has-dropdown">
-          <a href="Achievements.html" class="nav-link">Achievements</a>
-          <button class="dropdown-toggle" aria-label="Toggle Achievements submenu" aria-expanded="false">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-              <path d="M8 11L3 6h10z"/>
-            </svg>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a href="competitions.html">Competitions</a></li>
-            <li><a href="publications.html">Publications</a></li>
-          </ul>
-        </li>
-        
-        <li class="nav-item">
-          <a href="join.html" class="nav-link">Join</a>
-        </li>
-      </ul>
-    </nav>
+        </nav>
 
-    <!-- Join button (mobile only) -->
-    <a class="join-button btn mobile-only" href="join.html">Join</a>
-  </div>
-</header>
-
-<!-- ===== AnatomyVR Demo Section ===== -->
-<section class="section">
-  <div class="container">
-    <div class="section-header">
-      <h2>AnatomyVR — Demo</h2>
-    </div>
-  <div class="beta-notice terminal-box" id="readme-box">
-    <div class="terminal-title">README</div>
-    <button id="readme-toggle" class="readme-toggle-btn" aria-label="Minimize README" title="Minimize">
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="2" y="6" width="10" height="2" rx="1" fill="currentColor"/>
-      </svg>
-    </button>
-    <div class="readme-content" id="readme-content">
-    <p><strong>Instructions:</strong></p>
-    <ol>
-      <li>This is the beta version of the 3D Study Aid for 20 Muscles Project.</li>
-      <li>This does not support Mobile phone use.</li>
-      <li>Fullscreen is now enabled. If you notice performance issues, switch back to the default window size.</li>
-      <li class="highlight-rotate">To rotate: WINDOWS: Rotate with right mouse click;  MAC: track pad, double click and hold.</li>
-      <li>AI will now analyze your answer and mark if it is right or wrong.</li>
-      <li>Any clicks should stay in the answer box. It does not clear, backspace works.</li>
-      <li>We appreciate your feedback to help improve this Project.</li>
-    </ol>
-    </div>
-  </div>
-
-  <script>
-    // README minimize/expand toggle
-    (function(){
-      const toggleBtn = document.getElementById('readme-toggle');
-      const content = document.getElementById('readme-content');
-      const box = document.getElementById('readme-box');
-      if (!toggleBtn || !content || !box) return;
-
-      toggleBtn.addEventListener('click', function(){
-        const isMinimized = box.classList.toggle('minimized');
-        toggleBtn.setAttribute('aria-label', isMinimized ? 'Expand README' : 'Minimize README');
-        toggleBtn.setAttribute('title', isMinimized ? 'Expand' : 'Minimize');
-        toggleBtn.innerHTML = isMinimized
-          ? '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="6" width="10" height="2" rx="1" fill="currentColor"/><rect x="6" y="2" width="2" height="10" rx="1" fill="currentColor"/></svg>'
-          : '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="6" width="10" height="2" rx="1" fill="currentColor"/></svg>';
-      });
-    })();
-  </script>
-
-  <!-- Tutorial video: visible on desktop and mobile -->
-  <div class="video-shell">
-    <div class="video-frame">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/BU27WaNskHU?si=TutmQudfc_KCdSC4" title="AnatomyVR - How to use" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-  </div>
-
-  <div class="embed-shell">
-      <div class="embed-frame">
-  <!-- Embedded itch.io build (user-provided) -->
-  <iframe frameborder="0" src="https://itch.io/embed-upload/16209157?color=333333" allowfullscreen="" width="1280" height="740"><a href="https://abubaker45.itch.io/pt-project2626">Play ptProject2626 on itch.io</a></iframe>
+        <!-- Join button (mobile only) -->
+        <a class="join-button btn mobile-only" href="join.html">Join</a>
       </div>
-    </div>
+    </header>
 
-    <!-- Mobile-only notice -->
-    <div class="embed-mobile-block">
-      <h3>Not available on mobile</h3>
-      <p>This Unity demo isn’t optimized for phones. Please switch to a laptop or desktop to view it.</p>
-      <div class="center mobile-back" style="margin-top: 12px;">
-        <a class="btn" href="projects.html">← Back to Projects</a>
-      </div>
-    </div>
-
-    <div class="center desktop-back" style="margin-top: 20px;">
-      <a class="btn" href="projects.html">← Back to Projects</a>
-    </div>
-
-    <!-- Desktop-only feedback form -->
-    <div class="feedback-panel" aria-labelledby="feedback-title">
-      <h3 id="feedback-title" class="center">Submit feedback</h3>
-      <!-- Connected to Google Apps Script Web App -->
-      <form id="feedback-form" class="form" method="POST" action="https://script.google.com/macros/s/AKfycbzlEtolcV6Zd_C-RhrP1So1S5N4oo-6HjiMZkqd38aviMHNoN-op9Eqwj3onUooxbQ2XQ/exec" novalidate>
-        <div id="feedback-success" class="success" role="status" aria-live="polite" style="display:none;">Thank you! Your submission is complete.</div>
-        <div id="feedback-error" class="error" role="alert" style="display:none;"></div>
-        <input type="hidden" name="page" value="AnatomyVR Demo" />
-        <input type="hidden" name="ref" id="feedback-ref" value="" />
-        <label class="label" for="feedback-text">Your feedback</label>
-        <textarea id="feedback-text" name="feedback" placeholder="Write your feedback here..." rows="6"></textarea>
-        <button type="submit" class="btn primary" id="feedback-submit">Submit</button>
-      </form>
-    </div>
-    <!-- Testimonials: continuous right-to-left boxes, hover to pause, drag to move -->
-    <section class="section testimonials-section">
+    <!-- ===== AnatomyVR Demo Section ===== -->
+    <section class="section">
       <div class="container">
         <div class="section-header">
-          <h3>Feedback &amp; Suggestions</h3>
+          <h2>AnatomyVR — Demo</h2>
         </div>
-        <div class="testimonials" id="testimonials" aria-label="Feedbacks and Suggestions">
-          <div class="testimonials-track" id="testimonials-track">
-            <div class="testimonial"><p>Great tool, I see much value to students in helping learn a difficult subject. Minor feedback - maybe put instructions on screen to show how to rotate; maybe put in order of how students are taught; muscle - origin, insertion, action; seems like some words are capitalized and some are not; add an &quot;enter&quot; button on quiz page. Wonderful job, really nice functionality.</p></div>
-
-            <div class="testimonial"><p>&quot;Excellent work! I see these 3D models only getting better and better. The strength of the model is that you have diagrams, 3D muscles and bones, and you also have the option to see it on the mannequin. The quiz works quite well, but it needs to be less strict when it comes to accepting answers. I would like to be able to rotate the model myself and have the ability to zoom in and out. The graphics could be slightly improved, and I would also like to see a &quot;test&quot; option where an AI will randomize the 3D muscles, as well as the origin, action, and insertion. Brilliantly done, though, and I can guarantee success for BIO 104 students.&quot;</p></div>
-
-            <div class="testimonial"><p>To proceed through the images is a little slow; the quiz after each image is very helpful to remember.</p></div>
-
-            <div class="testimonial"><p>I really enjoy this project. I appreciate that there is focus on each individual muscle, multiple points of view using both the full body model and the isolated view. I also appreciate that the O.I.A is included for each muscle since this is what we are tested on and it helps to see it up close. If I could suggest a few tweaks: highlight insertion and origin points in different colors and, if possible, show the muscle performing its action. Overall I really enjoy the project and appreciate all the time you have put into it.</p></div>
-
-            <div class="testimonial"><p>There&#39;s a spelling error on the quiz for the gluteus maximus. &quot;Sacrum&quot; is misspelled as &quot;sacram&quot;.</p></div>
-
-            <div class="testimonial"><p>I enjoyed trying out the project and how you can clearly rotate the figure itself. However, there are spelling mistakes on some of the origins or insertions which makes it difficult to get the correct answer when responding with the correct spelling. I do like that it gives you the right answer after 3 tries.</p></div>
-
-            <div class="testimonial"><p>This project is great! Having a 3D model to use makes the learning more interactive and easier to grasp. The only thing I would change is the spot where the feedback text appears when you get an answer incorrect, as it covers the &quot;enter text&quot; box - making it difficult to click to continue the quiz. If there was a way to click into the text box through the overlay, that would be perfect. Also, after multiple incorrect answers the program sometimes gives unlimited chances instead of pausing at the third try. Overall, an amazing study tool with lots of potential.</p></div>
-
-            <div class="testimonial"><p>Great learning tool — I wish I had it back when I was doing Bio103! It makes learning the muscles easier.</p></div>
-
-            <div class="testimonial"><p>&quot;I think this application could be very helpful to upcoming A&amp;P II students! This also takes the work out of students having to take pictures on their own, which is usually my foundation for studying. Because most of the practical test is cat dissections, this won&#39;t fully replace that experience, but it is helpful for memorization and spelling. It helps with studying, though not as much with orienting oneself within the body physically.&quot;</p></div>
+        <div class="beta-notice terminal-box" id="readme-box">
+          <div class="terminal-title">README</div>
+          <button
+            id="readme-toggle"
+            class="readme-toggle-btn"
+            aria-label="Minimize README"
+            title="Minimize"
+          >
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 14 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="2"
+                y="6"
+                width="10"
+                height="2"
+                rx="1"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <div class="readme-content" id="readme-content">
+            <p><strong>Instructions:</strong></p>
+            <ol>
+              <li>
+                This is the beta version of the 3D Study Aid for 20 Muscles
+                Project.
+              </li>
+              <li>This does not support Mobile phone use.</li>
+              <li>
+                Fullscreen is now enabled. If you notice performance issues,
+                switch back to the default window size.
+              </li>
+              <li class="highlight-rotate">
+                To rotate: WINDOWS: Rotate with right mouse click; MAC: track
+                pad, double click and hold.
+              </li>
+              <li>
+                AI will now analyze your answer and mark if it is right or
+                wrong.
+              </li>
+              <li>
+                Any clicks should stay in the answer box. It does not clear,
+                backspace works.
+              </li>
+              <li>We appreciate your feedback to help improve this Project.</li>
+            </ol>
           </div>
         </div>
-        <p class="center" style="font-size:0.9rem;color:var(--lead-text-color);margin-top:10px;">Hover to pause. Drag to move the testimonials manually.</p>
+
+        <script>
+          // README minimize/expand toggle
+          (function () {
+            const toggleBtn = document.getElementById("readme-toggle");
+            const content = document.getElementById("readme-content");
+            const box = document.getElementById("readme-box");
+            if (!toggleBtn || !content || !box) return;
+
+            toggleBtn.addEventListener("click", function () {
+              const isMinimized = box.classList.toggle("minimized");
+              toggleBtn.setAttribute(
+                "aria-label",
+                isMinimized ? "Expand README" : "Minimize README",
+              );
+              toggleBtn.setAttribute(
+                "title",
+                isMinimized ? "Expand" : "Minimize",
+              );
+              toggleBtn.innerHTML = isMinimized
+                ? '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="6" width="10" height="2" rx="1" fill="currentColor"/><rect x="6" y="2" width="2" height="10" rx="1" fill="currentColor"/></svg>'
+                : '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="6" width="10" height="2" rx="1" fill="currentColor"/></svg>';
+            });
+          })();
+        </script>
+
+        <!-- Tutorial video: visible on desktop and mobile -->
+        <div class="video-shell">
+          <div class="video-frame">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/BU27WaNskHU?si=TutmQudfc_KCdSC4"
+              title="AnatomyVR - How to use"
+              frameborder="0"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="embed-shell">
+          <div class="embed-frame">
+            <!-- Embedded itch.io build (user-provided) -->
+            <iframe
+              frameborder="0"
+              src="https://itch.io/embed-upload/16209157?color=333333"
+              allowfullscreen=""
+              width="1280"
+              height="740"
+              ><a href="https://abubaker45.itch.io/pt-project2626"
+                >Play ptProject2626 on itch.io</a
+              ></iframe
+            >
+          </div>
+        </div>
+
+        <!-- Mobile-only notice -->
+        <div class="embed-mobile-block">
+          <h3>Not available on mobile</h3>
+          <p>
+            This Unity demo isn’t optimized for phones. Please switch to a
+            laptop or desktop to view it.
+          </p>
+          <div class="center mobile-back" style="margin-top: 12px">
+            <a class="btn" href="projects.html">← Back to Projects</a>
+          </div>
+        </div>
+
+        <div class="center desktop-back" style="margin-top: 20px">
+          <a class="btn" href="projects.html">← Back to Projects</a>
+        </div>
+
+        <!-- Desktop-only feedback form -->
+        <div class="feedback-panel" aria-labelledby="feedback-title">
+          <h3 id="feedback-title" class="center">Submit feedback</h3>
+          <!-- Connected to Google Apps Script Web App -->
+          <form
+            id="feedback-form"
+            class="form"
+            method="POST"
+            action="https://script.google.com/macros/s/AKfycbzlEtolcV6Zd_C-RhrP1So1S5N4oo-6HjiMZkqd38aviMHNoN-op9Eqwj3onUooxbQ2XQ/exec"
+            novalidate
+          >
+            <div
+              id="feedback-success"
+              class="success"
+              role="status"
+              aria-live="polite"
+              style="display: none"
+            >
+              Thank you! Your submission is complete.
+            </div>
+            <div
+              id="feedback-error"
+              class="error"
+              role="alert"
+              style="display: none"
+            ></div>
+            <input type="hidden" name="page" value="AnatomyVR Demo" />
+            <input type="hidden" name="ref" id="feedback-ref" value="" />
+            <label class="label" for="feedback-text">Your feedback</label>
+            <textarea
+              id="feedback-text"
+              name="feedback"
+              placeholder="Write your feedback here..."
+              rows="6"
+            ></textarea>
+            <button type="submit" class="btn primary" id="feedback-submit">
+              Submit
+            </button>
+          </form>
+        </div>
+        <!-- Testimonials: continuous right-to-left boxes, hover to pause, drag to move -->
+        <section class="section testimonials-section">
+          <div class="container">
+            <div class="section-header">
+              <h3>Feedback &amp; Suggestions</h3>
+            </div>
+            <div
+              class="testimonials"
+              id="testimonials"
+              aria-label="Feedbacks and Suggestions"
+            >
+              <div class="testimonials-track" id="testimonials-track">
+                <div class="testimonial">
+                  <p>
+                    Great tool, I see much value to students in helping learn a
+                    difficult subject. Minor feedback - maybe put instructions
+                    on screen to show how to rotate; maybe put in order of how
+                    students are taught; muscle - origin, insertion, action;
+                    seems like some words are capitalized and some are not; add
+                    an &quot;enter&quot; button on quiz page. Wonderful job,
+                    really nice functionality.
+                  </p>
+                </div>
+
+                <div class="testimonial">
+                  <p>
+                    &quot;Excellent work! I see these 3D models only getting
+                    better and better. The strength of the model is that you
+                    have diagrams, 3D muscles and bones, and you also have the
+                    option to see it on the mannequin. The quiz works quite
+                    well, but it needs to be less strict when it comes to
+                    accepting answers. I would like to be able to rotate the
+                    model myself and have the ability to zoom in and out. The
+                    graphics could be slightly improved, and I would also like
+                    to see a &quot;test&quot; option where an AI will randomize
+                    the 3D muscles, as well as the origin, action, and
+                    insertion. Brilliantly done, though, and I can guarantee
+                    success for BIO 104 students.&quot;
+                  </p>
+                </div>
+
+                <div class="testimonial">
+                  <p>
+                    To proceed through the images is a little slow; the quiz
+                    after each image is very helpful to remember.
+                  </p>
+                </div>
+
+                <div class="testimonial">
+                  <p>
+                    I really enjoy this project. I appreciate that there is
+                    focus on each individual muscle, multiple points of view
+                    using both the full body model and the isolated view. I also
+                    appreciate that the O.I.A is included for each muscle since
+                    this is what we are tested on and it helps to see it up
+                    close. If I could suggest a few tweaks: highlight insertion
+                    and origin points in different colors and, if possible, show
+                    the muscle performing its action. Overall I really enjoy the
+                    project and appreciate all the time you have put into it.
+                  </p>
+                </div>
+
+                <div class="testimonial">
+                  <p>
+                    There&#39;s a spelling error on the quiz for the gluteus
+                    maximus. &quot;Sacrum&quot; is misspelled as
+                    &quot;sacram&quot;.
+                  </p>
+                </div>
+
+                <div class="testimonial">
+                  <p>
+                    I enjoyed trying out the project and how you can clearly
+                    rotate the figure itself. However, there are spelling
+                    mistakes on some of the origins or insertions which makes it
+                    difficult to get the correct answer when responding with the
+                    correct spelling. I do like that it gives you the right
+                    answer after 3 tries.
+                  </p>
+                </div>
+
+                <div class="testimonial">
+                  <p>
+                    This project is great! Having a 3D model to use makes the
+                    learning more interactive and easier to grasp. The only
+                    thing I would change is the spot where the feedback text
+                    appears when you get an answer incorrect, as it covers the
+                    &quot;enter text&quot; box - making it difficult to click to
+                    continue the quiz. If there was a way to click into the text
+                    box through the overlay, that would be perfect. Also, after
+                    multiple incorrect answers the program sometimes gives
+                    unlimited chances instead of pausing at the third try.
+                    Overall, an amazing study tool with lots of potential.
+                  </p>
+                </div>
+
+                <div class="testimonial">
+                  <p>
+                    Great learning tool — I wish I had it back when I was doing
+                    Bio103! It makes learning the muscles easier.
+                  </p>
+                </div>
+
+                <div class="testimonial">
+                  <p>
+                    &quot;I think this application could be very helpful to
+                    upcoming A&amp;P II students! This also takes the work out
+                    of students having to take pictures on their own, which is
+                    usually my foundation for studying. Because most of the
+                    practical test is cat dissections, this won&#39;t fully
+                    replace that experience, but it is helpful for memorization
+                    and spelling. It helps with studying, though not as much
+                    with orienting oneself within the body physically.&quot;
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p
+              class="center"
+              style="
+                font-size: 0.9rem;
+                color: var(--lead-text-color);
+                margin-top: 10px;
+              "
+            >
+              Hover to pause. Drag to move the testimonials manually.
+            </p>
+          </div>
+        </section>
+
+        <script src="assets/js/testimonials.js"></script>
+
+        <script>
+          // Populate referrer for submissions (desktop only area, safe to run globally)
+          (function () {
+            var refInput = document.getElementById("feedback-ref");
+            if (refInput) refInput.value = document.referrer || "";
+          })();
+        </script>
+        <script>
+          // Intercept feedback form submission to stay on the same page
+          (function () {
+            var form = document.getElementById("feedback-form");
+            if (!form) return;
+            var btn = document.getElementById("feedback-submit");
+            var successEl = document.getElementById("feedback-success");
+            var errorEl = document.getElementById("feedback-error");
+            var textarea = document.getElementById("feedback-text");
+
+            form.addEventListener("submit", function (e) {
+              e.preventDefault();
+              if (errorEl) {
+                errorEl.style.display = "none";
+                errorEl.textContent = "";
+              }
+              if (successEl) {
+                successEl.style.display = "none";
+              }
+              if (btn) {
+                btn.disabled = true;
+                btn.textContent = "Submitting...";
+              }
+
+              var formData = new FormData(form);
+              fetch(form.action, {
+                method: "POST",
+                body: formData,
+                mode: "no-cors", // avoid CORS blocking; we don't inspect the response
+              })
+                .then(function () {
+                  if (successEl) {
+                    successEl.style.display = "block";
+                  }
+                  if (btn) {
+                    btn.classList.remove("primary");
+                    btn.classList.add("success");
+                    btn.textContent = "Submitted";
+                    btn.disabled = true;
+                  }
+                  if (textarea) textarea.value = "";
+                })
+                .catch(function () {
+                  if (errorEl) {
+                    errorEl.textContent =
+                      "Submission failed. Please try again.";
+                    errorEl.style.display = "block";
+                  }
+                  if (btn) {
+                    btn.disabled = false;
+                    btn.textContent = "Submit";
+                  }
+                });
+            });
+          })();
+        </script>
       </div>
     </section>
 
-    <script src="assets/js/testimonials.js"></script>
+    <footer class="footer">© 2025 CSAI — Computer Science + AI Club</footer>
 
-    <script>
-      // Populate referrer for submissions (desktop only area, safe to run globally)
-      (function(){
-        var refInput = document.getElementById('feedback-ref');
-        if (refInput) refInput.value = document.referrer || '';
-      })();
-    </script>
-    <script>
-      // Intercept feedback form submission to stay on the same page
-      (function(){
-        var form = document.getElementById('feedback-form');
-        if (!form) return;
-        var btn = document.getElementById('feedback-submit');
-        var successEl = document.getElementById('feedback-success');
-        var errorEl = document.getElementById('feedback-error');
-        var textarea = document.getElementById('feedback-text');
-
-        form.addEventListener('submit', function(e){
-          e.preventDefault();
-          if (errorEl) { errorEl.style.display = 'none'; errorEl.textContent = ''; }
-          if (successEl) { successEl.style.display = 'none'; }
-          if (btn) { btn.disabled = true; btn.textContent = 'Submitting...'; }
-
-          var formData = new FormData(form);
-          fetch(form.action, {
-            method: 'POST',
-            body: formData,
-            mode: 'no-cors' // avoid CORS blocking; we don't inspect the response
-          })
-          .then(function(){
-            if (successEl) { successEl.style.display = 'block'; }
-            if (btn) {
-              btn.classList.remove('primary');
-              btn.classList.add('success');
-              btn.textContent = 'Submitted';
-              btn.disabled = true;
-            }
-            if (textarea) textarea.value = '';
-          })
-          .catch(function(){
-            if (errorEl) {
-              errorEl.textContent = 'Submission failed. Please try again.';
-              errorEl.style.display = 'block';
-            }
-            if (btn) {
-              btn.disabled = false;
-              btn.textContent = 'Submit';
-            }
-          });
-        });
-      })();
-    </script>
-  </div>
-</section>
-
-<footer class="footer">
-  © 2025 CSAI — Computer Science + AI Club
-</footer>
-
-<script src="assets/js/main.js"></script>
-<script src="assets/js/side-bar.js"></script>
-</body>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/side-bar.js"></script>
+  </body>
 </html>

@@ -1,329 +1,434 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);} 
-    gtag('js', new Date());
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'G-3D4TYEWL38');
-  </script>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CSAI — About</title>
-  <link rel="icon" type="image/png" href="data/photos/logo.png">
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
-
-<!-- ===== Header ===== -->
-<header class="header">
-  <div class="nav container">
-
-    <!-- Hamburger menu (mobile only) -->
-    <nav>
-      <button class="ham-menu" aria-label="Toggle menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </nav>
-
-    <!-- Navigation links - shared markup for desktop and mobile -->
-    <nav class="nav-links off-screen-menu" aria-label="Main navigation">
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="/" class="nav-link">Home</a>
-        </li>
-        
-        <li class="nav-item">
-          <a href="about.html" class="nav-link active">About</a>
-        </li>
-        
-        <!-- Projects with dropdown -->
-        <li class="nav-item has-dropdown">
-          <a href="projects.html" class="nav-link">Projects</a>
-          <button class="dropdown-toggle" aria-label="Toggle Projects submenu" aria-expanded="false">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-              <path d="M8 11L3 6h10z"/>
-            </svg>
+      gtag("config", "G-3D4TYEWL38");
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSAI — About</title>
+    <link rel="icon" type="image/png" href="data/photos/logo.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- ===== Header ===== -->
+    <header class="header">
+      <div class="nav container">
+        <!-- Hamburger menu (mobile only) -->
+        <nav>
+          <button
+            class="ham-menu"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
           </button>
-          <ul class="dropdown-menu">
-            <li><a href="projects.html">All Projects</a></li>
-            <li><a href="anatomyvr.html">AnatomyVR</a></li>
-            <li><a href="digitaltwin.html">Digital Twin</a></li>
+        </nav>
+
+        <!-- Navigation links - shared markup for desktop and mobile -->
+        <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="about.html" class="nav-link active">About</a>
+            </li>
+
+            <!-- Projects with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="projects.html" class="nav-link">Projects</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Projects submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="projects.html">All Projects</a></li>
+                <li><a href="anatomyvr.html">AnatomyVR</a></li>
+                <li><a href="digitaltwin.html">Digital Twin</a></li>
+              </ul>
+            </li>
+
+            <!-- Learning with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="learning.html" class="nav-link">Learning</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Learning submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="learning.html">Tutorials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="resources.html">Resources</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="events.html" class="nav-link">Events</a>
+            </li>
+
+            <!-- Opportunities with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="opportunities.html" class="nav-link">Opportunities</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Opportunities submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="scholarships.html">Scholarships</a></li>
+                <li><a href="research.html">Research</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="join.html" class="nav-link">Join</a>
+            </li>
           </ul>
-        </li>
-        
-        <!-- Learning with dropdown -->
-        <li class="nav-item has-dropdown">
-          <a href="learning.html" class="nav-link">Learning</a>
-          <button class="dropdown-toggle" aria-label="Toggle Learning submenu" aria-expanded="false">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-              <path d="M8 11L3 6h10z"/>
-            </svg>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a href="learning.html">Tutorials</a></li>
-            <li><a href="blog.html">Blog</a></li>
-          </ul>
-        </li>
-        
-        <li class="nav-item">
-          <a href="events.html" class="nav-link">Events</a>
-        </li>
-        
-        <!-- Achievements with dropdown -->
-        <li class="nav-item has-dropdown">
-          <a href="Achievements.html" class="nav-link">Achievements</a>
-          <button class="dropdown-toggle" aria-label="Toggle Achievements submenu" aria-expanded="false">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-              <path d="M8 11L3 6h10z"/>
-            </svg>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a href="competitions.html">Competitions</a></li>
-            <li><a href="publications.html">Publications</a></li>
-          </ul>
-        </li>
-        
-        <li class="nav-item">
-          <a href="join.html" class="nav-link">Join</a>
-        </li>
-      </ul>
-    </nav>
+        </nav>
 
-    <!-- Join button (mobile only) -->
-    <a class="join-button btn mobile-only" href="join.html">Join</a>
-  </div>
-</header>
-
-<!-- ===== Hero ===== -->
-<section class="hero" id="about-hero">
-  <div class="container">
-    <h1 class="reveal">Meet Our Team</h1>
-    <p class="reveal delay-1">
-      At CSAI, our strength comes from the students who power it. We are a community of future innovators, problem-solvers, and leaders, all driven by a shared passion for computer science and artificial intelligence. 
-      From mentoring peers and hosting workshops to developing real-world projects that make an impact, our team is the heartbeat of CSAI. Get to know the dedicated students who make it all happen.
-    </p>
-  </div>
-</section>
-
-<!-- ===== Profiles Section ===== -->
-<section class="section" id="profiles">
-  <div class="container">
-    <h2 class="reveal">Our Team</h2>
-    <div class="profiles reveal delay-1">
-      <!-- Profile Card -->
-      <div class="profile-card">
-        <img class="profile-photo" src="data/photos/ShianlingWu-photo.jpg" alt="Prof. Shianling Wui" />
-        <div class="profile-name">Prof. Shianling Wu</div>
-        <div class="profile-role">Advisor</div>
-        <div class="profile-contact">
-    <!-- Email -->
-    <a href="mailto:wus@mccc.edu" class="contact-link">
-      wus@mccc.edu
-    </a>
-
-    <!-- LinkedIn -->
-    <a href="https://www.linkedin.com/in/shianling-wu-a2543/" target="_blank" class="contact-link">
-      <!-- LinkedIn icon -->
-      <svg xmlns="http://www.w3.org/2000/svg" 
-           width="16" height="16" fill="currentColor" 
-           viewBox="0 0 16 16" class="icon">
-        <path d="M0 1.146C0 .513.526 0 1.175 
-        0h13.65C15.474 0 16 .513 16 1.146v13.708c0 
-        .633-.526 1.146-1.175 1.146H1.175C.526 
-        16 0 15.487 0 14.854V1.146zM4.943 
-        13.447V6.169H2.542v7.278h2.401zm-1.2-8.294c.837 
-        0 1.358-.554 1.358-1.248-.015-.71-.521-1.248-1.342-1.248-.822 
-        0-1.359.538-1.359 1.248 0 .694.52 1.248 
-        1.327 1.248h.016zm4.908 8.294V9.359c0-.218.016-.436.08-.592.175-.436.573-.888 
-        1.24-.888.875 0 1.225.67 1.225 1.654v3.914h2.401V9.25c0-2.22-1.184-3.25-2.764-3.25-1.273 
-        0-1.845.692-2.165 1.184h.016V6.169h-2.4c.03.71 0 7.278 
-        0 7.278h2.4z"/>
-      </svg>
-      LinkedIn
-    </a>
-  </div>
-        <div class="profile-bio">
-          Advises CSAI by overseeing club operations, guiding initiatives, organizing events, and mentoring students on projects and activities.
-          <br><br>
-        <!-- Discreption --> 
-        </div>
+        <!-- Join button (mobile only) -->
+        <a class="join-button btn mobile-only" href="join.html">Join</a>
       </div>
+    </header>
 
-      <div class="profile-card">
-  <img class="profile-photo" src="data/photos/meimeigao.jpg" alt="Dr. Meimei Gao" />
-  <div class="profile-name">Dr. Meimei Gao</div>
-  <div class="profile-role">Advisor</div>
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="about-hero">
+      <div class="container">
+        <h1 class="reveal">Meet Our Team</h1>
+        <p class="reveal delay-1">
+          At CSAI, our strength comes from the students who power it. We are a
+          community of future innovators, problem-solvers, and leaders, all
+          driven by a shared passion for computer science and artificial
+          intelligence. From mentoring peers and hosting workshops to developing
+          real-world projects that make an impact, our team is the heartbeat of
+          CSAI. Get to know the dedicated students who make it all happen.
+        </p>
+      </div>
+    </section>
 
-  <div class="profile-contact">
-    <!-- Email -->
-    <a href="mailto:gaom@mccc.edu" class="contact-link">
-      gaom@mccc.edu
-    </a>
+    <!-- ===== Profiles Section ===== -->
+    <section class="section" id="profiles">
+      <div class="container">
+        <h2 class="reveal">Our Team</h2>
+        <div class="profiles reveal delay-1">
+          <!-- Profile Card -->
+          <div class="profile-card">
+            <img
+              class="profile-photo"
+              src="data/photos/ShianlingWu-photo.jpg"
+              alt="Prof. Shianling Wui"
+            />
+            <div class="profile-name">Prof. Shianling Wu</div>
+            <div class="profile-role">Advisor</div>
+            <div class="profile-contact">
+              <!-- Email -->
+              <a href="mailto:wus@mccc.edu" class="contact-link">
+                wus@mccc.edu
+              </a>
 
-    <!-- LinkedIn 
+              <!-- LinkedIn -->
+              <a
+                href="https://www.linkedin.com/in/shianling-wu-a2543/"
+                target="_blank"
+                class="contact-link"
+              >
+                <!-- LinkedIn icon -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                  class="icon"
+                >
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175
+        0h13.65C15.474 0 16 .513 16 1.146v13.708c0
+        .633-.526 1.146-1.175 1.146H1.175C.526
+        16 0 15.487 0 14.854V1.146zM4.943
+        13.447V6.169H2.542v7.278h2.401zm-1.2-8.294c.837
+        0 1.358-.554 1.358-1.248-.015-.71-.521-1.248-1.342-1.248-.822
+        0-1.359.538-1.359 1.248 0 .694.52 1.248
+        1.327 1.248h.016zm4.908 8.294V9.359c0-.218.016-.436.08-.592.175-.436.573-.888
+        1.24-.888.875 0 1.225.67 1.225 1.654v3.914h2.401V9.25c0-2.22-1.184-3.25-2.764-3.25-1.273
+        0-1.845.692-2.165 1.184h.016V6.169h-2.4c.03.71 0 7.278
+        0 7.278h2.4z"
+                  />
+                </svg>
+                LinkedIn
+              </a>
+            </div>
+            <div class="profile-bio">
+              Advises CSAI by overseeing club operations, guiding initiatives,
+              organizing events, and mentoring students on projects and
+              activities.
+              <br /><br />
+              <!-- Discreption -->
+            </div>
+          </div>
+
+          <div class="profile-card">
+            <img
+              class="profile-photo"
+              src="data/photos/meimeigao.jpg"
+              alt="Dr. Meimei Gao"
+            />
+            <div class="profile-name">Dr. Meimei Gao</div>
+            <div class="profile-role">Advisor</div>
+
+            <div class="profile-contact">
+              <!-- Email -->
+              <a href="mailto:gaom@mccc.edu" class="contact-link">
+                gaom@mccc.edu
+              </a>
+
+              <!-- LinkedIn
     <a href="mailto:gaom@mccc.edu" target="_blank" class="contact-link">
-     LinkedIn icon 
-      <svg xmlns="http://www.w3.org/2000/svg" 
-           width="16" height="16" fill="currentColor" 
+     LinkedIn icon
+      <svg xmlns="http://www.w3.org/2000/svg"
+           width="16" height="16" fill="currentColor"
            viewBox="0 0 16 16" class="icon">
-        <path d="M0 1.146C0 .513.526 0 1.175 
-        0h13.65C15.474 0 16 .513 16 1.146v13.708c0 
-        .633-.526 1.146-1.175 1.146H1.175C.526 
-        16 0 15.487 0 14.854V1.146zM4.943 
-        13.447V6.169H2.542v7.278h2.401zm-1.2-8.294c.837 
-        0 1.358-.554 1.358-1.248-.015-.71-.521-1.248-1.342-1.248-.822 
-        0-1.359.538-1.359 1.248 0 .694.52 1.248 
-        1.327 1.248h.016zm4.908 8.294V9.359c0-.218.016-.436.08-.592.175-.436.573-.888 
-        1.24-.888.875 0 1.225.67 1.225 1.654v3.914h2.401V9.25c0-2.22-1.184-3.25-2.764-3.25-1.273 
-        0-1.845.692-2.165 1.184h.016V6.169h-2.4c.03.71 0 7.278 
+        <path d="M0 1.146C0 .513.526 0 1.175
+        0h13.65C15.474 0 16 .513 16 1.146v13.708c0
+        .633-.526 1.146-1.175 1.146H1.175C.526
+        16 0 15.487 0 14.854V1.146zM4.943
+        13.447V6.169H2.542v7.278h2.401zm-1.2-8.294c.837
+        0 1.358-.554 1.358-1.248-.015-.71-.521-1.248-1.342-1.248-.822
+        0-1.359.538-1.359 1.248 0 .694.52 1.248
+        1.327 1.248h.016zm4.908 8.294V9.359c0-.218.016-.436.08-.592.175-.436.573-.888
+        1.24-.888.875 0 1.225.67 1.225 1.654v3.914h2.401V9.25c0-2.22-1.184-3.25-2.764-3.25-1.273
+        0-1.845.692-2.165 1.184h.016V6.169h-2.4c.03.71 0 7.278
         0 7.278h2.4z"/>
       </svg>
       LinkedIn
     </a> -->
-    <!-- LinkedIn placeholder to preserve spacing -->
-<span class="contact-link hidden-placeholder">&nbsp;</span>
-  </div> 
+              <!-- LinkedIn placeholder to preserve spacing -->
+              <span class="contact-link hidden-placeholder">&nbsp;</span>
+            </div>
 
-  <div class="profile-bio">
-    Advises CSAI by encouraging student growth, offering mentorship, and supporting the club’s activities and goals.
-  </div>
-</div>
+            <div class="profile-bio">
+              Advises CSAI by encouraging student growth, offering mentorship,
+              and supporting the club’s activities and goals.
+            </div>
+          </div>
 
+          <div class="profile-card">
+            <img
+              class="profile-photo"
+              src="data/photos/5627347276982655072.jpg"
+              alt="Abubaker Ahmadi"
+            />
+            <div class="profile-name">Abubaker Ahmadi</div>
+            <div class="profile-role">President</div>
 
-      <div class="profile-card">
-        <img class="profile-photo" src="data/photos/5627347276982655072.jpg" alt="Abubaker Ahmadi" />
-        <div class="profile-name">Abubaker Ahmadi</div>
-        <div class="profile-role">President</div>
+            <!-- Contact Info -->
+            <div class="profile-contact">
+              <!-- Email -->
+              <a
+                href="mailto:abubaker.ahmadi@students.mccc.edu"
+                class="contact-link"
+              >
+                abubaker.ahmadi@students.mccc.edu
+              </a>
 
-        <!-- Contact Info -->
-  <div class="profile-contact">
-    <!-- Email -->
-    <a href="mailto:abubaker.ahmadi@students.mccc.edu" class="contact-link">
-      abubaker.ahmadi@students.mccc.edu
-    </a>
+              <!-- LinkedIn -->
+              <a
+                href="https://www.linkedin.com/in/abubakerahmadi/"
+                target="_blank"
+                class="contact-link"
+              >
+                <!-- LinkedIn icon -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                  class="icon"
+                >
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175
+        0h13.65C15.474 0 16 .513 16 1.146v13.708c0
+        .633-.526 1.146-1.175 1.146H1.175C.526
+        16 0 15.487 0 14.854V1.146zM4.943
+        13.447V6.169H2.542v7.278h2.401zm-1.2-8.294c.837
+        0 1.358-.554 1.358-1.248-.015-.71-.521-1.248-1.342-1.248-.822
+        0-1.359.538-1.359 1.248 0 .694.52 1.248
+        1.327 1.248h.016zm4.908 8.294V9.359c0-.218.016-.436.08-.592.175-.436.573-.888
+        1.24-.888.875 0 1.225.67 1.225 1.654v3.914h2.401V9.25c0-2.22-1.184-3.25-2.764-3.25-1.273
+        0-1.845.692-2.165 1.184h.016V6.169h-2.4c.03.71 0 7.278
+        0 7.278h2.4z"
+                  />
+                </svg>
+                LinkedIn
+              </a>
+            </div>
 
-    <!-- LinkedIn -->
-    <a href="https://www.linkedin.com/in/abubakerahmadi/" target="_blank" class="contact-link">
-      <!-- LinkedIn icon -->
-      <svg xmlns="http://www.w3.org/2000/svg" 
-           width="16" height="16" fill="currentColor" 
-           viewBox="0 0 16 16" class="icon">
-        <path d="M0 1.146C0 .513.526 0 1.175 
-        0h13.65C15.474 0 16 .513 16 1.146v13.708c0 
-        .633-.526 1.146-1.175 1.146H1.175C.526 
-        16 0 15.487 0 14.854V1.146zM4.943 
-        13.447V6.169H2.542v7.278h2.401zm-1.2-8.294c.837 
-        0 1.358-.554 1.358-1.248-.015-.71-.521-1.248-1.342-1.248-.822 
-        0-1.359.538-1.359 1.248 0 .694.52 1.248 
-        1.327 1.248h.016zm4.908 8.294V9.359c0-.218.016-.436.08-.592.175-.436.573-.888 
-        1.24-.888.875 0 1.225.67 1.225 1.654v3.914h2.401V9.25c0-2.22-1.184-3.25-2.764-3.25-1.273 
-        0-1.845.692-2.165 1.184h.016V6.169h-2.4c.03.71 0 7.278 
-        0 7.278h2.4z"/>
-      </svg>
-      LinkedIn
-    </a>
-  </div>
+            <div class="profile-bio">
+              Leads and organizes CSAI initiatives, oversees projects, manages
+              publicity, grows membership, and coordinates events.
+              <br /><br />
+            </div>
+          </div>
 
+          <div class="profile-card">
+            <img
+              class="profile-photo"
+              src="data/photos/IMG_2688.JPG"
+              alt="Anthony Joseph Carpinello"
+            />
+            <div class="profile-name">Anthony Joseph Carpinello</div>
+            <div class="profile-role">Vice President</div>
+            <div class="profile-contact">
+              <!-- Email -->
+              <a
+                href="mailto:anthony.carpinello@students.mccc.edu"
+                class="contact-link"
+              >
+                anthony.carpinello@students.mccc.edu
+              </a>
 
-      
-        
-        <div class="profile-bio">
-          Leads and organizes CSAI initiatives, oversees projects, manages publicity, grows membership, and coordinates events.
-          <br><br>
-        </div>
-      </div>
+              <!-- LinkedIn -->
+              <a
+                href="https://www.linkedin.com/in/aj-carpinello/"
+                target="_blank"
+                class="contact-link"
+              >
+                <!-- LinkedIn icon -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                  class="icon"
+                >
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175
+        0h13.65C15.474 0 16 .513 16 1.146v13.708c0
+        .633-.526 1.146-1.175 1.146H1.175C.526
+        16 0 15.487 0 14.854V1.146zM4.943
+        13.447V6.169H2.542v7.278h2.401zm-1.2-8.294c.837
+        0 1.358-.554 1.358-1.248-.015-.71-.521-1.248-1.342-1.248-.822
+        0-1.359.538-1.359 1.248 0 .694.52 1.248
+        1.327 1.248h.016zm4.908 8.294V9.359c0-.218.016-.436.08-.592.175-.436.573-.888
+        1.24-.888.875 0 1.225.67 1.225 1.654v3.914h2.401V9.25c0-2.22-1.184-3.25-2.764-3.25-1.273
+        0-1.845.692-2.165 1.184h.016V6.169h-2.4c.03.71 0 7.278
+        0 7.278h2.4z"
+                  />
+                </svg>
+                LinkedIn
+              </a>
+            </div>
+            <div class="profile-bio">
+              Supports CSAI initiatives, assists with projects and events,
+              oversees committees, engages members, and chairs events.
+            </div>
+          </div>
 
-      <div class="profile-card">
-        <img class="profile-photo" src="data/photos/IMG_2688.JPG" alt="Anthony Joseph Carpinello" />
-        <div class="profile-name">Anthony Joseph Carpinello</div>
-        <div class="profile-role">Vice President</div>
-        <div class="profile-contact">
-    <!-- Email -->
-    <a href="mailto:anthony.carpinello@students.mccc.edu" class="contact-link">
-      anthony.carpinello@students.mccc.edu
-    </a>
+          <div class="profile-card">
+            <img
+              class="profile-photo"
+              src="data/photos/no-profile-pic-icon-11.jpg"
+              alt="Nuray Temiz"
+            />
+            <div class="profile-name">Nuray Temiz</div>
+            <div class="profile-role">Secratary</div>
+            <div class="profile-contact">
+              <!-- Email -->
+              <a
+                href="mailto:nuray.temiz@students.mccc.edu"
+                class="contact-link"
+              >
+                nuray.temiz@students.mccc.edu
+              </a>
 
-    <!-- LinkedIn -->
-    <a href="https://www.linkedin.com/in/aj-carpinello/" target="_blank" class="contact-link">
-      <!-- LinkedIn icon -->
-      <svg xmlns="http://www.w3.org/2000/svg" 
-           width="16" height="16" fill="currentColor" 
-           viewBox="0 0 16 16" class="icon">
-        <path d="M0 1.146C0 .513.526 0 1.175 
-        0h13.65C15.474 0 16 .513 16 1.146v13.708c0 
-        .633-.526 1.146-1.175 1.146H1.175C.526 
-        16 0 15.487 0 14.854V1.146zM4.943 
-        13.447V6.169H2.542v7.278h2.401zm-1.2-8.294c.837 
-        0 1.358-.554 1.358-1.248-.015-.71-.521-1.248-1.342-1.248-.822 
-        0-1.359.538-1.359 1.248 0 .694.52 1.248 
-        1.327 1.248h.016zm4.908 8.294V9.359c0-.218.016-.436.08-.592.175-.436.573-.888 
-        1.24-.888.875 0 1.225.67 1.225 1.654v3.914h2.401V9.25c0-2.22-1.184-3.25-2.764-3.25-1.273 
-        0-1.845.692-2.165 1.184h.016V6.169h-2.4c.03.71 0 7.278 
-        0 7.278h2.4z"/>
-      </svg>
-      LinkedIn
-    </a>
-  </div>
-        <div class="profile-bio">
-          Supports CSAI initiatives, assists with projects and events, oversees committees, engages members, and chairs events.
-        </div>
-      </div>
-
-
-      <div class="profile-card">
-        <img class="profile-photo" src="data/photos/no-profile-pic-icon-11.jpg" alt="Nuray Temiz" />
-        <div class="profile-name">Nuray Temiz</div>
-        <div class="profile-role">Secratary</div>
-        <div class="profile-contact">
-    <!-- Email -->
-    <a href="mailto:nuray.temiz@students.mccc.edu" class="contact-link">
-      nuray.temiz@students.mccc.edu
-    </a>
-
-    <!-- LinkedIn -->
-    <!-- <a href="" target="_blank" class="contact-link">
+              <!-- LinkedIn -->
+              <!-- <a href="" target="_blank" class="contact-link">
       LinkedIn icon
-      <svg xmlns="http://www.w3.org/2000/svg" 
-           width="16" height="16" fill="currentColor" 
+      <svg xmlns="http://www.w3.org/2000/svg"
+           width="16" height="16" fill="currentColor"
            viewBox="0 0 16 16" class="icon">
-        <path d="M0 1.146C0 .513.526 0 1.175 
-        0h13.65C15.474 0 16 .513 16 1.146v13.708c0 
-        .633-.526 1.146-1.175 1.146H1.175C.526 
-        16 0 15.487 0 14.854V1.146zM4.943 
-        13.447V6.169H2.542v7.278h2.401zm-1.2-8.294c.837 
-        0 1.358-.554 1.358-1.248-.015-.71-.521-1.248-1.342-1.248-.822 
-        0-1.359.538-1.359 1.248 0 .694.52 1.248 
-        1.327 1.248h.016zm4.908 8.294V9.359c0-.218.016-.436.08-.592.175-.436.573-.888 
-        1.24-.888.875 0 1.225.67 1.225 1.654v3.914h2.401V9.25c0-2.22-1.184-3.25-2.764-3.25-1.273 
-        0-1.845.692-2.165 1.184h.016V6.169h-2.4c.03.71 0 7.278 
+        <path d="M0 1.146C0 .513.526 0 1.175
+        0h13.65C15.474 0 16 .513 16 1.146v13.708c0
+        .633-.526 1.146-1.175 1.146H1.175C.526
+        16 0 15.487 0 14.854V1.146zM4.943
+        13.447V6.169H2.542v7.278h2.401zm-1.2-8.294c.837
+        0 1.358-.554 1.358-1.248-.015-.71-.521-1.248-1.342-1.248-.822
+        0-1.359.538-1.359 1.248 0 .694.52 1.248
+        1.327 1.248h.016zm4.908 8.294V9.359c0-.218.016-.436.08-.592.175-.436.573-.888
+        1.24-.888.875 0 1.225.67 1.225 1.654v3.914h2.401V9.25c0-2.22-1.184-3.25-2.764-3.25-1.273
+        0-1.845.692-2.165 1.184h.016V6.169h-2.4c.03.71 0 7.278
         0 7.278h2.4z"/>
       </svg>
       LinkedIn
     </a> -->
-    <!-- LinkedIn placeholder to preserve spacing -->
-<span class="contact-link hidden-placeholder">&nbsp;</span>
-  </div>
-        <div class="profile-bio">
-          Helps organize CSAI projects and events, supports executive planning, engages members, and ensures effective communication across the club.
+              <!-- LinkedIn placeholder to preserve spacing -->
+              <span class="contact-link hidden-placeholder">&nbsp;</span>
+            </div>
+            <div class="profile-bio">
+              Helps organize CSAI projects and events, supports executive
+              planning, engages members, and ensures effective communication
+              across the club.
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ===== Footer ===== -->
-<footer class="footer">
-  © 2025 CSAI — Computer Science + AI Club
-</footer>
+    <!-- ===== Footer ===== -->
+    <footer class="footer">© 2025 CSAI — Computer Science + AI Club</footer>
 
-<script src="assets/js/main.js"></script>
-<script src="assets/js/profiles.js"></script>
-<script src="assets/js/side-bar.js"></script>
-</body>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/profiles.js"></script>
+    <script src="assets/js/side-bar.js"></script>
+  </body>
 </html>

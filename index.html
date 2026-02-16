@@ -1,518 +1,742 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);} 
-    gtag('js', new Date());
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'G-3D4TYEWL38');
-  </script>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CSAI — Home</title>
-  <link rel="icon" type="image/png" href="data/photos/logo.png">
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "CSAI — Computer Science + AI Club",
-    "url": "https://your-domain.example/",
-    "logo": "https://your-domain.example/data/photos/logo.png",
-    "sameAs": [
-  "https://github.com/Computer-Science-and-AI-CSAI",
-      "https://www.linkedin.com/company/mccccsai/",
-      "http://instagram.com/csaiclub"
-    ]
-  }
-  </script>
-</head>
-<body>
-
-<!-- ===== Splash / Page Load Animation ===== -->
-<div id="splash" class="splash" aria-hidden="true">
-  <div class="splash-inner">
-    <!-- Animated SVG Logo: neural-node circuit mark -->
-    <svg class="splash-logo" viewBox="0 0 200 200" width="120" height="120" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <!-- Connecting lines (drawn on) -->
-      <line class="splash-line" x1="100" y1="40" x2="50"  y2="100" stroke="url(#lg1)" stroke-width="2.5" stroke-linecap="round"/>
-      <line class="splash-line" x1="100" y1="40" x2="150" y2="100" stroke="url(#lg1)" stroke-width="2.5" stroke-linecap="round"/>
-      <line class="splash-line" x1="50"  y1="100" x2="100" y2="160" stroke="url(#lg1)" stroke-width="2.5" stroke-linecap="round"/>
-      <line class="splash-line" x1="150" y1="100" x2="100" y2="160" stroke="url(#lg1)" stroke-width="2.5" stroke-linecap="round"/>
-      <line class="splash-line" x1="50"  y1="100" x2="150" y2="100" stroke="url(#lg1)" stroke-width="2.5" stroke-linecap="round"/>
-      <line class="splash-line" x1="100" y1="40" x2="100" y2="160" stroke="url(#lg1)" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
-      <!-- Nodes (scale in) -->
-      <circle class="splash-node n1" cx="100" cy="40"  r="10" fill="url(#lg2)"/>
-      <circle class="splash-node n2" cx="50"  cy="100" r="10" fill="url(#lg2)"/>
-      <circle class="splash-node n3" cx="150" cy="100" r="10" fill="url(#lg2)"/>
-      <circle class="splash-node n4" cx="100" cy="160" r="10" fill="url(#lg2)"/>
-      <!-- Center brain dot -->
-      <circle class="splash-node n5" cx="100" cy="100" r="7" fill="#fff" opacity="0.9"/>
-      <!-- Gradients -->
-      <defs>
-        <linearGradient id="lg1" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stop-color="#7A5CFF"/>
-          <stop offset="100%" stop-color="#00E6FF"/>
-        </linearGradient>
-        <linearGradient id="lg2" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stop-color="#7A5CFF"/>
-          <stop offset="50%" stop-color="#00E6FF"/>
-          <stop offset="100%" stop-color="#FF7AE6"/>
-        </linearGradient>
-      </defs>
-    </svg>
-    <div class="splash-text">
-      <span class="splash-letter">C</span>
-      <span class="splash-letter">S</span>
-      <span class="splash-letter">A</span>
-      <span class="splash-letter">I</span>
+      gtag("config", "G-3D4TYEWL38");
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSAI — Home</title>
+    <link rel="icon" type="image/png" href="data/photos/logo.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "CSAI — Computer Science + AI Club",
+        "url": "https://your-domain.example/",
+        "logo": "https://your-domain.example/data/photos/logo.png",
+        "sameAs": [
+          "https://github.com/Computer-Science-and-AI-CSAI",
+          "https://www.linkedin.com/company/mccccsai/",
+          "http://instagram.com/csaiclub"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <!-- ===== Splash / Page Load Animation ===== -->
+    <div id="splash" class="splash" aria-hidden="true">
+      <div class="splash-inner">
+        <!-- Animated SVG Logo: neural-node circuit mark -->
+        <svg
+          class="splash-logo"
+          viewBox="0 0 200 200"
+          width="120"
+          height="120"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <!-- Connecting lines (drawn on) -->
+          <line
+            class="splash-line"
+            x1="100"
+            y1="40"
+            x2="50"
+            y2="100"
+            stroke="url(#lg1)"
+            stroke-width="2.5"
+            stroke-linecap="round"
+          />
+          <line
+            class="splash-line"
+            x1="100"
+            y1="40"
+            x2="150"
+            y2="100"
+            stroke="url(#lg1)"
+            stroke-width="2.5"
+            stroke-linecap="round"
+          />
+          <line
+            class="splash-line"
+            x1="50"
+            y1="100"
+            x2="100"
+            y2="160"
+            stroke="url(#lg1)"
+            stroke-width="2.5"
+            stroke-linecap="round"
+          />
+          <line
+            class="splash-line"
+            x1="150"
+            y1="100"
+            x2="100"
+            y2="160"
+            stroke="url(#lg1)"
+            stroke-width="2.5"
+            stroke-linecap="round"
+          />
+          <line
+            class="splash-line"
+            x1="50"
+            y1="100"
+            x2="150"
+            y2="100"
+            stroke="url(#lg1)"
+            stroke-width="2.5"
+            stroke-linecap="round"
+          />
+          <line
+            class="splash-line"
+            x1="100"
+            y1="40"
+            x2="100"
+            y2="160"
+            stroke="url(#lg1)"
+            stroke-width="2"
+            stroke-linecap="round"
+            opacity="0.5"
+          />
+          <!-- Nodes (scale in) -->
+          <circle
+            class="splash-node n1"
+            cx="100"
+            cy="40"
+            r="10"
+            fill="url(#lg2)"
+          />
+          <circle
+            class="splash-node n2"
+            cx="50"
+            cy="100"
+            r="10"
+            fill="url(#lg2)"
+          />
+          <circle
+            class="splash-node n3"
+            cx="150"
+            cy="100"
+            r="10"
+            fill="url(#lg2)"
+          />
+          <circle
+            class="splash-node n4"
+            cx="100"
+            cy="160"
+            r="10"
+            fill="url(#lg2)"
+          />
+          <!-- Center brain dot -->
+          <circle
+            class="splash-node n5"
+            cx="100"
+            cy="100"
+            r="7"
+            fill="#fff"
+            opacity="0.9"
+          />
+          <!-- Gradients -->
+          <defs>
+            <linearGradient id="lg1" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#7A5CFF" />
+              <stop offset="100%" stop-color="#00E6FF" />
+            </linearGradient>
+            <linearGradient id="lg2" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#7A5CFF" />
+              <stop offset="50%" stop-color="#00E6FF" />
+              <stop offset="100%" stop-color="#FF7AE6" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <div class="splash-text">
+          <span class="splash-letter">C</span>
+          <span class="splash-letter">S</span>
+          <span class="splash-letter">A</span>
+          <span class="splash-letter">I</span>
+        </div>
+        <div class="splash-tagline">Computer Science + AI Club</div>
+      </div>
     </div>
-    <div class="splash-tagline">Computer Science + AI Club</div>
-  </div>
-</div>
 
- <!-- ===== Header ===== -->
-<header class="header">
-  <div class="nav container">
+    <!-- ===== Header ===== -->
+    <header class="header">
+      <div class="nav container">
+        <!-- Hamburger menu (mobile only) -->
+        <nav>
+          <button
+            class="ham-menu"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
 
-    <!-- Hamburger menu (mobile only) -->
-    <nav>
-      <button class="ham-menu" aria-label="Toggle menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+        <!-- Navigation links - shared markup for desktop and mobile -->
+        <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="/" class="nav-link active">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+
+            <!-- Projects with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="projects.html" class="nav-link">Projects</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Projects submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="projects.html">All Projects</a></li>
+                <li><a href="anatomyvr.html">AnatomyVR</a></li>
+                <li><a href="digitaltwin.html">Digital Twin</a></li>
+              </ul>
+            </li>
+
+            <!-- Learning with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="learning.html" class="nav-link">Learning</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Learning submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="learning.html">Tutorials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="resources.html">Resources</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="events.html" class="nav-link">Events</a>
+            </li>
+
+            <!-- Opportunities with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="opportunities.html" class="nav-link">Opportunities</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Opportunities submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="scholarships.html">Scholarships</a></li>
+                <li><a href="research.html">Research</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="join.html" class="nav-link">Join</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Join button (mobile only) -->
+        <a class="join-button btn mobile-only" href="join.html">Join</a>
+      </div>
+    </header>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home">
+      <!-- Neural-net particle canvas -->
+      <canvas id="hero-particles" aria-hidden="true"></canvas>
+      <!-- Floating gradient orbs -->
+      <div class="hero-orb orb-1" aria-hidden="true"></div>
+      <div class="hero-orb orb-2" aria-hidden="true"></div>
+      <div class="hero-orb orb-3" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <div class="hero-badge reveal">🚀 Computer Science + AI Club</div>
+        <h1 class="reveal">
+          <span class="hero-line">Where Computer Science</span>
+          <span class="hero-line hero-gradient">meets AI</span>
+        </h1>
+        <p class="reveal delay-1">
+          Projects. Workshops. Hack nights. A community pushing the frontier and
+          having fun while doing it.
+        </p>
+        <div class="hero-cta reveal delay-2">
+          <a class="btn primary glow-pulse" href="projects.html"
+            >Explore Projects</a
+          >
+          <a class="btn" href="join.html">Join the Club</a>
+        </div>
+      </div>
+      <!-- Wavy divider -->
+      <div class="wave-divider">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+          <path
+            d="M0,60 C360,100 720,0 1080,60 C1260,90 1380,70 1440,60 L1440,100 L0,100 Z"
+          />
+        </svg>
+      </div>
+    </section>
+
+    <!-- ===== Scroll rail ===== -->
+    <nav class="side-rail" aria-label="Section navigation">
+      <div class="rail-track"><div class="rail-progress"></div></div>
+      <a class="rail-item active" href="#home" data-label="Home"></a>
+      <a class="rail-item" href="#about" data-label="About"></a>
+      <a class="rail-item" href="#stats" data-label="Stats"></a>
+      <a class="rail-item" href="#feature-projects" data-label="Projects"></a>
+      <a class="rail-item" href="#feature-events" data-label="Events"></a>
+      <a class="rail-item" href="#feature-blog" data-label="Blog"></a>
     </nav>
 
-    <!-- Navigation links - shared markup for desktop and mobile -->
-    <nav class="nav-links off-screen-menu" aria-label="Main navigation">
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="/" class="nav-link active">Home</a>
-        </li>
-        
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">About</a>
-        </li>
-        
-        <!-- Projects with dropdown -->
-        <li class="nav-item has-dropdown">
-          <a href="projects.html" class="nav-link">Projects</a>
-          <button class="dropdown-toggle" aria-label="Toggle Projects submenu" aria-expanded="false">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-              <path d="M8 11L3 6h10z"/>
-            </svg>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a href="projects.html">All Projects</a></li>
-            <li><a href="anatomyvr.html">AnatomyVR</a></li>
-            <li><a href="digitaltwin.html">Digital Twin</a></li>
-          </ul>
-        </li>
-        
-        <!-- Learning with dropdown -->
-        <li class="nav-item has-dropdown">
-          <a href="learning.html" class="nav-link">Learning</a>
-          <button class="dropdown-toggle" aria-label="Toggle Learning submenu" aria-expanded="false">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-              <path d="M8 11L3 6h10z"/>
-            </svg>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a href="learning.html">Tutorials</a></li>
-            <li><a href="blog.html">Blog</a></li>
-          </ul>
-        </li>
-        
-        <li class="nav-item">
-          <a href="events.html" class="nav-link">Events</a>
-        </li>
-        
-        <!-- Achievements with dropdown -->
-        <li class="nav-item has-dropdown">
-          <a href="Achievements.html" class="nav-link">Achievements</a>
-          <button class="dropdown-toggle" aria-label="Toggle Achievements submenu" aria-expanded="false">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-              <path d="M8 11L3 6h10z"/>
-            </svg>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a href="competitions.html">Competitions</a></li>
-            <li><a href="publications.html">Publications</a></li>
-          </ul>
-        </li>
-
-        <li class="nav-item">
-          <a href="join.html" class="nav-link">Join</a>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- Join button (mobile only) -->
-    <a class="join-button btn mobile-only" href="join.html">Join</a>
-  </div>
-</header>
-
-
-<!-- ===== Hero ===== -->
-<section class="hero" id="home">
-  <!-- Neural-net particle canvas -->
-  <canvas id="hero-particles" aria-hidden="true"></canvas>
-  <!-- Floating gradient orbs -->
-  <div class="hero-orb orb-1" aria-hidden="true"></div>
-  <div class="hero-orb orb-2" aria-hidden="true"></div>
-  <div class="hero-orb orb-3" aria-hidden="true"></div>
-  <div class="container hero-content">
-    <div class="hero-badge reveal">🚀 Computer Science + AI Club</div>
-    <h1 class="reveal">
-      <span class="hero-line">Where Computer Science</span>
-      <span class="hero-line hero-gradient">meets AI</span>
-    </h1>
-    <p class="reveal delay-1">
-      Projects. Workshops. Hack nights. A community pushing the frontier
-      and having fun while doing it.
-    </p>
-    <div class="hero-cta reveal delay-2">
-      <a class="btn primary glow-pulse" href="projects.html">Explore Projects</a>
-      <a class="btn" href="join.html">Join the Club</a>
-    </div>
-  </div>
-  <!-- Wavy divider -->
-  <div class="wave-divider">
-    <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
-      <path d="M0,60 C360,100 720,0 1080,60 C1260,90 1380,70 1440,60 L1440,100 L0,100 Z" />
-    </svg>
-  </div>
-</section>
-
-<!-- ===== Scroll rail ===== -->
-<nav class="side-rail" aria-label="Section navigation">
-  <div class="rail-track"><div class="rail-progress"></div></div>
-  <a class="rail-item active" href="#home" data-label="Home"></a>
-  <a class="rail-item" href="#about" data-label="About"></a>
-  <a class="rail-item" href="#stats" data-label="Stats"></a>
-  <a class="rail-item" href="#feature-projects" data-label="Projects"></a>
-  <a class="rail-item" href="#feature-events" data-label="Events"></a>
-  <a class="rail-item" href="#feature-blog" data-label="Blog"></a>
-</nav>
-
-<!-- ===== About ===== -->
-<section class="section" id="about">
-  <div class="container">
-    <h2 class="reveal">About CSAI</h2>
-    <p class="lead reveal delay-1">
-      We’re a student-run group exploring AI and computer science through hands-on
-      builds, talks, and mentorship. Whether you’re new or deep into research,
-      you’ll find collaborators, guidance, and a stage to showcase your work.
-    </p>
-
-    <div class="grid features">
-      <div class="card tilt-card reveal">
-        <div class="card-icon">🛠️</div>
-        <h3>Hands-on</h3>
-        <p>
-          Build real systems: agentic workflows, vision pipelines, simulation tooling,
-          and research-grade prototypes that become portfolio pieces.
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="reveal">About CSAI</h2>
+        <p class="lead reveal delay-1">
+          We’re a student-run group exploring AI and computer science through
+          hands-on builds, talks, and mentorship. Whether you’re new or deep
+          into research, you’ll find collaborators, guidance, and a stage to
+          showcase your work.
         </p>
-        <div class="card-shine" aria-hidden="true"></div>
+
+        <div class="grid features">
+          <div class="card tilt-card reveal">
+            <div class="card-icon">🛠️</div>
+            <h3>Hands-on</h3>
+            <p>
+              Build real systems: agentic workflows, vision pipelines,
+              simulation tooling, and research-grade prototypes that become
+              portfolio pieces.
+            </p>
+            <div class="card-shine" aria-hidden="true"></div>
+          </div>
+          <div class="card tilt-card reveal delay-1">
+            <div class="card-icon">🤝</div>
+            <h3>Community</h3>
+            <p>
+              Weekly meetups, open labs, and tutorial nights. Pair up with
+              mentors and teammates who accelerate your learning curve.
+            </p>
+            <div class="card-shine" aria-hidden="true"></div>
+          </div>
+          <div class="card tilt-card reveal delay-2">
+            <div class="card-icon">🏆</div>
+            <h3>Showcase</h3>
+            <p>
+              Demo days, cross-campus collabs, and blog spotlights. Publish
+              write-ups, ship public repos, and present at conferences.
+            </p>
+            <div class="card-shine" aria-hidden="true"></div>
+          </div>
+        </div>
       </div>
-      <div class="card tilt-card reveal delay-1">
-        <div class="card-icon">🤝</div>
-        <h3>Community</h3>
-        <p>
-          Weekly meetups, open labs, and tutorial nights. Pair up with mentors
-          and teammates who accelerate your learning curve.
+    </section>
+
+    <!-- ===== Stats Counter ===== -->
+    <section class="section stats-section" id="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item reveal">
+            <div class="stat-number" data-target="65">0</div>
+            <div class="stat-suffix">+</div>
+            <div class="stat-label">Active Members</div>
+          </div>
+          <div class="stat-item reveal delay-1">
+            <div class="stat-number" data-target="10">0</div>
+            <div class="stat-suffix">+</div>
+            <div class="stat-label">Projects Built</div>
+          </div>
+          <div class="stat-item reveal delay-2">
+            <div class="stat-number" data-target="20">0</div>
+            <div class="stat-suffix">+</div>
+            <div class="stat-label">Technologies Used</div>
+          </div>
+          <div class="stat-item reveal delay-3">
+            <div class="stat-number" data-target="5">0</div>
+            <div class="stat-suffix">+</div>
+            <div class="stat-label">Partner Schools</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Featured Projects ===== -->
+    <section class="section" id="feature-projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="reveal">Featured Projects</h2>
+        </div>
+
+        <p class="lead reveal delay-1">
+          A taste of what members are building, from privacy-preserving
+          attendance to real-time robotics vision and modular agent labs.
         </p>
-        <div class="card-shine" aria-hidden="true"></div>
+
+        <div class="grid">
+          <div class="card tilt-card reveal">
+            <div class="card-icon">🏭</div>
+            <h3>Digital Twin in semiconductor industry</h3>
+            <p>
+              AI-powered digital twins for immersive, real-world process
+              simulations.
+            </p>
+            <div class="card-shine" aria-hidden="true"></div>
+          </div>
+          <div class="card tilt-card reveal delay-1">
+            <div class="card-icon">🩺</div>
+            <h3>3D Simulation in Healthcare</h3>
+            <p>
+              Creating immersive 3D simulations to train and educate future
+              health professionals.
+            </p>
+            <div class="card-shine" aria-hidden="true"></div>
+          </div>
+          <div class="card tilt-card reveal delay-2">
+            <div class="card-icon">🌐</div>
+            <h3>Web Development</h3>
+            <p>
+              Designing and building interactive websites that bring ideas to
+              life online.
+            </p>
+            <div class="card-shine" aria-hidden="true"></div>
+          </div>
+        </div>
+
+        <div class="center reveal delay-3" style="margin-top: 16px">
+          <a class="btn" href="projects.html">Explore all Projects</a>
+        </div>
       </div>
-      <div class="card tilt-card reveal delay-2">
-        <div class="card-icon">🏆</div>
-        <h3>Showcase</h3>
-        <p>
-          Demo days, cross-campus collabs, and blog spotlights. Publish write-ups,
-          ship public repos, and present at conferences.
+    </section>
+
+    <!-- ===== Events ===== -->
+    <section class="section" id="feature-events">
+      <div class="container">
+        <h2 class="reveal">Upcoming Events</h2>
+        <p class="lead reveal delay-1">
+          Workshops, hack sessions, and guest talks designed to level you up and
+          connect you with builders.
         </p>
-        <div class="card-shine" aria-hidden="true"></div>
+        <div class="grid">
+          <div class="card tilt-card reveal">
+            <div class="card-icon">🐍</div>
+            <h3>Learn Python</h3>
+            <p>
+              Oct 24, 9:00 PM - MS Teams. Learn python and Data Science
+              Applications.
+            </p>
+            <div class="card-shine" aria-hidden="true"></div>
+          </div>
+          <div class="card tilt-card reveal delay-1">
+            <div class="card-icon">🤖</div>
+            <h3>Robotics + ML: Virtual to Real World Learning</h3>
+            <p>
+              Nov 21, 9:00 PM - MS Teams. Learn about bridging the gap between
+              Robotics and Machine Learning.
+            </p>
+            <div class="card-shine" aria-hidden="true"></div>
+          </div>
+          <div class="card tilt-card reveal delay-2">
+            <div class="card-icon">🔗</div>
+            <h3>TechConnect 2026</h3>
+            <p>March 12. Join us in giving a workshop in North Carolina.</p>
+            <div class="card-shine" aria-hidden="true"></div>
+          </div>
+        </div>
+        <div class="center reveal delay-3" style="margin-top: 14px">
+          <a class="btn" href="events.html">Open Calendar</a>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
+    <!-- ===== Technologies (Infinite Marquee) ===== -->
+    <section id="technologies" class="section container glass">
+      <div class="section-content">
+        <h2 class="reveal">Technologies We Use</h2>
+        <p class="lead reveal delay-1">
+          Primary tools & languages we work with regularly.
+        </p>
+        <div class="tech-marquee reveal delay-2">
+          <div class="tech-marquee-track">
+            <!-- First set -->
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/html.png" alt="HTML5 Logo"
+              /></span>
+              <span class="tech-name">HTML5</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/css.svg" alt="CSS3 Logo"
+              /></span>
+              <span class="tech-name">CSS / Layout</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/js.webp" alt="JavaScript Logo"
+              /></span>
+              <span class="tech-name">JavaScript</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/java.png" alt="Java Logo"
+              /></span>
+              <span class="tech-name">Java</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/python.png" alt="Python Logo"
+              /></span>
+              <span class="tech-name">Python</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/unity.png" alt="Unity Logo"
+              /></span>
+              <span class="tech-name">Unity</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/blender.png" alt="Blender Logo"
+              /></span>
+              <span class="tech-name">Blender</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/hyperskill.png" alt="Hyperskill Logo"
+              /></span>
+              <span class="tech-name">HyperSkill</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/git.png" alt="Git Logo"
+              /></span>
+              <span class="tech-name">Git</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/github.png" alt="GitHub Logo"
+              /></span>
+              <span class="tech-name">GitHub</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/sql.png" alt="SQL Logo"
+              /></span>
+              <span class="tech-name">SQL</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/mathlab.png" alt="MATLAB Logo"
+              /></span>
+              <span class="tech-name">MATLAB</span>
+            </div>
+            <!-- Duplicate set for seamless loop -->
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/html.png" alt="HTML5 Logo"
+              /></span>
+              <span class="tech-name">HTML5</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/css.svg" alt="CSS3 Logo"
+              /></span>
+              <span class="tech-name">CSS / Layout</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/js.webp" alt="JavaScript Logo"
+              /></span>
+              <span class="tech-name">JavaScript</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/java.png" alt="Java Logo"
+              /></span>
+              <span class="tech-name">Java</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/python.png" alt="Python Logo"
+              /></span>
+              <span class="tech-name">Python</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/unity.png" alt="Unity Logo"
+              /></span>
+              <span class="tech-name">Unity</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/blender.png" alt="Blender Logo"
+              /></span>
+              <span class="tech-name">Blender</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/hyperskill.png" alt="Hyperskill Logo"
+              /></span>
+              <span class="tech-name">HyperSkill</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/git.png" alt="Git Logo"
+              /></span>
+              <span class="tech-name">Git</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/github.png" alt="GitHub Logo"
+              /></span>
+              <span class="tech-name">GitHub</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/sql.png" alt="SQL Logo"
+              /></span>
+              <span class="tech-name">SQL</span>
+            </div>
+            <div class="tech glass">
+              <span class="tech-logo"
+                ><img src="data/photos/mathlab.png" alt="MATLAB Logo"
+              /></span>
+              <span class="tech-name">MATLAB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- ===== Stats Counter ===== -->
-<section class="section stats-section" id="stats">
-  <div class="container">
-    <div class="stats-grid">
-      <div class="stat-item reveal">
-        <div class="stat-number" data-target="65">0</div>
-        <div class="stat-suffix">+</div>
-        <div class="stat-label">Active Members</div>
+    <!-- ===== Blog ===== -->
+    <section class="section" id="feature-blog">
+      <div class="container">
+        <h2 class="reveal">From the Blog</h2>
+        <p class="lead reveal delay-1">
+          Stories and write-ups from members. Techniques, post-mortems, and
+          things we learned the hard way.
+        </p>
+        <div class="grid">
+          <div class="card tilt-card reveal">
+            <div class="card-icon">📰</div>
+            <h3>Launching CSAI 2025</h3>
+            <p>New tracks, a brighter site, and a packed calendar of events.</p>
+            <div class="card-shine" aria-hidden="true"></div>
+          </div>
+          <div class="card tilt-card reveal delay-1">
+            <div class="card-icon">💼</div>
+            <h3>Build your E-portfolio</h3>
+            <p>
+              Learn how to create an impressive online portfolio to showcase
+              your projects and skills.
+            </p>
+            <div class="card-shine" aria-hidden="true"></div>
+          </div>
+          <div class="card tilt-card reveal delay-2">
+            <div class="card-icon">🔧</div>
+            <h3>GitHub Workshop</h3>
+            <p>
+              Learn how to effectively use GitHub for version control and
+              collaboration.
+            </p>
+            <div class="card-shine" aria-hidden="true"></div>
+          </div>
+        </div>
+        <div class="center reveal delay-3" style="margin-top: 14px">
+          <a class="btn" href="blog.html">Read the Blog</a>
+        </div>
       </div>
-      <div class="stat-item reveal delay-1">
-        <div class="stat-number" data-target="10">0</div>
-        <div class="stat-suffix">+</div>
-        <div class="stat-label">Projects Built</div>
-      </div>
-      <div class="stat-item reveal delay-2">
-        <div class="stat-number" data-target="20">0</div>
-        <div class="stat-suffix">+</div>
-        <div class="stat-label">Technologies Used</div>
-      </div>
-      <div class="stat-item reveal delay-3">
-        <div class="stat-number" data-target="5">0</div>
-        <div class="stat-suffix">+</div>
-        <div class="stat-label">Partner Schools</div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ===== Featured Projects ===== -->
-<section class="section" id="feature-projects">
-  <div class="container">
-    <div class="section-header">
-      <h2 class="reveal">Featured Projects</h2>
-    </div>
+    <!-- ===== Newsletter Signup ===== -->
+    <section class="section" id="newsletter">
+      <div class="container">
+        <div class="newsletter-wrap">
+          <h2 class="reveal">Stay Connected</h2>
+          <p class="lead reveal delay-1">
+            Get our monthly newsletter with updates on events, projects, and
+            opportunities.
+          </p>
 
-    <p class="lead reveal delay-1">
-      A taste of what members are building, from privacy-preserving attendance
-      to real-time robotics vision and modular agent labs.
-    </p>
+          <div id="newsletter-success" class="success">
+            Thanks for subscribing! Check your email for confirmation.
+          </div>
+          <div id="newsletter-error" class="error"></div>
 
-    <div class="grid">
-      <div class="card tilt-card reveal">
-        <div class="card-icon">🏭</div>
-        <h3>Digital Twin in semiconductor industry</h3>
-        <p>AI-powered digital twins for immersive, real-world process simulations.</p>
-        <div class="card-shine" aria-hidden="true"></div>
-      </div>
-      <div class="card tilt-card reveal delay-1">
-        <div class="card-icon">🩺</div>
-        <h3>3D Simulation in Healthcare</h3>
-        <p>Creating immersive 3D simulations to train and educate future health professionals.</p>
-        <div class="card-shine" aria-hidden="true"></div>
-      </div>
-      <div class="card tilt-card reveal delay-2">
-        <div class="card-icon">🌐</div>
-        <h3>Web Development</h3>
-        <p>Designing and building interactive websites that bring ideas to life online.</p>
-        <div class="card-shine" aria-hidden="true"></div>
-      </div>
-    </div>
-
-    <div class="center reveal delay-3" style="margin-top:16px">
-      <a class="btn" href="projects.html">Explore all Projects</a>
-    </div>
-  </div>
-</section>
-
-<!-- ===== Events ===== -->
-<section class="section" id="feature-events">
-  <div class="container">
-    <h2 class="reveal">Upcoming Events</h2>
-    <p class="lead reveal delay-1">
-      Workshops, hack sessions, and guest talks designed to level you up and connect you with builders.
-    </p>
-    <div class="grid">
-      <div class="card tilt-card reveal">
-        <div class="card-icon">🐍</div>
-        <h3>Learn Python</h3>
-        <p>Oct 24, 9:00 PM - MS Teams. Learn python and Data Science Applications.</p>
-        <div class="card-shine" aria-hidden="true"></div>
-      </div>
-      <div class="card tilt-card reveal delay-1">
-        <div class="card-icon">🤖</div>
-        <h3>Robotics + ML: Virtual to Real World Learning</h3>
-        <p>Nov 21, 9:00 PM - MS Teams. Learn about bridging the gap between Robotics and Machine Learning.</p>
-        <div class="card-shine" aria-hidden="true"></div>
-      </div>
-      <div class="card tilt-card reveal delay-2">
-        <div class="card-icon">🔗</div>
-        <h3>TechConnect 2026</h3>
-        <p>March 12. Join us in giving a workshop in North Carolina.</p>
-        <div class="card-shine" aria-hidden="true"></div>
-      </div>
-    </div>
-    <div class="center reveal delay-3" style="margin-top:14px">
-      <a class="btn" href="events.html">Open Calendar</a>
-    </div>
-  </div>
-</section>
-  <!-- ===== Technologies (Infinite Marquee) ===== -->
-<section id="technologies" class="section container glass">
-  <div class="section-content">
-    <h2 class="reveal">Technologies We Use</h2>
-    <p class="lead reveal delay-1">Primary tools & languages we work with regularly.</p>
-    <div class="tech-marquee reveal delay-2">
-      <div class="tech-marquee-track">
-        <!-- First set -->
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/html.png" alt="HTML5 Logo"></span>
-          <span class="tech-name">HTML5</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/css.svg" alt="CSS3 Logo"></span>
-          <span class="tech-name">CSS / Layout</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/js.webp" alt="JavaScript Logo"></span>
-          <span class="tech-name">JavaScript</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/java.png" alt="Java Logo"></span>
-          <span class="tech-name">Java</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/python.png" alt="Python Logo"></span>
-          <span class="tech-name">Python</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/unity.png" alt="Unity Logo"></span>
-          <span class="tech-name">Unity</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/blender.png" alt="Blender Logo"></span>
-          <span class="tech-name">Blender</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/hyperskill.png" alt="Hyperskill Logo"></span>
-          <span class="tech-name">HyperSkill</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/git.png" alt="Git Logo"></span>
-          <span class="tech-name">Git</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/github.png" alt="GitHub Logo"></span>
-          <span class="tech-name">GitHub</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/sql.png" alt="SQL Logo"></span>
-          <span class="tech-name">SQL</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/mathlab.png" alt="MATLAB Logo"></span>
-          <span class="tech-name">MATLAB</span>
-        </div>
-        <!-- Duplicate set for seamless loop -->
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/html.png" alt="HTML5 Logo"></span>
-          <span class="tech-name">HTML5</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/css.svg" alt="CSS3 Logo"></span>
-          <span class="tech-name">CSS / Layout</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/js.webp" alt="JavaScript Logo"></span>
-          <span class="tech-name">JavaScript</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/java.png" alt="Java Logo"></span>
-          <span class="tech-name">Java</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/python.png" alt="Python Logo"></span>
-          <span class="tech-name">Python</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/unity.png" alt="Unity Logo"></span>
-          <span class="tech-name">Unity</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/blender.png" alt="Blender Logo"></span>
-          <span class="tech-name">Blender</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/hyperskill.png" alt="Hyperskill Logo"></span>
-          <span class="tech-name">HyperSkill</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/git.png" alt="Git Logo"></span>
-          <span class="tech-name">Git</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/github.png" alt="GitHub Logo"></span>
-          <span class="tech-name">GitHub</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/sql.png" alt="SQL Logo"></span>
-          <span class="tech-name">SQL</span>
-        </div>
-        <div class="tech glass">
-          <span class="tech-logo"><img src="data/photos/mathlab.png" alt="MATLAB Logo"></span>
-          <span class="tech-name">MATLAB</span>
+          <form id="newsletter-form" class="newsletter-form reveal delay-2">
+            <div class="email-input-group">
+              <input
+                class="input email-input"
+                type="email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+              />
+              <button class="btn primary newsletter-btn" type="submit">
+                Subscribe
+              </button>
+            </div>
+            <p class="newsletter-note">
+              We respect your privacy. Unsubscribe at any time.
+              <a href="unsubscribe.html" style="color: var(--accent-2)"
+                >Unsubscribe here</a
+              >
+            </p>
+          </form>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ===== Blog ===== -->
-<section class="section" id="feature-blog">
-  <div class="container">
-    <h2 class="reveal">From the Blog</h2>
-    <p class="lead reveal delay-1">
-      Stories and write-ups from members. Techniques, post-mortems, and things we learned the hard way.
-    </p>
-    <div class="grid">
-      <div class="card tilt-card reveal">
-        <div class="card-icon">📰</div>
-        <h3>Launching CSAI 2025</h3>
-        <p>New tracks, a brighter site, and a packed calendar of events.</p>
-        <div class="card-shine" aria-hidden="true"></div>
-      </div>
-      <div class="card tilt-card reveal delay-1">
-        <div class="card-icon">💼</div>
-        <h3>Build your E-portfolio</h3>
-        <p>Learn how to create an impressive online portfolio to showcase your projects and skills.</p>
-        <div class="card-shine" aria-hidden="true"></div>
-      </div>
-      <div class="card tilt-card reveal delay-2">
-        <div class="card-icon">🔧</div>
-        <h3>GitHub Workshop</h3>
-        <p>Learn how to effectively use GitHub for version control and collaboration.</p>
-        <div class="card-shine" aria-hidden="true"></div>
-      </div>
-    </div>
-    <div class="center reveal delay-3" style="margin-top:14px">
-      <a class="btn" href="blog.html">Read the Blog</a>
-    </div>
-  </div>
-</section>
+    <footer class="footer">© 2025 CSAI — Computer Science + AI Club</footer>
 
-<!-- ===== Newsletter Signup ===== -->
-<section class="section" id="newsletter">
-  <div class="container">
-    <div class="newsletter-wrap">
-      <h2 class="reveal">Stay Connected</h2>
-      <p class="lead reveal delay-1">
-        Get our monthly newsletter with updates on events, projects, and opportunities.
-      </p>
-
-      <div id="newsletter-success" class="success">Thanks for subscribing! Check your email for confirmation.</div>
-      <div id="newsletter-error" class="error"></div>
-
-      <form id="newsletter-form" class="newsletter-form reveal delay-2">
-        <div class="email-input-group">
-          <input class="input email-input" type="email" name="email" placeholder="Enter your email address" required />
-          <button class="btn primary newsletter-btn" type="submit">Subscribe</button>
-        </div>
-        <p class="newsletter-note">We respect your privacy. Unsubscribe at any time. <a href="unsubscribe.html" style="color: var(--accent-2);">Unsubscribe here</a></p>
-      </form>
-    </div>
-  </div>
-</section>
-
-<footer class="footer">
-  © 2025 CSAI — Computer Science + AI Club
-</footer>
-
-<script src="assets/js/main.js"></script>
-<script src="assets/js/newsletter.js"></script>
-<script src="assets/js/side-bar.js"></script>
-<script src="assets/js/homepage-enhancements.js"></script>
-</body>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/newsletter.js"></script>
+    <script src="assets/js/side-bar.js"></script>
+    <script src="assets/js/homepage-enhancements.js"></script>
+  </body>
 </html>

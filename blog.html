@@ -1,120 +1,157 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);} 
-    gtag('js', new Date());
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'G-3D4TYEWL38');
-  </script>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CSAI — Blog</title>
-  <link rel="icon" type="image/png" href="data/photos/logo.png">
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
-
-<!-- ===== Header ===== -->
-<header class="header">
-  <div class="nav container">
-
-    <!-- Hamburger menu (mobile only) -->
-    <nav>
-      <button class="ham-menu" aria-label="Toggle menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </nav>
-
-    <!-- Navigation links - shared markup for desktop and mobile -->
-    <nav class="nav-links off-screen-menu" aria-label="Main navigation">
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="/" class="nav-link">Home</a>
-        </li>
-        
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">About</a>
-        </li>
-        
-        <!-- Projects with dropdown -->
-        <li class="nav-item has-dropdown">
-          <a href="projects.html" class="nav-link">Projects</a>
-          <button class="dropdown-toggle" aria-label="Toggle Projects submenu" aria-expanded="false">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-              <path d="M8 11L3 6h10z"/>
-            </svg>
+      gtag("config", "G-3D4TYEWL38");
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSAI — Blog</title>
+    <link rel="icon" type="image/png" href="data/photos/logo.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- ===== Header ===== -->
+    <header class="header">
+      <div class="nav container">
+        <!-- Hamburger menu (mobile only) -->
+        <nav>
+          <button
+            class="ham-menu"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
           </button>
-          <ul class="dropdown-menu">
-            <li><a href="projects.html">All Projects</a></li>
-            <li><a href="anatomyvr.html">AnatomyVR</a></li>
-            <li><a href="digitaltwin.html">Digital Twin</a></li>
+        </nav>
+
+        <!-- Navigation links - shared markup for desktop and mobile -->
+        <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+
+            <!-- Projects with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="projects.html" class="nav-link">Projects</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Projects submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="projects.html">All Projects</a></li>
+                <li><a href="anatomyvr.html">AnatomyVR</a></li>
+                <li><a href="digitaltwin.html">Digital Twin</a></li>
+              </ul>
+            </li>
+
+            <!-- Learning with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="learning.html" class="nav-link">Learning</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Learning submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="learning.html">Tutorials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="resources.html">Resources</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="events.html" class="nav-link">Events</a>
+            </li>
+
+            <!-- Opportunities with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="opportunities.html" class="nav-link">Opportunities</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Opportunities submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="scholarships.html">Scholarships</a></li>
+                <li><a href="research.html">Research</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="join.html" class="nav-link">Join</a>
+            </li>
           </ul>
-        </li>
-        
-        <!-- Learning with dropdown -->
-        <li class="nav-item has-dropdown">
-          <a href="learning.html" class="nav-link">Learning</a>
-          <button class="dropdown-toggle" aria-label="Toggle Learning submenu" aria-expanded="false">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-              <path d="M8 11L3 6h10z"/>
-            </svg>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a href="learning.html">Tutorials</a></li>
-            <li><a href="blog.html">Blog</a></li>
-          </ul>
-        </li>
-        
-        <li class="nav-item">
-          <a href="events.html" class="nav-link">Events</a>
-        </li>
-        
-       <!-- Achievements with dropdown -->
-        <li class="nav-item has-dropdown">
-          <a href="Achievements.html" class="nav-link">Achievements</a>
-          <button class="dropdown-toggle" aria-label="Toggle Achievements submenu" aria-expanded="false">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-              <path d="M8 11L3 6h10z"/>
-            </svg>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a href="competitions.html">Competitions</a></li>
-            <li><a href="publications.html">Publications</a></li>
-          </ul>
-        </li>
-        
-        <li class="nav-item">
-          <a href="join.html" class="nav-link">Join</a>
-        </li>
-      </ul>
-    </nav>
+        </nav>
 
-    <!-- Join button (mobile only) -->
-    <a class="join-button btn mobile-only" href="join.html">Join</a>
-  </div>
-</header>
+        <!-- Join button (mobile only) -->
+        <a class="join-button btn mobile-only" href="join.html">Join</a>
+      </div>
+    </header>
 
-<!-- ===== Blog Section ===== -->
-<section class="section">
-  <div class="container">
-    <h2>Blog</h2>
-    <p class="lead">News, write-ups, and research notes from CSAI.</p>
-    <div id="post-list" class="post-list"></div>
-  </div>
-</section>
+    <!-- ===== Blog Section ===== -->
+    <section class="section">
+      <div class="container">
+        <h2>Blog</h2>
+        <p class="lead">News, write-ups, and research notes from CSAI.</p>
+        <div id="post-list" class="post-list"></div>
+      </div>
+    </section>
 
-<footer class="footer">
-  © 2025 CSAI — Computer Science + AI Club
-</footer>
+    <footer class="footer">© 2025 CSAI — Computer Science + AI Club</footer>
 
-<script src="assets/js/main.js"></script>
-<script src="assets/js/blog.js"></script>
-<script src="assets/js/side-bar.js"></script>
-</body>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/blog.js"></script>
+    <script src="assets/js/side-bar.js"></script>
+  </body>
 </html>
