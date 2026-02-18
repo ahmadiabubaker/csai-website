@@ -1,781 +1,330 @@
 <!doctype html>
 <html>
-  <head>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
 
-      gtag("config", "G-3D4TYEWL38");
-    </script>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>CSAI — DIY Learning</title>
-    <link rel="icon" type="image/png" href="data/photos/logo.png" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="nav container">
-        <!-- Hamburger menu (mobile only) -->
-        <nav>
-          <button
-            class="ham-menu"
-            aria-label="Toggle menu"
-            aria-expanded="false"
-          >
-            <span></span>
-            <span></span>
-            <span></span>
+    gtag('config', 'G-3D4TYEWL38');
+  </script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CSAI — DIY Learning</title>
+  <link rel="icon" type="image/png" href="data/photos/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<header class="header">
+  <div class="nav container">
+
+    <!-- Hamburger menu (mobile only) -->
+    <nav>
+      <button class="ham-menu" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <!-- Navigation links - shared markup for desktop and mobile -->
+    <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="/" class="nav-link">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">About</a>
+        </li>
+        
+        <!-- Projects with dropdown -->
+        <li class="nav-item has-dropdown">
+          <a href="projects.html" class="nav-link">Projects</a>
+          <button class="dropdown-toggle" aria-label="Toggle Projects submenu" aria-expanded="false">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+              <path d="M8 11L3 6h10z"/>
+            </svg>
           </button>
-        </nav>
-
-        <!-- Navigation links - shared markup for desktop and mobile -->
-        <nav class="nav-links off-screen-menu" aria-label="Main navigation">
-          <ul class="nav-menu">
-            <li class="nav-item">
-              <a href="/" class="nav-link">Home</a>
-            </li>
-
-            <li class="nav-item">
-              <a href="about.html" class="nav-link">About</a>
-            </li>
-
-            <!-- Projects with dropdown -->
-            <li class="nav-item has-dropdown">
-              <a href="projects.html" class="nav-link">Projects</a>
-              <button
-                class="dropdown-toggle"
-                aria-label="Toggle Projects submenu"
-                aria-expanded="false"
-              >
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path d="M8 11L3 6h10z" />
-                </svg>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="projects.html">All Projects</a></li>
-                <li><a href="anatomyvr.html">AnatomyVR</a></li>
-                <li><a href="digitaltwin.html">Digital Twin</a></li>
-              </ul>
-            </li>
-
-            <!-- Learning with dropdown -->
-            <li class="nav-item has-dropdown">
-              <a href="learning.html" class="nav-link active">Learning</a>
-              <button
-                class="dropdown-toggle"
-                aria-label="Toggle Learning submenu"
-                aria-expanded="false"
-              >
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path d="M8 11L3 6h10z" />
-                </svg>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="learning.html">Tutorials</a></li>
-                <li><a href="blog.html">Blog</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item">
-              <a href="events.html" class="nav-link">Events</a>
-            </li>
-
-            <!-- Opportunities with dropdown -->
-            <li class="nav-item has-dropdown">
-              <a href="opportunities.html" class="nav-link">Opportunities</a>
-              <button
-                class="dropdown-toggle"
-                aria-label="Toggle Opportunities submenu"
-                aria-expanded="false"
-              >
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path d="M8 11L3 6h10z" />
-                </svg>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="internships.html">Internships</a></li>
-                <li><a href="scholarships.html">Scholarships</a></li>
-                <li><a href="research.html">Research</a></li>
-              </ul>
-            </li>
-
-            <!-- Achievements with dropdown -->
-            <li class="nav-item has-dropdown">
-              <a href="Achievements.html" class="nav-link">Achievements</a>
-              <button
-                class="dropdown-toggle"
-                aria-label="Toggle Achievements submenu"
-                aria-expanded="false"
-              >
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path d="M8 11L3 6h10z" />
-                </svg>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="competitions.html">Competitions</a></li>
-                <li><a href="publications.html">Publications</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item mobile-only"></li>
-
-            <li class="nav-item">
-              <a href="join.html" class="nav-link">Join</a>
-            </li>
+          <ul class="dropdown-menu">
+            <li><a href="projects.html">All Projects</a></li>
+            <li><a href="anatomyvr.html">AnatomyVR</a></li>
+            <li><a href="digitaltwin.html">Digital Twin</a></li>
           </ul>
-        </nav>
+        </li>
+        
+        <!-- Learning with dropdown -->
+        <li class="nav-item has-dropdown">
+          <a href="learning.html" class="nav-link active">Learning</a>
+          <button class="dropdown-toggle" aria-label="Toggle Learning submenu" aria-expanded="false">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+              <path d="M8 11L3 6h10z"/>
+            </svg>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="learning.html">Tutorials</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item">
+          <a href="events.html" class="nav-link">Events</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="internships.html" class="nav-link">Internships</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="join.html" class="nav-link">Join</a>
+        </li>
+      </ul>
+    </nav>
 
-        <!-- Join button (mobile only) -->
-        <a class="join-button btn mobile-only" href="join.html">Join</a>
-      </div>
-    </header>
+    <!-- Join button (mobile only) -->
+    <a class="join-button btn mobile-only" href="join.html">Join</a>
+  </div>
+</header>
 
-    <section class="section">
-      <div class="container">
-        <h2>DIY Learning</h2>
-        <p class="lead">
-          Explore the skills we use in our projects and other hot topics in the
-          world of tech.
-        </p>
-        <div class="projects-grid">
-          <div class="project-card">
-            <div class="project-media">
-              <img src="data/photos/skills.png" alt="CSAI Site" />
-            </div>
-            <h3 class="project-title">
-              Blender, Unity and HyperSkill Tutorials
-            </h3>
-            <div class="project-desc">
-              <div class="project-more">
-                Blender is a free, open-source 3D creation suite used for
-                modeling, animation, rendering, and visual effects. It’s widely
-                used in film, games, design, and art.<br />
-                <ul>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="https://www.youtube.com/playlist?list=PLn3ukorJv4vuU3ILv3g3xnUyEGOQR-D8J"
-                      >Intro to Blender Playlist</a
-                    ><br />
-                  </li>
-                </ul>
-                Unity is a leading game engine used to build 2D, 3D, VR, and AR
-                experiences. It’s popular for its flexibility, real-time
-                rendering, and cross-platform support.<br />
-                <ul>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="https://www.youtube.com/playlist?list=PLaprNaNPPNrG6QC5QlfxkPliLDgjFPH4a"
-                      >Intro to Unity Playlist</a
-                    ><br />
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="https://urldefense.com/v3/__https:/www.youtube.com/watch?v=xqBB4UghJHk__;!!BRDQHt5SRQ!OYOCwwqV4c60JnSzIUWyK4212gtBAhSQUpSK1xxAEV8HVFtTW2ADZbIofpDvfPIQdiURy21qEscsGNs5bw$"
-                      >Blender to Unity</a
-                    ><br />
-                  </li>
-                </ul>
-                Hyperskill by SimInsights is an AI-powered platform for creating
-                and delivering immersive XR/VR training. It enables
-                organizations to design interactive, hands-on learning
-                experiences quickly and at scale.<br />
-                <ul>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="https://www.youtube.com/playlist?list=PLJbp-d55DdDgatZO2haes5BhSFijXPb8W"
-                      >Intro to HyperSkill Playlist</a
-                    ><br />
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="https://urldefense.com/v3/__https:/www.youtube.com/playlist?list=PLJbp-d55DdDhvm2UfpvBahIc1l-ynFYD9__;!!BRDQHt5SRQ!MO3Ue6RF8f9vi0XpS36JzzZakFG9fiss1P0EU1-K7NMHcmZwF_4dGberh8prKhGPSEsXVfTu51fpnkk$"
-                      >VO Packager Tutorials</a
-                    ><br />
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="https://urldefense.com/v3/__https:/www.youtube.com/watch?v=xqBB4UghJHk__;!!BRDQHt5SRQ!OYOCwwqV4c60JnSzIUWyK4212gtBAhSQUpSK1xxAEV8HVFtTW2ADZbIofpDvfPIQdiURy21qEscsGNs5bw$"
-                      >Unity to HyperSkill</a
-                    ><br />
-                  </li>
-                </ul>
-                <h4>
-                  Email Professor Wu with your Mercer email for access to
-                  HyperSkill License and Meta Quest3 headsets!!
-                </h4>
-              </div>
-            </div>
-            <div class="project-actions">
-              <button class="read-more-btn" type="button" aria-expanded="false">
-                Read More
-              </button>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <div class="project-media">
-              <img src="data/photos/portada-9.jpg" alt="Agent Lab" />
-            </div>
-            <h3 class="project-title">Machine Learning Tutorials</h3>
-            <div class="project-desc">
-              <!-- long content can continue here; collapsed by default -->
-              <div class="project-more">
-                Learn the fundementals of machine learning from a Princton grad
-                student.
-                <ul id="diy-machine-learning">
-                  <li>
-                    <a
-                      target="_blank"
-                      href="https://mccc0-my.sharepoint.com/:b:/g/personal/wus_mccc_edu/EZpEM1HPM0hAlwkVZdG_mtkB9vD3w6_yWT0tg7ExThWE5Q?e=hV6GJ4"
-                      >ML Engineering Roadmap</a
-                    >
-                  </li>
-                  <li>
-                    <a target="_blank" href="https://youtu.be/nOChm7OKv9Q"
-                      >Lecture 1: Intro to ML & AI</a
-                    ><br />
-                    <a
-                      target="_blank"
-                      href="https://colab.research.google.com/drive/1fCvbTfDb7wgQ3cOIAGVUBc9ArpuXygQT?usp=sharing#scrollTo=BAW58KaGO4o-"
-                      >Google Colab</a
-                    >
-                  </li>
-                  <li>
-                    <a target="_blank" href="https://youtu.be/h_Is-dy25gs"
-                      >Lecture 2: Generative AI & Diffusion Models </a
-                    ><br />
-                    <a
-                      target="_blank"
-                      href="https://colab.research.google.com/drive/1fCvbTfDb7wgQ3cOIAGVUBc9ArpuXygQT?usp=sharing#scrollTo=BAW58KaGO4o-"
-                      >Google Colab</a
-                    >
-                  </li>
-                  <li>
-                    <a target="_blank" href="https://youtu.be/b6yfPXpts0o"
-                      >Lecture 3: Neural Networks & Deep Learning</a
-                    ><br />
-                    <a
-                      target="_blank"
-                      href="https://colab.research.google.com/drive/1Ll5EqbmV6Mnu43H8FjSiIpGqbaDeqWfd?usp=sharing"
-                      >Google Colab</a
-                    >
-                  </li>
-                  <li>
-                    <a target="_blank" href="https://youtu.be/00aVIrgMVz8"
-                      >Lecture 4: Interview Skills</a
-                    >
-                  </li>
-                  <li>
-                    <a target="_blank" href="https://youtu.be/ys1IYR6mW2g"
-                      >Lecture 5: LLMs & Deep Seek</a
-                    >
-                  </li>
-                  <li>
-                    <a target="_blank" href="https://youtu.be/Vu0PGvLdaDI"
-                      >Lecture 6: Reviewing Essentials</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="project-actions">
-              <button class="read-more-btn" type="button" aria-expanded="false">
-                Read More
-              </button>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <div class="project-media">
-              <img src="data/photos/960x0.jpg" alt="Smart Attendance" />
-            </div>
-            <h3 class="project-title">AI Agents and Deep Seek</h3>
-            <div class="project-desc">
-              <div class="project-more">
-                AI agents are systems that sense, decide, and act on their own.
-                From voice assistants to robots, they power the smarter tech we
-                use every day.<br />
-                <ul>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="https://www.youtube.com/watch?v=KrRD7r7y7NY&list=PLPoY_nPCTV0QKVpiJc877cfG7rSJScyN9&pp=gAQB"
-                      >AI Agent Playlist</a
-                    ><br />
-                  </li>
-                </ul>
-                DeepSeek stands out for its strong reasoning, lower
-                hallucination rates, and ability to handle longer contexts. It’s
-                open and efficient, making advanced AI more accessible for
-                real-world innovation.<br />
-                <ul>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="https://www.youtube.com/watch?v=kv8frWeKoeo&list=PLPoY_nPCTV0QxDhib7NuhqcDCBICp5ciN&pp=gAQB0gcJCaIEOCosWNin"
-                      >Deep Seek Playlist</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="project-actions">
-              <button class="read-more-btn" type="button" aria-expanded="false">
-                Read More
-              </button>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <div class="project-media">
-              <img
-                src="data/photos/Quantum_Computing_Image.png"
-                alt="Auto-Notes"
-              />
-            </div>
-            <h3 class="project-title">Quantum Computing</h3>
-            <div class="project-desc">
-              <div class="project-more">
-                Quantum computing harnesses qubits and quantum mechanics to
-                solve problems classical computers can’t — a revolutionary
-                technology shaping the future of computing.
-                <ul>
-                  <li>
-                    <a target="_blank" href="https://youtu.be/NzWxeWXPYBM"
-                      >Quantum Computing Lecture Dec, 2025</a
-                    >
-                  </li>
-                  <li>
-                    <a target="_blank" href="https://youtu.be/T5yyOA2M_8Q"
-                      >Quantum Computing Lecture April, 2025</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="https://docs.google.com/presentation/d/1pGGNrtUy-ndtVW0zhw1aupZmAfiYatqnrfmcX_Chi84/edit?usp=sharing"
-                      >Slides from Lecture</a
-                    >
-                  </li>
-                </ul>
-                Microsoft’s Majorana chip uses exotic particles to make
-                super-stable topological qubits, a big step toward powerful,
-                reliable quantum computers.
-                <ul>
-                  <li>
-                    <a target="_blank" href="https://youtu.be/wSHmygPQukQ"
-                      >Majorana 1</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="project-actions">
-              <button class="read-more-btn" type="button" aria-expanded="false">
-                Read More
-              </button>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <div class="project-media">
-              <img
-                src="data/photos/shutterstock_758444896.jpg"
-                alt="Auto-Notes"
-              />
-            </div>
-            <h3 class="project-title">Data Science Roadmap</h3>
-            <div class="project-desc">
-              <div class="project-more">
-                Learn data science with this effective guide developed by our
-                club team.
-                <ul>
-                  <li>
-                    <a
-                      target="_blank"
-                      href="https://mccc0-my.sharepoint.com/:b:/g/personal/wus_mccc_edu/Eael0dl6OwNElVIT-eQn1b8B2cO1NbsATrZMguxWlvpw_A?e=talRQe"
-                      >Data Science Roadmap</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="project-actions">
-              <button class="read-more-btn" type="button" aria-expanded="false">
-                Read More
-              </button>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <div class="project-media">
-              <img src="data/photos/AI bootcampGPT.png" alt="Auto-Notes" />
-            </div>
-            <h3 class="project-title">Build with AI Bootcamp</h3>
-            <div class="project-desc">
-              <div class="project-more">
-                Learn how to use cutting-edge AI tools to design, build, and
-                launch real projects—just like a startup. No experience
-                required. Bring your laptop and build something awesome.
-                <a
-                  href="data/photos/AI Bootcamp (7) (1).png"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >See Flyer!</a
-                >
-                <p>
-                  See
-                  <strong
-                    ><i
-                      >Instructions for getting a GitHub Student Developer
-                      Pack</i
-                    ></strong
-                  >, as this is required for the course.
-                </p>
-
-                <!-- Project Showcase Section -->
-                <section class="project-showcase-section">
-                  <div class="section-header">
-                    <h3>Student Project Showcase</h3>
-                    <p style="margin-top: 10px; color: var(--card-text-color); font-size: 0.95rem;">
-                      Check out the amazing projects built by our bootcamp participants!
-                    </p>
-                  </div>
-                  <div
-                    class="project-showcase"
-                    id="project-showcase"
-                    aria-label="Student Projects"
-                  >
-                    <div class="project-showcase-track" id="project-showcase-track">
-                      <!-- Project 1: AI Chatbot -->
-                      <div class="project-showcase-card">
-                        <img 
-                          src="assets/projects/chatbot-app.svg" 
-                          alt="AI Chatbot Assistant" 
-                          class="project-showcase-image"
-                        />
-                        <div class="project-showcase-content">
-                          <h4 class="project-showcase-title">AI Chatbot Assistant</h4>
-                          <p class="project-showcase-description">
-                            An intelligent conversational interface powered by large language models. 
-                            Features natural language understanding, multi-turn conversations, and customizable personality.
-                          </p>
-                          <a 
-                            href="bootcamp-project-chatbot.html" 
-                            class="project-showcase-link"
-                          >
-                            AI Chatbot — Alex Johnson
-                          </a>
-                        </div>
-                      </div>
-
-                      <!-- Project 2: Task Manager -->
-                      <div class="project-showcase-card">
-                        <img 
-                          src="assets/projects/task-manager.svg" 
-                          alt="Smart Task Manager" 
-                          class="project-showcase-image"
-                        />
-                        <div class="project-showcase-content">
-                          <h4 class="project-showcase-title">Smart Task Manager</h4>
-                          <p class="project-showcase-description">
-                            AI-enhanced productivity app with smart scheduling, priority suggestions, 
-                            and natural language task creation. Helps users complete tasks more efficiently.
-                          </p>
-                          <a 
-                            href="bootcamp-project-task-manager.html" 
-                            class="project-showcase-link"
-                          >
-                            Task Manager — Sarah Chen
-                          </a>
-                        </div>
-                      </div>
-
-                      <!-- Project 3: Recipe Finder -->
-                      <div class="project-showcase-card">
-                        <img 
-                          src="assets/projects/recipe-finder.svg" 
-                          alt="AI Recipe Finder" 
-                          class="project-showcase-image"
-                        />
-                        <div class="project-showcase-content">
-                          <h4 class="project-showcase-title">AI Recipe Finder</h4>
-                          <p class="project-showcase-description">
-                            Intelligent cooking companion that suggests recipes based on available ingredients. 
-                            Uses computer vision to identify ingredients from photos.
-                          </p>
-                          <a 
-                            href="bootcamp-project-recipe-finder.html" 
-                            class="project-showcase-link"
-                          >
-                            Recipe Finder — Michael Rodriguez
-                          </a>
-                        </div>
-                      </div>
-
-                      <!-- Project 4: Budget Tracker -->
-                      <div class="project-showcase-card">
-                        <img 
-                          src="assets/projects/budget-tracker.svg" 
-                          alt="Smart Budget Tracker" 
-                          class="project-showcase-image"
-                        />
-                        <div class="project-showcase-content">
-                          <h4 class="project-showcase-title">Smart Budget Tracker</h4>
-                          <p class="project-showcase-description">
-                            Personal finance app with AI-powered expense categorization, spending predictions, 
-                            and smart alerts. Includes receipt scanning with OCR technology.
-                          </p>
-                          <a 
-                            href="bootcamp-project-budget-tracker.html" 
-                            class="project-showcase-link"
-                          >
-                            Budget Tracker — Emily Wong
-                          </a>
-                        </div>
-                      </div>
-
-                      <!-- Project 5: Fitness Planner -->
-                      <div class="project-showcase-card">
-                        <img 
-                          src="assets/projects/fitness-planner.svg" 
-                          alt="AI Fitness Planner" 
-                          class="project-showcase-image"
-                        />
-                        <div class="project-showcase-content">
-                          <h4 class="project-showcase-title">AI Fitness Planner</h4>
-                          <p class="project-showcase-description">
-                            Personalized workout and nutrition app with computer vision form analysis. 
-                            Creates custom fitness plans and provides real-time exercise feedback.
-                          </p>
-                          <a 
-                            href="bootcamp-project-fitness-planner.html" 
-                            class="project-showcase-link"
-                          >
-                            Fitness Planner — David Kim
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-            </div>
-            <div class="project-actions">
-              <button class="read-more-btn" type="button" aria-expanded="false">
-                Read More
-              </button>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <div class="project-media">
-              <img
-                src="data/photos/github-student-edu-pack.webp"
-                alt="Auto-Notes"
-              />
-            </div>
-            <h3 class="project-title">
-              Instructions for getting a GitHub Student Developer Pack
-            </h3>
-            <div class="project-desc">
-              <div class="project-more">
-                <ol class="education-package-list">
-                  <li>
-                    <h4 class="education-package-list">
-                      Create a GitHub Account
-                    </h4>
-                    <ol>
-                      <li>
-                        Click <strong>Profile</strong> →
-                        <strong>Settings</strong>.
-                      </li>
-                      <li>
-                        Go to <strong>Password and authentication</strong> →
-                        enable <strong>2FA (Two-Factor Authentication)</strong>.
-                      </li>
-                      <li>
-                        Install the <strong>Google Authenticator</strong> app on
-                        your phone (required for 2FA).
-                      </li>
-                      <li>
-                        <strong>(Click to expand images)</strong>
-                      </li>
-                    </ol>
-                  </li>
-                  <div class="image-container">
-                    <img
-                      class="education-package-image"
-                      src="data/photos/education-package1.png"
-                    />
-                    <img
-                      class="education-package-image"
-                      src="data/photos/education-package2.png"
-                    />
-                  </div>
-                  <li>
-                    <h4>Add Your Billing Address (No Credit Card)</h4>
-                    <ol>
-                      <li>
-                        Click <strong>Profile</strong> →
-                        <strong>Settings</strong>.
-                      </li>
-                      <li>Go to <strong>Billing and licensing</strong>.</li>
-                      <li>
-                        Under the drop-down, click
-                        <strong>Payment history</strong>.
-                      </li>
-                      <li>
-                        Add your <strong>billing address</strong>.
-                        <strong
-                          >Do NOT add credit card info — only the billing
-                          address.</strong
-                        >
-                      </li>
-                    </ol>
-                  </li>
-                  <div class="image-container">
-                    <img
-                      class="education-package-image"
-                      src="data/photos/education-package3.png"
-                    />
-                    <img
-                      class="education-package-image"
-                      src="data/photos/education-package4.png"
-                    />
-                  </div>
-                  <li>
-                    <h4>Apply for Education Benefits</h4>
-                    <ol>
-                      <li>
-                        Under <strong>Billing and licensing</strong>, find
-                        <strong>Education benefits</strong>.
-                      </li>
-                      <li>
-                        Click <strong>Education benefits</strong> →
-                        <strong>Start application</strong>.
-                      </li>
-                      <li>
-                        If needed, add your <strong>school email</strong> under
-                        <strong>Emails</strong>.
-                      </li>
-                    </ol>
-                  </li>
-                  <div class="image-container">
-                    <img
-                      class="education-package-image"
-                      src="data/photos/education-package5.png"
-                    />
-                  </div>
-                </ol>
-              </div>
-            </div>
-            <div class="project-actions">
-              <button class="read-more-btn" type="button" aria-expanded="false">
-                Read More
-              </button>
-            </div>
-          </div>
-
-          <div class="project-card" id="ros2">
-            <div class="project-media">
-              <img
-                src="data/photos/robot-woman.jpg"
-                alt="A woman's face wearing blue-tinted sunglasses with a network visually represented in front of her."
-              />
-            </div>
-            <h3 class="project-title">Running ROS 2 with Linux</h3>
-            <div class="project-desc">
-              <div class="project-more">
-                ROS 2 (Robot Operating System 2) is used to build complex robot
-                applications. It keeps your robot's parts in sync with one
-                another. Since, ROS 2 needs the Linux operating system to run,
-                you will likely need WSL (Windows Subsystem for Linux) to let
-                Linux binaries run on your Windows-powered machine.
-                <ul>
-                  <li>
-                    <a
-                      href="https://www.youtube.com/watch?v=Se5pvRlTX8s"
-                      target="_blank"
-                      >TCRI ROS 2 Tutorial</a
-                    >
-                  </li>
-                  <li>
-                    <a href="https://app.theconstruct.ai/" target="_blank">
-                      ^^^ The ROS 2 online educational simulator used in the
-                      above tutorial.</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.youtube.com/watch?v=HJAE5Pk8Nyw"
-                      target="_blank"
-                      >Alternative ROS 2 Course</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="project-actions">
-              <button class="read-more-btn" type="button" aria-expanded="false">
-                Read More
-              </button>
-            </div>
+<section class="section">
+  <div class="container">
+    <h2>DIY Learning</h2>
+    <p class="lead">Explore the skills we use in our projects and other hot topics in the world of tech.</p>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-media"><img src="data/photos/skills.png" alt="CSAI Site"></div>
+        <h3 class="project-title">Blender, Unity and HyperSkill Tutorials</h3>
+        <div class="project-desc">
+          <div class="project-more">
+            Blender is a free, open-source 3D creation suite used for modeling, animation, rendering, and visual effects. It’s widely used in film, games, design, and art.<br/>
+            <ul>
+              <li><a target="_blank" href="https://www.youtube.com/playlist?list=PLn3ukorJv4vuU3ILv3g3xnUyEGOQR-D8J">Intro to Blender Playlist</a><br/></li>
+            </ul>
+            Unity is a leading game engine used to build 2D, 3D, VR, and AR experiences. It’s popular for its flexibility, real-time rendering, and cross-platform support.<br/>
+            <ul>
+              <li><a target="_blank" href="https://www.youtube.com/playlist?list=PLaprNaNPPNrG6QC5QlfxkPliLDgjFPH4a">Intro to Unity Playlist</a><br/></li>
+              <li><a target="_blank" href="https://urldefense.com/v3/__https:/www.youtube.com/watch?v=xqBB4UghJHk__;!!BRDQHt5SRQ!OYOCwwqV4c60JnSzIUWyK4212gtBAhSQUpSK1xxAEV8HVFtTW2ADZbIofpDvfPIQdiURy21qEscsGNs5bw$">Blender to Unity</a><br/></li>
+            </ul>
+            Hyperskill by SimInsights is an AI-powered platform for creating and delivering immersive XR/VR training. It enables organizations to design interactive, hands-on learning experiences quickly and at scale.<br/>
+            <ul>
+              <li><a target="_blank" href="https://www.youtube.com/playlist?list=PLJbp-d55DdDgatZO2haes5BhSFijXPb8W">Intro to HyperSkill Playlist</a><br/></li>
+              <li><a target="_blank" href="https://urldefense.com/v3/__https:/www.youtube.com/playlist?list=PLJbp-d55DdDhvm2UfpvBahIc1l-ynFYD9__;!!BRDQHt5SRQ!MO3Ue6RF8f9vi0XpS36JzzZakFG9fiss1P0EU1-K7NMHcmZwF_4dGberh8prKhGPSEsXVfTu51fpnkk$">VO Packager Tutorials</a><br/></li>
+              <li><a target="_blank" href="https://urldefense.com/v3/__https:/www.youtube.com/watch?v=xqBB4UghJHk__;!!BRDQHt5SRQ!OYOCwwqV4c60JnSzIUWyK4212gtBAhSQUpSK1xxAEV8HVFtTW2ADZbIofpDvfPIQdiURy21qEscsGNs5bw$">Unity to HyperSkill</a><br/></li>
+            </ul>
+            <h4>Email Professor Wu with your Mercer email for access to HyperSkill License and Meta Quest3 headsets!!</h4>
           </div>
         </div>
+        <div class="project-actions">
+          <button class="read-more-btn" type="button" aria-expanded="false">Read More</button>
+        </div>
       </div>
-    </section>
 
-    <!-- images for education package -->
-    <div class="image-modal" id="imageModal">
-      <button class="close-btn" id="closeModal">×</button>
-      <img id="modalImage" />
+      <div class="project-card">
+        <div class="project-media"><img src="data/photos/portada-9.jpg" alt="Agent Lab"></div>
+        <h3 class="project-title">Machine Learning Tutorials</h3>
+        <div class="project-desc">   
+          <!-- long content can continue here; collapsed by default -->
+          <div class="project-more">
+            Learn the fundementals of machine learning from a Princton grad student.
+            <ul id="diy-machine-learning">
+              <li><a target="_blank" href="https://mccc0-my.sharepoint.com/:b:/g/personal/wus_mccc_edu/EZpEM1HPM0hAlwkVZdG_mtkB9vD3w6_yWT0tg7ExThWE5Q?e=hV6GJ4">ML Engineering Roadmap</a></li>
+              <li>
+                <a target="_blank" href="https://youtu.be/nOChm7OKv9Q">Lecture 1: Intro to ML & AI</a><br/>
+                <a target="_blank" href="https://colab.research.google.com/drive/1fCvbTfDb7wgQ3cOIAGVUBc9ArpuXygQT?usp=sharing#scrollTo=BAW58KaGO4o-">Google Colab</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://youtu.be/h_Is-dy25gs">Lecture 2: Generative AI & Diffusion Models </a><br/>
+                <a target="_blank" href="https://colab.research.google.com/drive/1fCvbTfDb7wgQ3cOIAGVUBc9ArpuXygQT?usp=sharing#scrollTo=BAW58KaGO4o-">Google Colab</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://youtu.be/b6yfPXpts0o">Lecture 3: Neural Networks & Deep Learning</a><br/>
+                <a target="_blank" href="https://colab.research.google.com/drive/1Ll5EqbmV6Mnu43H8FjSiIpGqbaDeqWfd?usp=sharing">Google Colab</a>
+              </li>
+              <li><a target="_blank" href="https://youtu.be/00aVIrgMVz8">Lecture 4: Interview Skills</a></li>
+              <li><a target="_blank" href="https://youtu.be/ys1IYR6mW2g">Lecture 5: LLMs & Deep Seek</a></li>
+              <li><a target="_blank" href="https://youtu.be/Vu0PGvLdaDI">Lecture 6: Reviewing Essentials</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-actions">
+          <button class="read-more-btn" type="button" aria-expanded="false">Read More</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-media"><img src="data/photos/960x0.jpg" alt="Smart Attendance"></div>
+        <h3 class="project-title">AI Agents and Deep Seek</h3>
+        <div class="project-desc">
+          <div class="project-more">
+            AI agents are systems that sense, decide, and act on their own. From voice assistants to robots, they power the smarter tech we use every day.<br/>
+            <ul>
+              <li><a target="_blank" href="https://www.youtube.com/watch?v=KrRD7r7y7NY&list=PLPoY_nPCTV0QKVpiJc877cfG7rSJScyN9&pp=gAQB">AI Agent Playlist</a><br/></li>
+            </ul>
+            DeepSeek stands out for its strong reasoning, lower hallucination rates, and ability to handle longer contexts. It’s open and efficient, making advanced AI more accessible for real-world innovation.<br/>
+            <ul>
+              <li><a target="_blank" href="https://www.youtube.com/watch?v=kv8frWeKoeo&list=PLPoY_nPCTV0QxDhib7NuhqcDCBICp5ciN&pp=gAQB0gcJCaIEOCosWNin">Deep Seek Playlist</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-actions">
+          <button class="read-more-btn" type="button" aria-expanded="false">Read More</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-media"><img src="data/photos/Quantum_Computing_Image.png" alt="Auto-Notes"></div>
+        <h3 class="project-title">Quantum Computing</h3>
+        <div class="project-desc">
+          <div class="project-more">
+            Quantum computing harnesses qubits and quantum mechanics to solve problems classical computers can’t — a revolutionary technology shaping the future of computing.
+            <ul>
+              <li><a target="_blank" href="https://youtu.be/NzWxeWXPYBM">Quantum Computing Lecture Dec, 2025</a></li>
+              <li><a target="_blank" href="https://youtu.be/T5yyOA2M_8Q">Quantum Computing Lecture April, 2025</a></li>
+              <li><a target="_blank" href="https://docs.google.com/presentation/d/1pGGNrtUy-ndtVW0zhw1aupZmAfiYatqnrfmcX_Chi84/edit?usp=sharing">Slides from Lecture</a></li>
+            </ul>
+            Microsoft’s Majorana chip uses exotic particles to make super-stable topological qubits, a big step toward powerful, reliable quantum computers.
+            <ul>
+              <li><a target="_blank" href="https://youtu.be/wSHmygPQukQ">Majorana 1</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-actions">
+          <button class="read-more-btn" type="button" aria-expanded="false">Read More</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-media"><img src="data/photos/shutterstock_758444896.jpg" alt="Auto-Notes"></div>
+        <h3 class="project-title">Data Science Roadmap</h3>
+        <div class="project-desc">
+          <div class="project-more">
+            Learn data science with this effective guide developed by our club team.
+            <ul><li><a target="_blank" href="https://mccc0-my.sharepoint.com/:b:/g/personal/wus_mccc_edu/Eael0dl6OwNElVIT-eQn1b8B2cO1NbsATrZMguxWlvpw_A?e=talRQe">Data Science Roadmap</a></li></ul>
+          </div>
+        </div>
+        <div class="project-actions">
+          <button class="read-more-btn" type="button" aria-expanded="false">Read More</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-media"><img src="data/photos/AI bootcampGPT.png" alt="Auto-Notes"></div>
+        <h3 class="project-title">Build with AI Bootcamp</h3>
+        <div class="project-desc">
+          <div class="project-more">
+              In Spring 2025, we hosted a 4-week bootcamp where students built projects using AI tools. The bootcamp covered everything from ideation to deployment, with workshops on prompt engineering, fine-tuning, and more.
+            <a href="data/photos/AI Bootcamp (7) (1).png" target="_blank" rel="noopener noreferrer">See Flyer!</a>
+
+            <div class="bootcamp-showcase" aria-labelledby="bootcamp-showcase-title">
+              <h4 id="bootcamp-showcase-title" class="bootcamp-showcase-title">Project Showcase</h4>
+              <p class="bootcamp-showcase-lead">Scroll left-to-right to explore projects built in the bootcamp. Each card is an image + short description.</p>
+
+              <div class="showcase-scroller" id="bootcamp-showcase" aria-label="Bootcamp projects (scroll horizontally)">
+                <div class="showcase-track" id="bootcamp-showcase-track">
+                  <div class="showcase-empty">Loading projects…</div>
+                </div>
+              </div>
+
+              <div class="bootcamp-project-linklist" aria-label="Bootcamp project links">
+                <h4>Read more</h4>
+                <ul id="bootcamp-project-links">
+                  <li>Loading…</li>
+                </ul>
+              </div>
+            </div>
+
+            
+          </div>
+        </div>
+        <div class="project-actions">
+          <button class="read-more-btn" type="button" aria-expanded="false">Read More</button>
+        </div>
+      </div>
+
+
+      <div class="project-card">
+        <div class="project-media"><img src="data/photos/github-student-edu-pack.webp" alt="Auto-Notes"></div>
+        <h3 class="project-title">Instructions for getting a GitHub Student Developer Pack</h3>
+        <div class="project-desc">
+          <div class="project-more">
+            <ol class="education-package-list">
+              <li>
+                <h4 class="education-package-list">Create a GitHub Account</h4>
+                <ol>
+                  <li>Click <strong>Profile</strong> → <strong>Settings</strong>.</li>
+                  <li>Go to <strong>Password and authentication</strong> → enable <strong>2FA (Two-Factor Authentication)</strong>.</li>
+                  <li>
+                    Install the <strong>Google Authenticator</strong> app on your phone (required for 2FA).
+                  </li>
+                  <li>
+                    <strong>(Click to expand images)</strong>
+                  </li>
+                </ol>
+              </li>
+              <div class="image-container">
+                <img class="education-package-image" src="data/photos/education-package1.png">
+                <img class="education-package-image" src="data/photos/education-package2.png">
+              </div>
+              <li>
+                <h4>Add Your Billing Address (No Credit Card)</h4>
+                <ol>
+                  <li>Click <strong>Profile</strong> → <strong>Settings</strong>.</li>
+                  <li>Go to <strong>Billing and licensing</strong>.</li>
+                  <li>Under the drop-down, click <strong>Payment history</strong>.</li>
+                  <li>
+                    Add your <strong>billing address</strong>.
+                    <strong>Do NOT add credit card info — only the billing address.</strong>
+                  </li>
+                </ol>
+              </li>
+              <div class="image-container">
+                <img class="education-package-image" src="data/photos/education-package3.png">
+                <img class="education-package-image" src="data/photos/education-package4.png">
+              </div>
+              <li>
+                <h4>Apply for Education Benefits</h4>
+                <ol>
+                  <li>Under <strong>Billing and licensing</strong>, find <strong>Education benefits</strong>.</li>
+                  <li>Click <strong>Education benefits</strong> → <strong>Start application</strong>.</li>
+                  <li>
+                    If needed, add your <strong>school email</strong> under <strong>Emails</strong>.
+                  </li>
+                </ol>
+              </li>
+              <div class="image-container">
+                <img class="education-package-image" src="data/photos/education-package5.png">
+              </div>
+            </ol>
+          </div>
+        </div>
+        <div class="project-actions">
+          <button class="read-more-btn" type="button" aria-expanded="false">Read More</button>
+        </div>
+      </div>
+
+
+
     </div>
+  </div>
+</section>
 
-    <footer class="footer">© 2025 CSAI — Computer Science + AI Club</footer>
+<!-- images for education package -->
+<div class="image-modal" id="imageModal">
+  <button class="close-btn" id="closeModal">×</button>
+  <img id="modalImage" />
+</div>
 
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/projects.js"></script>
-    <script src="assets/js/side-bar.js"></script>
-    <script src="assets/js/project-showcase.js"></script>
-  </body>
+<footer class="footer">
+  © 2025 CSAI — Computer Science + AI Club
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/projects.js"></script>
+<script src="data/bootcamp-projects.js"></script>
+<script src="assets/js/bootcamp-showcase.js"></script>
+<script src="assets/js/side-bar.js"></script>
+</body>
 </html>
