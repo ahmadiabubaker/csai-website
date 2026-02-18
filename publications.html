@@ -1,206 +1,769 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>CSAI — DIY Learning</title>
-    <link rel="icon" type="image/png" href="data/photos/logo.png" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="nav container">
-        <!-- Hamburger menu (mobile only) -->
-        <nav>
-          <button
-            class="ham-menu"
-            aria-label="Toggle menu"
-            aria-expanded="false"
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-        </nav>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-3D4TYEWL38');
+  </script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CSAI — Publications & Media</title>
+  <link rel="icon" type="image/png" href="data/photos/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    /* ===== Hero Section ===== */
+    .pub-hero {
+      position: relative;
+      padding: 100px 20px 80px;
+      text-align: center;
+      border-bottom: 1px solid var(--glass-line);
+      overflow: hidden;
+      z-index: 1;
+    }
 
-        <!-- Navigation links - shared markup for desktop and mobile -->
-        <nav class="nav-links off-screen-menu" aria-label="Main navigation">
-          <ul class="nav-menu">
-            <li class="nav-item">
-              <a href="/" class="nav-link">Home</a>
-            </li>
+    .pub-hero-content {
+      position: relative;
+      z-index: 1;
+    }
 
-            <li class="nav-item">
-              <a href="about.html" class="nav-link">About</a>
-            </li>
+    .pub-hero h1 {
+      font-size: 3.2rem;
+      margin-bottom: 16px;
+      font-weight: 800;
+      background: linear-gradient(120deg, var(--accent-1), var(--accent-2), var(--accent-3), var(--accent-1));
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: shimmer 3s linear infinite;
+      letter-spacing: -0.5px;
+    }
 
-            <!-- Projects with dropdown -->
-            <li class="nav-item has-dropdown">
-              <a href="projects.html" class="nav-link">Projects</a>
-              <button
-                class="dropdown-toggle"
-                aria-label="Toggle Projects submenu"
-                aria-expanded="false"
+    @keyframes shimmer {
+      to { background-position: 200% center; }
+    }
+
+    .pub-hero p {
+      font-size: 1.15rem;
+      color: var(--text-secondary);
+      max-width: 700px;
+      margin: 0 auto 24px;
+      line-height: 1.7;
+    }
+
+    .pub-stats {
+      display: flex;
+      gap: 32px;
+      justify-content: center;
+      margin-top: 28px;
+      flex-wrap: wrap;
+    }
+
+    .pub-stat {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .pub-stat-number {
+      font-size: 2.2rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .pub-stat-label {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600;
+    }
+
+    /* ===== Filter Pills with Count Badges ===== */
+    .pub-filters {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 45px 0 50px;
+    }
+
+    .filter-btn {
+      position: relative;
+      padding: 12px 28px;
+      border-radius: 14px;
+      border: 2px solid var(--glass-line);
+      background: var(--card-bg);
+      backdrop-filter: blur(12px);
+      color: var(--text);
+      font-weight: 700;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .filter-btn:hover {
+      transform: translateY(-3px) scale(1.02);
+      box-shadow: 0 12px 28px rgba(122,92,255,0.2);
+      border-color: rgba(122,92,255,0.3);
+    }
+
+    .filter-btn.active {
+      background: var(--accent-1);
+      color: #fff;
+      border-color: transparent;
+      box-shadow: 0 12px 32px rgba(122,92,255,0.35);
+      transform: translateY(-2px);
+    }
+
+    .filter-icon {
+      font-size: 1.2rem;
+      line-height: 1;
+    }
+
+    .filter-count {
+      background: rgba(255,255,255,0.2);
+      color: inherit;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      min-width: 24px;
+      text-align: center;
+    }
+
+    .filter-btn.active .filter-count {
+      background: rgba(255,255,255,0.3);
+    }
+
+    /* ===== Grid Layout ===== */
+    .pub-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      gap: 35px;
+      margin-bottom: 80px;
+      animation: fadeIn 0.6s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .pub-grid { 
+        grid-template-columns: 1fr;
+        gap: 25px;
+      }
+    }
+
+    /* ===== Publication Card with Enhanced Visuals ===== */
+    .pub-card {
+      background: var(--card-bg);
+      border: 2px solid var(--glass-line);
+      border-radius: 22px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 8px 32px rgba(10,20,40,0.12),
+                  0 2px 8px rgba(10,20,40,0.08);
+      overflow: hidden;
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      animation: cardSlideIn 0.5s ease-out backwards;
+    }
+
+    @keyframes cardSlideIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px) scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    .pub-card:nth-child(1) { animation-delay: 0.1s; }
+    .pub-card:nth-child(2) { animation-delay: 0.2s; }
+    .pub-card:nth-child(3) { animation-delay: 0.3s; }
+    .pub-card:nth-child(4) { animation-delay: 0.4s; }
+    .pub-card:nth-child(5) { animation-delay: 0.5s; }
+    .pub-card:nth-child(6) { animation-delay: 0.6s; }
+
+    .pub-card:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 24px 64px rgba(122,92,255,0.25),
+                  0 8px 24px rgba(10,20,40,0.15);
+      border-color: rgba(122,92,255,0.3);
+    }
+
+    .pub-card.featured {
+      border-color: rgba(122,92,255,0.5);
+      box-shadow: 0 12px 40px rgba(122,92,255,0.2),
+                  0 4px 12px rgba(10,20,40,0.1);
+      background: linear-gradient(135deg, 
+                  rgba(122,92,255,0.02) 0%, 
+                  rgba(0,230,255,0.02) 100%);
+    }
+
+    .pub-card.featured:hover {
+      box-shadow: 0 28px 72px rgba(122,92,255,0.35),
+                  0 12px 32px rgba(10,20,40,0.2);
+    }
+
+    .pub-card.hidden {
+      display: none;
+    }
+
+    /* Featured Badge with Glow */
+    .featured-badge {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: linear-gradient(135deg, #7A5CFF, #FF7AE6);
+      color: white;
+      padding: 8px 16px;
+      border-radius: 24px;
+      font-size: 0.75rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      z-index: 3;
+      box-shadow: 0 6px 20px rgba(122,92,255,0.4),
+                  0 0 0 3px rgba(255,255,255,0.1);
+      animation: badgePulse 2s ease-in-out infinite;
+    }
+
+    @keyframes badgePulse {
+      0%, 100% {
+        box-shadow: 0 6px 20px rgba(122,92,255,0.4),
+                    0 0 0 3px rgba(255,255,255,0.1);
+      }
+      50% {
+        box-shadow: 0 8px 28px rgba(122,92,255,0.6),
+                    0 0 0 4px rgba(255,255,255,0.2);
+      }
+    }
+
+    /* Card Header with Enhanced Gradient */
+    .pub-card-header {
+      position: relative;
+      height: 6px;
+      background: linear-gradient(90deg, 
+                  var(--accent-1), 
+                  var(--accent-2), 
+                  var(--accent-3),
+                  var(--accent-1));
+      background-size: 200% 100%;
+      animation: gradientFlow 3s ease infinite;
+    }
+
+    @keyframes gradientFlow {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+
+    .pub-card.featured .pub-card-header {
+      height: 8px;
+      box-shadow: 0 4px 16px rgba(122,92,255,0.3);
+    }
+
+    /* Video Container with Loading State */
+    .pub-video-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      background: linear-gradient(135deg, 
+                  rgba(122,92,255,0.15), 
+                  rgba(0,230,255,0.15),
+                  rgba(255,122,230,0.15));
+      background-size: 200% 200%;
+      animation: gradientShift 8s ease infinite;
+      overflow: hidden;
+    }
+
+    .pub-video-container::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 60px;
+      height: 60px;
+      border: 3px solid rgba(255,255,255,0.3);
+      border-top-color: var(--accent-2);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      z-index: 1;
+    }
+
+    @keyframes spin {
+      to { transform: translate(-50%, -50%) rotate(360deg); }
+    }
+
+    .pub-video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      z-index: 2;
+    }
+
+    .pub-video-placeholder {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      font-size: 4rem;
+      color: var(--accent-2);
+      background: linear-gradient(135deg, 
+                  rgba(122,92,255,0.12), 
+                  rgba(0,230,255,0.12));
+      z-index: 2;
+    }
+
+    .pub-video-placeholder-text {
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      font-weight: 600;
+    }
+
+    /* Card Body with Better Spacing */
+    .pub-card-body {
+      padding: 28px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .pub-type-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: 10px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      width: fit-content;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .pub-type-badge.type-paper {
+      background: linear-gradient(135deg, rgba(122,92,255,0.15), rgba(122,92,255,0.08));
+      color: var(--accent-1);
+      border: 1px solid rgba(122,92,255,0.2);
+    }
+
+    .pub-type-badge.type-video {
+      background: linear-gradient(135deg, rgba(0,230,255,0.15), rgba(0,230,255,0.08));
+      color: var(--accent-2);
+      border: 1px solid rgba(0,230,255,0.2);
+    }
+
+    .pub-card-title {
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: var(--text);
+      margin: 0;
+      line-height: 1.35;
+      letter-spacing: -0.3px;
+    }
+
+    .pub-card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+    }
+
+    .pub-meta-item {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 4px 10px;
+      background: rgba(122,92,255,0.04);
+      border-radius: 8px;
+      transition: background 0.2s ease;
+    }
+
+    .pub-meta-item:hover {
+      background: rgba(122,92,255,0.08);
+    }
+
+    .pub-meta-item svg {
+      width: 15px;
+      height: 15px;
+      opacity: 0.75;
+      flex-shrink: 0;
+    }
+
+    .pub-card-description {
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin: 0;
+      flex: 1;
+    }
+
+    .pub-card-footer {
+      display: flex;
+      gap: 12px;
+      padding-top: 20px;
+      border-top: 2px solid var(--glass-line);
+      margin-top: auto;
+    }
+
+    .pub-btn {
+      flex: 1;
+      padding: 12px 20px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 0.92rem;
+      text-align: center;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      border: 2px solid var(--glass-line);
+      background: var(--card-bg);
+      color: var(--text);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .pub-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    }
+
+    .pub-btn.primary {
+      background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+      color: white;
+      border-color: transparent;
+      box-shadow: 0 4px 16px rgba(122,92,255,0.3);
+    }
+
+    .pub-btn.primary:hover {
+      box-shadow: 0 8px 24px rgba(122,92,255,0.4);
+      transform: translateY(-3px) scale(1.02);
+    }
+
+    /* Enhanced Empty State */
+    .pub-empty {
+      text-align: center;
+      padding: 100px 20px;
+      color: var(--text-secondary);
+      background: linear-gradient(135deg, 
+                  rgba(122,92,255,0.03), 
+                  rgba(0,230,255,0.03));
+      border-radius: 20px;
+      border: 2px dashed var(--glass-line);
+    }
+
+    .pub-empty svg {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 24px;
+      opacity: 0.25;
+      stroke-width: 1.5;
+    }
+
+    .pub-empty h3 {
+      font-size: 1.8rem;
+      margin-bottom: 12px;
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .pub-empty p {
+      font-size: 1.05rem;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    /* Responsive Improvements */
+    @media (max-width: 768px) {
+      .pub-hero h1 {
+        font-size: 2.4rem;
+      }
+      
+      .pub-hero p {
+        font-size: 1rem;
+      }
+
+      .pub-stat-number {
+        font-size: 1.8rem;
+      }
+
+      .pub-grid {
+        gap: 24px;
+      }
+
+      .pub-card-body {
+        padding: 22px;
+      }
+
+      .pub-card-title {
+        font-size: 1.3rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .pub-hero {
+        padding: 80px 16px 50px;
+      }
+
+      .pub-hero h1 {
+        font-size: 2rem;
+      }
+
+      .pub-stats {
+        gap: 24px;
+      }
+
+      .filter-btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="nav container">
+      <!-- Hamburger menu (mobile only) -->
+      <nav>
+        <button
+          class="ham-menu"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+
+      <!-- Navigation links - shared markup for desktop and mobile -->
+      <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="/" class="nav-link">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+
+          <!-- Projects with dropdown -->
+          <li class="nav-item has-dropdown">
+            <a href="projects.html" class="nav-link">Projects</a>
+            <button
+              class="dropdown-toggle"
+              aria-label="Toggle Projects submenu"
+              aria-expanded="false"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                aria-hidden="true"
               >
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path d="M8 11L3 6h10z" />
-                </svg>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="projects.html">All Projects</a></li>
-                <li><a href="anatomyvr.html">AnatomyVR</a></li>
-                <li><a href="digitaltwin.html">Digital Twin</a></li>
-              </ul>
-            </li>
+                <path d="M8 11L3 6h10z" />
+              </svg>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="projects.html">All Projects</a></li>
+              <li><a href="anatomyvr.html">AnatomyVR</a></li>
+              <li><a href="digitaltwin.html">Digital Twin</a></li>
+            </ul>
+          </li>
 
-            <!-- Learning with dropdown -->
-            <li class="nav-item has-dropdown">
-              <a href="learning.html" class="nav-link">Learning</a>
-              <button
-                class="dropdown-toggle"
-                aria-label="Toggle Learning submenu"
-                aria-expanded="false"
+          <!-- Learning with dropdown -->
+          <li class="nav-item has-dropdown">
+            <a href="learning.html" class="nav-link">Learning</a>
+            <button
+              class="dropdown-toggle"
+              aria-label="Toggle Learning submenu"
+              aria-expanded="false"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                aria-hidden="true"
               >
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path d="M8 11L3 6h10z" />
-                </svg>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="learning.html">Tutorials</a></li>
-                <li><a href="blog.html">Blog</a></li>
-              </ul>
-            </li>
+                <path d="M8 11L3 6h10z" />
+              </svg>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="learning.html">Tutorials</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </li>
 
-            <li class="nav-item">
-              <a href="events.html" class="nav-link">Events</a>
-            </li>
+          <li class="nav-item">
+            <a href="events.html" class="nav-link">Events</a>
+          </li>
 
-            <!-- Opportunities with dropdown -->
-            <li class="nav-item has-dropdown">
-              <a href="opportunities.html" class="nav-link">Opportunities</a>
-              <button
-                class="dropdown-toggle"
-                aria-label="Toggle Opportunities submenu"
-                aria-expanded="false"
+          <!-- Opportunities with dropdown -->
+          <li class="nav-item has-dropdown">
+            <a href="opportunities.html" class="nav-link">Opportunities</a>
+            <button
+              class="dropdown-toggle"
+              aria-label="Toggle Opportunities submenu"
+              aria-expanded="false"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                aria-hidden="true"
               >
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path d="M8 11L3 6h10z" />
-                </svg>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="internships.html">Internships</a></li>
-                <li><a href="scholarships.html">Scholarships</a></li>
-                <li><a href="research.html">Research</a></li>
-              </ul>
-            </li>
+                <path d="M8 11L3 6h10z" />
+              </svg>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="internships.html">Internships</a></li>
+              <li><a href="scholarships.html">Scholarships</a></li>
+              <li><a href="research.html">Research</a></li>
+            </ul>
+          </li>
 
-            <!-- Achievements with dropdown -->
-            <li class="nav-item has-dropdown">
-              <a href="Achievements.html" class="nav-link">Achievements</a>
-              <button
-                class="dropdown-toggle"
-                aria-label="Toggle Achievements submenu"
-                aria-expanded="false"
+          <!-- Achievements with dropdown -->
+          <li class="nav-item has-dropdown">
+            <a href="Achievements.html" class="nav-link">Achievements</a>
+            <button
+              class="dropdown-toggle"
+              aria-label="Toggle Achievements submenu"
+              aria-expanded="false"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                aria-hidden="true"
               >
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path d="M8 11L3 6h10z" />
-                </svg>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="competitions.html">Competitions</a></li>
-                <li><a href="publications.html">Publications</a></li>
-              </ul>
-            </li>
+                <path d="M8 11L3 6h10z" />
+              </svg>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="competitions.html">Competitions</a></li>
+              <li><a href="publications.html">Publications</a></li>
+            </ul>
+          </li>
 
-            <li class="nav-item">
-              <a href="join.html" class="nav-link">Join</a>
-            </li>
-          </ul>
-        </nav>
+          <li class="nav-item">
+            <a href="join.html" class="nav-link">Join</a>
+          </li>
+        </ul>
+      </nav>
 
-        <!-- Join button (mobile only) -->
-        <a class="join-button btn mobile-only" href="join.html">Join</a>
+      <!-- Join button (mobile only) -->
+      <a class="join-button btn mobile-only" href="join.html">Join</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pub-hero">
+    <div class="pub-hero-content">
+      <h1>Publications & Media</h1>
+      <p>Explore our research papers, project videos, and creative content showcasing CSAI's work and achievements.</p>
+      
+      <!-- Stats Counter -->
+      <div class="pub-stats" id="pub-stats">
+        <div class="pub-stat">
+          <div class="pub-stat-number" id="total-count">0</div>
+          <div class="pub-stat-label">Total Items</div>
+        </div>
+        <div class="pub-stat">
+          <div class="pub-stat-number" id="paper-count">0</div>
+          <div class="pub-stat-label">Research Papers</div>
+        </div>
+        <div class="pub-stat">
+          <div class="pub-stat-number" id="video-count">0</div>
+          <div class="pub-stat-label">Videos</div>
+        </div>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <section class="section">
-      <div class="resources-container">
-        <div class="list-container">
-          <h2>Opportunities</h2>
-          <ul class="resource-list">
-            <li>
-              <a href="https://form.jotform.com/251055384401146" target="_blank"
-                >AI Internship for community college students</a
-              >
-            </li>
-            <!-- <li>idea</li>
-        <li>idea</li> -->
-          </ul>
-        </div>
-
-        <div class="list-container">
-          <h2>Ideas - Personal Digital Twin</h2>
-          <ul class="resource-list">
-            <li>
-              <a
-                href="https://refreshmiami.com/news/digital-twin-platform-mindbank-ai-lands-1-2m-government-grant-to-optimize-your-mind-and-its-literally-out-of-this-world/#:~:text=How%20can%20I%20build%20on,%E2%80%9Cdashboards%20of%20the%20mind.%E2%80%9D"
-                target="_blank"
-                >Building the Digital Twin of the Mind</a
-              >
-            </li>
-            <li>idea</li>
-            <li>idea</li>
-          </ul>
-        </div>
-
-        <div class="list-container">
-          <h2>National Artificial Intelligence Research Resource</h2>
-          <ul class="resource-list">
-            <li><a href="https://nairrpilot.org/" target="_blank">NAIRR</a></li>
-            <!-- <li>idea</li>
-        <li>idea</li> -->
-          </ul>
-        </div>
-
-        <div class="list-container">
-          <h2>Bake Sale Recipes</h2>
-          <ul class="resource-list">
-            <li>recipe</li>
-            <li>recipe</li>
-            <li>recipe</li>
-          </ul>
-        </div>
+  <section class="section">
+    <div class="container">
+      <!-- Filter Pills -->
+      <div class="pub-filters">
+        <button class="filter-btn active" data-filter="all">
+          <span class="filter-icon">✨</span>
+          <span>All</span>
+          <span class="filter-count" id="filter-count-all">0</span>
+        </button>
+        <button class="filter-btn" data-filter="paper">
+          <span class="filter-icon">📄</span>
+          <span>Papers</span>
+          <span class="filter-count" id="filter-count-paper">0</span>
+        </button>
+        <button class="filter-btn" data-filter="video">
+          <span class="filter-icon">🎥</span>
+          <span>Videos</span>
+          <span class="filter-count" id="filter-count-video">0</span>
+        </button>
       </div>
-    </section>
 
-    <footer class="footer">© 2025 CSAI — Computer Science + AI Club</footer>
+      <!-- Publications Grid -->
+      <div id="pub-grid" class="pub-grid">
+        <!-- Cards will be dynamically loaded here -->
+      </div>
 
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/projects.js"></script>
-    <script src="assets/js/side-bar.js"></script>
-  </body>
+      <!-- Empty State -->
+      <div id="pub-empty" class="pub-empty" style="display: none;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/>
+          <line x1="12" y1="8" x2="12" y2="12"/>
+          <line x1="12" y1="16" x2="12.01" y2="16"/>
+        </svg>
+        <h3>No content found</h3>
+        <p>Try selecting a different filter.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">© 2025 CSAI — Computer Science + AI Club</footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/publications.js"></script>
+</body>
 </html>
