@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-3D4TYEWL38");
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSAI — AI Chatbot Assistant</title>
+    <link rel="icon" type="image/png" href="data/photos/logo.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav container">
+        <!-- Hamburger menu (mobile only) -->
+        <nav>
+          <button
+            class="ham-menu"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+
+        <!-- Navigation links - shared markup for desktop and mobile -->
+        <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+
+            <!-- Projects with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="projects.html" class="nav-link">Projects</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Projects submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="projects.html">All Projects</a></li>
+                <li><a href="anatomyvr.html">AnatomyVR</a></li>
+                <li><a href="digitaltwin.html">Digital Twin</a></li>
+              </ul>
+            </li>
+
+            <!-- Learning with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="learning.html" class="nav-link active">Learning</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Learning submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="learning.html">Tutorials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="events.html" class="nav-link">Events</a>
+            </li>
+
+            <!-- Opportunities with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="opportunities.html" class="nav-link">Opportunities</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Opportunities submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="scholarships.html">Scholarships</a></li>
+                <li><a href="research.html">Research</a></li>
+              </ul>
+            </li>
+
+            <!-- Achievements with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="Achievements.html" class="nav-link">Achievements</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Achievements submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="competitions.html">Competitions</a></li>
+                <li><a href="publications.html">Publications</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item mobile-only"></li>
+
+            <li class="nav-item">
+              <a href="join.html" class="nav-link">Join</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Join button (mobile only) -->
+        <a class="join-button btn mobile-only" href="join.html">Join</a>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <a href="learning.html" class="back-link" style="display: inline-block; margin-bottom: 20px; color: #7a5cff; text-decoration: none; font-weight: 600;">
+          ← Back to Learning
+        </a>
+        
+        <h2>AI Chatbot Assistant</h2>
+        <p class="lead" style="margin-bottom: 30px;">
+          Built by: <strong>Alex Johnson</strong>
+        </p>
+
+        <div style="margin-bottom: 30px;">
+          <img src="assets/projects/chatbot-app.svg" alt="AI Chatbot Assistant" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(10, 20, 40, 0.15);" />
+        </div>
+
+        <div style="max-width: 800px;">
+          <h3>Project Overview</h3>
+          <p>
+            The AI Chatbot Assistant is an intelligent conversational interface powered by modern large language models. 
+            This project demonstrates the practical application of AI in creating helpful, context-aware assistants that 
+            can answer questions, provide recommendations, and assist with various tasks.
+          </p>
+
+          <h3>Key Features</h3>
+          <ul>
+            <li><strong>Natural Language Understanding:</strong> Uses advanced NLP to understand user intent and context</li>
+            <li><strong>Multi-turn Conversations:</strong> Maintains conversation history for coherent, contextual responses</li>
+            <li><strong>Customizable Personality:</strong> Adjustable tone and response style to match different use cases</li>
+            <li><strong>Integration Ready:</strong> Easy to integrate with websites, apps, or messaging platforms</li>
+          </ul>
+
+          <h3>Technologies Used</h3>
+          <ul>
+            <li>Python for backend processing</li>
+            <li>OpenAI API / Anthropic API for language model integration</li>
+            <li>Flask/FastAPI for web server</li>
+            <li>React for frontend interface</li>
+            <li>SQLite for conversation storage</li>
+          </ul>
+
+          <h3>Learning Outcomes</h3>
+          <p>
+            Through building this project, students learned how to work with AI APIs, manage conversational state, 
+            design user-friendly chat interfaces, and deploy AI applications. The project covers prompt engineering, 
+            error handling, rate limiting, and best practices for building production-ready AI systems.
+          </p>
+
+          <h3>Future Enhancements</h3>
+          <ul>
+            <li>Voice input and output capabilities</li>
+            <li>Multi-language support</li>
+            <li>Integration with external data sources and tools</li>
+            <li>Advanced memory and personalization features</li>
+          </ul>
+
+          <div style="margin-top: 40px; padding: 20px; background: rgba(122, 92, 255, 0.1); border-radius: 12px; border-left: 4px solid #7a5cff;">
+            <h4 style="margin-top: 0;">Want to Build Something Similar?</h4>
+            <p style="margin-bottom: 0;">
+              Join our Build with AI Bootcamp to learn how to create your own AI-powered applications! 
+              <a href="learning.html" style="color: #7a5cff; font-weight: 600;">View Bootcamp Details →</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">© 2025 CSAI — Computer Science + AI Club</footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
