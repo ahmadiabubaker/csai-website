@@ -3916,3 +3916,593 @@ body.dark-mode #post article h2 {
 .delay-11 {
   transition-delay: 0.88s;
 }
+
+/* ===== Project Showcase (horizontal scrolling section) ===== */
+.project-showcase-section {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-top: 24px;
+  background: rgba(10, 20, 40, 0.02);
+  border-radius: 12px;
+}
+
+.project-showcase-section .section-header {
+  margin-bottom: 20px;
+}
+
+.project-showcase-section .section-header h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin: 0;
+}
+
+.project-showcase {
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: relative;
+  margin: 12px auto 0;
+  max-width: 1200px;
+  width: 100%;
+  cursor: grab;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(122, 92, 255, 0.5) rgba(122, 92, 255, 0.1);
+}
+
+.project-showcase::-webkit-scrollbar {
+  height: 8px;
+}
+
+.project-showcase::-webkit-scrollbar-track {
+  background: rgba(122, 92, 255, 0.1);
+  border-radius: 4px;
+}
+
+.project-showcase::-webkit-scrollbar-thumb {
+  background: rgba(122, 92, 255, 0.5);
+  border-radius: 4px;
+}
+
+.project-showcase::-webkit-scrollbar-thumb:hover {
+  background: rgba(122, 92, 255, 0.7);
+}
+
+.project-showcase:active {
+  cursor: grabbing;
+}
+
+.project-showcase-track {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+  white-space: nowrap;
+  height: 100%;
+  padding-bottom: 10px;
+}
+
+.project-showcase-card {
+  flex: 0 0 380px;
+  min-width: 300px;
+  max-width: 420px;
+  height: auto;
+  min-height: 400px;
+  padding: 0;
+  border-radius: 16px;
+  background: var(--card-bg);
+  border: 1px solid var(--glass-line);
+  box-shadow: 0 8px 24px rgba(10, 20, 40, 0.15);
+  overflow: hidden;
+  user-select: none;
+  cursor: grab;
+  display: flex;
+  flex-direction: column;
+  white-space: normal;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-showcase-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(10, 20, 40, 0.2);
+}
+
+.project-showcase-card:active {
+  cursor: grabbing;
+}
+
+.project-showcase-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  background: #f0f0f0;
+  display: block;
+}
+
+.project-showcase-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.project-showcase-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin: 0 0 12px 0;
+  line-height: 1.3;
+}
+
+.project-showcase-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--card-text-color);
+  margin: 0 0 16px 0;
+  flex-grow: 1;
+}
+
+.project-showcase-link {
+  display: inline-block;
+  padding: 10px 18px;
+  background: linear-gradient(135deg, #7a5cff, #00e6ff);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  align-self: flex-start;
+}
+
+.project-showcase-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(122, 92, 255, 0.4);
+}
+
+@media (max-width: 720px) {
+  .project-showcase-track {
+    gap: 16px;
+  }
+  
+  .project-showcase-card {
+    flex: 0 0 320px;
+    min-width: 260px;
+    max-width: 360px;
+    min-height: 380px;
+  }
+  
+  .project-showcase-image {
+    height: 180px;
+  }
+  
+  .project-showcase-content {
+    padding: 16px;
+  }
+  
+  .project-showcase-title {
+    font-size: 1.15rem;
+  }
+  
+  .project-showcase-description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-showcase-card {
+    flex: 0 0 280px;
+    min-width: 240px;
+    max-width: 320px;
+    min-height: 360px;
+  }
+  
+  .project-showcase-image {
+    height: 160px;
+  }
+  
+  .project-showcase-content {
+    padding: 14px;
+  }
+  
+  .project-showcase-title {
+    font-size: 1.1rem;
+  }
+  
+  .project-showcase-description {
+    font-size: 0.88rem;
+  }
+  
+  .project-showcase-link {
+    padding: 8px 14px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Subtle gradient overlay to hint draggable area */
+.project-showcase::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.02) 10%,
+    rgba(255, 255, 255, 0.02) 90%,
+    rgba(255, 255, 255, 0)
+  );
+}
+
+/* ============================================= */
+/* Bootcamp Showcase Section */
+/* ============================================= */
+
+.bootcamp-showcase {
+  margin: 24px 0;
+  padding: 0;
+}
+
+.bootcamp-showcase-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin: 0 0 8px 0;
+}
+
+.bootcamp-showcase-lead {
+  font-size: 0.9rem;
+  color: var(--card-text-color);
+  margin: 0 0 16px 0;
+  opacity: 0.85;
+}
+
+.showcase-scroller {
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  cursor: grab;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(122, 92, 255, 0.5) rgba(122, 92, 255, 0.1);
+  padding: 8px 0;
+}
+
+.showcase-scroller::-webkit-scrollbar {
+  height: 8px;
+}
+
+.showcase-scroller::-webkit-scrollbar-track {
+  background: rgba(122, 92, 255, 0.1);
+  border-radius: 4px;
+}
+
+.showcase-scroller::-webkit-scrollbar-thumb {
+  background: rgba(122, 92, 255, 0.5);
+  border-radius: 4px;
+}
+
+.showcase-scroller::-webkit-scrollbar-thumb:hover {
+  background: rgba(122, 92, 255, 0.7);
+}
+
+.showcase-scroller.is-dragging {
+  cursor: grabbing;
+  scroll-behavior: auto;
+}
+
+.showcase-track {
+  display: flex;
+  gap: 16px;
+  align-items: stretch;
+  width: fit-content;
+  padding-bottom: 8px;
+}
+
+.showcase-card {
+  flex: 0 0 300px;
+  width: 300px;
+  height: auto;
+  min-height: 320px;
+  padding: 0;
+  border-radius: 12px;
+  background: var(--card-bg);
+  border: 1px solid var(--glass-line);
+  box-shadow: 0 4px 16px rgba(10, 20, 40, 0.1);
+  overflow: hidden;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.showcase-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(10, 20, 40, 0.15);
+}
+
+.showcase-figure {
+  width: 100%;
+  height: 180px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+
+.showcase-figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.showcase-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 8px;
+}
+
+.showcase-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin: 0;
+  line-height: 1.3;
+}
+
+.showcase-tagline {
+  font-size: 0.85rem;
+  color: var(--card-text-color);
+  margin: 0;
+  opacity: 0.8;
+  font-style: italic;
+}
+
+.showcase-description {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--card-text-color);
+  margin: 0;
+  flex-grow: 1;
+}
+
+.showcase-owner {
+  font-size: 0.85rem;
+  color: rgba(122, 92, 255, 0.9);
+  margin: 8px 0 0 0;
+  font-weight: 600;
+}
+
+.bootcamp-project-linklist {
+  margin-top: 20px;
+}
+
+.bootcamp-project-linklist h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin: 0 0 12px 0;
+}
+
+.bootcamp-project-linklist ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bootcamp-project-linklist li {
+  margin: 0;
+}
+
+.bootcamp-project-linklist a {
+  display: inline-block;
+  padding: 8px 16px;
+  background: linear-gradient(135deg, #7a5cff, #00e6ff);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bootcamp-project-linklist a:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 12px rgba(122, 92, 255, 0.3);
+}
+
+/* ============================================= */
+/* Bootcamp Project Detail Page */
+/* ============================================= */
+
+.bootcamp-project-header {
+  margin-bottom: 24px;
+}
+
+.bootcamp-project-header .lead {
+  margin-bottom: 12px;
+}
+
+.bootcamp-project-header .lead a {
+  color: rgba(122, 92, 255, 0.9);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.bootcamp-project-header .lead a:hover {
+  color: rgba(122, 92, 255, 1);
+  text-decoration: underline;
+}
+
+.bootcamp-project-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin: 0 0 12px 0;
+  line-height: 1.2;
+}
+
+.bootcamp-project-tagline {
+  font-size: 1.1rem;
+  color: var(--card-text-color);
+  margin: 0 0 8px 0;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.bootcamp-project-owner {
+  font-size: 1rem;
+  color: rgba(122, 92, 255, 0.9);
+  margin: 0;
+  font-weight: 600;
+}
+
+.bootcamp-project-figure {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 32px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(10, 20, 40, 0.15);
+  background: #f5f5f5;
+}
+
+.bootcamp-project-figure img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+  display: block;
+  background: #fff;
+}
+
+.bootcamp-project-text {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bootcamp-project-text p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--card-text-color);
+  margin: 0 0 16px 0;
+}
+
+/* Responsive adjustments for bootcamp project page */
+@media (max-width: 768px) {
+  .bootcamp-project-header h2 {
+    font-size: 1.6rem;
+  }
+  
+  .bootcamp-project-tagline {
+    font-size: 1rem;
+  }
+  
+  .bootcamp-project-owner {
+    font-size: 0.95rem;
+  }
+  
+  .bootcamp-project-figure {
+    margin-bottom: 24px;
+  }
+  
+  .bootcamp-project-figure img {
+    max-height: 400px;
+  }
+  
+  .bootcamp-project-text p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .bootcamp-project-header h2 {
+    font-size: 1.4rem;
+  }
+  
+  .bootcamp-project-tagline {
+    font-size: 0.95rem;
+  }
+  
+  .bootcamp-project-figure img {
+    max-height: 300px;
+  }
+  
+  .bootcamp-project-text p {
+    font-size: 0.95rem;
+  }
+}
+
+.showcase-empty {
+  padding: 40px;
+  text-align: center;
+  color: var(--card-text-color);
+  opacity: 0.6;
+  font-size: 0.95rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 720px) {
+  .showcase-card {
+    flex: 0 0 260px;
+    width: 260px;
+    min-height: 300px;
+  }
+  
+  .showcase-figure {
+    height: 160px;
+  }
+  
+  .showcase-body {
+    padding: 14px;
+  }
+  
+  .showcase-title {
+    font-size: 1rem;
+  }
+  
+  .showcase-description {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .showcase-track {
+    gap: 12px;
+  }
+  
+  .showcase-card {
+    flex: 0 0 240px;
+    width: 240px;
+    min-height: 280px;
+  }
+  
+  .showcase-figure {
+    height: 140px;
+  }
+  
+  .showcase-body {
+    padding: 12px;
+  }
+  
+  .showcase-title {
+    font-size: 0.95rem;
+  }
+  
+  .showcase-description {
+    font-size: 0.8rem;
+  }
+  
+  .showcase-tagline {
+    font-size: 0.8rem;
+  }
+}
