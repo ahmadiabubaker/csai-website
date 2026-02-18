@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-3D4TYEWL38");
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSAI — AI Recipe Finder</title>
+    <link rel="icon" type="image/png" href="data/photos/logo.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav container">
+        <nav>
+          <button class="ham-menu" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+
+        <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item has-dropdown">
+              <a href="projects.html" class="nav-link">Projects</a>
+              <button class="dropdown-toggle" aria-label="Toggle Projects submenu" aria-expanded="false">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="projects.html">All Projects</a></li>
+                <li><a href="anatomyvr.html">AnatomyVR</a></li>
+                <li><a href="digitaltwin.html">Digital Twin</a></li>
+              </ul>
+            </li>
+            <li class="nav-item has-dropdown">
+              <a href="learning.html" class="nav-link active">Learning</a>
+              <button class="dropdown-toggle" aria-label="Toggle Learning submenu" aria-expanded="false">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="learning.html">Tutorials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="events.html" class="nav-link">Events</a>
+            </li>
+            <li class="nav-item has-dropdown">
+              <a href="opportunities.html" class="nav-link">Opportunities</a>
+              <button class="dropdown-toggle" aria-label="Toggle Opportunities submenu" aria-expanded="false">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="scholarships.html">Scholarships</a></li>
+                <li><a href="research.html">Research</a></li>
+              </ul>
+            </li>
+            <li class="nav-item has-dropdown">
+              <a href="Achievements.html" class="nav-link">Achievements</a>
+              <button class="dropdown-toggle" aria-label="Toggle Achievements submenu" aria-expanded="false">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="competitions.html">Competitions</a></li>
+                <li><a href="publications.html">Publications</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mobile-only"></li>
+            <li class="nav-item">
+              <a href="join.html" class="nav-link">Join</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="join-button btn mobile-only" href="join.html">Join</a>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <a href="learning.html" class="back-link" style="display: inline-block; margin-bottom: 20px; color: #7a5cff; text-decoration: none; font-weight: 600;">
+          ← Back to Learning
+        </a>
+        
+        <h2>AI Recipe Finder</h2>
+        <p class="lead" style="margin-bottom: 30px;">
+          Built by: <strong>Michael Rodriguez</strong>
+        </p>
+
+        <div style="margin-bottom: 30px;">
+          <img src="assets/projects/recipe-finder.svg" alt="AI Recipe Finder" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(10, 20, 40, 0.15);" />
+        </div>
+
+        <div style="max-width: 800px;">
+          <h3>Project Overview</h3>
+          <p>
+            AI Recipe Finder is an intelligent cooking companion that helps users discover recipes based on 
+            ingredients they have at home. Using computer vision and natural language processing, the app can 
+            identify ingredients from photos and suggest delicious recipes that match dietary preferences and 
+            cooking skill levels.
+          </p>
+
+          <h3>Key Features</h3>
+          <ul>
+            <li><strong>Ingredient Recognition:</strong> Take photos of ingredients and the AI identifies them automatically</li>
+            <li><strong>Smart Recipe Matching:</strong> Get recipe suggestions based on available ingredients</li>
+            <li><strong>Dietary Filters:</strong> Support for vegan, vegetarian, gluten-free, and other dietary restrictions</li>
+            <li><strong>Nutritional Information:</strong> Automated calculation of calories and macros for each recipe</li>
+            <li><strong>Step-by-Step Guidance:</strong> Voice-activated cooking instructions</li>
+          </ul>
+
+          <h3>Technologies Used</h3>
+          <ul>
+            <li>Python with Django for backend</li>
+            <li>TensorFlow and OpenCV for image recognition</li>
+            <li>GPT API for recipe generation and adaptation</li>
+            <li>React Native for mobile app</li>
+            <li>MongoDB for recipe database</li>
+          </ul>
+
+          <h3>Learning Outcomes</h3>
+          <p>
+            Students learned computer vision techniques, working with image datasets, API integration, 
+            mobile app development, and creating recommendation systems. The project also covered user 
+            experience design for mobile applications and working with real-time data.
+          </p>
+
+          <h3>Future Enhancements</h3>
+          <ul>
+            <li>AR cooking instructions overlay</li>
+            <li>Meal planning and grocery list generation</li>
+            <li>Social features to share recipes with friends</li>
+            <li>Integration with smart kitchen appliances</li>
+          </ul>
+
+          <div style="margin-top: 40px; padding: 20px; background: rgba(122, 92, 255, 0.1); border-radius: 12px; border-left: 4px solid #7a5cff;">
+            <h4 style="margin-top: 0;">Want to Build Something Similar?</h4>
+            <p style="margin-bottom: 0;">
+              Join our Build with AI Bootcamp to learn how to create your own AI-powered applications! 
+              <a href="learning.html" style="color: #7a5cff; font-weight: 600;">View Bootcamp Details →</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">© 2025 CSAI — Computer Science + AI Club</footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

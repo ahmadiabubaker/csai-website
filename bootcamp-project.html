@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'G-3D4TYEWL38');
+  </script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CSAI — Bootcamp Project</title>
+  <link rel="icon" type="image/png" href="data/photos/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<header class="header">
+  <div class="nav container">
+    <nav>
+      <button class="ham-menu" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+
+        <li class="nav-item has-dropdown">
+          <a href="projects.html" class="nav-link">Projects</a>
+          <button class="dropdown-toggle" aria-label="Toggle Projects submenu" aria-expanded="false">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 11L3 6h10z"/></svg>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="projects.html">All Projects</a></li>
+            <li><a href="anatomyvr.html">AnatomyVR</a></li>
+            <li><a href="digitaltwin.html">Digital Twin</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item has-dropdown">
+          <a href="learning.html" class="nav-link active">Learning</a>
+          <button class="dropdown-toggle" aria-label="Toggle Learning submenu" aria-expanded="false">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 11L3 6h10z"/></svg>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="learning.html">Tutorials</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
+        <li class="nav-item"><a href="internships.html" class="nav-link">Internships</a></li>
+        <li class="nav-item"><a href="join.html" class="nav-link">Join</a></li>
+      </ul>
+    </nav>
+
+    <a class="join-button btn mobile-only" href="join.html">Join</a>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="bootcamp-project-header">
+      <p class="lead"><a href="learning.html">← Back to Learning</a></p>
+      <h2 id="bootcamp-project-title">Bootcamp Project</h2>
+      <p class="bootcamp-project-tagline" id="bootcamp-project-tagline"></p>
+      <p class="bootcamp-project-owner" id="bootcamp-project-owner"></p>
+    </div>
+
+    <figure class="bootcamp-project-figure">
+      <img id="bootcamp-project-image" alt="" />
+    </figure>
+
+    <div class="bootcamp-project-text">
+      <p id="bootcamp-project-description"></p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  © 2025 CSAI — Computer Science + AI Club
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="data/bootcamp-projects.js"></script>
+<script src="assets/js/bootcamp-project.js"></script>
+<script src="assets/js/side-bar.js"></script>
+</body>
+</html>
