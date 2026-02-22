@@ -803,7 +803,7 @@
         "company_name": "Hewlett Packard Enterprise",
         "id": "122f8076-b489-40d1-a9c3-22841b25efc1",
         "title": "AI Developer Intern - Undergrad",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -827,7 +827,7 @@
         "company_name": "Hewlett Packard Enterprise",
         "id": "58a77d9a-cdef-42ba-9a31-09dcb7f618a2",
         "title": "AI Developer Intern - Masters",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -2897,7 +2897,7 @@
         "company_name": "Sony",
         "id": "c028e3f3-97c3-4afe-8b37-2585ee015c99",
         "title": "Research Intern - Multimodal Foundation Model for Vision",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2025"
         ],
@@ -3634,7 +3634,7 @@
         "company_name": "Innovative Defense Technologies",
         "id": "ce489666-e127-4fa7-ba58-e6e11ea473ab",
         "title": "Artificial Intelligence Engineer Intern - Warfare Systems",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -5801,7 +5801,7 @@
         "company_name": "Nokia",
         "id": "a4c58659-8236-4b94-80eb-e73edc4852a7",
         "title": "Spatial computing/communications Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6528,7 +6528,7 @@
         "company_name": "Nokia",
         "id": "9f6cb4e3-1159-4aad-bb62-e530b1e77e89",
         "title": "Language Models for Databases Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7062,7 +7062,7 @@
         "company_name": "Tiffany & Co.",
         "id": "e3b539e1-45c3-4811-86f1-080d73e220aa",
         "title": "Intern - IT Integrations",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -7083,7 +7083,7 @@
         "company_name": "Tiffany & Co.",
         "id": "190ee7db-9989-49ec-922f-a0ed12922f0f",
         "title": "Software Development Intern - Software Developer",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -7104,7 +7104,7 @@
         "company_name": "Nokia",
         "id": "7afa12b7-ae28-459e-999a-edce9ba2de91",
         "title": "Bell Labs AI-RAN Research Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7260,7 +7260,7 @@
         "company_name": "Nokia",
         "id": "06f4e5be-94ab-4706-b11e-b38fba811d01",
         "title": "Transport Network Architecture Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7535,7 +7535,7 @@
         "company_name": "Zoetis",
         "id": "c2b9b682-81f0-4cf3-82c7-3d7382da05c4",
         "title": "Robotic Process Automation Developer Intern - RPA",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7705,7 +7705,7 @@
         "company_name": "ASM International",
         "id": "4e3132c8-ac5d-4707-bfd8-a71711f59bcd",
         "title": "Software Engineering Intern - Summer 2026",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8004,7 +8004,7 @@
         "company_name": "Thermo Fisher Scientific",
         "id": "1ae291a9-944a-405f-a261-e4e85c4da6d0",
         "title": "Field Service Engineer Apprentice",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8267,7 +8267,7 @@
         "company_name": "Avis Budget Group",
         "id": "95546583-c57a-4303-a47b-ed41e3bc1f69",
         "title": "Accelerate - Business Insights Analyst - Post Graduation Opportunity",
-        "active": true,
+        "active": false,
         "terms": [
             "N/A"
         ],
@@ -8501,7 +8501,7 @@
         "company_name": "Fiserv",
         "id": "60afcc6b-8fa5-4bfe-8310-51c5cb70bb58",
         "title": "Corporate Internship Program - Product Management - Berkeley Heights NJ",
-        "active": false,
+        "active": true,
         "terms": [
             "Winter 2026",
             "Spring 2027",
@@ -8656,7 +8656,7 @@
         "company_name": "Legend Biotech",
         "id": "ca707cd4-9ec0-463a-981f-a19ba14f7e33",
         "title": "Manufacturing Automation Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -8847,7 +8847,7 @@
         "company_name": "Prudential Financial",
         "id": "aecabefe-9158-434b-9c47-a352a530b308",
         "title": "PGIM Real Estate - Data Management & Innovation MBA Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9060,7 +9060,7 @@
         "company_name": "Genmab",
         "id": "d15150d9-3e3b-4091-ba3a-950255de497a",
         "title": "Programming Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9243,7 +9243,7 @@
         "company_name": "S&P Global ",
         "id": "1ce9b9a6-3491-45d7-919c-2e6c9540df85",
         "title": "Data Engineer Intern \u2013 Early Career",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2026",
             "Spring 2026",
@@ -9269,7 +9269,7 @@
         "company_name": "Johnson & Johnson",
         "id": "317f491d-616b-42fd-ac38-18f0ea21b2bd",
         "title": "Supply Chain and Data Management Intern/Co-op",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9530,7 +9530,7 @@
         "company_name": "Bank of Montreal",
         "id": "7a71f8a9-05a2-473d-aadc-63fe073565f4",
         "title": "AI Developer Intern - Weeks",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9719,6 +9719,497 @@
         "degrees": [
             "Bachelor's",
             "Master's",
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Ensora Health",
+        "id": "573b6042-43ba-4d24-a71b-18458b21defd",
+        "title": "Software Engineer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771232579,
+        "date_posted": 1771232579,
+        "url": "https://therapybrands.wd1.myworkdayjobs.com/EnsoraHealth/job/Remote---Florida/Software-Engineer-Intern_R449",
+        "locations": [
+            "Concord, NH",
+            "Mississippi",
+            "Texas",
+            "Tennessee",
+            "Indiana",
+            "Alabama",
+            "NYC",
+            "South Dakota",
+            "Florida",
+            "South Carolina",
+            "Kentucky",
+            "Maryland",
+            "North Dakota",
+            "Rhode Island",
+            "New Mexico",
+            "Waterbury, CT",
+            "Ohio",
+            "Louisiana",
+            "Minnesota",
+            "Wisconsin",
+            "Missouri",
+            "Kansas",
+            "Michigan",
+            "Jackson Township, NJ",
+            "Illinois",
+            "Pennsylvania",
+            "Delaware",
+            "Virginia",
+            "Massachusetts",
+            "Georgia",
+            "Iowa",
+            "Maine",
+            "North Carolina"
+        ],
+        "company_url": "https://simplify.jobs/c/Ensora-Health",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Fiserv",
+        "id": "00889deb-d339-426e-a840-15dc4a18c3ef",
+        "title": "Technology Summer Internship - Java Developer - Berkeley Heights, NJ",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771284010,
+        "date_posted": 1771284010,
+        "url": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/Technology-Summer-Internship---Java-Developer--Berkeley-Heights--NJ-_R-10388114",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Fiserv",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Ensora Health",
+        "id": "a29de138-ba31-457e-94a5-25d02337d6a0",
+        "title": "Software Engineer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771285409,
+        "date_posted": 1771285409,
+        "url": "https://therapybrands.wd1.myworkdayjobs.com/EnsoraHealth/job/Remote---Alabama/Software-Engineer-Intern_R443",
+        "locations": [
+            "Concord, NH",
+            "Mississippi",
+            "Texas",
+            "Tennessee",
+            "Oklahoma",
+            "Indiana",
+            "North Carolina",
+            "Alabama",
+            "NYC",
+            "South Dakota",
+            "South Carolina",
+            "Kentucky",
+            "Maryland",
+            "North Dakota",
+            "Rhode Island",
+            "New Mexico",
+            "Waterbury, CT",
+            "Ohio",
+            "Louisiana",
+            "Minnesota",
+            "Wisconsin",
+            "Missouri",
+            "Kansas",
+            "Michigan",
+            "Jackson Township, NJ",
+            "Illinois",
+            "Pennsylvania",
+            "Washington",
+            "Delaware",
+            "Virginia",
+            "Massachusetts",
+            "Georgia",
+            "Iowa",
+            "Maine",
+            "Radcliff, KY"
+        ],
+        "company_url": "https://simplify.jobs/c/Ensora-Health",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Veolia",
+        "id": "ba3d02fa-827d-49de-bbaa-b8a3d81ca0c9",
+        "title": "Stakeholder Intelligence & Data Automation Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771370560,
+        "date_posted": 1771370560,
+        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000109787405",
+        "locations": [
+            "Saddle Brook, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Veolia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Veolia",
+        "id": "2ef9e228-9995-4e5a-bd8e-403d1a9d7bc8",
+        "title": "Data Analytics/CMMS Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771370561,
+        "date_posted": 1771370561,
+        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000109785876",
+        "locations": [
+            "Saddle Brook, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Veolia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Veolia",
+        "id": "ed443bfb-1d75-4531-af23-56a59284658c",
+        "title": "GIS Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771370331,
+        "date_posted": 1771370331,
+        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000109786106",
+        "locations": [
+            "Saddle Brook, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Veolia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "Ensora Health",
+        "id": "c7168085-5a06-48ef-ab27-88dc792e6371",
+        "title": "Product Owner Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771372293,
+        "date_posted": 1771372293,
+        "url": "https://therapybrands.wd1.myworkdayjobs.com/EnsoraHealth/job/Remote---Georgia/Product-Owner-Intern_R438",
+        "locations": [
+            "Concord, NH",
+            "Mississippi",
+            "Texas",
+            "Montana",
+            "Tennessee",
+            "Indiana",
+            "Alabama",
+            "NYC",
+            "South Dakota",
+            "South Carolina",
+            "Kentucky",
+            "Maryland",
+            "North Dakota",
+            "Rhode Island",
+            "New Mexico",
+            "Waterbury, CT",
+            "Ohio",
+            "Louisiana",
+            "Minnesota",
+            "Wisconsin",
+            "Missouri",
+            "Kansas",
+            "Michigan",
+            "Jackson Township, NJ",
+            "Illinois",
+            "Pennsylvania",
+            "Delaware",
+            "Virginia",
+            "Massachusetts",
+            "Utah",
+            "Georgia",
+            "Maine",
+            "North Carolina"
+        ],
+        "company_url": "https://simplify.jobs/c/Ensora-Health",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "Epicor",
+        "id": "11344741-9b8e-400b-b4e5-df69c2a70d7f",
+        "title": "Intern Product Manager",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771380277,
+        "date_posted": 1771380275,
+        "url": "https://epicorsoftware.wd5.myworkdayjobs.com/epicorjobs/job/US-Bensalem/Intern---Product-Manager_JR104240",
+        "locations": [
+            "Delanco, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Epicor",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Samsung",
+        "id": "167e12f3-f476-4ba4-98a0-c0773e64412a",
+        "title": "Supply Chain Analytics Intern - AI/ML",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771456869,
+        "date_posted": 1771456869,
+        "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/700-Sylvan-Ave-Englewood-Cliffs-NJ-USA/Supply-Chain-Analytics-Intern--AI-ML-_R114452",
+        "locations": [
+            "Englewood, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Samsung",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Veolia",
+        "id": "56357140-38e7-4b1d-a0b7-91d3cea5f8c8",
+        "title": "Intern \u2013 Engineering",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771456638,
+        "date_posted": 1771456638,
+        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000109963826",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Veolia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Atlantic Health System",
+        "id": "ed8edba4-f1fc-4a7d-b930-cd8a49ee59f0",
+        "title": "Physician Enterprise Operations and Analytics Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771542593,
+        "date_posted": 1771542593,
+        "url": "https://erqh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/26382",
+        "locations": [
+            "Morristown, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Atlantic-Health-System",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Sony",
+        "id": "661a8a33-f2ed-4e24-ab88-21972aaffcbf",
+        "title": "Research Intern - Multimodal Foundation Model for Vision",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771544151,
+        "date_posted": 1771544151,
+        "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---New-York/Research-Intern--Vision-Foundation-Model-and-Generative-AI_JR-118794",
+        "locations": [
+            "California",
+            "NYC",
+            "Waterbury, CT",
+            "Washington, DC",
+            "Massachusetts",
+            "San Jose, CA",
+            "SF",
+            "Jackson Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Sony",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Master's",
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Veolia",
+        "id": "fdbfc5e5-62f5-49bd-88c7-c6e7b5e2b67c",
+        "title": "AI Engineering Intern - Slm",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771629610,
+        "date_posted": 1771629610,
+        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000110454875",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Veolia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Veolia",
+        "id": "e157ec1a-9564-4baf-824c-7c8f96aa78c6",
+        "title": "Data Science",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771629609,
+        "date_posted": 1771629609,
+        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000110454015",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Veolia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Veolia",
+        "id": "24f88975-124b-41d4-b094-37f0474c6e62",
+        "title": "Drupal Developer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771629612,
+        "date_posted": 1771629612,
+        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000110458756",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Veolia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Veolia",
+        "id": "1702de58-c9cc-45e5-b04f-1b86c8e8203d",
+        "title": "Integrations Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771629620,
+        "date_posted": 1771629620,
+        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000110454003",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Veolia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Veolia",
+        "id": "08eb112c-1ff2-4e94-8c04-f37539ea96e8",
+        "title": "AI Engineering Intern - LLM",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771629622,
+        "date_posted": 1771629622,
+        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000110454092",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Veolia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
             "PhD"
         ]
     }
