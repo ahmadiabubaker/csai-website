@@ -6384,7 +6384,7 @@
         "company_name": "Nokia",
         "id": "f4c33284-f9ba-4be3-8d05-50e62e0522db",
         "title": "Software Developer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6957,7 +6957,7 @@
         "company_name": "Nokia",
         "id": "85936719-64fd-4449-85a0-07ced6ced379",
         "title": "GenAI Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7535,7 +7535,7 @@
         "company_name": "Zoetis",
         "id": "c2b9b682-81f0-4cf3-82c7-3d7382da05c4",
         "title": "Robotic Process Automation Developer Intern - RPA",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -7598,7 +7598,7 @@
         "company_name": "Atlantic Health System",
         "id": "4b3b2fab-4f4b-4625-8fa0-b212a5c814db",
         "title": "Pharmacy \u2013 Intern - Data Analytics",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7852,7 +7852,7 @@
         "company_name": "KLA",
         "id": "fbbb9c4c-9486-4f34-9dbf-69a6f2fa0bbb",
         "title": "Product Marketing Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8609,7 +8609,7 @@
         "company_name": "KLA",
         "id": "0a518495-bd05-4ad1-bafd-841ea6a3357b",
         "title": "Product Marketing Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8633,7 +8633,7 @@
         "company_name": "Kearny Bank",
         "id": "5f5a82fc-3a12-4ff3-ad7d-87fa5fc12848",
         "title": "Data Analytics Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8917,7 +8917,7 @@
         "company_name": "Nestle",
         "id": "9d15eb19-6112-4bc4-a472-3373e26ce813",
         "title": "Nestl\u00e9 Health Science \u2013 R&D Sustainability Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9084,7 +9084,7 @@
         "company_name": "Sharp Electronics",
         "id": "15f8f10e-f63e-4c23-b045-cea0fecbedfc",
         "title": "Intern-Web Developer",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9290,7 +9290,7 @@
         "company_name": "Everest",
         "id": "b6d28334-e19f-4f62-a1b0-4ab34d3dc192",
         "title": "Human Resources - Data Analytics Internship Program",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9364,7 +9364,7 @@
         "company_name": "Legend Biotech",
         "id": "4de3f72e-3d6e-45e3-8ea6-4d3ef3a95f47",
         "title": "Pipeline and Corporate IT Co-Op",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9387,7 +9387,7 @@
         "company_name": "Nestle",
         "id": "f3e83cec-f8da-4b13-889a-96586ee5e90a",
         "title": "Nestl\u00e9 Health Science \u2013 Innovations and Insights Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9457,7 +9457,7 @@
         "company_name": "Guardian Life",
         "id": "86a02306-9372-4840-a44a-7eee82de88e8",
         "title": "Early Career Program - Technology Associate - Digital & Technology Rotational Program",
-        "active": true,
+        "active": false,
         "terms": [
             "N/A"
         ],
@@ -9577,7 +9577,7 @@
         "company_name": "Teledyne",
         "id": "ea0c0373-c713-4f29-8542-9cddf885c093",
         "title": "Software Engineer Co-Op",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9649,7 +9649,7 @@
         "company_name": "Chubb",
         "id": "b528598a-5a55-4b97-8001-88f1aee07ef9",
         "title": "AI Engineering Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9728,7 +9728,7 @@
         "company_name": "Ensora Health",
         "id": "573b6042-43ba-4d24-a71b-18458b21defd",
         "title": "Software Engineer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9806,7 +9806,7 @@
         "company_name": "Ensora Health",
         "id": "a29de138-ba31-457e-94a5-25d02337d6a0",
         "title": "Software Engineer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9932,7 +9932,7 @@
         "company_name": "Ensora Health",
         "id": "c7168085-5a06-48ef-ab27-88dc792e6371",
         "title": "Product Owner Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9987,7 +9987,7 @@
         "company_name": "Epicor",
         "id": "11344741-9b8e-400b-b4e5-df69c2a70d7f",
         "title": "Intern Product Manager",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -10212,5 +10212,451 @@
         "degrees": [
             "PhD"
         ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Veolia",
+        "id": "0128e4a1-4e95-480f-9eb7-51aa930c7067",
+        "title": "Data Science Intern",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771859837,
+        "date_posted": 1771859837,
+        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000110751572",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Veolia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Merck",
+        "id": "8ef149b6-147f-41b8-8d8f-4ad061e439ff",
+        "title": "Future Talent Program Intern - Data Science and Scientific Informatics",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771889040,
+        "date_posted": 1771889040,
+        "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2026-Future-Talent-Program---Data-Science-and-Scientific-Informatics---Intern_R386152",
+        "locations": [
+            "Cambridge, MA",
+            "Linden, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Merck",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Legend Biotech",
+        "id": "df3c8033-e375-4f8e-8156-b96b8f36013a",
+        "title": "Operational Modelling Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771889621,
+        "date_posted": 1768346690,
+        "url": "https://job-boards.greenhouse.io/legendcareers/jobs/4649027005",
+        "locations": [
+            "Bridgewater Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Legend-Biotech",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Johnson & Johnson",
+        "id": "600a5d00-7d6c-4dfa-ad89-40a7f5356383",
+        "title": "Integrated Data Product",
+        "active": true,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1771976856,
+        "date_posted": 1771976856,
+        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/Integrated-Data-Product_R-056244-1",
+        "locations": [
+            "Bridgewater Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Master's",
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Ensora Health",
+        "id": "230889a2-beba-4b62-b879-1b6e6fc2f10b",
+        "title": "RCM Data Analyst Intern",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771976477,
+        "date_posted": 1771976477,
+        "url": "https://therapybrands.wd1.myworkdayjobs.com/EnsoraHealth/job/Remote---Georgia/RCM-Data-Analyst-Intern_R442",
+        "locations": [
+            "Concord, NH",
+            "Mississippi",
+            "Texas",
+            "Montana",
+            "Tennessee",
+            "Oklahoma",
+            "Indiana",
+            "Alabama",
+            "NYC",
+            "South Dakota",
+            "Florida",
+            "South Carolina",
+            "Kentucky",
+            "Maryland",
+            "North Dakota",
+            "Rhode Island",
+            "Waterbury, CT",
+            "Ohio",
+            "Louisiana",
+            "Minnesota",
+            "Wisconsin",
+            "Missouri",
+            "Kansas",
+            "Michigan",
+            "Jackson Township, NJ",
+            "Illinois",
+            "Pennsylvania",
+            "Washington",
+            "Delaware",
+            "Virginia",
+            "Massachusetts",
+            "Georgia",
+            "Maine",
+            "North Carolina"
+        ],
+        "company_url": "https://simplify.jobs/c/Ensora-Health",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Legend Biotech",
+        "id": "020b1d81-3373-4ece-ab3b-c78533ac7bb3",
+        "title": "AI/ML Intern",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1771975839,
+        "date_posted": 1771975839,
+        "url": "https://job-boards.greenhouse.io/legendcareers/jobs/4665957005",
+        "locations": [
+            "Somerset County, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Legend-Biotech",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Proofpoint",
+        "id": "ab53effe-8b8b-408c-86df-fe5eba4620dd",
+        "title": "Software Engineer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1772063598,
+        "date_posted": 1772063598,
+        "url": "https://proofpoint.wd5.myworkdayjobs.com/proofpointcareers/job/Pennsylvania/Software-Engineer-Intern_R13765",
+        "locations": [
+            "Concord, NH",
+            "Mississippi",
+            "Texas",
+            "Tennessee",
+            "Indiana",
+            "Alabama",
+            "NYC",
+            "Florida",
+            "Washington, DC",
+            "South Carolina",
+            "Kentucky",
+            "Maryland",
+            "Waterbury, CT",
+            "Louisiana",
+            "Michigan",
+            "Jackson Township, NJ",
+            "Pennsylvania",
+            "Virginia",
+            "Massachusetts",
+            "Georgia",
+            "Maine",
+            "North Carolina"
+        ],
+        "company_url": "https://simplify.jobs/c/Proofpoint",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Johnson & Johnson",
+        "id": "cae0a87e-a042-4c74-8abf-c56bf69c8ada",
+        "title": "Intern Data Science - Computer Vision",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1772063265,
+        "date_posted": 1772063265,
+        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Intern-Data-Science---Computer-Vision_R-060263",
+        "locations": [
+            "Cambridge, MA",
+            "Bridgewater Township, NJ",
+            "San Diego, CA",
+            "Daly City, CA",
+            "Ambler, PA",
+            "New Hope, PA"
+        ],
+        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Johnson & Johnson",
+        "id": "b4d1666d-b3c9-4c6b-9b7d-5b0f9555b8aa",
+        "title": "Data Science AI/ML Intern - Computer Vision - Microscopy",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1772063272,
+        "date_posted": 1772063272,
+        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Cambridge-Massachusetts-United-States-of-America/Data-Science-AI-ML-Summer-Intern---Computer-Vision---Microscopy_R-059803",
+        "locations": [
+            "Cambridge, MA",
+            "Bridgewater Township, NJ",
+            "San Diego, CA",
+            "Daly City, CA",
+            "Ambler, PA",
+            "New Hope, PA"
+        ],
+        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Johnson & Johnson",
+        "id": "5d3961b7-bb86-44f8-96f6-74fced549113",
+        "title": "GenAI Engineer/Eval Engineer Summer Internship",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1772063270,
+        "date_posted": 1772063270,
+        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Titusville-New-Jersey-United-States-of-America/GenAI-Engineer-Eval-Engineer-Summer-Internship_R-059854",
+        "locations": [
+            "Bridgewater Township, NJ",
+            "San Diego, CA",
+            "La Jolla, San Diego, CA",
+            "New Hope, PA"
+        ],
+        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "Fiserv",
+        "id": "da713b47-ddbe-40a6-aa26-deb1d1290a5e",
+        "title": "Summer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1772061743,
+        "date_posted": 1772061743,
+        "url": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/Summer-Intern-_R-10380297",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Fiserv",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Johnson & Johnson",
+        "id": "85825c81-3c7b-4f14-a7cf-10df76adb8d5",
+        "title": "Data Science Intern - Pai",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1772149559,
+        "date_posted": 1772149559,
+        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Data-Science-Intern--PAI_R-057889",
+        "locations": [
+            "Cambridge, MA",
+            "Bridgewater Township, NJ",
+            "San Diego, CA",
+            "Daly City, CA",
+            "Ambler, PA",
+            "New Hope, PA"
+        ],
+        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Johnson & Johnson",
+        "id": "3d90a416-90cc-4c70-b504-686e48ec864b",
+        "title": "AI/ML Intern - Computer Vision - Ophthalmology",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1772149572,
+        "date_posted": 1772149572,
+        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Titusville-New-Jersey-United-States-of-America/AI-ML-Summer-Intern---Computer-Vision---Ophthalmology_R-060055",
+        "locations": [
+            "Cambridge, MA",
+            "Bridgewater Township, NJ",
+            "San Diego, CA",
+            "Daly City, CA",
+            "Ambler, PA",
+            "New Hope, PA"
+        ],
+        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "QuidelOrtho",
+        "id": "bde7c083-bf63-4706-9937-990880736400",
+        "title": "Global Product Management - Informatics",
+        "active": true,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1772149146,
+        "date_posted": 1772149146,
+        "url": "https://orthoclinical.wd1.myworkdayjobs.com/Search/job/US---NJ---Raritan/Global-Product-Management---Informatics_R0016332",
+        "locations": [
+            "Bridgewater Township, NJ",
+            "Rochester, NY"
+        ],
+        "company_url": "https://simplify.jobs/c/QuidelOrtho",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "QuidelOrtho",
+        "id": "6bf14ea7-040b-4ce9-b9a8-63b8abc9046c",
+        "title": "Global Product Management - Automation",
+        "active": true,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1772149144,
+        "date_posted": 1772149144,
+        "url": "https://orthoclinical.wd1.myworkdayjobs.com/Search/job/US---NJ---Raritan/Global-Product-Management---Automation_R0016333",
+        "locations": [
+            "Bridgewater Township, NJ",
+            "Rochester, NY"
+        ],
+        "company_url": "https://simplify.jobs/c/QuidelOrtho",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Acadia Pharmaceuticals",
+        "id": "17fa00bc-353c-4153-a42d-b4730ac31c9d",
+        "title": "Digital Innovation and Automation Intern",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1772234961,
+        "date_posted": 1772234961,
+        "url": "https://acadia.com/en-us/careers/job-board/8442566002?gh_jid=8442566002",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/acadia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
     }
 ]
