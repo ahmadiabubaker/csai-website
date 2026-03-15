@@ -2,28 +2,6 @@
     {
         "source": "Simplify",
         "category": "Software",
-        "company_name": "Bank of America",
-        "id": "ab78f20f-8294-42fc-88e6-68c970b84504",
-        "title": "Global Technology Apprentice - Npower/Per Scholas",
-        "active": false,
-        "terms": [
-            "Fall 2025"
-        ],
-        "date_updated": 1752350337,
-        "date_posted": 1752350337,
-        "url": "https://ghr.wd1.myworkdayjobs.com/en-US/Lateral-US/job/Plano/Global-Technology-Apprentice---NPower-Per-Scholas_25028925-1",
-        "locations": [
-            "Plano, TX",
-            "Richmond, VA",
-            "Lawrence Township, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/043a00ac-6fd9-4afc-991a-4d845205ab9a",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
         "company_name": "Wells Fargo",
         "id": "ffe51158-461e-4569-ba8e-006aa3653f36",
         "title": "Software Engineer",
@@ -5937,7 +5915,7 @@
         "company_name": "AtkinsR\u00e9alis",
         "id": "d5a7f37b-f9ed-4f2a-bda5-413d0cf7b5c6",
         "title": "Engineering Traffic Analyst Intern - Summer 2026",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6944,7 +6922,7 @@
         "company_name": "Nokia",
         "id": "fcbd10cc-1fff-4531-9a3f-5581a21400f1",
         "title": "Software Developer Intern/Co-op",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8358,7 +8336,7 @@
         "company_name": "Samsung Research America",
         "id": "95fdaf0b-3615-43bd-9508-c9d4d8c99924",
         "title": "Intern - AI Wireless Research",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8726,7 +8704,7 @@
         "company_name": "Sharp Electronics",
         "id": "3b35756e-7286-42b2-94bb-f51c37e5049e",
         "title": "Intern - HR Data Analyst",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9217,7 +9195,7 @@
         "company_name": "Samsung",
         "id": "2715007c-61b8-4435-96e4-1a91712ddfdb",
         "title": "Samsung Care AI Data Analytics Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9410,7 +9388,7 @@
         "company_name": "Zoetis",
         "id": "874eea30-e8ce-4343-a302-1f70eb060ed6",
         "title": "Product Analyst GMS ERP Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -10192,7 +10170,7 @@
         "company_name": "Johnson & Johnson",
         "id": "600a5d00-7d6c-4dfa-ad89-40a7f5356383",
         "title": "Integrated Data Product",
-        "active": true,
+        "active": false,
         "terms": [
             "N/A"
         ],
@@ -10339,7 +10317,7 @@
         "company_name": "Johnson & Johnson",
         "id": "cae0a87e-a042-4c74-8abf-c56bf69c8ada",
         "title": "Intern Data Science - Computer Vision",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10367,7 +10345,7 @@
         "company_name": "Johnson & Johnson",
         "id": "b4d1666d-b3c9-4c6b-9b7d-5b0f9555b8aa",
         "title": "Data Science AI/ML Intern - Computer Vision - Microscopy",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10395,7 +10373,7 @@
         "company_name": "Johnson & Johnson",
         "id": "5d3961b7-bb86-44f8-96f6-74fced549113",
         "title": "GenAI Engineer/Eval Engineer Summer Internship",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10444,7 +10422,7 @@
         "company_name": "Johnson & Johnson",
         "id": "85825c81-3c7b-4f14-a7cf-10df76adb8d5",
         "title": "Data Science Intern - Pai",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10472,7 +10450,7 @@
         "company_name": "Johnson & Johnson",
         "id": "3d90a416-90cc-4c70-b504-686e48ec864b",
         "title": "AI/ML Intern - Computer Vision - Ophthalmology",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10547,7 +10525,7 @@
         "company_name": "Acadia Pharmaceuticals",
         "id": "17fa00bc-353c-4153-a42d-b4730ac31c9d",
         "title": "Digital Innovation and Automation Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10563,9 +10541,9 @@
         "degrees": []
     },
     {
-        "date_updated": 1772429812,
+        "date_updated": 1773060398,
         "sponsorship": "Other",
-        "active": true,
+        "active": false,
         "degrees": [
             "Bachelor's"
         ],
@@ -10666,7 +10644,7 @@
         "company_name": "Veolia",
         "id": "f879e829-f6d2-4176-b2f7-e8e778f4f7ee",
         "title": "Data Analytics/CMMS Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10890,6 +10868,491 @@
         "sponsorship": "Other",
         "degrees": [
             "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Veolia",
+        "id": "b1106c69-a152-4478-85a9-e787410cd535",
+        "title": "AI Engineering Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773094610,
+        "date_posted": 1773094610,
+        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000113472908",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Veolia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Veolia",
+        "id": "e7f7de8d-29aa-4f7c-9f0e-fea771676abb",
+        "title": "Integrations Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773093710,
+        "date_posted": 1773093710,
+        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000113515677",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Veolia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Veolia",
+        "id": "ea19f01a-ade5-46e7-b870-6c72114baebe",
+        "title": "Engineering Intern",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773096564,
+        "date_posted": 1773096564,
+        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000112465484",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Veolia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Veolia",
+        "id": "0448e3fe-5ff4-4808-b1fc-a5bfc27d2d33",
+        "title": "AI Engineering Intern - LLM",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773094608,
+        "date_posted": 1773094608,
+        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000113472647",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Veolia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "S&P Global ",
+        "id": "f06f6eb6-7310-44d8-ac4d-2083a6cd01e2",
+        "title": "AI Agent Developer \u2013 Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773154730,
+        "date_posted": 1773154730,
+        "url": "https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/Princeton-NJ/AI-Agent-Developer--Summer-Intern_325750-1",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/SP-Global",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "LG Electronics",
+        "id": "7e85576e-dbb5-4c0a-b45e-15f84be154f7",
+        "title": "Product Management Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773181915,
+        "date_posted": 1773181915,
+        "url": "https://job-boards.greenhouse.io/lgelectronics/jobs/5148940008",
+        "locations": [
+            "Englewood, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/LG-Electronics",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Analog Devices",
+        "id": "a44b8fb7-8209-4510-b494-9b6617ba4283",
+        "title": "System and Firmware Engineer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773183389,
+        "date_posted": 1773183389,
+        "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NJ-Somerset/System-and-Firmware-Engineer-Intern_R258554",
+        "locations": [
+            "Somerset County, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Analog-Devices",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Master's",
+            "PhD"
+        ]
+    },
+    {
+        "date_updated": 1773236309,
+        "sponsorship": "Offers Sponsorship",
+        "active": true,
+        "degrees": [
+            "Master's"
+        ],
+        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/73a2fa9e-69e0-4dc6-8f83-a66db12fb2b3",
+        "company_name": "Veolia",
+        "title": "AI Engineering Intern (SLM)",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "terms": [
+            "Summer 2026"
+        ],
+        "category": "Data Science, AI & Machine Learning",
+        "source": "AlmondCroffle",
+        "id": "837ebc63-4345-4f2f-b9e4-1523d0d089fb",
+        "date_posted": 1773236309,
+        "company_url": "",
+        "is_visible": true
+    },
+    {
+        "date_updated": 1773236341,
+        "sponsorship": "Offers Sponsorship",
+        "active": true,
+        "degrees": [
+            "Master's"
+        ],
+        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/060f2b47-8c58-4d3d-86a0-f2dcbcb2bf9b",
+        "company_name": "Veolia",
+        "title": "AI Engineering Intern (LLM)",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "terms": [
+            "Summer 2026"
+        ],
+        "category": "Data Science, AI & Machine Learning",
+        "source": "AlmondCroffle",
+        "id": "a4a7721f-e359-413c-8931-4b3ec11dc431",
+        "date_posted": 1773236341,
+        "company_url": "",
+        "is_visible": true
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "SRI International",
+        "id": "b34a383c-2895-4572-9752-7e928ea9ef70",
+        "title": "Intern Systems Engineering",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773267157,
+        "date_posted": 1773267157,
+        "url": "https://careers-sri.icims.com/jobs/6349/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/SRI-International",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Howmet Aerospace",
+        "id": "71eff25f-0b46-4aaa-b627-e67bd5fd0f40",
+        "title": "Manufacturing Data Analyst - Training Program",
+        "active": true,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1773267011,
+        "date_posted": 1773267011,
+        "url": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/116613",
+        "locations": [
+            "Midway, TN",
+            "Hampton, VA",
+            "Valparaiso, IN",
+            "Muskegon, MI",
+            "Rockaway, NJ",
+            "Wichita County, TX"
+        ],
+        "company_url": "https://simplify.jobs/c/Howmet-Aerospace",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "EisnerAmper",
+        "id": "1c5c9808-ac8e-457d-a6f5-89d6278538cc",
+        "title": "AI Governance Technical Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773268822,
+        "date_posted": 1773268822,
+        "url": "https://eisneramper.wd1.myworkdayjobs.com/EisnerAmperEarlyCareers/job/Atlanta/XMLNAME-2026-AI-Governance-Technical-Intern_Req-8684",
+        "locations": [
+            "Johns Creek, GA",
+            "Philadelphia, PA",
+            "Iselin, Woodbridge Township, NJ",
+            "NYC",
+            "Atlanta, GA"
+        ],
+        "company_url": "https://simplify.jobs/c/EisnerAmper",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Coherent ",
+        "id": "8b72c081-d3dd-4273-a7eb-c18b8ceab41b",
+        "title": "Data Scientist Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773325204,
+        "date_posted": 1773325204,
+        "url": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2011271",
+        "locations": [
+            "Easton, PA",
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Coherent",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's",
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Coherent ",
+        "id": "c972bd47-e599-488a-a85d-56015cb4f119",
+        "title": "Data Analyst Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773324742,
+        "date_posted": 1773324742,
+        "url": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2011270",
+        "locations": [
+            "Easton, PA",
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Coherent",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Chubb",
+        "id": "c847e0a1-7e1a-432b-96d3-70f4c371b03a",
+        "title": "AI Engineer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773353714,
+        "date_posted": 1773353714,
+        "url": "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/31333",
+        "locations": [
+            "Philadelphia, PA",
+            "Bedminster, NJ",
+            "NYC"
+        ],
+        "company_url": "https://simplify.jobs/c/Chubb",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Chubb",
+        "id": "0c28d5ef-d053-4dd2-94e0-25bde7ae9b8a",
+        "title": "AI Engineer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773353716,
+        "date_posted": 1773353716,
+        "url": "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/31332",
+        "locations": [
+            "Philadelphia, PA",
+            "Bedminster, NJ",
+            "NYC"
+        ],
+        "company_url": "https://simplify.jobs/c/Chubb",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Analog Devices",
+        "id": "529fa4fc-e15b-4bd4-a450-33b446bfda19",
+        "title": "Digital Design Engineer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773356379,
+        "date_posted": 1773356379,
+        "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Chelmsford-Elizabeth/Digital-Design-Engineer-Intern_R257717",
+        "locations": [
+            "Lowell, MA",
+            "Linden, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Analog-Devices",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "Samsung",
+        "id": "0fcab772-81ae-4d02-a8c7-0e5a73c282e2",
+        "title": "Product Marketing Intern - Home Entertainment - Gaming",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773493263,
+        "date_posted": 1773493263,
+        "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/700-Sylvan-Ave-Englewood-Cliffs-NJ-USA/Product-Marketing-Internship--Home-Entertainment---Gaming-_R114415",
+        "locations": [
+            "Englewood, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Samsung",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "MBA"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Teledyne",
+        "id": "cc65c445-c73d-4ce2-9a17-4442b3031a78",
+        "title": "Software Engineer Co-Op",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773486533,
+        "date_posted": 1773486533,
+        "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Chestnut-Ridge-NY/Software-Engineer-Co-Op_REQ33472",
+        "locations": [
+            "Mahwah, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/199b3c43-379a-408c-a6a8-980e79183038",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Genmab",
+        "id": "d2f16766-3ede-431a-af35-4ac713b498ac",
+        "title": "AI Lab Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773489843,
+        "date_posted": 1773489843,
+        "url": "https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton/AI-Lab-Intern_R15851-1",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Genmab",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
         ]
     }
 ]
