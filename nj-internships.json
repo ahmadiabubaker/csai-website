@@ -1,49 +1,5 @@
 [
     {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "Wells Fargo",
-        "id": "ffe51158-461e-4569-ba8e-006aa3653f36",
-        "title": "Software Engineer",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1753367926,
-        "date_posted": 1753113466,
-        "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/CHARLOTTE-NC/XMLNAME-2026-Technology-Summer-Internship---Early-Careers--Software-Engineer-_R-474982",
-        "locations": [
-            "Charlotte, NC",
-            "Phoenix, AZ",
-            "Chandler, AZ",
-            "Iselin, NJ",
-            "Irving, TX"
-        ],
-        "company_url": "https://simplify.jobs/c/Wells-Fargo",
-        "is_visible": true,
-        "sponsorship": "Does Not Offer Sponsorship"
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "United Parcel Service (UPS)",
-        "id": "cfe6f158-be63-4ed0-89c1-ae005702a634",
-        "title": "Co-Op for NPOP Team",
-        "active": false,
-        "terms": [
-            "Fall 2025"
-        ],
-        "date_updated": 1753310620,
-        "date_posted": 1753310620,
-        "url": "https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/US---UPS-TECHNOLOGY-HEADQUARTERS--DATACENTER-NJRAR/Co-Op-for-NPOP-Team_R25020204",
-        "locations": [
-            "Newark, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/United-Parcel-Service",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
         "date_updated": 1755049610,
         "url": "https://www.bmwgroup.jobs/us/en/jobfinder/job-description-copy.161921.html",
         "company_name": "BMW Group",
@@ -8148,7 +8104,7 @@
         "company_name": "Avis Budget Group",
         "id": "95546583-c57a-4303-a47b-ed41e3bc1f69",
         "title": "Accelerate - Business Insights Analyst - Post Graduation Opportunity",
-        "active": false,
+        "active": true,
         "terms": [
             "N/A"
         ],
@@ -9790,7 +9746,7 @@
         "company_name": "Veolia",
         "id": "ed443bfb-1d75-4531-af23-56a59284658c",
         "title": "GIS Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -9935,7 +9891,7 @@
         "company_name": "Atlantic Health System",
         "id": "ed8edba4-f1fc-4a7d-b930-cd8a49ee59f0",
         "title": "Physician Enterprise Operations and Analytics Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -10667,7 +10623,7 @@
         "company_name": "Veolia",
         "id": "bcf304b3-e3a9-4b9b-8d6e-dff337388a81",
         "title": "GIS Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11353,6 +11309,182 @@
         "degrees": [
             "Bachelor's",
             "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "LG Electronics",
+        "id": "3fe70d8f-6d39-4690-a196-f509028e263a",
+        "title": "AI Intern \u2013 Architecture & AI",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773786144,
+        "date_posted": 1773786144,
+        "url": "https://job-boards.greenhouse.io/lgelectronics/jobs/5156458008",
+        "locations": [
+            "Englewood, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/LG-Electronics",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "TRUMPF",
+        "id": "c207a2e3-eb8e-4262-9607-765f5fb739ce",
+        "title": "R&D Production Development Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026",
+            "Fall 2026"
+        ],
+        "date_updated": 1773824614,
+        "date_posted": 1773824614,
+        "url": "https://trumpf.wd3.myworkdayjobs.com/TRUMPF_Students/job/Cranbury-NJ/R-D-Production-Development-Intern_R00038278",
+        "locations": [
+            "Cranbury, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/TRUMPF",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "TRUMPF",
+        "id": "1fa695f9-b1e7-41de-8ce1-0e645544f84d",
+        "title": "R&D Test Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773824600,
+        "date_posted": 1773824600,
+        "url": "https://trumpf.wd3.myworkdayjobs.com/TRUMPF_Students/job/Cranbury-NJ/R-D-Test-Intern_R00038524",
+        "locations": [
+            "Cranbury, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/TRUMPF",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Johnson & Johnson",
+        "id": "141a0c09-a2a3-45a8-83af-cd6a6fa4746b",
+        "title": "Data Science Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773873765,
+        "date_posted": 1773873765,
+        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Cambridge-Massachusetts-United-States-of-America/Data-Science-Intern_R-063927",
+        "locations": [
+            "Cambridge, MA",
+            "New Hope, PA",
+            "Bridgewater Township, NJ",
+            "La Jolla, San Diego, CA",
+            "Ambler, PA"
+        ],
+        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": " Otsuka Pharmaceutical",
+        "id": "d53c2c27-3453-4953-be4e-3517f4b2c936",
+        "title": "GenAI Engineer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773873922,
+        "date_posted": 1773873922,
+        "url": "https://vhr-otsuka.wd1.myworkdayjobs.com/External/job/Princeton-NJ/Intern-the-Otsuka-Way-2026---GenAI-Engineer-Intern_R11118",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Otsuka-Pharmaceutical",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": " Otsuka Pharmaceutical",
+        "id": "4d2df810-254c-4c8d-be2b-666a16a9896c",
+        "title": "AI Systems Engineer Intern - AI Systems Engineer",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773873908,
+        "date_posted": 1773873908,
+        "url": "https://vhr-otsuka.wd1.myworkdayjobs.com/External/job/Princeton-NJ/Intern-the-Otsuka-Way-2026---AI-Systems-Engineer-Intern-_R11117",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Otsuka-Pharmaceutical",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Comcast",
+        "id": "33ff25a9-0363-4486-acfd-48422c94be84",
+        "title": "ERP Intern: Rising Senior Technology",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1774018227,
+        "date_posted": 1774018227,
+        "url": "https://comcast.wd5.myworkdayjobs.com/Comcast_Careers/job/PA---Philadelphia-1701-John-F-Kennedy-Blvd/ERP-Internship--Rising-Senior-Technology_R415530",
+        "locations": [
+            "West Chester, PA",
+            "Orlando, FL",
+            "Englewood, NJ",
+            "LA",
+            "Stamford, CT",
+            "Philadelphia, PA",
+            "Berwyn, PA",
+            "Mt Laurel Township, NJ",
+            "Trevose, Feasterville-Trevose, PA",
+            "NYC"
+        ],
+        "company_url": "https://simplify.jobs/c/Comcast",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
         ]
     }
 ]
