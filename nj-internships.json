@@ -1,25 +1,5 @@
 [
     {
-        "date_updated": 1755049610,
-        "url": "https://www.bmwgroup.jobs/us/en/jobfinder/job-description-copy.161921.html",
-        "company_name": "BMW Group",
-        "title": "Product Development - Telematics & ConnectedDrive Services",
-        "locations": [
-            "Woodcliff Lake, NJ"
-        ],
-        "terms": [
-            "Fall 2025"
-        ],
-        "sponsorship": "Other",
-        "active": true,
-        "source": "AlmondCroffle",
-        "id": "91d6b9ac-c324-4427-8c22-2700eb41266d",
-        "date_posted": 1753903073,
-        "company_url": "",
-        "is_visible": false,
-        "category": "Software Engineering"
-    },
-    {
         "source": "Simplify",
         "category": "Software",
         "company_name": "United Parcel Service (UPS)",
@@ -161,30 +141,6 @@
     },
     {
         "source": "Simplify",
-        "category": "Quant",
-        "company_name": "Scientech Research",
-        "id": "fdc65a61-a8f4-45c2-b2c9-35531bfb321b",
-        "title": "Quantitative Researcher Intern",
-        "active": true,
-        "terms": [
-            "Fall 2025"
-        ],
-        "date_updated": 1753486825,
-        "date_posted": 1753486825,
-        "url": "https://jobs.ashbyhq.com/scientech-research/b05bcb2f-2bb6-40c4-8702-3ba386eeab80/application",
-        "locations": [
-            "Jackson Township, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Scientech-Research",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Master's",
-            "PhD"
-        ]
-    },
-    {
-        "source": "Simplify",
         "category": "AI/ML/Data",
         "company_name": "Church & Dwight",
         "id": "2371632d-cd36-48a6-84cf-56ec6dc60319",
@@ -259,7 +215,7 @@
         "company_name": "Johnson & Johnson",
         "id": "fae3ac45-3929-4b91-b778-ac0866ea8b29",
         "title": "Technology Fall Co-Op",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026",
             "Winter 2026"
@@ -323,7 +279,7 @@
         "company_name": "Johnson & Johnson",
         "id": "71e87491-1545-4f98-bfca-5c4330d53e09",
         "title": "Technology 2026 Summer Internship",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6284,7 +6240,7 @@
         "company_name": "Sony",
         "id": "6fac482f-97c8-49bc-94b9-7088623f5f3f",
         "title": "Engineering Intern - AI Ethics",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -7372,7 +7328,7 @@
         "company_name": "Zoetis",
         "id": "c2b9b682-81f0-4cf3-82c7-3d7382da05c4",
         "title": "Robotic Process Automation Developer Intern - RPA",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7911,7 +7867,7 @@
         "company_name": "KLA",
         "id": "6d5dd94f-5ebb-43bd-b9ee-ded0ecd21256",
         "title": "Product Development Engineering Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -7935,7 +7891,7 @@
         "company_name": "Legend Biotech",
         "id": "12b210c5-5087-4020-9561-f79f5ca40ff1",
         "title": "Master Data Management & Governance Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -8422,7 +8378,7 @@
         "company_name": "KLA",
         "id": "68a5c4c4-0281-4735-9b76-9aa50bcaed3a",
         "title": "Product Development Engineering Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2026"
         ],
@@ -8986,7 +8942,7 @@
         "company_name": "Sharp Electronics",
         "id": "03e119ef-f26f-4b47-b102-4347145c6ff5",
         "title": "Intern Product Manager",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9201,7 +9157,7 @@
         "company_name": "Legend Biotech",
         "id": "4de3f72e-3d6e-45e3-8ea6-4d3ef3a95f47",
         "title": "Pipeline and Corporate IT Co-Op",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9438,7 +9394,7 @@
         "company_name": "Epicor",
         "id": "8c62a75e-e699-4e47-9b83-6c18e47c5a5e",
         "title": "Intern Product Developer",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9510,7 +9466,7 @@
         "company_name": "SRI International",
         "id": "32f24635-178c-460b-bf0c-42b0531a10e5",
         "title": "RIT Co-op: Test Engineering",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9700,7 +9656,7 @@
         "company_name": "Veolia",
         "id": "ba3d02fa-827d-49de-bbaa-b8a3d81ca0c9",
         "title": "Stakeholder Intelligence & Data Automation Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9746,7 +9702,7 @@
         "company_name": "Veolia",
         "id": "ed443bfb-1d75-4531-af23-56a59284658c",
         "title": "GIS Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9824,7 +9780,7 @@
         "company_name": "Epicor",
         "id": "11344741-9b8e-400b-b4e5-df69c2a70d7f",
         "title": "Intern Product Manager",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9845,7 +9801,7 @@
         "company_name": "Samsung",
         "id": "167e12f3-f476-4ba4-98a0-c0773e64412a",
         "title": "Supply Chain Analytics Intern - AI/ML",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9891,7 +9847,7 @@
         "company_name": "Atlantic Health System",
         "id": "ed8edba4-f1fc-4a7d-b930-cd8a49ee59f0",
         "title": "Physician Enterprise Operations and Analytics Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10010,7 +9966,7 @@
         "company_name": "Veolia",
         "id": "1702de58-c9cc-45e5-b04f-1b86c8e8203d",
         "title": "Integrations Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10456,7 +10412,7 @@
         "company_name": "QuidelOrtho",
         "id": "6bf14ea7-040b-4ce9-b9a8-63b8abc9046c",
         "title": "Global Product Management - Automation",
-        "active": true,
+        "active": false,
         "terms": [
             "N/A"
         ],
@@ -10548,7 +10504,7 @@
         "company_name": "Johnson & Johnson",
         "id": "832207f2-60ff-4375-91f9-d46d657e499c",
         "title": "AI/ML Intern - Computer Vision",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10577,7 +10533,7 @@
         "company_name": "Epicor",
         "id": "c7a43d7d-feab-4a1d-9085-a8579fe83cc9",
         "title": "Intern a0103",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10734,7 +10690,7 @@
         "company_name": "Samsung",
         "id": "86c94656-1c22-4b74-86c4-7c2415268045",
         "title": "Product Management Financial Operations Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10757,7 +10713,7 @@
         "company_name": "Sony",
         "id": "b1b6a8eb-b4ae-4dea-a294-e71ee84bd8cc",
         "title": "Research Intern on Generative and Protective AI for Content Creation",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10809,7 +10765,7 @@
         "company_name": "Veolia",
         "id": "56124a7f-88dc-4656-af19-61dba126a01b",
         "title": "Integrations Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10855,7 +10811,7 @@
         "company_name": "Veolia",
         "id": "e7f7de8d-29aa-4f7c-9f0e-fea771676abb",
         "title": "Integrations Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11092,7 +11048,7 @@
         "company_name": "EisnerAmper",
         "id": "1c5c9808-ac8e-457d-a6f5-89d6278538cc",
         "title": "AI Governance Technical Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11170,7 +11126,7 @@
         "company_name": "Chubb",
         "id": "c847e0a1-7e1a-432b-96d3-70f4c371b03a",
         "title": "AI Engineer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11196,7 +11152,7 @@
         "company_name": "Chubb",
         "id": "0c28d5ef-d053-4dd2-94e0-25bde7ae9b8a",
         "title": "AI Engineer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11293,7 +11249,7 @@
         "company_name": "Genmab",
         "id": "d2f16766-3ede-431a-af35-4ac713b498ac",
         "title": "AI Lab Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11366,7 +11322,7 @@
         "company_name": "TRUMPF",
         "id": "1fa695f9-b1e7-41de-8ce1-0e645544f84d",
         "title": "R&D Test Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11414,7 +11370,7 @@
         "company_name": " Otsuka Pharmaceutical",
         "id": "d53c2c27-3453-4953-be4e-3517f4b2c936",
         "title": "GenAI Engineer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11438,7 +11394,7 @@
         "company_name": " Otsuka Pharmaceutical",
         "id": "4d2df810-254c-4c8d-be2b-666a16a9896c",
         "title": "AI Systems Engineer Intern - AI Systems Engineer",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11481,6 +11437,279 @@
             "NYC"
         ],
         "company_url": "https://simplify.jobs/c/Comcast",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Genmab",
+        "id": "a78e6eff-bb2f-4fbb-8a59-69444525ad41",
+        "title": "Global Data Governance Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1774307419,
+        "date_posted": 1774307419,
+        "url": "https://genmab.wd3.myworkdayjobs.com/Genmab_Careers_Site/job/Princeton/Global-Data---Governance-Intern_R14993-1",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Genmab",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Osmo",
+        "id": "55789953-d38d-4cc6-baef-e90691360385",
+        "title": "Sensor Hardware Development Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1773909051,
+        "date_posted": 1770073912,
+        "url": "https://jobs.ashbyhq.com/osmo/1c13cc0a-88ba-4795-9fba-1fd5eb95eea5/application",
+        "locations": [
+            "Linden, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Osmo",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Johnson & Johnson",
+        "id": "792af229-ec6f-4e81-8fed-4d7f746ede7c",
+        "title": "Performance Evaluation R&D",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1774365239,
+        "date_posted": 1774365239,
+        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/Performance-Evaluation-R-D-Co-op_R-055648",
+        "locations": [
+            "Bridgewater Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Benjamin Moore",
+        "id": "954bf559-e653-4514-9c61-291ac32ab883",
+        "title": "Procurement & Contract Analytics Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1774390223,
+        "date_posted": 1774390223,
+        "url": "https://careers-benjaminmoore.icims.com/jobs/2311/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Mahwah, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Benjamin-Moore",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Benjamin Moore",
+        "id": "67065952-4819-4b58-86c1-a51d0db4bc6a",
+        "title": "Front End Developer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1774390214,
+        "date_posted": 1774390214,
+        "url": "https://careers-benjaminmoore.icims.com/jobs/2300/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Mahwah, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Benjamin-Moore",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Fiserv",
+        "id": "36d876ee-2ff0-44d2-8bde-f32318335a09",
+        "title": "Intern Program - Technology",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1774391881,
+        "date_posted": 1774391881,
+        "url": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/Summer-Internship-Program---Technology--Berkeley-Heights--NJ-_R-10390608",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Fiserv",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "CACI",
+        "id": "2dee3bda-ef5d-4198-bc35-ee22bbbeca5a",
+        "title": "Embedded Software Development Intern",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1774393142,
+        "date_posted": 1774393142,
+        "url": "https://caci.wd1.myworkdayjobs.com/external/job/US-NJ-Florham-Park/Embedded-Software-Development-Intern---Summer-2026_323644",
+        "locations": [
+            "Livingston, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/CACI",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Red Bull",
+        "id": "41db4a23-b206-4d63-9d07-e76f1eb8c919",
+        "title": "Intern - Data Science",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1774506106,
+        "date_posted": 1774506106,
+        "url": "https://jobs.smartrecruiters.com/RedBull/744000116806442",
+        "locations": [
+            "Livingston, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Red-Bull",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Thorlabs",
+        "id": "ff12c2d7-4a17-4e9c-a727-c69ab34e9e19",
+        "title": "Engineering Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1774534839,
+        "date_posted": 1774534839,
+        "url": "https://apply.workable.com/thorlabs/j/313D67D856/apply",
+        "locations": [
+            "Branchville, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Thorlabs",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "Sharp Electronics",
+        "id": "1034255c-7a61-4de0-b7fd-fcae014a3824",
+        "title": "Intern Product Manager - Business Products",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1774534471,
+        "date_posted": 1774534471,
+        "url": "https://careers-sharpusa.icims.com/jobs/8707/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Sharp-Electronics",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Rolls-Royce Motorcars",
+        "id": "75cfa15d-4740-4b16-bde7-92b946730038",
+        "title": "Intern Technical Service Electrical or Mechanical & Digitalization",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1774617068,
+        "date_posted": 1774591493,
+        "url": "https://jobs.bmwgroup.com/job/Woodcliff-Lake-Intern-Technical-Service-Electrical-or-Mechanical-&-Digitalization-New/1378078933/?ats=successfactors",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Rolls-Royce-Motorcars",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "United Parcel Service (UPS)",
+        "id": "2cee4259-420e-407a-8d4e-530a3210a353",
+        "title": "Co-op Web Development",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1774627014,
+        "date_posted": 1774620545,
+        "url": "https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/US---IS-PARSIPPANY-NJPRS/Co-Op-Web-Development_R26009532",
+        "locations": [
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/United-Parcel-Service",
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": [
