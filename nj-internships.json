@@ -88,59 +88,6 @@
     },
     {
         "source": "Simplify",
-        "category": "Other",
-        "company_name": "Virtua Health",
-        "id": "2b3be301-d9a8-41a8-8e7b-0f4d1173e3d6",
-        "title": "IT Intern",
-        "active": false,
-        "terms": [
-            "Fall 2025"
-        ],
-        "date_updated": 1754069239,
-        "date_posted": 1754069239,
-        "url": "https://virtua.wd1.myworkdayjobs.com/Virtua_Health_External_Career_Site/job/Marlton-NJ/IT-Intern_R1054561",
-        "locations": [
-            "Mt Laurel Township, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Virtua-Health",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Sony",
-        "id": "e9c4e548-c46c-4116-8cd2-2448435b4148",
-        "title": "Research Intern - Vision Foundation Model and Generative AI",
-        "active": false,
-        "terms": [
-            "Fall 2025"
-        ],
-        "date_updated": 1754067949,
-        "date_posted": 1754067949,
-        "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---Maryland/Research-Intern--Vision-Foundation-Model-and-Generative-AI_JR-117761",
-        "locations": [
-            "California",
-            "Texas",
-            "San Jose, CA",
-            "Jackson Township, NJ",
-            "West Virginia",
-            "NYC",
-            "Maryland"
-        ],
-        "company_url": "https://simplify.jobs/c/Sony",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Master's",
-            "PhD"
-        ]
-    },
-    {
-        "source": "Simplify",
         "category": "AI/ML/Data",
         "company_name": "Church & Dwight",
         "id": "2371632d-cd36-48a6-84cf-56ec6dc60319",
@@ -2578,7 +2525,7 @@
         "company_name": "Leidos",
         "id": "0f43d7bb-9f44-4ec0-9cfe-721d7d264ada",
         "title": "Systems Integration and Software Engineer Intern - Transportation Solutions - Air Traffic Management",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6135,7 +6082,7 @@
         "company_name": "Nokia",
         "id": "7b118f9d-f5a3-494f-964a-3ced53aeceb8",
         "title": "Bell Labs Machine Learning and AI Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6729,7 +6676,7 @@
         "company_name": "Nokia",
         "id": "c2771724-65e0-4832-9bd6-37edc0f48251",
         "title": "Decentralized AI Intern - AI",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6771,7 +6718,7 @@
         "company_name": "Nokia",
         "id": "7f6e95f6-60be-41e6-b5bc-5c87b50cc1fe",
         "title": "AI/ML Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7712,7 +7659,7 @@
         "company_name": "Nokia",
         "id": "286eaf1e-7806-4660-be9d-cb2487a36369",
         "title": "Wireless Systems Research Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8473,7 +8420,7 @@
         "company_name": "HNTB",
         "id": "47b04ea4-7874-45ad-9f9c-79efe7d6d1ac",
         "title": "Tolling Intern - Summer 2026",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8496,7 +8443,7 @@
         "company_name": "HNTB",
         "id": "dfaae1c6-e4d7-47fc-904b-e5de20df6b51",
         "title": "Tolling Intern - Summer 2026",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8942,7 +8889,7 @@
         "company_name": "Sharp Electronics",
         "id": "03e119ef-f26f-4b47-b102-4347145c6ff5",
         "title": "Intern Product Manager",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -9276,7 +9223,7 @@
         "company_name": "Samsung",
         "id": "9cc80f56-8151-4f62-a1fb-fea04a44ec30",
         "title": "AI Applications Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9945,7 +9892,7 @@
         "company_name": "Veolia",
         "id": "24f88975-124b-41d4-b094-37f0474c6e62",
         "title": "Drupal Developer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10625,7 +10572,7 @@
         "company_name": "Veolia",
         "id": "704ddbc1-116c-4f00-8ee4-12d843ecb5f6",
         "title": "Drupal Developer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11019,7 +10966,7 @@
         "company_name": "Howmet Aerospace",
         "id": "71eff25f-0b46-4aaa-b627-e67bd5fd0f40",
         "title": "Manufacturing Data Analyst - Training Program",
-        "active": true,
+        "active": false,
         "terms": [
             "N/A"
         ],
@@ -11225,7 +11172,7 @@
         "company_name": "Teledyne",
         "id": "cc65c445-c73d-4ce2-9a17-4442b3031a78",
         "title": "Software Engineer Co-Op",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11343,7 +11290,7 @@
         "company_name": "Johnson & Johnson",
         "id": "141a0c09-a2a3-45a8-83af-cd6a6fa4746b",
         "title": "Data Science Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11564,7 +11511,7 @@
         "company_name": "Fiserv",
         "id": "36d876ee-2ff0-44d2-8bde-f32318335a09",
         "title": "Intern Program - Technology",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11654,7 +11601,7 @@
         "company_name": "Sharp Electronics",
         "id": "1034255c-7a61-4de0-b7fd-fcae014a3824",
         "title": "Intern Product Manager - Business Products",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -11699,7 +11646,7 @@
         "company_name": "United Parcel Service (UPS)",
         "id": "2cee4259-420e-407a-8d4e-530a3210a353",
         "title": "Co-op Web Development",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11714,6 +11661,309 @@
         "sponsorship": "Other",
         "degrees": [
             "Bachelor's"
+        ]
+    },
+    {
+        "date_updated": 1774874833,
+        "sponsorship": "Other",
+        "active": true,
+        "degrees": [
+            "Bachelor's"
+        ],
+        "url": "https://jobs.smartrecruiters.com/RedBull/b0db20c3-80cd-4a14-b542-140aaca93ed6",
+        "company_name": "Red Bull",
+        "title": "Internship, Data Science",
+        "locations": [
+            "East Hanover, NJ"
+        ],
+        "terms": [
+            "Summer 2026"
+        ],
+        "category": "Data Science, AI & Machine Learning",
+        "source": "AlmondCroffle",
+        "id": "7320921d-0d65-4df4-bd89-a73dcfea54e8",
+        "date_posted": 1774874833,
+        "company_url": "",
+        "is_visible": true
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "LG Electronics",
+        "id": "a7de42ce-b398-4c29-af70-b21f162b6458",
+        "title": "HS Planning Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1774911961,
+        "date_posted": 1774908905,
+        "url": "https://job-boards.greenhouse.io/lgelectronics/jobs/5169776008",
+        "locations": [
+            "Englewood, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/LG-Electronics",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Nokia",
+        "id": "8218042c-965d-4c19-a944-b7157bfd65b2",
+        "title": "Optical Communication Research Intern",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1774954621,
+        "date_posted": 1765926441,
+        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/28681",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nokia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Kanshe Infotech",
+        "id": "54e820f7-54bf-4eb6-a9e1-237375f17ed5",
+        "title": "Data Analyst Training",
+        "active": true,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1774949401,
+        "date_posted": 1755206268,
+        "url": "https://jobs.smartrecruiters.com/KansheInfotech/744000066239321",
+        "locations": [
+            "Newark, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Kanshe-Infotech",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Kanshe Infotech",
+        "id": "b075f87f-70d6-4067-8b91-9fd15fa20351",
+        "title": "Python Fullstack Training",
+        "active": true,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1774985941,
+        "date_posted": 1774573508,
+        "url": "https://jobs.smartrecruiters.com/Learnkwikcom/744000065800616",
+        "locations": [
+            "Newark, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Kanshe-Infotech",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Nokia",
+        "id": "7334f23c-fedb-41d2-b61c-e4fe48046df7",
+        "title": "Lab Assistant Intern",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1775083861,
+        "date_posted": 1775081141,
+        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/33959",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nokia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "TD Bank",
+        "id": "20ecc208-0baf-459b-91df-cd25ca740d0d",
+        "title": "Early Talent Analyst Program - Customer Platforms",
+        "active": true,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1775141521,
+        "date_posted": 1775139019,
+        "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2026-Early-Talent-Analyst-Program---Customer-Platforms_R_1482210",
+        "locations": [
+            "Mt Laurel Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/TD-Bank",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Certificate"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "EisnerAmper",
+        "id": "8d35f375-481e-4589-891d-49e812163308",
+        "title": "Enterprise Technology Full Stack Developer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1775170504,
+        "date_posted": 1775167797,
+        "url": "https://eisneramper.wd1.myworkdayjobs.com/EisnerAmperEarlyCareers/job/Iselin/XMLNAME-2026-Enterprise-Technology-Full-Stack-Developer-Summer-Intern_Req-8777",
+        "locations": [
+            "Iselin, Woodbridge Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/EisnerAmper",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "EisnerAmper",
+        "id": "176e568e-c9cb-452a-be7b-cec303ae13aa",
+        "title": "AI Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1775256935,
+        "date_posted": 1775254085,
+        "url": "https://eisneramper.wd1.myworkdayjobs.com/EisnerAmperEarlyCareers/job/Iselin/XMLNAME-2026-ETI---AI-Summer-Intern_Req-8790",
+        "locations": [
+            "Iselin, Woodbridge Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/EisnerAmper",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Merck",
+        "id": "fbac5cec-954c-4f72-a8c3-9dfd2ec7afb7",
+        "title": "Future Talent Program \u2013 External Manufacturing Co-op - Global Pharmaceutical Operations",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1775255511,
+        "date_posted": 1775253918,
+        "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/XMLNAME-2026-Future-Talent-Program---Global-Pharmaceutical-Operations---External-Manufacturing-Co-Op_R387180",
+        "locations": [
+            "Linden, NJ",
+            "La Ronge, SK, Canada"
+        ],
+        "company_url": "https://simplify.jobs/c/Merck",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Onto Innovation",
+        "id": "3c9a3c4e-1efc-48b7-a33d-e2564e74c754",
+        "title": "Algorithms Engineer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1775255925,
+        "date_posted": 1775253969,
+        "url": "https://onto.wd1.myworkdayjobs.com/onto_careers/job/Budd-Lake-NJ/Algorithms-Engineer-Internship_R-5709",
+        "locations": [
+            "Stanhope, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Onto-Innovation",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Securitas",
+        "id": "fb68609e-4629-46a5-bb48-28b682c697a7",
+        "title": "Intern AI & Automation",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1775284165,
+        "date_posted": 1775282690,
+        "url": "https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/169188",
+        "locations": [
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Securitas",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Securitas",
+        "id": "962af3e4-5872-4870-bab4-71fdbb3b61d1",
+        "title": "Intern Data & Insights Analysis",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1775284234,
+        "date_posted": 1775282689,
+        "url": "https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/169186",
+        "locations": [
+            "Westlake Village, CA",
+            "Charlotte, NC",
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Securitas",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
         ]
     }
 ]
