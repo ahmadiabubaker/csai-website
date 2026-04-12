@@ -3,26 +3,6 @@
         "source": "Simplify",
         "category": "Software",
         "company_name": "United Parcel Service (UPS)",
-        "id": "025a1866-9b08-422d-9dbe-9f224b1bbb41",
-        "title": "ISM Co-op",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1755595205,
-        "date_posted": 1754706063,
-        "url": "https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/US---IS-PARSIPPANY-NJPRS/ISM-Co-op_R25028993",
-        "locations": [
-            "Parsippany-Troy Hills, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/United-Parcel-Service",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "United Parcel Service (UPS)",
         "id": "c34e985f-d69d-4e2d-86e3-4795691dcf92",
         "title": "Ism Co-Op",
         "active": false,
@@ -60,30 +40,6 @@
         "sponsorship": "Other",
         "degrees": [
             "Bachelor's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Bristol Myers Squibb",
-        "id": "f92a6652-a828-4407-b347-cd9a73eba7b4",
-        "title": "Technology Rotational Development Program Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1755029753,
-        "date_posted": 1755029753,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/bms/job/Princeton---NJ---US/Technology-Rotational-Development-Program-Intern-Summer-2026_R1594265",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Master's",
-            "MBA"
         ]
     },
     {
@@ -1943,7 +1899,7 @@
         "company_name": "Avis Budget Group",
         "id": "d4e99e58-257c-436c-b6f2-c3be0109fd49",
         "title": "Accelerate Transformation Engineer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -2525,7 +2481,7 @@
         "company_name": "Leidos",
         "id": "0f43d7bb-9f44-4ec0-9cfe-721d7d264ada",
         "title": "Systems Integration and Software Engineer Intern - Transportation Solutions - Air Traffic Management",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -7147,7 +7103,7 @@
         "company_name": "Genmab",
         "id": "e0774945-3249-448e-99d9-8c572c9bafa4",
         "title": "Translational Imaging & Multi-Omics Data Science Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -8007,7 +7963,7 @@
         "company_name": "Avis Budget Group",
         "id": "95546583-c57a-4303-a47b-ed41e3bc1f69",
         "title": "Accelerate - Business Insights Analyst - Post Graduation Opportunity",
-        "active": true,
+        "active": false,
         "terms": [
             "N/A"
         ],
@@ -8889,7 +8845,7 @@
         "company_name": "Sharp Electronics",
         "id": "03e119ef-f26f-4b47-b102-4347145c6ff5",
         "title": "Intern Product Manager",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8935,7 +8891,7 @@
         "company_name": "Interdigital",
         "id": "24f04b19-3a95-477e-808e-7fb98a49aeb6",
         "title": "Ph.D. Intern - 6G Wireless Systems - AI/ML",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11149,7 +11105,7 @@
         "company_name": "Samsung",
         "id": "0fcab772-81ae-4d02-a8c7-0e5a73c282e2",
         "title": "Product Marketing Intern - Home Entertainment - Gaming",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11441,7 +11397,7 @@
         "company_name": "Johnson & Johnson",
         "id": "792af229-ec6f-4e81-8fed-4d7f746ede7c",
         "title": "Performance Evaluation R&D",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11601,7 +11557,7 @@
         "company_name": "Sharp Electronics",
         "id": "1034255c-7a61-4de0-b7fd-fcae014a3824",
         "title": "Intern Product Manager - Business Products",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11622,7 +11578,7 @@
         "company_name": "Rolls-Royce Motorcars",
         "id": "75cfa15d-4740-4b16-bde7-92b946730038",
         "title": "Intern Technical Service Electrical or Mechanical & Digitalization",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11734,27 +11690,6 @@
     },
     {
         "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Kanshe Infotech",
-        "id": "54e820f7-54bf-4eb6-a9e1-237375f17ed5",
-        "title": "Data Analyst Training",
-        "active": true,
-        "terms": [
-            "N/A"
-        ],
-        "date_updated": 1774949401,
-        "date_posted": 1755206268,
-        "url": "https://jobs.smartrecruiters.com/KansheInfotech/744000066239321",
-        "locations": [
-            "Newark, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Kanshe-Infotech",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
         "category": "Software",
         "company_name": "Kanshe Infotech",
         "id": "b075f87f-70d6-4067-8b91-9fd15fa20351",
@@ -11803,7 +11738,7 @@
         "company_name": "TD Bank",
         "id": "20ecc208-0baf-459b-91df-cd25ca740d0d",
         "title": "Early Talent Analyst Program - Customer Platforms",
-        "active": true,
+        "active": false,
         "terms": [
             "N/A"
         ],
@@ -11827,7 +11762,7 @@
         "company_name": "EisnerAmper",
         "id": "8d35f375-481e-4589-891d-49e812163308",
         "title": "Enterprise Technology Full Stack Developer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11851,7 +11786,7 @@
         "company_name": "EisnerAmper",
         "id": "176e568e-c9cb-452a-be7b-cec303ae13aa",
         "title": "AI Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11874,7 +11809,7 @@
         "company_name": "Merck",
         "id": "fbac5cec-954c-4f72-a8c3-9dfd2ec7afb7",
         "title": "Future Talent Program \u2013 External Manufacturing Co-op - Global Pharmaceutical Operations",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11964,6 +11899,124 @@
         "degrees": [
             "Bachelor's",
             "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Nokia",
+        "id": "7027dc30-4b34-4865-9bad-9532f89b662e",
+        "title": "Hardware Development Intern/Co-op",
+        "active": true,
+        "terms": [
+            "Fall 2026"
+        ],
+        "date_updated": 1775689052,
+        "date_posted": 1775686101,
+        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/33958",
+        "locations": [
+            "Berkeley Heights, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nokia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Onto Innovation",
+        "id": "d3fca220-1efc-4472-8095-34b7c2a861cd",
+        "title": "Software Engineer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1775775105,
+        "date_posted": 1775772459,
+        "url": "https://onto.wd1.myworkdayjobs.com/onto_careers/job/Budd-Lake-NJ/Software-Engineer-Internship_R-5711",
+        "locations": [
+            "Stanhope, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Onto-Innovation",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "American Red Cross",
+        "id": "3e1bbb67-fb27-4ad0-9db8-aee2ff4bdeb8",
+        "title": "Business Analytics Intern",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1775775531,
+        "date_posted": 1775772521,
+        "url": "https://americanredcross.wd1.myworkdayjobs.com/american_red_cross_careers/job/Statewide-NJ/Business-Analytics-Intern_RC87732",
+        "locations": [
+            "Wayne, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/American-Red-Cross",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Rolls-Royce Motorcars",
+        "id": "056e9dff-5488-43f3-9a4a-c3c60b211167",
+        "title": "Intern Data Scientist",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1775775543,
+        "date_posted": 1775772526,
+        "url": "https://jobs.bmwgroup.com/job/Columbus-Intern,-Data-Scientist-DSSC-Ohio/1382355333/?ats=successfactors",
+        "locations": [
+            "Paramus, NJ",
+            "Columbus, OH"
+        ],
+        "company_url": "https://simplify.jobs/c/Rolls-Royce-Motorcars",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Orion Innovation",
+        "id": "75e0d373-e3e1-40d3-9411-6679b0c8e350",
+        "title": "Intern",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1775815891,
+        "date_posted": 1775167665,
+        "url": "https://www.orioninc.com/careers/job/?gh_jid=4669668006",
+        "locations": [
+            "Iselin, Woodbridge Township, NJ",
+            "Edison, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Orion-Innovation",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
         ]
     }
 ]
