@@ -4,6 +4,7 @@
   const defaultReports = [
     {
       year: 2025,
+      label: "2025-2026",
       updatedAt: "2026-04-14",
       pdfUrl: "data/photos/2025-ImpactReport/Impact%20Report%2025-26%20(1).pdf",
       pages: [
@@ -80,6 +81,7 @@
       .forEach((item) => {
         state.reportMap.set(Number(item.year), {
           year: Number(item.year),
+          label: item.label || String(item.year),
           updatedAt: item.updatedAt || "",
           pdfUrl: item.pdfUrl || "",
           pages: Array.isArray(item.pages) ? item.pages : [],
@@ -98,6 +100,7 @@
     defaultList.forEach((report) => {
       merged.set(Number(report.year), {
         year: Number(report.year),
+        label: report.label || String(report.year),
         updatedAt: report.updatedAt || "",
         pdfUrl: report.pdfUrl || "",
         pages: Array.isArray(report.pages) ? report.pages.filter(Boolean) : [],
@@ -110,6 +113,7 @@
         const year = Number(item.year);
         const existing = merged.get(year) || {
           year,
+          label: String(year),
           updatedAt: "",
           pdfUrl: "",
           pages: [],
@@ -121,6 +125,7 @@
 
         merged.set(year, {
           year,
+          label: item.label || existing.label,
           updatedAt: item.updatedAt || existing.updatedAt,
           pdfUrl: item.pdfUrl || existing.pdfUrl,
           pages: incomingPages.length ? incomingPages : existing.pages,
@@ -189,10 +194,11 @@
     yearListEl.innerHTML = "";
 
     sortedYears().forEach((year) => {
+      const report = state.reportMap.get(year);
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "impact-year-btn";
-      btn.textContent = String(year);
+      btn.textContent = report && report.label ? report.label : String(year);
       btn.setAttribute("role", "tab");
       btn.setAttribute("aria-selected", String(year === state.selectedYear));
 
@@ -222,8 +228,9 @@
       closeViewer();
     }
 
-    selectedYearEl.textContent = `Impact Report ${report.year}`;
-    viewerTitleEl.textContent = `Impact Report ${report.year} - Page Deck`;
+    const displayYear = report.label || String(report.year);
+    selectedYearEl.textContent = `Impact Report ${displayYear}`;
+    viewerTitleEl.textContent = `Impact Report ${displayYear} - Page Deck`;
     updatedAtEl.textContent = report.updatedAt ? `Updated ${formatDate(report.updatedAt)}` : "Update pending";
 
     const hasPdf = Boolean(report.pdfUrl);

@@ -4539,15 +4539,17 @@ body.dark-mode #post article h2 {
 
 .impact-eyebrow {
   display: inline-block;
-  padding: 7px 14px;
-  border-radius: 999px;
+  max-width: 860px;
+  padding: 10px 16px;
+  border-radius: 14px;
   border: 1px solid rgba(92, 120, 255, 0.28);
   background: linear-gradient(140deg, rgba(84, 207, 255, 0.18), rgba(120, 116, 255, 0.18));
   color: var(--text);
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 1.45;
 }
 
 .impact-title {
