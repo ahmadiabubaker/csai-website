@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-3D4TYEWL38");
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSAI - Impact Report</title>
+    <link rel="icon" type="image/png" href="data/photos/logo.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="impact-page">
+    <header class="header">
+      <div class="nav container">
+        <nav>
+          <button class="ham-menu" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+
+        <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item has-dropdown">
+              <a href="about.html" class="nav-link active">About</a>
+              <button class="dropdown-toggle" aria-label="Toggle About submenu" aria-expanded="false">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="about.html">About</a></li>
+                <li><a href="impact-report.html" aria-current="page">Impact Report</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item has-dropdown">
+              <a href="projects.html" class="nav-link">Projects</a>
+              <button class="dropdown-toggle" aria-label="Toggle Projects submenu" aria-expanded="false">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="projects.html">All Projects</a></li>
+                <li><a href="anatomyvr.html">AnatomyVR</a></li>
+                <li><a href="digitaltwin.html">Digital Twin</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item has-dropdown">
+              <a href="learning.html" class="nav-link">Learning</a>
+              <button class="dropdown-toggle" aria-label="Toggle Learning submenu" aria-expanded="false">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="learning.html">Tutorials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="events.html" class="nav-link">Events</a>
+            </li>
+
+            <li class="nav-item has-dropdown">
+              <a href="opportunities.html" class="nav-link">Opportunities</a>
+              <button class="dropdown-toggle" aria-label="Toggle Opportunities submenu" aria-expanded="false">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="scholarships.html">Scholarships</a></li>
+                <li><a href="research.html">Research</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item has-dropdown">
+              <a href="Achievements.html" class="nav-link">Achievements</a>
+              <button class="dropdown-toggle" aria-label="Toggle Achievements submenu" aria-expanded="false">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="competitions.html">Competitions</a></li>
+                <li><a href="publications.html">Publications</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="join.html" class="nav-link">Join</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a class="join-button btn mobile-only" href="join.html">Join</a>
+      </div>
+    </header>
+
+    <section class="section impact-hero">
+      <div class="container">
+        <div class="impact-eyebrow reveal">Annual Transparency</div>
+        <h1 class="impact-title reveal delay-1">Impact Report Center</h1>
+        <p class="impact-subtitle reveal delay-2">
+          Each annual report is published from backend-managed content. Browse by year, open the full PDF, or preview pages through an expandable card deck.
+        </p>
+      </div>
+    </section>
+
+    <section class="section impact-hub">
+      <div class="container impact-layout">
+        <aside class="impact-panel impact-years reveal">
+          <h2>Report Years</h2>
+          <p class="impact-muted">Choose a year to view the official report package.</p>
+          <div id="impact-year-list" class="impact-year-list" role="tablist" aria-label="Impact report years"></div>
+        </aside>
+
+        <div class="impact-main">
+          <article class="impact-panel impact-report-shell reveal delay-1">
+            <div class="impact-panel-header">
+              <h3 id="impact-selected-year">Impact Report 2025</h3>
+              <span id="impact-updated-at" class="impact-chip">Updated</span>
+            </div>
+
+            <div class="impact-actions-row">
+              <a id="impact-open-pdf" class="btn primary" href="#" target="_blank" rel="noopener">Open Full PDF</a>
+              <span id="impact-page-count" class="impact-chip">0 pages</span>
+            </div>
+
+            <div class="impact-mini-wrap">
+              <button id="impact-deck-toggle" class="impact-mini-deck" type="button" aria-expanded="false" aria-controls="impact-viewer-modal">
+                <span class="impact-mini-card layer-a"><img id="impact-mini-a" src="" alt="Impact report thumbnail 1" /></span>
+                <span class="impact-mini-card layer-b"><img id="impact-mini-b" src="" alt="Impact report thumbnail 2" /></span>
+                <span class="impact-mini-card layer-c"><img id="impact-mini-c" src="" alt="Impact report thumbnail 3" /></span>
+              </button>
+              <p class="impact-mini-note">Click the tiny block to expand the interactive report pages.</p>
+            </div>
+          </article>
+
+          <div id="impact-viewer-modal" class="impact-viewer-modal" aria-hidden="true">
+            <div class="impact-viewer-backdrop" data-close-viewer="true"></div>
+            <article class="impact-viewer-card" role="dialog" aria-modal="true" aria-label="Impact report page viewer">
+              <div class="impact-panel-header">
+                <h3 id="impact-viewer-title">Impact Report Preview</h3>
+                <button id="impact-close-viewer" class="impact-close-btn" type="button" aria-label="Close viewer">Close</button>
+              </div>
+
+              <div id="impact-deck-stage" class="impact-deck-stage" aria-live="polite"></div>
+
+              <div class="impact-page-controls">
+                <button id="impact-prev-page" class="btn" type="button">Previous</button>
+                <span id="impact-page-indicator" class="impact-page-indicator">Page 0 / 0</span>
+                <button id="impact-next-page" class="btn" type="button">Next</button>
+                <div class="impact-view-actions">
+                  <button id="impact-zoom-out" class="btn" type="button" aria-label="Zoom out">-</button>
+                  <button id="impact-zoom-in" class="btn" type="button" aria-label="Zoom in">+</button>
+                  <button id="impact-zoom-reset" class="btn" type="button">Reset</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">© 2025 CSAI — Computer Science + AI Club</footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/side-bar.js"></script>
+    <script src="assets/js/impact-report.js"></script>
+  </body>
+</html>

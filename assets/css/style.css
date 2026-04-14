@@ -4506,3 +4506,521 @@ body.dark-mode #post article h2 {
     font-size: 0.8rem;
   }
 }
+
+/* ===== Impact Report Page ===== */
+.impact-page {
+  position: relative;
+}
+
+.impact-page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(760px 420px at 6% 4%, rgba(83, 167, 255, 0.16), transparent 72%),
+    radial-gradient(920px 540px at 94% 16%, rgba(104, 126, 255, 0.18), transparent 74%),
+    radial-gradient(780px 420px at 55% 96%, rgba(50, 233, 255, 0.16), transparent 72%);
+  z-index: 0;
+}
+
+.impact-page .section,
+.impact-page .footer,
+.impact-page .header {
+  position: relative;
+  z-index: 1;
+}
+
+.impact-hero {
+  padding-top: 128px;
+  padding-bottom: 28px;
+  text-align: center;
+}
+
+.impact-eyebrow {
+  display: inline-block;
+  padding: 7px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(92, 120, 255, 0.28);
+  background: linear-gradient(140deg, rgba(84, 207, 255, 0.18), rgba(120, 116, 255, 0.18));
+  color: var(--text);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.impact-title {
+  margin: 18px 0 12px;
+  font-size: clamp(36px, 6vw, 64px);
+  line-height: 1.02;
+  background: linear-gradient(102deg, #07112b 5%, #2e63ac 52%, #6672ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+body.dark-mode .impact-title {
+  background: linear-gradient(102deg, #f2f7ff 5%, #bbd0ff 58%, #c3b8ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.impact-subtitle {
+  max-width: 76ch;
+  margin: 0 auto;
+  color: var(--lead-text-color);
+  font-size: clamp(16px, 2.1vw, 19px);
+}
+
+.impact-hub {
+  padding-top: 14px;
+}
+
+.impact-layout {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.impact-main {
+  display: grid;
+  gap: 14px;
+}
+
+.impact-panel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid rgba(124, 145, 255, 0.22);
+  background:
+    linear-gradient(170deg, rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.45)),
+    linear-gradient(120deg, rgba(70, 189, 255, 0.08), rgba(112, 102, 255, 0.08));
+  backdrop-filter: blur(18px);
+  box-shadow:
+    0 18px 44px rgba(24, 44, 86, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.52);
+  padding: 18px;
+}
+
+body.dark-mode .impact-panel {
+  border: 1px solid rgba(179, 192, 255, 0.2);
+  background:
+    linear-gradient(170deg, rgba(37, 41, 56, 0.72), rgba(24, 28, 42, 0.72)),
+    linear-gradient(140deg, rgba(95, 169, 255, 0.08), rgba(113, 92, 255, 0.08));
+  box-shadow:
+    0 18px 44px rgba(0, 0, 0, 0.34),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.impact-panel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  background: linear-gradient(130deg, rgba(255, 255, 255, 0.26), transparent 42%);
+  pointer-events: none;
+}
+
+.impact-panel h2,
+.impact-panel h3 {
+  margin: 0 0 8px;
+}
+
+.impact-muted,
+.impact-note,
+.impact-status,
+.impact-mini-note,
+.impact-page-indicator {
+  color: var(--lead-text-color);
+}
+
+.impact-note {
+  margin: 12px 0 0;
+  font-size: 0.9rem;
+}
+
+.impact-year-list {
+  margin-top: 14px;
+  display: grid;
+  gap: 10px;
+}
+
+.impact-year-btn {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(123, 145, 255, 0.18);
+  background: rgba(255, 255, 255, 0.48);
+  color: var(--text);
+  text-align: left;
+  padding: 10px 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background 0.25s ease;
+}
+
+body.dark-mode .impact-year-btn {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.impact-year-btn:hover,
+.impact-year-btn.active {
+  transform: translateY(-1px);
+  background: linear-gradient(95deg, rgba(73, 214, 255, 0.2), rgba(108, 111, 255, 0.2));
+  box-shadow: 0 12px 24px rgba(20, 38, 78, 0.16);
+}
+
+.impact-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.impact-chip {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(118, 148, 255, 0.22);
+  border-radius: 999px;
+  padding: 5px 10px;
+  font-size: 0.82rem;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+body.dark-mode .impact-chip {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.impact-actions-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.impact-actions-row .btn.disabled {
+  pointer-events: none;
+  opacity: 0.45;
+  filter: saturate(0.4);
+}
+
+.impact-mini-wrap {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+  padding: 18px;
+  border-radius: 16px;
+  border: 1px solid rgba(130, 149, 255, 0.2);
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.2));
+}
+
+body.dark-mode .impact-mini-wrap {
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+}
+
+.impact-mini-deck {
+  position: relative;
+  width: 94px;
+  height: 116px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.25s ease;
+}
+
+.impact-mini-deck:hover {
+  transform: translateY(-3px) scale(1.03);
+}
+
+.impact-mini-deck:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.impact-mini-card {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid rgba(134, 160, 255, 0.34);
+  background:
+    linear-gradient(160deg, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.58)),
+    linear-gradient(120deg, rgba(64, 203, 255, 0.26), rgba(107, 114, 255, 0.24));
+  box-shadow: 0 16px 30px rgba(25, 44, 85, 0.24);
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+body.dark-mode .impact-mini-card {
+  background:
+    linear-gradient(160deg, rgba(34, 40, 57, 0.92), rgba(26, 31, 47, 0.84)),
+    linear-gradient(120deg, rgba(72, 203, 255, 0.16), rgba(108, 114, 255, 0.18));
+}
+
+.impact-mini-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.impact-mini-card.layer-a {
+  transform: rotate(-7deg) translate(-10px, 4px);
+  opacity: 0.82;
+}
+
+.impact-mini-card.layer-b {
+  transform: rotate(5deg) translate(8px, -3px);
+  opacity: 0.9;
+}
+
+.impact-mini-card.layer-c {
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.impact-mini-deck:hover .layer-a {
+  transform: rotate(-10deg) translate(-14px, 3px);
+}
+
+.impact-mini-deck:hover .layer-b {
+  transform: rotate(8deg) translate(11px, -4px);
+}
+
+.impact-mini-note {
+  margin: 0;
+  font-size: 0.92rem;
+  text-align: center;
+}
+
+.impact-status {
+  min-height: 24px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.impact-viewer-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.impact-viewer-modal.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.impact-viewer-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 14, 28, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.impact-viewer-card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -46%) scale(0.96);
+  width: min(1120px, calc(100vw - 24px));
+  border-radius: 22px;
+  border: 1px solid rgba(151, 170, 255, 0.28);
+  background:
+    linear-gradient(170deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.58)),
+    linear-gradient(130deg, rgba(58, 197, 255, 0.12), rgba(90, 98, 255, 0.12));
+  backdrop-filter: blur(18px);
+  box-shadow: 0 26px 54px rgba(16, 30, 60, 0.3);
+  padding: 16px;
+  transition: transform 0.35s cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+body.dark-mode .impact-viewer-card {
+  background:
+    linear-gradient(170deg, rgba(30, 35, 50, 0.86), rgba(19, 24, 38, 0.86)),
+    linear-gradient(130deg, rgba(70, 180, 255, 0.1), rgba(92, 98, 255, 0.1));
+}
+
+.impact-viewer-modal.is-open .impact-viewer-card {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.impact-close-btn {
+  border: 1px solid rgba(137, 158, 255, 0.26);
+  background: rgba(255, 255, 255, 0.6);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 7px 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+body.dark-mode .impact-close-btn {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.impact-deck-stage {
+  position: relative;
+  height: min(78vh, 860px);
+  min-height: 560px;
+  border-radius: 16px;
+  border: 1px solid rgba(138, 164, 255, 0.24);
+  background:
+    radial-gradient(circle at 10% 8%, rgba(107, 209, 255, 0.14), transparent 48%),
+    radial-gradient(circle at 84% 86%, rgba(108, 116, 255, 0.16), transparent 52%),
+    rgba(255, 255, 255, 0.38);
+  overflow: hidden;
+}
+
+body.dark-mode .impact-deck-stage {
+  background:
+    radial-gradient(circle at 10% 8%, rgba(96, 205, 255, 0.1), transparent 48%),
+    radial-gradient(circle at 84% 86%, rgba(108, 116, 255, 0.1), transparent 52%),
+    rgba(10, 14, 22, 0.45);
+}
+
+.impact-deck-card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: clamp(320px, 48vw, 560px);
+  max-height: 95%;
+  aspect-ratio: 7 / 10;
+  transform-origin: center;
+  border: 0;
+  border-radius: 14px;
+  overflow: hidden;
+  padding: 0;
+  background: transparent;
+  box-shadow: 0 24px 44px rgba(24, 40, 78, 0.28);
+  transition:
+    transform 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.35s ease,
+    filter 0.35s ease;
+}
+
+.impact-deck-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: rgba(255, 255, 255, 0.65);
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.impact-deck-card.is-pannable img {
+  cursor: grab;
+}
+
+.impact-deck-stage.is-panning .impact-deck-card.is-active img {
+  cursor: grabbing;
+  transition: none;
+}
+
+body.dark-mode .impact-deck-card img {
+  background: rgba(10, 14, 22, 0.7);
+}
+
+.impact-deck-card.is-active {
+  transform: translate(-50%, -50%) rotate(0deg) scale(1);
+  z-index: 6;
+  opacity: 1;
+}
+
+.impact-deck-card.is-prev {
+  transform: translate(-58%, -50%) rotate(-8deg) scale(0.88);
+  z-index: 4;
+  opacity: 0.8;
+  filter: saturate(0.85);
+}
+
+.impact-deck-card.is-next {
+  transform: translate(-42%, -50%) rotate(8deg) scale(0.88);
+  z-index: 5;
+  opacity: 0.86;
+  filter: saturate(0.9);
+}
+
+.impact-deck-card.is-hidden {
+  transform: translate(-50%, -50%) rotate(0deg) scale(0.8);
+  opacity: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.impact-page-controls {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.impact-view-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.impact-view-actions .btn {
+  min-width: 42px;
+}
+
+.impact-page-indicator {
+  font-weight: 700;
+  font-size: 0.93rem;
+  min-width: 110px;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .impact-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .impact-viewer-card {
+    width: min(980px, calc(100vw - 20px));
+  }
+}
+
+@media (max-width: 700px) {
+  .impact-hero {
+    padding-top: 104px;
+  }
+
+  .impact-actions-row {
+    flex-wrap: wrap;
+  }
+
+  .impact-viewer-card {
+    width: calc(100vw - 16px);
+    padding: 12px;
+  }
+
+  .impact-deck-stage {
+    height: min(70vh, 700px);
+    min-height: 460px;
+  }
+
+  .impact-deck-card {
+    width: min(90%, 460px);
+  }
+
+  .impact-page-controls {
+    flex-wrap: wrap;
+  }
+
+  .impact-page-indicator {
+    width: 100%;
+    order: -1;
+  }
+}

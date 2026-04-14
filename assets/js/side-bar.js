@@ -3,6 +3,70 @@
  * Handles hamburger menu toggle and mobile accordion submenus
  */
 
+// ===== Ensure About dropdown exists on all pages =====
+(function ensureAboutDropdown() {
+  const navMenus = document.querySelectorAll('.nav-menu');
+  if (!navMenus.length) return;
+
+  const path = (window.location.pathname || '').toLowerCase();
+  const onImpactPage = path.endsWith('/impact-report.html') || path.endsWith('impact-report.html');
+
+  navMenus.forEach((menu) => {
+    const aboutLink = menu.querySelector('a.nav-link[href="about.html"], a.nav-link[href$="/about.html"]');
+    if (!aboutLink) return;
+
+    const navItem = aboutLink.closest('.nav-item');
+    if (!navItem) return;
+
+    navItem.classList.add('has-dropdown');
+
+    let toggle = navItem.querySelector('.dropdown-toggle');
+    if (!toggle) {
+      toggle = document.createElement('button');
+      toggle.className = 'dropdown-toggle';
+      toggle.setAttribute('aria-label', 'Toggle About submenu');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.innerHTML = `
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+          <path d="M8 11L3 6h10z"></path>
+        </svg>
+      `;
+      navItem.insertBefore(toggle, aboutLink.nextSibling);
+    }
+
+    let menuEl = navItem.querySelector('.dropdown-menu');
+    if (!menuEl) {
+      menuEl = document.createElement('ul');
+      menuEl.className = 'dropdown-menu';
+      navItem.appendChild(menuEl);
+    }
+
+    const existingAbout = menuEl.querySelector('a[href="about.html"], a[href$="/about.html"]');
+    if (!existingAbout) {
+      const aboutLi = document.createElement('li');
+      const aboutItemLink = document.createElement('a');
+      aboutItemLink.href = 'about.html';
+      aboutItemLink.textContent = 'About';
+      aboutLi.appendChild(aboutItemLink);
+      menuEl.appendChild(aboutLi);
+    }
+
+    const existingImpact = menuEl.querySelector('a[href="impact-report.html"], a[href$="/impact-report.html"]');
+    if (!existingImpact) {
+      const impactLi = document.createElement('li');
+      const impactLink = document.createElement('a');
+      impactLink.href = 'impact-report.html';
+      impactLink.textContent = 'Impact Report';
+      impactLi.appendChild(impactLink);
+      menuEl.appendChild(impactLi);
+    }
+
+    if (onImpactPage) {
+      aboutLink.classList.add('active');
+    }
+  });
+})();
+
 // ===== Hamburger Menu Toggle =====
 const hamMenu = document.querySelector(".ham-menu");
 const offScreenMenu = document.querySelector(".off-screen-menu");

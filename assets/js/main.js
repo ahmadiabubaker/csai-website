@@ -96,6 +96,7 @@ window.CSAI = { googleCalendarUrl };
           <ul class="footer-links">
             <li><a href="/">Home</a></li>
             <li><a href="about.html">About</a></li>
+            <li><a href="impact-report.html">Impact Report</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="learning.html">Learning</a></li>
             <li><a href="events.html">Events</a></li>
