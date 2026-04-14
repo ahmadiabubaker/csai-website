@@ -4926,6 +4926,10 @@ body.dark-mode .impact-deck-stage {
   transition: none;
 }
 
+.impact-deck-stage.is-swiping .impact-deck-card.is-active {
+  cursor: grabbing;
+}
+
 body.dark-mode .impact-deck-card img {
   background: rgba(10, 14, 22, 0.7);
 }

@@ -22,9 +22,10 @@
     },
   ];
 
-  const reports = Array.isArray(window.CSAI_IMPACT_REPORTS) && window.CSAI_IMPACT_REPORTS.length
-    ? window.CSAI_IMPACT_REPORTS
-    : defaultReports;
+  const reports = mergeReports(
+    defaultReports,
+    Array.isArray(window.CSAI_IMPACT_REPORTS) ? window.CSAI_IMPACT_REPORTS : []
+  );
 
   const statusEl = document.getElementById("impact-status");
   const yearListEl = document.getElementById("impact-year-list");
@@ -63,6 +64,8 @@
     dragStartY: 0,
     dragOriginX: 0,
     dragOriginY: 0,
+    dragMode: "none",
+    swipeOffsetX: 0,
     suppressCardClick: false,
   };
 
@@ -87,6 +90,44 @@
     bindEvents();
     renderYearList();
     renderSelectedReport();
+  }
+
+  function mergeReports(defaultList, backendList) {
+    const merged = new Map();
+
+    defaultList.forEach((report) => {
+      merged.set(Number(report.year), {
+        year: Number(report.year),
+        updatedAt: report.updatedAt || "",
+        pdfUrl: report.pdfUrl || "",
+        pages: Array.isArray(report.pages) ? report.pages.filter(Boolean) : [],
+      });
+    });
+
+    backendList
+      .filter((item) => Number.isInteger(Number(item.year)))
+      .forEach((item) => {
+        const year = Number(item.year);
+        const existing = merged.get(year) || {
+          year,
+          updatedAt: "",
+          pdfUrl: "",
+          pages: [],
+        };
+
+        const incomingPages = Array.isArray(item.pages)
+          ? item.pages.filter((page) => typeof page === "string" && page.trim())
+          : [];
+
+        merged.set(year, {
+          year,
+          updatedAt: item.updatedAt || existing.updatedAt,
+          pdfUrl: item.pdfUrl || existing.pdfUrl,
+          pages: incomingPages.length ? incomingPages : existing.pages,
+        });
+      });
+
+    return Array.from(merged.values());
   }
 
   function bindEvents() {
@@ -254,6 +295,8 @@
     const total = state.cards.length;
     const report = state.reportMap.get(state.selectedYear);
 
+    clearSwipePreview();
+
     if (!total) {
       pageIndicatorEl.textContent = "Page 0 / 0";
       prevPageBtn.disabled = true;
@@ -318,7 +361,7 @@
   }
 
   function updatePanInteractionMode() {
-    deckStageEl.style.touchAction = state.zoomLevel > 1 ? "none" : "auto";
+    deckStageEl.style.touchAction = state.zoomLevel > 1 ? "none" : "pan-y";
   }
 
   function resetPan() {
@@ -348,20 +391,26 @@
   }
 
   function onDeckPointerDown(event) {
-    if (!state.viewerOpen || state.zoomLevel <= 1) return;
+    if (!state.viewerOpen) return;
 
     const activeCard = state.cards[state.pageIndex];
     if (!activeCard || !activeCard.contains(event.target)) return;
 
     state.isDragging = true;
     state.dragMoved = false;
+    state.dragMode = state.zoomLevel > 1 ? "pan" : "swipe";
     state.dragPointerId = event.pointerId;
     state.dragStartX = event.clientX;
     state.dragStartY = event.clientY;
     state.dragOriginX = state.panX;
     state.dragOriginY = state.panY;
 
-    deckStageEl.classList.add("is-panning");
+    if (state.dragMode === "pan") {
+      deckStageEl.classList.add("is-panning");
+    } else {
+      deckStageEl.classList.add("is-swiping");
+    }
+
     try {
       activeCard.setPointerCapture(event.pointerId);
     } catch {
@@ -381,13 +430,21 @@
       state.dragMoved = true;
     }
 
-    setPan(state.dragOriginX + deltaX, state.dragOriginY + deltaY);
-    applyZoomToActiveCard();
+    if (state.dragMode === "pan") {
+      setPan(state.dragOriginX + deltaX, state.dragOriginY + deltaY);
+      applyZoomToActiveCard();
+    } else {
+      state.swipeOffsetX = deltaX;
+      applySwipePreview(deltaX);
+    }
+
     event.preventDefault();
   }
 
   function onDeckPointerUp(event) {
     if (!state.isDragging || event.pointerId !== state.dragPointerId) return;
+
+    const deltaX = event.clientX - state.dragStartX;
 
     state.isDragging = false;
     state.dragPointerId = null;
@@ -396,7 +453,60 @@
       state.suppressCardClick = true;
     }
 
+    if (state.dragMode === "swipe") {
+      const swipeThreshold = 56;
+      if (Math.abs(deltaX) >= swipeThreshold) {
+        if (deltaX < 0) {
+          nextPage();
+        } else {
+          prevPage();
+        }
+      } else {
+        clearSwipePreview();
+      }
+    }
+
+    state.dragMode = "none";
+
     deckStageEl.classList.remove("is-panning");
+    deckStageEl.classList.remove("is-swiping");
+  }
+
+  function applySwipePreview(deltaX) {
+    const total = state.cards.length;
+    if (!total) return;
+
+    const activeIndex = state.pageIndex;
+    const prevIndex = (state.pageIndex - 1 + total) % total;
+    const nextIndex = (state.pageIndex + 1) % total;
+
+    const activeCard = state.cards[activeIndex];
+    const prevCard = state.cards[prevIndex];
+    const nextCard = state.cards[nextIndex];
+    const drift = Math.max(-160, Math.min(160, deltaX));
+
+    if (activeCard) {
+      activeCard.style.transition = "none";
+      activeCard.style.transform = `translate(calc(-50% + ${drift}px), -50%) rotate(0deg) scale(1)`;
+    }
+
+    if (prevCard) {
+      prevCard.style.transition = "none";
+      prevCard.style.transform = `translate(calc(-58% + ${drift * 0.22}px), -50%) rotate(-8deg) scale(0.88)`;
+    }
+
+    if (nextCard) {
+      nextCard.style.transition = "none";
+      nextCard.style.transform = `translate(calc(-42% + ${drift * 0.22}px), -50%) rotate(8deg) scale(0.88)`;
+    }
+  }
+
+  function clearSwipePreview() {
+    state.swipeOffsetX = 0;
+    state.cards.forEach((card) => {
+      card.style.transition = "";
+      card.style.transform = "";
+    });
   }
 
   function syncMiniDeck(pages) {
@@ -449,7 +559,10 @@
   function closeViewer() {
     state.isDragging = false;
     state.dragPointerId = null;
+    state.dragMode = "none";
     deckStageEl.classList.remove("is-panning");
+    deckStageEl.classList.remove("is-swiping");
+    clearSwipePreview();
     state.viewerOpen = false;
     viewerEl.classList.remove("is-open");
     viewerEl.setAttribute("aria-hidden", "true");
