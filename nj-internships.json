@@ -1,95 +1,5 @@
 [
     {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "United Parcel Service (UPS)",
-        "id": "c34e985f-d69d-4e2d-86e3-4795691dcf92",
-        "title": "Ism Co-Op",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1755417923,
-        "date_posted": 1755287314,
-        "url": "https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/US---IS-PARSIPPANY-NJPRS/ISM-Co-Op_R25028023",
-        "locations": [
-            "Parsippany-Troy Hills, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/United-Parcel-Service",
-        "is_visible": true,
-        "sponsorship": "Other"
-    },
-    {
-        "source": "Simplify",
-        "category": "Other",
-        "company_name": "C&S Wholesale Grocers",
-        "id": "ee8bef54-5974-4c27-b713-5c019a4436e9",
-        "title": "Cyber Security Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1755703784,
-        "date_posted": 1755295324,
-        "url": "https://cswg.wd1.myworkdayjobs.com/cs_careers/job/Edison-NJ/Cyber-Security-Intern--Summer-2026_R-264014",
-        "locations": [
-            "Edison, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/CS-Wholesale-Grocers",
-        "is_visible": false,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Church & Dwight",
-        "id": "2371632d-cd36-48a6-84cf-56ec6dc60319",
-        "title": "Master's Data Science Co-op",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1755641443,
-        "date_posted": 1755641443,
-        "url": "https://churchdwight.wd1.myworkdayjobs.com/chdcareers/job/USA-Ewing-NJ/XMLNAME-2026-Master-s-Data-Science-Co-op_R2025-14136",
-        "locations": [
-            "Trenton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Church-And-Dwight",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Master's"
-        ]
-    },
-    {
-        "date_updated": 1755784995,
-        "sponsorship": "U.S. Citizenship is Required",
-        "active": true,
-        "degrees": [
-            "Bachelor's"
-        ],
-        "url": "https://churchdwight.wd1.myworkdayjobs.com/en-US/chdcareers/job/USA-Ewing-NJ/XMLNAME-2026-Master-s-Data-Science-Co-op_R2025-14136",
-        "company_name": "Church & Dwight",
-        "title": "Master's Data Science Co-op",
-        "locations": [
-            "Ewing, NJ"
-        ],
-        "terms": [
-            "Summer 2026",
-            "Fall 2026"
-        ],
-        "category": "Data Science, AI & Machine Learning",
-        "source": "AlmondCroffle",
-        "id": "abe2309c-b33c-417a-afec-387d562c88f2",
-        "date_posted": 1755784995,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
         "date_updated": 1755868448,
         "sponsorship": "Does Not Offer Sponsorship",
         "active": true,
@@ -215,7 +125,7 @@
         "company_name": "Eos Energy Storage",
         "id": "e6897854-bdc0-4430-8c5b-7e1dd53df405",
         "title": "Summer Internship Program 2026",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8474,7 +8384,7 @@
         "company_name": "Amynta Group",
         "id": "1e53d165-77ee-4c0f-badc-89853aa42141",
         "title": "IT Technical Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8756,7 +8666,7 @@
         "company_name": "Genmab",
         "id": "d15150d9-3e3b-4091-ba3a-950255de497a",
         "title": "Programming Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -8866,7 +8776,7 @@
         "company_name": "Interdigital",
         "id": "ea035afc-1439-4967-ab1a-dd5ab5780e5b",
         "title": "Ph.D. Intern - 6G Wireless Systems - AI/ML",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -9249,7 +9159,7 @@
         "company_name": "Leidos",
         "id": "3772797f-c6b4-48ce-9253-69a8f4e17fd1",
         "title": "Software Engineer \u2013 Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -10645,7 +10555,7 @@
         "company_name": "Zoetis",
         "id": "6aeac4ff-9a0b-4910-83bb-d504dceb1a9e",
         "title": "Global Commercial ZTD Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10783,7 +10693,7 @@
         "company_name": "S&P Global ",
         "id": "f06f6eb6-7310-44d8-ac4d-2083a6cd01e2",
         "title": "AI Agent Developer \u2013 Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11081,7 +10991,7 @@
         "company_name": "Analog Devices",
         "id": "529fa4fc-e15b-4bd4-a450-33b446bfda19",
         "title": "Digital Design Engineer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11857,7 +11767,7 @@
         "company_name": "Securitas",
         "id": "fb68609e-4629-46a5-bb48-28b682c697a7",
         "title": "Intern AI & Automation",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11881,7 +11791,7 @@
         "company_name": "Securitas",
         "id": "962af3e4-5872-4870-bab4-71fdbb3b61d1",
         "title": "Intern Data & Insights Analysis",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11976,7 +11886,7 @@
         "company_name": "Rolls-Royce Motorcars",
         "id": "056e9dff-5488-43f3-9a4a-c3c60b211167",
         "title": "Intern Data Scientist",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -12001,7 +11911,7 @@
         "company_name": "Orion Innovation",
         "id": "75e0d373-e3e1-40d3-9411-6679b0c8e350",
         "title": "Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -12017,6 +11927,298 @@
         "sponsorship": "Other",
         "degrees": [
             "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Johnson & Johnson",
+        "id": "4598e1fc-f3f2-4a9c-87b6-15c1c6bdae41",
+        "title": "ISRM Data & Analytics GEM Fellow",
+        "active": false,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1776091796,
+        "date_posted": 1776089361,
+        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/ISRM-2026-Data---Analytics-GEM-Fellow_R-067835",
+        "locations": [
+            "Bridgewater Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Thorlabs",
+        "id": "1816af25-8fb0-495b-9aa4-9769090bdde3",
+        "title": "Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1776119982,
+        "date_posted": 1776118182,
+        "url": "https://apply.workable.com/thorlabs/j/2E65C95B04/apply",
+        "locations": [
+            "Branchville, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Thorlabs",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Johnson & Johnson",
+        "id": "a42f4d2a-5905-48f2-ae01-35765288e1bd",
+        "title": "R&D Engineer Co-op",
+        "active": true,
+        "terms": [
+            "Fall 2026"
+        ],
+        "date_updated": 1776121253,
+        "date_posted": 1776118122,
+        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/R-D-Engineer-Co-Op---Fall-2026_R-068249",
+        "locations": [
+            "Bridgewater Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's",
+            "PhD"
+        ]
+    },
+    {
+        "date_updated": 1776157579,
+        "sponsorship": "Does Not Offer Sponsorship",
+        "active": true,
+        "degrees": [
+            "Master's"
+        ],
+        "url": "https://apply.workable.com/ascendis-pharma/j/DD772BCEE8/",
+        "company_name": "Ascendis Pharma",
+        "title": "Data Science Summer Intern",
+        "locations": [
+            "Princeton, NJ",
+            "Palo Alto, CA"
+        ],
+        "terms": [
+            "Summer 2026"
+        ],
+        "category": "Data Science, AI & Machine Learning",
+        "source": "AlmondCroffle",
+        "id": "a88f2925-460f-43dd-b6f9-192ae10371ca",
+        "date_posted": 1776157579,
+        "company_url": "",
+        "is_visible": true
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Yai",
+        "id": "20144e15-042e-471c-83a7-8febaefddcd9",
+        "title": "Assistive Technology Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1776208870,
+        "date_posted": 1776204632,
+        "url": "https://yai.wd5.myworkdayjobs.com/careers/job/Manhattan/Assistive-Technology-Intern_R024452",
+        "locations": [
+            "Union City, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Yai",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Analytical Mechanics Associates",
+        "id": "6b0ce6d3-4837-41f7-9096-be81cab92c24",
+        "title": "Surface Radiation \u2013 Aerosol and Meteorological Measurements and Analysis Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1776206713,
+        "date_posted": 1776204451,
+        "url": "https://amainc.wd12.myworkdayjobs.com/ama_careers/job/Hampton-VA/Surface-Radiation--Aerosol-and-Meteorological-Measurements-and-Analysis-Intern_R-100557",
+        "locations": [
+            "New Mexico",
+            "Washington",
+            "Kansas",
+            "Pennsylvania",
+            "North Dakota",
+            "Oregon",
+            "Delaware",
+            "Iowa",
+            "California",
+            "Washington, DC",
+            "Vermont",
+            "Wyoming",
+            "Texas",
+            "Montana",
+            "Jackson Township, NJ",
+            "Florida",
+            "Waterbury, CT",
+            "Nevada",
+            "South Carolina",
+            "South Dakota",
+            "Georgia",
+            "Hampton, VA",
+            "Arizona",
+            "Concord, NH",
+            "Mississippi",
+            "Tennessee",
+            "Virginia",
+            "Arkansas",
+            "Minnesota",
+            "Colorado",
+            "Nebraska",
+            "Rhode Island",
+            "Utah",
+            "Kentucky",
+            "West Virginia",
+            "NYC",
+            "Maryland",
+            "Hawaii",
+            "Wisconsin",
+            "Maine",
+            "Massachusetts",
+            "North Carolina",
+            "Oklahoma",
+            "Missouri",
+            "Ohio",
+            "Indiana",
+            "Louisiana",
+            "Alaska",
+            "Michigan",
+            "Illinois",
+            "Alabama",
+            "Idaho"
+        ],
+        "company_url": "https://simplify.jobs/c/Analytical-Mechanics-Associates",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "LG Electronics",
+        "id": "f7a99957-54c9-45a6-a925-18b8ff8688c8",
+        "title": "Intern Environmental Health and Safety - Environmental Health and Safety",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1776209301,
+        "date_posted": 1776205091,
+        "url": "https://job-boards.greenhouse.io/lgelectronics/jobs/5187935008",
+        "locations": [
+            "Englewood, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/LG-Electronics",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Public Service Enterprise Group",
+        "id": "f9280019-0754-4e7d-9b25-c9afe4176a8d",
+        "title": "Technical Intern - Benchmarking Team",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1776242632,
+        "date_posted": 1775167415,
+        "url": "https://jobs.pseg.com/job/South-Plainfield-Summer-2026-Technical-Intern-Benchmarking-Team-NJ-07080/1379094000/?ats=successfactors",
+        "locations": [
+            "South Plainfield, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Public-Service-Enterprise-Group",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Comcast",
+        "id": "db4fb0c2-aadc-4f20-a494-b1523d1de3ed",
+        "title": "Hockey Analytics Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1776295571,
+        "date_posted": 1776290959,
+        "url": "https://comcast.wd5.myworkdayjobs.com/Comcast_Careers/job/NJ---Voorhees-601-Laurel-Oak-Rd/Hockey-Analytics-Summer-Intern_R435371",
+        "locations": [
+            "Cherry Hill, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Comcast",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Sony",
+        "id": "22a65ee9-ac38-442a-a46d-357f11a9b4a1",
+        "title": "Research Intern-AI Ethics",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1776378061,
+        "date_posted": 1776377321,
+        "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---California/Research-Intern--AI-Ethics_JR-119055",
+        "locations": [
+            "California",
+            "San Jose, CA",
+            "Jackson Township, NJ",
+            "Florida",
+            "Waterbury, CT",
+            "Virginia",
+            "NYC",
+            "Massachusetts"
+        ],
+        "company_url": "https://simplify.jobs/c/Sony",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "PhD"
         ]
     }
 ]
