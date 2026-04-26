@@ -1,382 +1,5 @@
 [
     {
-        "date_updated": 1755868448,
-        "sponsorship": "Does Not Offer Sponsorship",
-        "active": true,
-        "degrees": [
-            "Bachelor's"
-        ],
-        "url": "https://careers.loreal.com/en_US/jobs/JobDetail/2026-L-Or-al-USA-Summer-Internship-Program-Information-Technology-IT-Undergraduate/215820",
-        "company_name": "L'Or\u00e9al",
-        "title": "Information Technology",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "terms": [
-            "Summer 2026"
-        ],
-        "category": "Other",
-        "source": "AlmondCroffle",
-        "id": "e2c77757-66fd-4e4c-9bea-2a72f1a0e751",
-        "date_posted": 1755868448,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Johnson & Johnson",
-        "id": "fae3ac45-3929-4b91-b778-ac0866ea8b29",
-        "title": "Technology Fall Co-Op",
-        "active": false,
-        "terms": [
-            "Summer 2026",
-            "Winter 2026"
-        ],
-        "date_updated": 1756104407,
-        "date_posted": 1756104407,
-        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/US174-NJ-New-Brunswick---410-George-St/Technology-2026-Fall-Co-Op_R-029591",
-        "locations": [
-            "New Hope, PA",
-            "West Chester, PA",
-            "Bridgewater Township, NJ",
-            "Horsham, PA",
-            "Irvine, CA",
-            "Santa Clara, CA",
-            "Edison, NJ",
-            "Ambler, PA"
-        ],
-        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's",
-            "Master's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Johnson & Johnson",
-        "id": "c8b989a3-4021-4c2b-9251-971f46e60e4f",
-        "title": "Technology Co-Op",
-        "active": false,
-        "terms": [
-            "Winter 2026",
-            "Summer 2026"
-        ],
-        "date_updated": 1756104408,
-        "date_posted": 1756104408,
-        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/New-Brunswick-New-Jersey-United-States-of-America/Technology-2026-Spring-Co-Op_R-029603",
-        "locations": [
-            "New Hope, PA",
-            "West Chester, PA",
-            "Bridgewater Township, NJ",
-            "Horsham, PA",
-            "Irvine, CA",
-            "Santa Clara, CA",
-            "Edison, NJ",
-            "Ambler, PA"
-        ],
-        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's",
-            "Master's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Johnson & Johnson",
-        "id": "71e87491-1545-4f98-bfca-5c4330d53e09",
-        "title": "Technology 2026 Summer Internship",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1756104409,
-        "date_posted": 1756104409,
-        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/New-Brunswick-New-Jersey-United-States-of-America/Technology-2026-Summer-Internship_R-029613",
-        "locations": [
-            "New Hope, PA",
-            "West Chester, PA",
-            "Bridgewater Township, NJ",
-            "Horsham, PA",
-            "Irvine, CA",
-            "Santa Clara, CA",
-            "Edison, NJ",
-            "Ambler, PA",
-            "Jacksonville, FL",
-            "Palm Beach Gardens, FL"
-        ],
-        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's",
-            "Master's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Eos Energy Storage",
-        "id": "e6897854-bdc0-4430-8c5b-7e1dd53df405",
-        "title": "Summer Internship Program 2026",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1756141179,
-        "date_posted": 1756141179,
-        "url": "https://eosenergystorage.wd1.myworkdayjobs.com/eos/job/PA-Turtle-Creek/Summer-Internship-Program-2026_R4381",
-        "locations": [
-            "Monroeville, PA",
-            "Edison, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Eos-Energy-Storage",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's"
-        ]
-    },
-    {
-        "date_updated": 1756147274,
-        "sponsorship": "Does Not Offer Sponsorship",
-        "active": true,
-        "degrees": [
-            "Bachelor's"
-        ],
-        "url": "https://www.careers.jnj.com/en/jobs/r-029613/technology-2026-summer-internship/",
-        "company_name": "Johnson & Johnson",
-        "title": "Technology 2026 Summer Internship",
-        "locations": [
-            "Fort Washington, PA",
-            "Horsham, PA",
-            "Irvine, CA",
-            "Jacksonville, FL",
-            "New Brunswick, NJ",
-            "Palm Beach Gardens, FL",
-            "Raritan, NJ",
-            "Santa Clara, CA",
-            "Spring House, PA",
-            "Titusville, NJ",
-            "West Chester, PA"
-        ],
-        "terms": [
-            "Summer 2026"
-        ],
-        "category": "Software Engineering",
-        "source": "unvibingcode",
-        "id": "f9014a2d-89a4-4e5d-b480-446a4afd029b",
-        "date_posted": 1756147274,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Johnson & Johnson",
-        "id": "04f96fbc-6f8c-42a9-bcff-9daefceb3d4c",
-        "title": "J&J Quality & Compliance Internship",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1756130696,
-        "date_posted": 1756130696,
-        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/J-J-Quality---Compliance-Internship---Summer-2026_R-029913",
-        "locations": [
-            "Bridgewater Township, NJ",
-            "Horsham, PA",
-            "Miami, FL",
-            "Irvine, CA",
-            "Goldsboro, NC",
-            "Edison, NJ",
-            "Jacksonville, FL",
-            "Atlanta, GA",
-            "Athens, GA"
-        ],
-        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's",
-            "Master's",
-            "PhD"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Prudential Financial",
-        "id": "6e55445b-b43a-48d2-ac73-f1bb4086b41f",
-        "title": "PGIM: 2026 Technology Internship Program",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1756161529,
-        "date_posted": 1756161529,
-        "url": "https://pru.wd5.myworkdayjobs.com/en-US/Careers/job/Newark-NJ-USA/PGIM--2026-Technology-Internship-Program_R-121813-1",
-        "locations": [
-            "Tampa, FL",
-            "Newark, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Prudential-Financial",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Sanofi",
-        "id": "a189ce9a-d3d1-4493-98c9-d89096d9b4da",
-        "title": "Advanced Analytics Summer 2026 Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1756249836,
-        "date_posted": 1756249836,
-        "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Cambridge-MA/US-Advanced-Analytics-Summer-2026-Intern_R2813670",
-        "locations": [
-            "Cambridge, MA",
-            "Morristown, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Sanofi",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's",
-            "Master's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "United Parcel Service (UPS)",
-        "id": "f9d4a2d2-38fc-44ad-b91f-78f3fe207afe",
-        "title": "AI Fluency Co-op",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1756301207,
-        "date_posted": 1756251954,
-        "url": "https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/US---AIR-GROUP-BUILDING-KYARP/AI-Fluency-Co-op_R25028843",
-        "locations": [
-            "Philadelphia, PA",
-            "Newark, NJ",
-            "Arlington, VA",
-            "Parsippany-Troy Hills, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/United-Parcel-Service",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "Verisk",
-        "id": "ee80474f-0dd7-402f-a546-7e6cb19b2530",
-        "title": "Tech Internship",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1756729281,
-        "date_posted": 1756333372,
-        "url": "https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/2158",
-        "locations": [
-            "Holmdel, NJ",
-            "New York, NY",
-            "Lehi, UT"
-        ],
-        "company_url": "https://simplify.jobs/c/Verisk",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Sanofi",
-        "id": "0ea008fe-362a-4750-b29d-9a6604f206a6",
-        "title": "Summer 2026 Early Development Clinical Operations /Study and Data Management Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1756335525,
-        "date_posted": 1756335525,
-        "url": "https://sanofi.wd3.myworkdayjobs.com/en-US/SanofiCareers/job/Cambridge-MA/Summer-2026-Early-Development-Clinical-Operations--Study-and-Data-Management-Intern_R2813308",
-        "locations": [
-            "Cambridge, MA",
-            "Morristown, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Sanofi",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's",
-            "Master's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "Geico",
-        "id": "164f9aae-acb5-4256-8bf0-cd65ba76ab86",
-        "title": "TDP Software Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1756313336,
-        "date_posted": 1756313336,
-        "url": "https://geico.wd1.myworkdayjobs.com/en-US/External/job/Chevy-Chase-MD/TDP-Software-Intern_R0059640",
-        "locations": [
-            "Springfield, VA",
-            "Indianapolis, IN",
-            "Cheektowaga, NY",
-            "Lakeland, FL",
-            "Coralville, IA",
-            "Fredericksburg, VA",
-            "Virginia Beach, VA",
-            "Woodbury, NY",
-            "Tukwila, WA",
-            "Mt Laurel Township, NJ",
-            "Macon, GA",
-            "Lenexa, KS",
-            "Jacksonville, FL",
-            "Sorrento Valley, San Diego, CA",
-            "Richardson, TX",
-            "Tucson, AZ",
-            "Katy, TX",
-            "Anchorage, AK",
-            "Bethesda, MD"
-        ],
-        "company_url": "https://simplify.jobs/c/Geico",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's",
-            "Master's"
-        ]
-    },
-    {
         "source": "Simplify",
         "category": "Other",
         "company_name": "Withum",
@@ -2391,7 +2014,7 @@
         "company_name": "Leidos",
         "id": "0f43d7bb-9f44-4ec0-9cfe-721d7d264ada",
         "title": "Systems Integration and Software Engineer Intern - Transportation Solutions - Air Traffic Management",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -5055,27 +4678,6 @@
             "Livingston, NJ"
         ],
         "company_url": "https://simplify.jobs/c/Mondelez-International",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Hardware",
-        "company_name": "Legrand",
-        "id": "990ef33c-969a-45f9-b9f3-674f96b7935d",
-        "title": "Intern \u2013 Engineering Firmware",
-        "active": true,
-        "terms": [
-            "Winter 2025"
-        ],
-        "date_updated": 1761860321,
-        "date_posted": 1756189421,
-        "url": "https://milestone.wd1.myworkdayjobs.com/en-US/Milestone_External/job/NJ-Fairfield/Intern---Engineering-Firmware_R03567",
-        "locations": [
-            "Wayne, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Legrand",
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": []
@@ -9159,7 +8761,7 @@
         "company_name": "Leidos",
         "id": "3772797f-c6b4-48ce-9253-69a8f4e17fd1",
         "title": "Software Engineer \u2013 Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10203,7 +9805,7 @@
         "company_name": "QuidelOrtho",
         "id": "bde7c083-bf63-4706-9937-990880736400",
         "title": "Global Product Management - Informatics",
-        "active": true,
+        "active": false,
         "terms": [
             "N/A"
         ],
@@ -10601,7 +10203,7 @@
         "company_name": "Veolia",
         "id": "b1106c69-a152-4478-85a9-e787410cd535",
         "title": "AI Engineering Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10670,7 +10272,7 @@
         "company_name": "Veolia",
         "id": "0448e3fe-5ff4-4808-b1fc-a5bfc27d2d33",
         "title": "AI Engineering Intern - LLM",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10716,7 +10318,7 @@
         "company_name": "LG Electronics",
         "id": "7e85576e-dbb5-4c0a-b45e-15f84be154f7",
         "title": "Product Management Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10809,7 +10411,7 @@
         "company_name": "SRI International",
         "id": "b34a383c-2895-4572-9752-7e928ea9ef70",
         "title": "Intern Systems Engineering",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11086,7 +10688,7 @@
         "company_name": "LG Electronics",
         "id": "3fe70d8f-6d39-4690-a196-f509028e263a",
         "title": "AI Intern \u2013 Architecture & AI",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11354,7 +10956,7 @@
         "company_name": "Benjamin Moore",
         "id": "67065952-4819-4b58-86c1-a51d0db4bc6a",
         "title": "Front End Developer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -11911,7 +11513,7 @@
         "company_name": "Orion Innovation",
         "id": "75e0d373-e3e1-40d3-9411-6679b0c8e350",
         "title": "Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -12172,7 +11774,7 @@
         "company_name": "Comcast",
         "id": "db4fb0c2-aadc-4f20-a494-b1523d1de3ed",
         "title": "Hockey Analytics Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -12219,6 +11821,106 @@
         "degrees": [
             "Bachelor's",
             "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "W.R. Berkley",
+        "id": "1fbdc691-dfec-4199-8f8f-02f8a8a42537",
+        "title": "Engineering Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1776723481,
+        "date_posted": 1776723436,
+        "url": "https://careers-berkley.icims.com/jobs/13894/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Mt Laurel Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/WR-Berkley",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Veolia",
+        "id": "368bec52-4db9-435f-93bf-8a38e42f0c2d",
+        "title": "Drupal Developer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1776809881,
+        "date_posted": 1776809155,
+        "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000122126237",
+        "locations": [
+            "Paramus, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Veolia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Johnson & Johnson",
+        "id": "fae3ac45-3929-4b91-b778-ac0866ea8b29",
+        "title": "Technology Co-Op",
+        "active": true,
+        "terms": [
+            "Fall 2026"
+        ],
+        "date_updated": 1776809890,
+        "date_posted": 1776809317,
+        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/New-Brunswick-Any-City/Technology-2026-Fall-Co-Op_R-029591",
+        "locations": [
+            "New Hope, PA",
+            "West Chester, PA",
+            "Bridgewater Township, NJ",
+            "Horsham, PA",
+            "Shepherdsville, KY",
+            "Irvine, CA",
+            "Santa Clara, CA",
+            "Edison, NJ",
+            "Ambler, PA",
+            "Peabody, MA"
+        ],
+        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Legrand",
+        "id": "990ef33c-969a-45f9-b9f3-674f96b7935d",
+        "title": "Engineering Firmware Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1776524654,
+        "date_posted": 1776522984,
+        "url": "https://milestone.wd1.myworkdayjobs.com/en-US/Milestone_External/job/NJ-Fairfield/Intern---Engineering-Firmware_R03567",
+        "locations": [
+            "Wayne, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Legrand",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
         ]
     }
 ]
