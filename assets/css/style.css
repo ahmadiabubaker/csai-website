@@ -1400,13 +1400,34 @@ body.dark-mode .section h2 {
   box-shadow: 0 12px 30px rgba(10, 20, 40, 0.3);
   transform: translate3d(0, 0, 0);
   transition: opacity 0.15s ease;
-  max-width: 180px;
+  max-width: 210px;
   z-index: 5;
 }
 
 .map-tooltip .tooltip-title {
   font-weight: 700;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
+}
+
+.map-tooltip .tooltip-winner {
+  color: #a8c0ff;
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+}
+
+.map-tooltip .tooltip-votes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 5px;
+}
+
+.map-tooltip .tooltip-vote-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 0.8rem;
+  color: #d9e1ff;
 }
 
 .map-tooltip .tooltip-value {

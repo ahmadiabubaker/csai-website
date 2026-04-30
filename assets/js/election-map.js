@@ -12,35 +12,69 @@
   const summary = d3.select("#nj-map-summary");
 
   const candidates = [
-    {
-      id: "a",
-      name: "Rodolfo A Jaramillo",
-      pct: 23,
-      votes: 230,
-    },
-    {
-      id: "b",
-      name: "Manashvi Vats",
-      pct: 23,
-      votes: 230,
-    },
-    {
-      id: "c",
-      name: "Dedeepya Nallamothu",
-      pct: 54,
-      votes: 540,
-    },
+    { id: "a", name: "Rodolfo A Jaramillo", pct: 23 },
+    { id: "b", name: "Manashvi Vats", pct: 23 },
+    { id: "c", name: "Dedeepya Nallamothu", pct: 54 },
   ];
 
-  const weightedPick = () => {
-    const roll = Math.random();
-    if (roll < 0.65) {
-      return candidates[2];
+  // Deterministic hash so colors don't change on reload
+  const hashStr = (s) => {
+    let h = 2166136261;
+    for (let i = 0; i < s.length; i++) {
+      h ^= s.charCodeAt(i);
+      h = (h * 16777619) >>> 0;
     }
-    if (roll < 0.825) {
-      return candidates[0];
+    return h;
+  };
+
+  const featureKey = (feature) =>
+    String(
+      feature.properties?.CENSUS2020 ||
+      feature.properties?.MUN_CODE ||
+      feature.properties?.NAME ||
+      ""
+    );
+
+  // Assign winners so town counts match exactly: 54% Dedeepya, 23% Rodolfo, 23% Manashvi
+  const assignWinners = (features) => {
+    const n = features.length;
+    const countC = Math.round(n * 0.54);
+    const countA = Math.round(n * 0.23);
+    // countB gets the remainder so all towns are assigned
+    const counts = { c: countC, a: countA, b: n - countC - countA };
+
+    // Sort by hash for a stable, visually distributed assignment
+    const sorted = [...features].sort((a, b) => hashStr(featureKey(a)) - hashStr(featureKey(b)));
+
+    const winnerMap = new Map();
+    let i = 0;
+    for (const [id, count] of Object.entries(counts)) {
+      const cand = candidates.find((c) => c.id === id);
+      for (let j = 0; j < count; j++) {
+        winnerMap.set(featureKey(sorted[i++]), cand);
+      }
     }
-    return candidates[1];
+    return winnerMap;
+  };
+
+  // Generate hypothetical per-town vote splits that sum to a plausible total
+  const townVotes = (feature, winner) => {
+    const key = String(feature.properties?.CENSUS2020 || feature.properties?.MUN_CODE || feature.properties?.NAME || "");
+    const base = 200 + (hashStr(key + "base") % 601); // 200–800 total votes per town
+    const winnerShare = 0.44 + (hashStr(key + "w") % 201) / 1000; // 44–64% for winner
+    const winnerVotes = Math.round(base * winnerShare);
+    const remaining = base - winnerVotes;
+    // Split remaining between the other two roughly evenly with some noise
+    const splitA = 0.4 + (hashStr(key + "s") % 201) / 1000; // 40–60%
+    const otherA = Math.round(remaining * splitA);
+    const otherB = remaining - otherA;
+
+    const result = {};
+    const others = candidates.filter((c) => c.id !== winner.id);
+    result[winner.id] = winnerVotes;
+    result[others[0].id] = otherA;
+    result[others[1].id] = otherB;
+    return { total: base, votes: result };
   };
 
   const geoUrl =
@@ -59,85 +93,72 @@
 
   const getMunicipalityLabel = (feature) => {
     const props = feature?.properties || {};
-    if (props.MUN_LABEL) {
-      return props.MUN_LABEL;
-    }
-    if (props.NAME && props.MUN_TYPE) {
-      return `${props.NAME} ${props.MUN_TYPE}`;
-    }
+    if (props.MUN_LABEL) return props.MUN_LABEL;
+    if (props.NAME && props.MUN_TYPE) return `${props.NAME} ${props.MUN_TYPE}`;
     return props.NAME || "Municipality";
   };
 
   const positionTooltip = (x, y) => {
-    if (!mapCard || tooltip.empty()) {
-      return;
-    }
+    if (!mapCard || tooltip.empty()) return;
     const rect = mapCard.getBoundingClientRect();
-    const maxLeft = rect.width - 170;
-    const maxTop = rect.height - 70;
+    const maxLeft = rect.width - 190;
+    const maxTop = rect.height - 100;
     const left = Math.min(Math.max(x - rect.left + 12, 12), maxLeft);
     const top = Math.min(Math.max(y - rect.top + 12, 12), maxTop);
-
-    tooltip
-      .style("left", `${left}px`)
-      .style("top", `${top}px`)
-      .style("opacity", 1);
+    tooltip.style("left", `${left}px`).style("top", `${top}px`).style("opacity", 1);
   };
 
   const updateTooltip = (event, feature, fallbackElement) => {
     const name = getMunicipalityLabel(feature);
-    const winner = feature?.properties?._winner;
-    const winnerText = winner
-      ? `${winner.name} (${winner.pct.toFixed(0)}%)`
-      : "No votes yet";
+    const props = feature?.properties || {};
+    const winner = props._winner;
+    const townData = props._townData;
 
-    if (!tooltip.empty()) {
-      tooltip.html(
-        `<div class="tooltip-title">${name}</div>` +
-          `<div class="tooltip-value">${winnerText}</div>`
-      );
+    let body = `<div class="tooltip-title">${name}</div>`;
+
+    if (winner && townData) {
+      body += `<div class="tooltip-winner">&#9679; ${winner.name}</div>`;
+      body += `<div class="tooltip-votes-list">`;
+      for (const c of candidates) {
+        const v = townData.votes[c.id] ?? 0;
+        const pct = ((v / townData.total) * 100).toFixed(0);
+        const bold = c.id === winner.id ? " style=\"font-weight:700\"" : "";
+        body += `<div class="tooltip-vote-row"${bold}><span>${c.name.split(" ")[0]}</span><span>${v} (${pct}%)</span></div>`;
+      }
+      body += `</div>`;
+    } else {
+      body += `<div class="tooltip-value">No votes yet</div>`;
     }
+
+    if (!tooltip.empty()) tooltip.html(body);
 
     let clientX = event?.clientX;
     let clientY = event?.clientY;
-
     if ((!clientX || !clientY) && fallbackElement) {
       const bounds = fallbackElement.getBoundingClientRect();
       clientX = bounds.left + bounds.width / 2;
       clientY = bounds.top + bounds.height / 2;
     }
-
-    if (clientX && clientY) {
-      positionTooltip(clientX, clientY);
-    }
+    if (clientX && clientY) positionTooltip(clientX, clientY);
   };
 
   const hideTooltip = () => {
-    if (!tooltip.empty()) {
-      tooltip.style("opacity", 0);
-    }
+    if (!tooltip.empty()) tooltip.style("opacity", 0);
   };
 
   const setActive = (element) => {
     svg.selectAll(".nj-town").classed("is-active", false);
-    if (element) {
-      d3.select(element).classed("is-active", true);
-    }
+    if (element) d3.select(element).classed("is-active", true);
   };
 
   d3.json(geoUrl)
     .then((collection) => {
       if (!collection || !Array.isArray(collection.features)) {
-        if (!summary.empty()) {
-          summary.text("Map data not found.");
-        }
+        if (!summary.empty()) summary.text("Map data not found.");
         return;
       }
-
       if (collection.features.length === 0) {
-        if (!summary.empty()) {
-          summary.text("No municipalities found.");
-        }
+        if (!summary.empty()) summary.text("No municipalities found.");
         return;
       }
 
@@ -146,74 +167,45 @@
 
       svg.selectAll("*").remove();
 
+      const winnerMap = assignWinners(collection.features);
+
+      const enriched = collection.features.map((feature) => {
+        const winner = winnerMap.get(featureKey(feature));
+        const townData = townVotes(feature, winner);
+        return {
+          ...feature,
+          properties: { ...feature.properties, _winner: winner, _townData: townData },
+        };
+      });
+
       const towns = svg
         .append("g")
         .attr("class", "nj-towns")
         .selectAll("path")
-        .data(
-          collection.features.map((feature) => {
-            const winner = weightedPick();
-            return {
-              ...feature,
-              properties: {
-                ...feature.properties,
-                _winner: winner,
-              },
-            };
-          })
-        )
+        .data(enriched)
         .join("path")
-        .attr("class", (d) => `nj-town candidate-${d.properties?._winner?.id || ""}`)
+        .attr("class", (d) => `nj-town candidate-${d.properties._winner.id}`)
         .attr("d", path)
-        .attr("data-id", (d) =>
-          String(d.properties?.CENSUS2020 || d.properties?.MUN_CODE || "")
-        )
+        .attr("data-id", (d) => String(d.properties?.CENSUS2020 || d.properties?.MUN_CODE || ""))
         .attr("data-name", (d) => getMunicipalityLabel(d))
         .attr("tabindex", 0)
         .attr("role", "img")
-        .attr("aria-label", (d) => {
-          const winner = d.properties?._winner;
-          const winnerText = winner
-            ? `${winner.name} ${winner.pct.toFixed(0)}%`
-            : "no votes yet";
-          return `${getMunicipalityLabel(d)}: ${winnerText}`;
-        })
-        .on("mouseenter", function (event, d) {
-          setActive(this);
-          updateTooltip(event, d, this);
-        })
-        .on("mousemove", function (event, d) {
-          updateTooltip(event, d, this);
-        })
-        .on("mouseleave", () => {
-          setActive(null);
-          hideTooltip();
-        })
-        .on("focus", function (event, d) {
-          setActive(this);
-          updateTooltip(event, d, this);
-        })
-        .on("blur", () => {
-          setActive(null);
-          hideTooltip();
-        });
+        .attr("aria-label", (d) => `${getMunicipalityLabel(d)}: ${d.properties._winner.name} leading`)
+        .on("mouseenter", function (event, d) { setActive(this); updateTooltip(event, d, this); })
+        .on("mousemove", function (event, d) { updateTooltip(event, d, this); })
+        .on("mouseleave", () => { setActive(null); hideTooltip(); })
+        .on("focus", function (event, d) { setActive(this); updateTooltip(event, d, this); })
+        .on("blur", () => { setActive(null); hideTooltip(); });
 
-      towns.append("title").text((d) => {
-        const winner = d.properties?._winner;
-        const winnerText = winner
-          ? `${winner.name} ${winner.pct.toFixed(0)}%`
-          : "no votes yet";
-        return `${getMunicipalityLabel(d)}: ${winnerText}`;
-      });
+      towns.append("title").text((d) => `${getMunicipalityLabel(d)}: ${d.properties._winner.name} leading`);
 
+      const dedeepyaTowns = enriched.filter((f) => f.properties._winner.id === "c").length;
       if (!summary.empty()) {
-        summary.text("Live results: Dedeepya Nallamothu 54%, others 23% each.");
+        summary.text(`Dedeepya leads in ${dedeepyaTowns} of ${enriched.length} municipalities.`);
       }
     })
     .catch((error) => {
       console.error("Failed to load map data", error);
-      if (!summary.empty()) {
-        summary.text("Map data failed to load.");
-      }
+      if (!summary.empty()) summary.text("Map data failed to load.");
     });
 })();
