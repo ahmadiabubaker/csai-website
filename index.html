@@ -351,6 +351,7 @@
       <div class="rail-track"><div class="rail-progress"></div></div>
       <a class="rail-item active" href="#home" data-label="Home"></a>
       <a class="rail-item" href="#about" data-label="About"></a>
+      <a class="rail-item" href="#election-watch" data-label="Election"></a>
       <a class="rail-item" href="#stats" data-label="Stats"></a>
       <a class="rail-item" href="#feature-projects" data-label="Projects"></a>
       <a class="rail-item" href="#feature-events" data-label="Events"></a>
@@ -396,6 +397,114 @@
               write-ups, ship public repos, and present at conferences.
             </p>
             <div class="card-shine" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Election Watch (Temporary) ===== -->
+    <section class="section election-watch" id="election-watch">
+      <div class="container">
+        <div class="election-top">
+          <div>
+            <div class="election-kicker reveal">
+              <span class="live-dot" aria-hidden="true"></span>
+              Live results (temporary)
+            </div>
+            <h2 class="reveal">CSAI Presidential Election</h2>
+            <p class="lead reveal delay-1">
+              Results are pending for a three-candidate race. All totals are
+              currently at zero.
+            </p>
+          </div>
+          <div class="election-tags reveal delay-1">
+            <span class="election-tag key">Key race</span>
+            <span class="election-tag projected">Projected winner</span>
+          </div>
+        </div>
+
+        <div class="election-grid">
+          <div class="election-board">
+            <div class="board-head">
+              <span>Candidate</span>
+              <span>Percent</span>
+              <span>Votes</span>
+            </div>
+
+            <div class="candidate-row" style="--pct: 0%; --row-color: var(--cand-a)">
+              <div class="candidate-info">
+                <div class="candidate-name">
+                  Rodolfo A Jaramillo
+                </div>
+                <div class="candidate-party">Candidate</div>
+              </div>
+              <div class="candidate-percent">0.0%</div>
+              <div class="candidate-votes">0</div>
+              <div class="candidate-bar"><span></span></div>
+            </div>
+
+            <div class="candidate-row" style="--pct: 0%; --row-color: var(--cand-b)">
+              <div class="candidate-info">
+                <div class="candidate-name">Manashvi Vats</div>
+                <div class="candidate-party">Candidate</div>
+              </div>
+              <div class="candidate-percent">0.0%</div>
+              <div class="candidate-votes">0</div>
+              <div class="candidate-bar"><span></span></div>
+            </div>
+
+            <div class="candidate-row" style="--pct: 0%; --row-color: var(--cand-c)">
+              <div class="candidate-info">
+                <div class="candidate-name">Dedeepya Nallamothu</div>
+                <div class="candidate-party">Candidate</div>
+              </div>
+              <div class="candidate-percent">0.0%</div>
+              <div class="candidate-votes">0</div>
+              <div class="candidate-bar"><span></span></div>
+            </div>
+
+            <div class="board-footer">
+              <span>Est. 0% reporting</span>
+              <span>Awaiting results</span>
+            </div>
+          </div>
+
+          <div class="election-map">
+            <div class="map-card">
+              <div class="map-title">CSAI election map</div>
+              <svg
+                id="nj-map"
+                class="nj-map"
+                role="img"
+                aria-label="CSAI election map"
+              ></svg>
+              <div
+                id="nj-map-tooltip"
+                class="map-tooltip"
+                role="status"
+                aria-live="polite"
+              ></div>
+              <div id="nj-map-summary" class="map-summary">
+                Results pending.
+              </div>
+              <div class="map-legend">
+                <div class="legend-item">
+                  <span class="legend-swatch swatch-a"></span>
+                  <span>Rodolfo A Jaramillo</span>
+                </div>
+                <div class="legend-item">
+                  <span class="legend-swatch swatch-b"></span>
+                  <span>Manashvi Vats</span>
+                </div>
+                <div class="legend-item">
+                  <span class="legend-swatch swatch-c"></span>
+                  <span>Dedeepya Nallamothu</span>
+                </div>
+              </div>
+              <div class="map-note">
+                Source: NJ Office of GIS (NJOGIS) Municipal Boundaries (NJGIN Open Data).
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -761,5 +870,7 @@
     <script src="assets/js/newsletter.js"></script>
     <script src="assets/js/side-bar.js"></script>
     <script src="assets/js/homepage-enhancements.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="assets/js/election-map.js"></script>
   </body>
 </html>
