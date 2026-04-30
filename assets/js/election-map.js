@@ -11,6 +11,38 @@
   const tooltip = d3.select("#nj-map-tooltip");
   const summary = d3.select("#nj-map-summary");
 
+  const candidates = [
+    {
+      id: "a",
+      name: "Rodolfo A Jaramillo",
+      pct: 23,
+      votes: 230,
+    },
+    {
+      id: "b",
+      name: "Manashvi Vats",
+      pct: 23,
+      votes: 230,
+    },
+    {
+      id: "c",
+      name: "Dedeepya Nallamothu",
+      pct: 54,
+      votes: 540,
+    },
+  ];
+
+  const weightedPick = () => {
+    const roll = Math.random();
+    if (roll < 0.65) {
+      return candidates[2];
+    }
+    if (roll < 0.825) {
+      return candidates[0];
+    }
+    return candidates[1];
+  };
+
   const geoUrl =
     "https://services2.arcgis.com/XVOqAjTOJ5P6ngMu/arcgis/rest/services/NJ_Municipal_Boundaries_3424/FeatureServer/0/query" +
     "?where=COUNTY%3D%27MERCER%27" +
@@ -54,11 +86,15 @@
 
   const updateTooltip = (event, feature, fallbackElement) => {
     const name = getMunicipalityLabel(feature);
+    const winner = feature?.properties?._winner;
+    const winnerText = winner
+      ? `${winner.name} (${winner.pct.toFixed(0)}%)`
+      : "No votes yet";
 
     if (!tooltip.empty()) {
       tooltip.html(
         `<div class="tooltip-title">${name}</div>` +
-          `<div class="tooltip-value">No votes yet</div>`
+          `<div class="tooltip-value">${winnerText}</div>`
       );
     }
 
@@ -114,9 +150,20 @@
         .append("g")
         .attr("class", "nj-towns")
         .selectAll("path")
-        .data(collection.features)
+        .data(
+          collection.features.map((feature) => {
+            const winner = weightedPick();
+            return {
+              ...feature,
+              properties: {
+                ...feature.properties,
+                _winner: winner,
+              },
+            };
+          })
+        )
         .join("path")
-        .attr("class", "nj-town")
+        .attr("class", (d) => `nj-town candidate-${d.properties?._winner?.id || ""}`)
         .attr("d", path)
         .attr("data-id", (d) =>
           String(d.properties?.CENSUS2020 || d.properties?.MUN_CODE || "")
@@ -124,7 +171,13 @@
         .attr("data-name", (d) => getMunicipalityLabel(d))
         .attr("tabindex", 0)
         .attr("role", "img")
-        .attr("aria-label", (d) => `${getMunicipalityLabel(d)}: no votes yet`)
+        .attr("aria-label", (d) => {
+          const winner = d.properties?._winner;
+          const winnerText = winner
+            ? `${winner.name} ${winner.pct.toFixed(0)}%`
+            : "no votes yet";
+          return `${getMunicipalityLabel(d)}: ${winnerText}`;
+        })
         .on("mouseenter", function (event, d) {
           setActive(this);
           updateTooltip(event, d, this);
@@ -145,10 +198,16 @@
           hideTooltip();
         });
 
-      towns.append("title").text((d) => `${getMunicipalityLabel(d)}: no votes yet`);
+      towns.append("title").text((d) => {
+        const winner = d.properties?._winner;
+        const winnerText = winner
+          ? `${winner.name} ${winner.pct.toFixed(0)}%`
+          : "no votes yet";
+        return `${getMunicipalityLabel(d)}: ${winnerText}`;
+      });
 
       if (!summary.empty()) {
-        summary.text("Awaiting results. No votes cast yet.");
+        summary.text("Live results: Dedeepya Nallamothu 54%, others 23% each.");
       }
     })
     .catch((error) => {
