@@ -2,141 +2,6 @@
     {
         "source": "Simplify",
         "category": "AI/ML/Data",
-        "company_name": "Bristol Myers Squibb",
-        "id": "127efffb-ad3b-44eb-88ae-c73c06f72891",
-        "title": "PhD Data Science Internship",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1758317342,
-        "date_posted": 1758317342,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/bms/job/Princeton---NJ---US/Summer-2026---PhD-Data-Science-Internship_R1595332",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "PhD"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "Leidos",
-        "id": "0f43d7bb-9f44-4ec0-9cfe-721d7d264ada",
-        "title": "Systems Integration and Software Engineer Intern - Transportation Solutions - Air Traffic Management",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1761314304,
-        "date_posted": 1758598265,
-        "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Atlantic-City-NJ/Systems--Integration-and-Software-Engineer-Intern_R-00167228",
-        "locations": [
-            "Atlantic City, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Leidos",
-        "is_visible": false,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "Verizon Communications",
-        "id": "a1f6c567-e298-4858-b782-21a41ee75548",
-        "title": "Global Solutions Intern - Technology Solutions",
-        "active": false,
-        "terms": [
-            "Summer 2026",
-            "Fall 2025"
-        ],
-        "date_updated": 1759966821,
-        "date_posted": 1758665639,
-        "url": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Alpharetta-Georgia/Alpharetta--V-Teamer-for-a-Day-2025-Global-Solutions-Intern-Program_R-1085779",
-        "locations": [
-            "E Fowler Ave, Tampa, FL",
-            "Irvine, CA",
-            "Berkeley Heights, NJ",
-            "Ashburn, VA",
-            "Alpharetta, GA",
-            "Irving, TX"
-        ],
-        "company_url": "https://simplify.jobs/c/Verizon-Communications",
-        "is_visible": false,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's"
-        ]
-    },
-    {
-        "date_updated": 1758692580,
-        "sponsorship": "U.S. Citizenship is Required",
-        "active": true,
-        "degrees": [
-            "Bachelor's"
-        ],
-        "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00285547_en&title=Technology+Summer+Analyst+-+NAELFY26",
-        "company_name": "Accenture",
-        "title": "Technology Analyst",
-        "locations": [
-            "Chicago, IL",
-            "Arlington, VA",
-            "Atlanta, GA",
-            "Austin, TX",
-            "Boston, MA",
-            "Charlotte, NC",
-            "Houston, TX",
-            "Irving, TX",
-            "Los Angeles, CA",
-            "Morristown, NJ",
-            "New York City, NY",
-            "Philadelphia, PA",
-            "San Francisco, CA",
-            "Seattle, WA"
-        ],
-        "terms": [
-            "Summer 2026"
-        ],
-        "category": "Software Engineering",
-        "source": "AlmondCroffle",
-        "id": "58507aa1-eb64-4a9c-953c-2ea12b04dd83",
-        "date_posted": 1758692580,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Sharp Electronics",
-        "id": "ce2a2737-ce05-48c1-adaa-ac72944101e0",
-        "title": "AI Process Automation Intern",
-        "active": false,
-        "terms": [
-            "Winter 2025",
-            "Spring 2026"
-        ],
-        "date_updated": 1758755366,
-        "date_posted": 1758755366,
-        "url": "https://careers-sharpusa.icims.com/jobs/8568/job?mobile=true&needsRedirect=false",
-        "locations": [
-            "Mahwah, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Sharp-Electronics",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
         "company_name": "Sony",
         "id": "c028e3f3-97c3-4afe-8b37-2585ee015c99",
         "title": "Research Intern - Multimodal Foundation Model for Vision",
@@ -2554,30 +2419,6 @@
             "Cambridge, MA",
             "Daly City, CA",
             "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Bristol Myers Squibb",
-        "id": "23b02803-74bc-4e82-9c9d-6aad7ce64405",
-        "title": "Summer 2026 \u2013 Undergraduate Statistical Programming Internship",
-        "active": false,
-        "terms": [
-            "Winter 2025"
-        ],
-        "date_updated": 1761866606,
-        "date_posted": 1758330562,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/bms/job/Princeton---NJ---US/Summer-2026---Undergraduate-Statistical-Programming-Internship_R1595336",
-        "locations": [
-            "Seattle, WA",
-            "Summit, NJ",
-            "Princeton, NJ",
-            "San Diego, CA"
         ],
         "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
         "is_visible": true,
@@ -8814,7 +8655,7 @@
         "company_name": "Osmo",
         "id": "55789953-d38d-4cc6-baef-e90691360385",
         "title": "Sensor Hardware Development Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8859,7 +8700,7 @@
         "company_name": "Benjamin Moore",
         "id": "954bf559-e653-4514-9c61-291ac32ab883",
         "title": "Procurement & Contract Analytics Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -10305,7 +10146,7 @@
         "company_name": "Crum & Forster Insurance",
         "id": "37620c36-a8b3-4929-915b-b0c889b58867",
         "title": "Data Science Trainee",
-        "active": true,
+        "active": false,
         "terms": [
             "N/A"
         ],
@@ -10316,6 +10157,110 @@
             "Morristown, NJ"
         ],
         "company_url": "https://simplify.jobs/c/Crum-And-Forster-Insurance",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Smiths Detection Group",
+        "id": "d7b70764-2bdf-4e34-9c39-5dd9943904dd",
+        "title": "Depot Service Engineer Intern",
+        "active": false,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1779142320,
+        "date_posted": 1779141897,
+        "url": "https://jobs.smartrecruiters.com/SmithsGroup2/744000127050189",
+        "locations": [
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Smiths-Detection-Group",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Deckers Brands",
+        "id": "f82f4313-ed51-49e1-8692-428585ee2875",
+        "title": "Loyalty Analytics Intern",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1779239161,
+        "date_posted": 1779239105,
+        "url": "https://deckers.wd5.myworkdayjobs.com/Deckers/job/US---California-Remote/Loyalty-Analytics-Intern---Global_20701",
+        "locations": [
+            "Oregon",
+            "California",
+            "Texas",
+            "Jackson Township, NJ",
+            "Waterbury, CT",
+            "Arizona",
+            "Minnesota",
+            "Colorado",
+            "NYC",
+            "Wisconsin",
+            "Massachusetts"
+        ],
+        "company_url": "https://simplify.jobs/c/Deckers-Brands",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Nokia",
+        "id": "480fe6a8-7da0-45a2-9cfb-7f2607367f33",
+        "title": "Compliance Data Scientist Co-op",
+        "active": true,
+        "terms": [
+            "Fall 2026",
+            "Winter 2026"
+        ],
+        "date_updated": 1779314972,
+        "date_posted": 1779314596,
+        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36308",
+        "locations": [
+            "Jackson Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nokia",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Smiths Detection Group",
+        "id": "316f4842-ce71-45b3-a8d5-8d9092f7fc86",
+        "title": "Technical Service Engineer Intern",
+        "active": true,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1779372586,
+        "date_posted": 1779372276,
+        "url": "https://jobs.smartrecruiters.com/SmithsGroup2/744000127672749",
+        "locations": [
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Smiths-Detection-Group",
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": [
