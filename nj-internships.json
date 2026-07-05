@@ -1,696 +1,6 @@
 [
     {
         "source": "Simplify",
-        "category": "Hardware",
-        "company_name": "General Dynamics Mission Systems",
-        "id": "eedf0d79-3cf1-4daa-b021-23f95e99eca5",
-        "title": "Intern Software Engineer",
-        "active": false,
-        "terms": [
-            "Winter 2025"
-        ],
-        "date_updated": 1761915017,
-        "date_posted": 1761915017,
-        "url": "https://careers-gdms.icims.com/jobs/68655/job?mobile=true&needsRedirect=false",
-        "locations": [
-            "Livingston, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/General-Dynamics-Mission-Systems",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Merck",
-        "id": "6757cf49-5c58-47c9-9167-6d2ae98b7d13",
-        "title": "2026 Future Talent Program \u2013 Operational Excellence Intern - Environmental Health and Safety - Ehs",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1761914981,
-        "date_posted": 1761914981,
-        "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---West-Point/XMLNAME-2026-Future-Talent-Program---Environmental-Health-and-Safety--EHS--Operational-Excellence-Intern_R367396",
-        "locations": [
-            "North Wales, PA",
-            "Linden, NJ",
-            "Dublin, Ireland"
-        ],
-        "company_url": "https://simplify.jobs/c/Merck",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Highmark Health",
-        "id": "5d14d087-0c7c-4cf0-a2a5-2079b3007731",
-        "title": "Summer 2026 Clinical and Population Health Graduate Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1761896947,
-        "date_posted": 1761896947,
-        "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2026-Clinical-and-Population-Health-Graduate-Intern_J270343",
-        "locations": [
-            "New Mexico",
-            "Washington",
-            "Kansas",
-            "Pennsylvania",
-            "North Dakota",
-            "Oregon",
-            "Delaware",
-            "Iowa",
-            "California",
-            "Washington, DC",
-            "Vermont",
-            "Wyoming",
-            "Texas",
-            "Jackson Township, NJ",
-            "Florida",
-            "Waterbury, CT",
-            "Nevada",
-            "South Carolina",
-            "South Dakota",
-            "Georgia",
-            "Arizona",
-            "Concord, NH",
-            "Mississippi",
-            "Tennessee",
-            "Virginia",
-            "Arkansas",
-            "Minnesota",
-            "Colorado",
-            "Rhode Island",
-            "Utah",
-            "Northeastern United States",
-            "Kentucky",
-            "West Virginia",
-            "NYC",
-            "Maryland",
-            "Hawaii",
-            "Wisconsin",
-            "Maine",
-            "Massachusetts",
-            "North Carolina",
-            "Oklahoma",
-            "Missouri",
-            "Ohio",
-            "Louisiana",
-            "Alaska",
-            "Michigan",
-            "Illinois",
-            "Alabama",
-            "United States",
-            "Idaho"
-        ],
-        "company_url": "https://simplify.jobs/c/Highmark-Health",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Bristol Myers Squibb",
-        "id": "8608a2ec-dab2-4fe1-ac1f-b683781ba6dc",
-        "title": "Digital Accelerator Program Internship - Summer 2026",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1762188480,
-        "date_posted": 1762188480,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/bms/job/Princeton---NJ---US/DigITal-Accelerator-Program-Internship---Summer-2026_R1596237",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Highmark Health",
-        "id": "f94a36ac-0497-4ac6-baf5-1743c31b127b",
-        "title": "Sumer 2026 Analytic Enablement Graduate Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1762154279,
-        "date_posted": 1762154279,
-        "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Sumer-2026-Analytic-Enablement-Graduate-Intern_J270843",
-        "locations": [
-            "New Mexico",
-            "Washington",
-            "Kansas",
-            "Pennsylvania",
-            "North Dakota",
-            "Oregon",
-            "Delaware",
-            "Iowa",
-            "California",
-            "Washington, DC",
-            "Vermont",
-            "Wyoming",
-            "Texas",
-            "Montana",
-            "Jackson Township, NJ",
-            "Florida",
-            "Waterbury, CT",
-            "Nevada",
-            "South Carolina",
-            "South Dakota",
-            "Georgia",
-            "Arizona",
-            "Concord, NH",
-            "Mississippi",
-            "Tennessee",
-            "Virginia",
-            "Arkansas",
-            "Colorado",
-            "Nebraska",
-            "Rhode Island",
-            "Utah",
-            "Kentucky",
-            "West Virginia",
-            "NYC",
-            "Maryland",
-            "Hawaii",
-            "Wisconsin",
-            "Maine",
-            "Massachusetts",
-            "North Carolina",
-            "Oklahoma",
-            "Missouri",
-            "Ohio",
-            "Indiana",
-            "Louisiana",
-            "Alaska",
-            "Michigan",
-            "Illinois",
-            "Alabama",
-            "Idaho"
-        ],
-        "company_url": "https://simplify.jobs/c/Highmark-Health",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Highmark Health",
-        "id": "3c3a66bb-f70b-44b1-acae-abae412e633d",
-        "title": "Summer 2026 Applied Gen AI/Data Scientist Graduate Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1761992759,
-        "date_posted": 1761992759,
-        "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2026-Applied-Gen-AI-Data-Scientist-Graduate-Intern_J270326",
-        "locations": [
-            "New Mexico",
-            "Independence, KS",
-            "Washington",
-            "Cunningham, KS",
-            "Kansas",
-            "Pennsylvania",
-            "Oconomowoc, WI",
-            "California",
-            "Wyoming",
-            "Texas",
-            "Jackson Township, NJ",
-            "Joplin, MO",
-            "Florida",
-            "Waterbury, CT",
-            "Nevada",
-            "Wichita, KS",
-            "South Carolina",
-            "South Dakota",
-            "Edmond, OK",
-            "Concord, NH",
-            "Tennessee",
-            "Rhode Island",
-            "Kentucky",
-            "West Virginia",
-            "Fort Gibson, OK",
-            "North Carolina",
-            "Missouri",
-            "Illinois",
-            "Alabama",
-            "United States",
-            "McKenzie, TN"
-        ],
-        "company_url": "https://simplify.jobs/c/Highmark-Health",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "Highmark Health",
-        "id": "e8679950-b678-4bf2-98bc-69c23bfb8fa1",
-        "title": "Software Engineer Internship",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1761992680,
-        "date_posted": 1761992680,
-        "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Sumer-2026-Software-Engineer-Graduate-Intern_J270859",
-        "locations": [
-            "New Mexico",
-            "Washington",
-            "Kansas",
-            "Pennsylvania",
-            "North Dakota",
-            "Oregon",
-            "Delaware",
-            "Iowa",
-            "California",
-            "Washington, DC",
-            "Vermont",
-            "Wyoming",
-            "Texas",
-            "Montana",
-            "Jackson Township, NJ",
-            "Florida",
-            "Waterbury, CT",
-            "Nevada",
-            "South Carolina",
-            "South Dakota",
-            "Georgia",
-            "Arizona",
-            "Concord, NH",
-            "Mississippi",
-            "Tennessee",
-            "Virginia",
-            "Arkansas",
-            "Colorado",
-            "Nebraska",
-            "Rhode Island",
-            "Utah",
-            "Kentucky",
-            "West Virginia",
-            "NYC",
-            "Maryland",
-            "Hawaii",
-            "Wisconsin",
-            "Maine",
-            "Massachusetts",
-            "North Carolina",
-            "Oklahoma",
-            "Missouri",
-            "Ohio",
-            "Indiana",
-            "Louisiana",
-            "Alaska",
-            "Michigan",
-            "Illinois",
-            "Alabama",
-            "Idaho"
-        ],
-        "company_url": "https://simplify.jobs/c/Highmark-Health",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Bristol Myers Squibb",
-        "id": "425906da-ee29-4e8d-b827-e6333846dec9",
-        "title": "2026 Summer Intern PhD Student - Engineering/Computational Scientist for Drug Product Development",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1761901194,
-        "date_posted": 1761901194,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/bms/job/New-Brunswick---NJ---US/XMLNAME-2026-Summer-Intern-PhD-Student---Engineering-Computational-Scientist-for-Drug-Product-Development_R1595949",
-        "locations": [
-            "Edison, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Johnson & Johnson",
-        "id": "d1109338-6c17-4820-8720-2877f35aabbd",
-        "title": "Data Operations & Analytics Spring Co-op",
-        "active": false,
-        "terms": [
-            "Spring 2026"
-        ],
-        "date_updated": 1761896928,
-        "date_posted": 1761896928,
-        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Somerset-New-Jersey-United-States-of-America/Data-Operations---Analytics-Spring-Co-op_R-037838",
-        "locations": [
-            "New Hope, PA",
-            "Somerset County, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Highmark Health",
-        "id": "5f0294ec-e6e3-4240-b50d-0b5ccd5f4822",
-        "title": "Summer 2026 Reporting Analyst Undergraduate Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1761992904,
-        "date_posted": 1761992904,
-        "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Sumer-2026-Reporting-Analyst-Undergraduate-Intern_J270574",
-        "locations": [
-            "New Mexico",
-            "Washington",
-            "Kansas",
-            "Pennsylvania",
-            "North Dakota",
-            "Oregon",
-            "Delaware",
-            "Iowa",
-            "California",
-            "Washington, DC",
-            "Vermont",
-            "Wyoming",
-            "Texas",
-            "Jackson Township, NJ",
-            "Florida",
-            "Waterbury, CT",
-            "Nevada",
-            "South Carolina",
-            "South Dakota",
-            "Georgia",
-            "Arizona",
-            "Concord, NH",
-            "Mississippi",
-            "Tennessee",
-            "Virginia",
-            "Arkansas",
-            "Colorado",
-            "Rhode Island",
-            "Utah",
-            "Kentucky",
-            "West Virginia",
-            "Maryland",
-            "Hawaii",
-            "Maine",
-            "Massachusetts",
-            "North Carolina",
-            "Oklahoma",
-            "Missouri",
-            "Ohio",
-            "Louisiana",
-            "Alaska",
-            "Illinois",
-            "Alabama",
-            "United States",
-            "Idaho"
-        ],
-        "company_url": "https://simplify.jobs/c/Highmark-Health",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "Highmark Health",
-        "id": "f2f75ff6-3d77-4596-b097-9556fc8aed55",
-        "title": "Summer 2026 Software Engineer/Architect \u2013 Python Graduate Intern - Python",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1761992763,
-        "date_posted": 1761992763,
-        "url": "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2026-Software-Engineer-Architect---Python-Graduate-Intern_J270835",
-        "locations": [
-            "New Mexico",
-            "Independence, KS",
-            "Washington",
-            "Cunningham, KS",
-            "Kansas",
-            "Pennsylvania",
-            "Oconomowoc, WI",
-            "California",
-            "Wyoming",
-            "Texas",
-            "Jackson Township, NJ",
-            "Joplin, MO",
-            "Florida",
-            "Waterbury, CT",
-            "Nevada",
-            "Wichita, KS",
-            "South Carolina",
-            "South Dakota",
-            "Edmond, OK",
-            "Concord, NH",
-            "Tennessee",
-            "Vinita, OK",
-            "Rhode Island",
-            "Kentucky",
-            "West Virginia",
-            "Fort Gibson, OK",
-            "North Carolina",
-            "Missouri",
-            "Illinois",
-            "Alabama",
-            "United States",
-            "McKenzie, TN"
-        ],
-        "company_url": "https://simplify.jobs/c/Highmark-Health",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Hardware",
-        "company_name": "Nokia",
-        "id": "742dd5ed-88d0-48bb-bcda-0a9d765b6720",
-        "title": "Optical Hardware Development Co-Op",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1761934185,
-        "date_posted": 1761899641,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/24439",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Bristol Myers Squibb",
-        "id": "b15b3169-e2a0-40c8-bf89-9efb3d8dc311",
-        "title": "Graduate/PhD Mechanistic Modeling Internship - Clinical Pharmacology & Pharmacometrics - Mechanistic Modeling",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1761939686,
-        "date_posted": 1761900551,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/bms/job/Princeton---NJ---US/Summer-2026---Graduate-PhD-Mechanistic-Modeling-Internship_R1595678",
-        "locations": [
-            "Cambridge, MA",
-            "Daly City, CA",
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Bristol Myers Squibb",
-        "id": "d77db83c-dc49-4ee3-b9ed-7bf1083b3182",
-        "title": "Summer 2026 \u2013 Graduate Statistical Programming Internship",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1761993883,
-        "date_posted": 1761993883,
-        "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/bms/job/Princeton---NJ---US/Summer-2026---Graduate-Statistical-Programming-Internship_R1595341",
-        "locations": [
-            "Seattle, WA",
-            "Summit, NJ",
-            "Princeton, NJ",
-            "San Diego, CA"
-        ],
-        "company_url": "https://simplify.jobs/c/Bristol-Myers-Squibb",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "WSP",
-        "id": "34aea5a5-dbed-459b-ba41-f5b1463456a2",
-        "title": "Geology Intern - Earth and Environment",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1761907442,
-        "date_posted": 1761907442,
-        "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/73501",
-        "locations": [
-            "Morristown, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/WSP",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Merck",
-        "id": "a36d38b2-63d6-4b1a-a25b-0b0b22b658a1",
-        "title": "2026 Future Talent Program \u2013 Summer Intern - Research Innovation and Information Management Hyperautomation",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1762299720,
-        "date_posted": 1762299720,
-        "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/XMLNAME-2026-Future-Talent-Program---Research-Innovation-and-Information-Management-Hyperautomation---Summer-Intern_R371758",
-        "locations": [
-            "North Wales, PA",
-            "Linden, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Merck",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "AbbVie",
-        "id": "c0594ae2-5a7a-4974-bed8-f18b100fee2d",
-        "title": "2026 Statistics Intern - PhD",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1762363290,
-        "date_posted": 1762363290,
-        "url": "https://jobs.smartrecruiters.com/AbbVie/3743990010190306",
-        "locations": [
-            "Waukegan, IL",
-            "California",
-            "Livingston, NJ",
-            "Irvine, CA"
-        ],
-        "company_url": "https://simplify.jobs/c/AbbVie",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "AbbVie",
-        "id": "2a679c07-d9a9-4ed4-bbb4-7888ed77ccf8",
-        "title": "2026 Statistics Intern - PhD",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1762363289,
-        "date_posted": 1762363289,
-        "url": "https://jobs.smartrecruiters.com/AbbVie/3743990010190426",
-        "locations": [
-            "Livingston, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/AbbVie",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Signify",
-        "id": "05391790-7b64-4937-a5e4-008fe329aac9",
-        "title": "Automation & Continuous Improvement Intern - Automation & Continuous Improvement",
-        "active": false,
-        "terms": [
-            "Spring 2026"
-        ],
-        "date_updated": 1762385163,
-        "date_posted": 1762385163,
-        "url": "https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Bridgewater-NJ/Automation---Continuous-Improvement-Intern---Spring-2026_361803",
-        "locations": [
-            "Bridgewater Township, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Signify",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "AbbVie",
-        "id": "f0601694-a6e3-4b3b-aef2-0248c73dbdd5",
-        "title": "Statistics Intern - Data & Statistical Sciences",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1762385009,
-        "date_posted": 1762385009,
-        "url": "https://jobs.smartrecruiters.com/AbbVie/3743990010199046",
-        "locations": [
-            "Livingston, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/AbbVie",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
         "category": "AI/ML/Data",
         "company_name": "Signify",
         "id": "978e61cf-c13c-478d-b40b-deefb0e22012",
@@ -728,41 +38,6 @@
             "Princeton, NJ"
         ],
         "company_url": "https://simplify.jobs/c/State-Street",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Hardware",
-        "company_name": "Thermo Fisher Scientific",
-        "id": "aecbcd3e-6e92-40cf-8c9d-cb0631568cc4",
-        "title": "Field Service Engineer Apprentice - Multiple Locations",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1761993168,
-        "date_posted": 1761993168,
-        "url": "https://thermofisher.wd5.myworkdayjobs.com/ThermoFisherCareers/job/Cambridge-Massachusetts-USA/Field-Service-Engineer-Apprentice---Multiple-Locations_R-01331676",
-        "locations": [
-            "Lexington, KY",
-            "Cambridge, MA",
-            "Madison, WI",
-            "Indianapolis, IN",
-            "Houston, TX",
-            "SF",
-            "North Bethesda, MD",
-            "Richmond, VA",
-            "Newark, NJ",
-            "Chicago, IL",
-            "Webster, NY",
-            "Lenexa, KS",
-            "Selinsgrove, PA",
-            "NYC",
-            "San Diego, CA"
-        ],
-        "company_url": "https://simplify.jobs/c/Thermo-Fisher-Scientific",
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": []
@@ -982,48 +257,6 @@
     {
         "source": "Simplify",
         "category": "AI/ML/Data",
-        "company_name": "Rolls Royce",
-        "id": "04ac374d-ed62-4868-a2f8-408a1d725c58",
-        "title": "Intern \u2013 US Quality and Requirements - Vehicle Interior & Exterior - Fall 2025",
-        "active": false,
-        "terms": [
-            "Fall 2025"
-        ],
-        "date_updated": 1761898228,
-        "date_posted": 1761898228,
-        "url": "https://jobs.bmwgroup.com/job/Woodcliff-Lake-Intern,-US-Quality-and-Requirements,-Vehicle-Interior-&-Exterior-Fall-2025-New/1234380401/?ats=successfactors",
-        "locations": [
-            "Paramus, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Rolls-Royce-Motorcars",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "AtkinsR\u00e9alis",
-        "id": "d5a7f37b-f9ed-4f2a-bda5-413d0cf7b5c6",
-        "title": "Engineering Traffic Analyst Intern - Summer 2026",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1761900125,
-        "date_posted": 1761900125,
-        "url": "https://slihrms.wd3.myworkdayjobs.com/careers/job/USNJEdison/Engineering-Traffic-Analyst-Intern---Summer-2026_R-135325-1",
-        "locations": [
-            "Edison, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/AtkinsRealis",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
         "company_name": "Nokia",
         "id": "e6a6556d-1aa5-4b0e-87a5-4cc470148c55",
         "title": "Bell Labs AI Research Solutions Intern",
@@ -1167,30 +400,6 @@
         "date_updated": 1763512580,
         "date_posted": 1763163426,
         "url": "https://careers-sri.icims.com/jobs/6264/job?mobile=true&needsRedirect=false",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/SRI-International",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "SRI International",
-        "id": "185db282-0dc3-4839-93ea-c3e7758acc70",
-        "title": "Drexel University Co-op: Software Engineering",
-        "active": false,
-        "terms": [
-            "Winter 2025",
-            "Spring 2025",
-            "Summer 2025",
-            "Fall 2025"
-        ],
-        "date_updated": 1763512578,
-        "date_posted": 1762274694,
-        "url": "https://careers-sri.icims.com/jobs/6268/job?mobile=true&needsRedirect=false",
         "locations": [
             "Princeton, NJ"
         ],
@@ -2455,27 +1664,6 @@
             "Parsippany-Troy Hills, NJ"
         ],
         "company_url": "https://simplify.jobs/c/Zoetis",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Geosyntec Consultants",
-        "id": "97200b49-b97d-4a22-a5ee-93dfb16c860e",
-        "title": "Environmental Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1766161637,
-        "date_posted": 1761896973,
-        "url": "https://careers-geosyntec.icims.com/jobs/3889/job?mobile=true&needsRedirect=false",
-        "locations": [
-            "Lawrence Township, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Geosyntec-Consultants",
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": []
@@ -8180,7 +7368,7 @@
         "company_name": "thyssenkrupp",
         "id": "ccf39ec4-c9ad-4fc2-bac6-17ab53ca8bdc",
         "title": "Trader Trainee - Industrial Minerals",
-        "active": false,
+        "active": true,
         "terms": [
             "N/A"
         ],
@@ -8467,7 +7655,7 @@
         "company_name": "SRI International",
         "id": "f983fd0d-fc22-46f5-bd4a-beb823e3948d",
         "title": "Software Engineering Co-op",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -8524,6 +7712,103 @@
             "Mt Laurel Township, NJ"
         ],
         "company_url": "https://simplify.jobs/c/TD-Bank",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Sedgwick Claims Management Services",
+        "id": "661c72d1-3246-4a68-a747-e850c8abb675",
+        "title": "Data Analyst Intern",
+        "active": false,
+        "terms": [
+            "Fall 2026"
+        ],
+        "date_updated": 1782857523,
+        "date_posted": 1782857166,
+        "url": "https://sedgwick.wd1.myworkdayjobs.com/en-US/Sedgwick/job/Telecommuter-TX/Data-Analyst_R75316",
+        "locations": [
+            "New Mexico",
+            "Washington",
+            "Kansas",
+            "North Dakota",
+            "Oregon",
+            "Delaware",
+            "Iowa",
+            "California",
+            "Washington, DC",
+            "Vermont",
+            "Wyoming",
+            "Texas",
+            "Montana",
+            "Jackson Township, NJ",
+            "Florida",
+            "Waterbury, CT",
+            "Nevada",
+            "South Carolina",
+            "South Dakota",
+            "Georgia",
+            "Arizona",
+            "Concord, NH",
+            "Mississippi",
+            "Tennessee",
+            "Virginia",
+            "Arkansas",
+            "Minnesota",
+            "Colorado",
+            "Nebraska",
+            "Rhode Island",
+            "Utah",
+            "Kentucky",
+            "West Virginia",
+            "NYC",
+            "Maryland",
+            "U.S. Virgin Islands",
+            "Hawaii",
+            "Wisconsin",
+            "Maine",
+            "Massachusetts",
+            "North Carolina",
+            "Oklahoma",
+            "Missouri",
+            "Ohio",
+            "Indiana",
+            "Louisiana",
+            "Alaska",
+            "Michigan",
+            "Illinois",
+            "Alabama",
+            "Idaho"
+        ],
+        "company_url": "https://simplify.jobs/c/Sedgwick",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Nestle",
+        "id": "ff74b8b6-7a9e-4cdb-bca1-bf6a841120c9",
+        "title": "R&D Sustainability Intern - Nestl\u00e9 Health Science",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1783031941,
+        "date_posted": 1783029964,
+        "url": "https://jobdetails.nestle.com/job/Bridgewater-R&D-Sustainability-Intern-Nestl%C3%A9-Health-Science-NJ-08807/1410946433/?ats=successfactors",
+        "locations": [
+            "Bridgewater Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Nestle",
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": [
