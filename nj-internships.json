@@ -2,181 +2,6 @@
     {
         "source": "Simplify",
         "category": "AI/ML/Data",
-        "company_name": "Nokia",
-        "id": "e6a6556d-1aa5-4b0e-87a5-4cc470148c55",
-        "title": "Bell Labs AI Research Solutions Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1763163716,
-        "date_posted": 1763163716,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26761",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "date_updated": 1763405012,
-        "sponsorship": "U.S. Citizenship is Required",
-        "active": true,
-        "degrees": [
-            "Bachelor's"
-        ],
-        "url": "https://careers-sri.icims.com/jobs/6262/drexel-university-co-op%3a-embedded-software-engineering/job",
-        "company_name": "SRI",
-        "title": "Drexel University Co-op: Embedded Software Engineering",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "terms": [
-            "Summer 2026"
-        ],
-        "category": "Hardware Engineering",
-        "source": "angie-hue",
-        "id": "4314066d-6159-4f89-b3c1-76f09aa9cc25",
-        "date_posted": 1763392937,
-        "company_url": "",
-        "is_visible": false
-    },
-    {
-        "date_updated": 1763404771,
-        "sponsorship": "U.S. Citizenship is Required",
-        "active": true,
-        "degrees": [
-            "Bachelor's"
-        ],
-        "url": "https://careers-sri.icims.com/jobs/6268/drexel-university-co-op%3a-software-engineering/job",
-        "company_name": "SRI",
-        "title": "Drexel University Co-op: Software Engineering",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "terms": [
-            "Summer 2026"
-        ],
-        "category": "Software Engineering",
-        "source": "angie-hue",
-        "id": "be460d0b-decf-4e92-95a6-161ae43f9c08",
-        "date_posted": 1763393093,
-        "company_url": "",
-        "is_visible": false
-    },
-    {
-        "source": "Simplify",
-        "category": "Hardware",
-        "company_name": "CACI",
-        "id": "8f3f53ff-0fad-4d2d-a809-a4c27cdf3f32",
-        "title": "Embedded Software Development Intern - Summer 2026",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1763395974,
-        "date_posted": 1763395974,
-        "url": "https://caci.wd1.myworkdayjobs.com/external/job/US-NJ-Florham-Park/Embedded-Software-Development-Intern---Summer-2026_319286",
-        "locations": [
-            "Livingston, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/CACI",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Red Bull",
-        "id": "959c4d01-1b50-4bf5-8994-4c8f73221afd",
-        "title": "2026 Internship - Spring - Data Science",
-        "active": false,
-        "terms": [
-            "Spring 2026"
-        ],
-        "date_updated": 1763483891,
-        "date_posted": 1763483891,
-        "url": "https://jobs.smartrecruiters.com/RedBull/744000094222026",
-        "locations": [
-            "Livingston, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Red-Bull",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Johnson & Johnson",
-        "id": "47526592-a406-43c7-9bfc-a83deed589d7",
-        "title": "Statistics & Decision Sciences Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1763514212,
-        "date_posted": 1763514212,
-        "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Summer-Intern-Statistics-Dec-Sci_R-040656",
-        "locations": [
-            "New Hope, PA",
-            "Bridgewater Township, NJ",
-            "La Jolla, San Diego, CA",
-            "Ambler, PA"
-        ],
-        "company_url": "https://simplify.jobs/c/Johnson-Johnson",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Hardware",
-        "company_name": "SRI International",
-        "id": "603b17d3-05d5-4bbe-83a1-17d30513c3d4",
-        "title": "Drexel University Co-op: Systems Engineering",
-        "active": false,
-        "terms": [
-            "Winter 2025"
-        ],
-        "date_updated": 1763512580,
-        "date_posted": 1763163426,
-        "url": "https://careers-sri.icims.com/jobs/6264/job?mobile=true&needsRedirect=false",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/SRI-International",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "General Dynamics Mission Systems",
-        "id": "95a909aa-57a5-4583-85a6-9db2f6c26a02",
-        "title": "Engineering Intern",
-        "active": false,
-        "terms": [
-            "Winter 2025"
-        ],
-        "date_updated": 1763668384,
-        "date_posted": 1763421642,
-        "url": "https://careers-gdms.icims.com/jobs/68901/job?mobile=true&needsRedirect=false",
-        "locations": [
-            "Livingston, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/General-Dynamics-Mission-Systems",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
         "company_name": "Red Bull",
         "id": "1d1ac864-cac4-4703-8198-4651618383e2",
         "title": "Intern - Academy Performance Analysis",
@@ -2047,56 +1872,6 @@
             "Middletown Township, NJ"
         ],
         "company_url": "https://simplify.jobs/c/ATT",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Benjamin Moore",
-        "id": "1cb16f00-6d9a-4f12-95be-a4fc2a5d2534",
-        "title": "Data Science & Analytics Intern",
-        "active": false,
-        "terms": [
-            "Spring 2026"
-        ],
-        "date_updated": 1768387002,
-        "date_posted": 1763666468,
-        "url": "https://careers-benjaminmoore.icims.com/jobs/2224/job?mobile=true&needsRedirect=false",
-        "locations": [
-            "Mahwah, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Benjamin-Moore",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's",
-            "Master's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Major League Baseball",
-        "id": "3e6c6676-620d-4ed3-b372-fd8020e224c5",
-        "title": "Video & Technology Associate",
-        "active": false,
-        "terms": [
-            "N/A"
-        ],
-        "date_updated": 1763455222,
-        "date_posted": 1763455222,
-        "url": "https://job-boards.greenhouse.io/philliesbaseballoperations/jobs/7327636003",
-        "locations": [
-            "Allentown, PA",
-            "Lakewood, NJ",
-            "Reading, PA",
-            "Clearwater, FL"
-        ],
-        "company_url": "https://simplify.jobs/c/MLB",
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": [
@@ -7543,7 +7318,7 @@
         "company_name": "Nestle",
         "id": "ff74b8b6-7a9e-4cdb-bca1-bf6a841120c9",
         "title": "R&D Sustainability Intern - Nestl\u00e9 Health Science",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -7566,7 +7341,7 @@
         "company_name": "GE Healthcare",
         "id": "372d94d1-a83d-44fb-a919-4261fb51f503",
         "title": "Field Engineer Apprentice",
-        "active": false,
+        "active": true,
         "terms": [
             "Fall 2026"
         ],
@@ -7584,6 +7359,111 @@
             "Master's",
             "Associate's",
             "Certificate"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Argmax",
+        "id": "db2ae7c8-3d21-42b0-9cb4-b4fb4de5cc58",
+        "title": "On-device AI Frameworks Engineer Intern",
+        "active": true,
+        "terms": [
+            "Fall 2026"
+        ],
+        "date_updated": 1784068158,
+        "date_posted": 1784066975,
+        "url": "https://job-boards.greenhouse.io/argmax/jobs/4067268009",
+        "locations": [
+            "Palo Alto, CA",
+            "Union City, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Argmax",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Stevens Institute of Technology",
+        "id": "11d17a2f-e586-4645-a6e2-8bcbfe2f70b3",
+        "title": "Research Assistant",
+        "active": false,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1784067100,
+        "date_posted": 1783987200,
+        "url": "https://stevens.wd5.myworkdayjobs.com/External/job/Hoboken-NJ---Main-Campus/Summer-2026-Research-Assistant_RQ30337",
+        "locations": [
+            "Union City, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Stevens-Institute-Of-Technology",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Quant",
+        "company_name": "Prudential Financial",
+        "id": "8e9a164a-393f-4f52-8c16-a283cc796352",
+        "title": "Private Credit \u2013 Investment Analyst Program",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1784326247,
+        "date_posted": 1784246400,
+        "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2027-Private-Credit--Summer-Investment-Analyst-Program_R-124649-1",
+        "locations": [
+            "SF",
+            "LA",
+            "Dallas, TX",
+            "Newark, NJ",
+            "Chicago, IL",
+            "NYC",
+            "Minneapolis, MN",
+            "Atlanta, GA"
+        ],
+        "company_url": "https://simplify.jobs/c/Prudential-Financial",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Quant",
+        "company_name": "PGIM",
+        "id": "2f47de17-a088-41a1-8238-0a8713c924ae",
+        "title": "Private Credit \u2013 Investment Analyst Program",
+        "active": false,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1784328102,
+        "date_posted": 1784246400,
+        "url": "https://pru.wd5.myworkdayjobs.com/pgim_careers/job/Newark-NJ-USA/PGIM--2027-Private-Credit--Summer-Investment-Analyst-Program_R-124649",
+        "locations": [
+            "SF",
+            "LA",
+            "Dallas, TX",
+            "Newark, NJ",
+            "Chicago, IL",
+            "NYC",
+            "Minneapolis, MN",
+            "Atlanta, GA"
+        ],
+        "company_url": "https://simplify.jobs/c/PGIM",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
         ]
     }
 ]
