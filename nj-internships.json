@@ -2,94 +2,6 @@
     {
         "source": "Simplify",
         "category": "AI/ML/Data",
-        "company_name": "Red Bull",
-        "id": "1d1ac864-cac4-4703-8198-4651618383e2",
-        "title": "Intern - Academy Performance Analysis",
-        "active": false,
-        "terms": [
-            "Spring 2026"
-        ],
-        "date_updated": 1763969338,
-        "date_posted": 1763969338,
-        "url": "https://jobs.smartrecruiters.com/RedBull/744000095044055",
-        "locations": [
-            "Livingston, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Red-Bull",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "date_updated": 1764088142,
-        "sponsorship": "U.S. Citizenship is Required",
-        "active": true,
-        "degrees": [
-            "Bachelor's"
-        ],
-        "url": "https://jobs.baesystems.com/global/en/job/BAE1US118688BREXTERNAL/Software-Intern-Summer-2026",
-        "company_name": "BAE Systems",
-        "title": "Software Intern, Summer 2026",
-        "locations": [
-            "Totowa, NJ"
-        ],
-        "terms": [
-            "Summer 2026"
-        ],
-        "category": "Software Engineering",
-        "source": "angie-hue",
-        "id": "e0a1771c-1c61-4ac4-8b5f-a0228b75180b",
-        "date_posted": 1764088142,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "date_updated": 1764858222,
-        "sponsorship": "Other",
-        "active": false,
-        "degrees": [
-            "Bachelor's"
-        ],
-        "url": "https://kla.wd1.myworkdayjobs.com/en-US/UR/job/Totowa-NJ/VC---Software-Developer-Intern_2532831",
-        "company_name": "KLA",
-        "title": "VC++ Software Developer Intern",
-        "locations": [
-            "Totowa, NJ"
-        ],
-        "terms": [
-            "Summer 2026"
-        ],
-        "category": "Software Engineering",
-        "source": "angie-hue",
-        "id": "69f5c8fa-a8f9-4d44-95b6-cfc2c676a252",
-        "date_posted": 1764174295,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Virtua Health",
-        "id": "3ea30991-c634-406a-84b0-b8db3457408e",
-        "title": "Intern Data Scientist - Data Science",
-        "active": false,
-        "terms": [
-            "Winter 2025"
-        ],
-        "date_updated": 1764210912,
-        "date_posted": 1764210912,
-        "url": "https://virtua.wd1.myworkdayjobs.com/Virtua_Health_External_Career_Site/job/Lippincott---301-Lippincott-Drive/Intern---Data-Science_R1057839",
-        "locations": [
-            "Mt Laurel Township, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Virtua-Health",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
         "company_name": "Nokia",
         "id": "7b118f9d-f5a3-494f-964a-3ced53aeceb8",
         "title": "Bell Labs Machine Learning and AI Intern",
@@ -1900,29 +1812,6 @@
         "degrees": [
             "Bachelor's",
             "Master's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "Avis Budget Group",
-        "id": "d5d7b662-9d2d-4c7b-8158-ade634cbe221",
-        "title": "Accelerate Postgraduate Opportunity - Deployed Transformation Engineer",
-        "active": false,
-        "terms": [
-            "N/A"
-        ],
-        "date_updated": 1763894692,
-        "date_posted": 1763894692,
-        "url": "https://avisbudget.wd1.myworkdayjobs.com/abg_careers/job/379-Interpace-Pkwy-Parsippany-07054/Accelerate---Deployed-Transformation-Engineer--Post-Graduate-Opportunity-_R0182038",
-        "locations": [
-            "Parsippany-Troy Hills, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Avis-Budget-Group",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's"
         ]
     },
     {
@@ -6546,7 +6435,7 @@
         "company_name": "Cisive",
         "id": "e018a2ac-82d3-4544-85aa-440aa29efa03",
         "title": "Software Development Intern",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2026"
         ],
@@ -7341,7 +7230,7 @@
         "company_name": "GE Healthcare",
         "id": "372d94d1-a83d-44fb-a919-4261fb51f503",
         "title": "Field Engineer Apprentice",
-        "active": true,
+        "active": false,
         "terms": [
             "Fall 2026"
         ],
@@ -7441,7 +7330,7 @@
         "company_name": "PGIM",
         "id": "2f47de17-a088-41a1-8238-0a8713c924ae",
         "title": "Private Credit \u2013 Investment Analyst Program",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2027"
         ],
@@ -7463,6 +7352,246 @@
         "sponsorship": "Other",
         "degrees": [
             "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Quant",
+        "company_name": "PGIM",
+        "id": "ae61434b-9142-44d7-96d5-7e8a5731372f",
+        "title": "Real Estate - Equity Investment Analyst Program",
+        "active": true,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1784499400,
+        "date_posted": 1784419200,
+        "url": "https://pru.wd5.myworkdayjobs.com/pgim_careers/job/Newark-NJ-USA/PGIM--2027-Real-Estate--Equity-Investment-Analyst-Program_R-124631",
+        "locations": [
+            "SF",
+            "Newark, NJ",
+            "Chicago, IL",
+            "NYC",
+            "Atlanta, GA"
+        ],
+        "company_url": "https://simplify.jobs/c/PGIM",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Quant",
+        "company_name": "PGIM",
+        "id": "68ceeffa-36f0-4cd6-9256-42fd6f4f016d",
+        "title": "Real Estate Equity Investment Analyst Program",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1784499369,
+        "date_posted": 1784419200,
+        "url": "https://pru.wd5.myworkdayjobs.com/pgim_careers/job/Newark-NJ-USA/PGIM--2027-Real-Estate--Equity-Summer-Investment-Analyst-Program_R-124634",
+        "locations": [
+            "SF",
+            "Newark, NJ",
+            "Chicago, IL",
+            "NYC",
+            "Atlanta, GA"
+        ],
+        "company_url": "https://simplify.jobs/c/PGIM",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Quant",
+        "company_name": "Prudential Financial",
+        "id": "d1a12763-bd6a-435c-bc94-05274ad822f1",
+        "title": "Real Estate Equity Investment Analyst Program",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1784499130,
+        "date_posted": 1784419200,
+        "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2027-Real-Estate--Equity-Summer-Investment-Analyst-Program_R-124634-2",
+        "locations": [
+            "SF",
+            "Newark, NJ",
+            "Chicago, IL",
+            "NYC",
+            "Atlanta, GA"
+        ],
+        "company_url": "https://simplify.jobs/c/Prudential-Financial",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Quant",
+        "company_name": "Prudential Financial",
+        "id": "9f4e4614-b132-4a36-8ec6-51a051c0ef58",
+        "title": "Real Estate - Equity Investment Analyst Program",
+        "active": false,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1784499101,
+        "date_posted": 1784419200,
+        "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2027-Real-Estate--Equity-Investment-Analyst-Program_R-124631-2",
+        "locations": [
+            "SF",
+            "Newark, NJ",
+            "Chicago, IL",
+            "NYC",
+            "Atlanta, GA"
+        ],
+        "company_url": "https://simplify.jobs/c/Prudential-Financial",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Google",
+        "id": "f2d2fce5-0d01-4d4a-9a98-85a62798d293",
+        "title": "Student Researcher",
+        "active": false,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1784595961,
+        "date_posted": 1784595879,
+        "url": "https://www.google.com/about/careers/applications/jobs/results/132362676918461126",
+        "locations": [
+            "Palo Alto, CA",
+            "Cambridge, MA",
+            "Madison, WI",
+            "Seattle, WA",
+            "Washington, DC",
+            "SF",
+            "Austin, TX",
+            "LA",
+            "Irvine, CA",
+            "San Bruno, CA",
+            "Ann Arbor, MI",
+            "Chicago, IL",
+            "Pittsburgh, PA",
+            "Princeton, NJ",
+            "Kirkland, WA",
+            "NYC",
+            "Sunnyvale, CA",
+            "Mountain View, CA",
+            "Atlanta, GA"
+        ],
+        "company_url": "https://simplify.jobs/c/Google",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Red Bull",
+        "id": "9a3e5294-d914-4470-8231-855d92e407d6",
+        "title": "Data Science Intern - Data Science",
+        "active": true,
+        "terms": [
+            "Fall 2026"
+        ],
+        "date_updated": 1784777455,
+        "date_posted": 1784769002,
+        "url": "https://jobs.smartrecruiters.com/RedBull/744000139168339",
+        "locations": [
+            "Morristown, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Red-Bull",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Montgomery Investment Technology, Inc.",
+        "id": "f0a9da60-9895-4079-b9cd-4026709afb56",
+        "title": "Montgomery Investment Technology",
+        "active": true,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1784788201,
+        "date_posted": 1784787494,
+        "url": "https://fintools.applytojob.com/apply/o7r6gV8IMh/Computer-Programming-Internship-Summer-2026",
+        "locations": [
+            "Delanco, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/c8ad9139-ece5-45dd-82e4-4b946a8f9d88",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Becton Dickinson",
+        "id": "44c0f8ab-bc09-4802-ad77-110dc6c77373",
+        "title": "Edge Program Associate - Technology & Global Services - Tgs",
+        "active": false,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1784815602,
+        "date_posted": 1782781542,
+        "url": "https://bdx.wd1.myworkdayjobs.com/US_EARLY_TALENT_SITE/job/USA-NJ---Franklin-Lakes/Edge-Program-Associate---Technology---Global-Services--TGS-_R-549481",
+        "locations": [
+            "Midland Park, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Becton-Dickinson",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Sanofi",
+        "id": "8027380c-3700-4d91-bf26-2de5e22a7e75",
+        "title": "Operational Planning & Capacity Management Data Analyst",
+        "active": false,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1784844548,
+        "date_posted": 1784764800,
+        "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Morristown-NJ/Operational-Planning---Capacity-Management-Data-Analyst---VIE-Contract_R2864870",
+        "locations": [
+            "Morristown, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Sanofi",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
             "Master's"
         ]
     }
