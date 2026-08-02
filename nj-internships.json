@@ -2,392 +2,6 @@
     {
         "source": "Simplify",
         "category": "AI/ML/Data",
-        "company_name": "Nokia",
-        "id": "7b118f9d-f5a3-494f-964a-3ced53aeceb8",
-        "title": "Bell Labs Machine Learning and AI Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1764630966,
-        "date_posted": 1764630966,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27164",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "Fiserv",
-        "id": "589af6f6-9f42-4bff-afe4-60e33759767f",
-        "title": "Technology Intern Program - Application Development",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1764642796,
-        "date_posted": 1764642796,
-        "url": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/Technology-Summer-Internship-Program---Application-Development--Berkeley-Heights--NJ-_R-10382311",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Fiserv",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "Nokia",
-        "id": "f4c33284-f9ba-4be3-8d05-50e62e0522db",
-        "title": "Software Developer Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1764641631,
-        "date_posted": 1764641631,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27867",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "Nokia",
-        "id": "447212d4-cb69-4c25-a94e-76f4421a6edc",
-        "title": "Software Developer Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1764641639,
-        "date_posted": 1764641639,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27874",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "Nokia",
-        "id": "14a2d01b-6734-41d9-b82a-3904455c23a7",
-        "title": "Software Developer Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1764641635,
-        "date_posted": 1764641635,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27872",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Sony",
-        "id": "6fac482f-97c8-49bc-94b9-7088623f5f3f",
-        "title": "Engineering Intern - AI Ethics",
-        "active": false,
-        "terms": [
-            "Spring 2026"
-        ],
-        "date_updated": 1764652342,
-        "date_posted": 1764652342,
-        "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/Remote---California/Engineering-Intern--AI-Ethics-_JR-118474",
-        "locations": [
-            "California",
-            "Washington, DC",
-            "LA",
-            "Texas",
-            "San Jose, CA",
-            "Newark, NJ",
-            "NYC"
-        ],
-        "company_url": "https://simplify.jobs/c/Sony",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Master's"
-        ]
-    },
-    {
-        "date_updated": 1766007614,
-        "sponsorship": "U.S. Citizenship is Required",
-        "active": true,
-        "degrees": [
-            "Bachelor's"
-        ],
-        "url": "https://careers-sri.icims.com/jobs/6263/drexel-university-co-op%3a-software-engineering-full-stack-development/job",
-        "company_name": "SRI International",
-        "title": "Drexel University Co-op: Software Engineering/Full stack development",
-        "locations": [
-            "Princeton, NJ"
-        ],
-        "terms": [
-            "Summer 2026"
-        ],
-        "category": "Software Engineering",
-        "source": "angie-hue",
-        "id": "6e148dc8-ffbd-410d-8319-0f3e634b80ae",
-        "date_posted": 1764689264,
-        "company_url": "",
-        "is_visible": false
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "AT&T",
-        "id": "7096c3ca-a59e-46db-bab7-533b7aaa191b",
-        "title": "AT&T Labs Internship - Advanced Degrees - Cnv",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1764701956,
-        "date_posted": 1764701956,
-        "url": "https://att.wd1.myworkdayjobs.com/ATTSpecialInvite/job/Middletown-New-Jersey/AT-T-Labs-Internship---Advanced-Degrees--CNV-_R-92124",
-        "locations": [
-            "Austin, TX",
-            "Bothell, WA",
-            "Dallas, TX",
-            "San Ramon, CA",
-            "Redmond, WA",
-            "Plano, TX",
-            "Bedminster, NJ",
-            "Alpharetta, GA",
-            "Middletown Township, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/ATT",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Nokia",
-        "id": "9f6cb4e3-1159-4aad-bb62-e530b1e77e89",
-        "title": "Language Models for Databases Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1764717228,
-        "date_posted": 1764717228,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27184",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Nokia",
-        "id": "7c7c96bf-b1f6-430f-9079-67231c7f349b",
-        "title": "Networking Research Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1764717232,
-        "date_posted": 1764717232,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27590",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Nokia",
-        "id": "77c37ecf-56b1-4f5b-bf06-b8360f3a052f",
-        "title": "Network Systems Summer Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1764717227,
-        "date_posted": 1764717227,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27336",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "PhD"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Nokia",
-        "id": "48c92c1a-18d9-488e-9976-188c1e758d39",
-        "title": "Radio Frequency IC Intern",
-        "active": false,
-        "terms": [
-            "Spring 2026"
-        ],
-        "date_updated": 1764717225,
-        "date_posted": 1764717225,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27573",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "ServiceNow",
-        "id": "40374267-4927-48b8-ac35-6314c39e4a5f",
-        "title": "Service Offering Automation Intern",
-        "active": false,
-        "terms": [
-            "Summer 2027"
-        ],
-        "date_updated": 1764721890,
-        "date_posted": 1764721890,
-        "url": "https://jobs.smartrecruiters.com/ServiceNow/744000096702565",
-        "locations": [
-            "Jackson Township, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/ServiceNow",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "AT&T",
-        "id": "f541afa2-bf20-464f-89a1-a39af6c738e9",
-        "title": "AT&T Labs Internship - Undergraduate and Masters Degrees - Cnv",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1764730252,
-        "date_posted": 1764730252,
-        "url": "https://att.wd1.myworkdayjobs.com/ATTSpecialInvite/job/Middletown-New-Jersey/AT-T-Labs-Internship---Undergraduate-and-Masters-Degrees--CNV-_R-92125",
-        "locations": [
-            "Austin, TX",
-            "Bothell, WA",
-            "Dallas, TX",
-            "San Ramon, CA",
-            "Redmond, WA",
-            "Plano, TX",
-            "Bedminster, NJ",
-            "Alpharetta, GA",
-            "Middletown Township, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/ATT",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "General Dynamics Mission Systems",
-        "id": "7b11bf5f-cd09-4430-8131-82170a947b9f",
-        "title": "Intern Engineer",
-        "active": false,
-        "terms": [
-            "Spring 2026"
-        ],
-        "date_updated": 1764804770,
-        "date_posted": 1764804770,
-        "url": "https://careers-gdms.icims.com/jobs/68190/job?mobile=true&needsRedirect=false",
-        "locations": [
-            "Livingston, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/General-Dynamics-Mission-Systems",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Hardware",
-        "company_name": "Nokia",
-        "id": "dabba410-1c96-4046-8d60-bbb537b899a6",
-        "title": "Bell Labs Platform ASIC Research Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1764904321,
-        "date_posted": 1764904321,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27971",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "Nokia",
-        "id": "6f24cfe5-46c6-4a95-a973-d02fb02376ad",
-        "title": "Bell Labs Fiber Optics Co-op",
-        "active": false,
-        "terms": [
-            "Summer 2026",
-            "Fall 2026"
-        ],
-        "date_updated": 1764906270,
-        "date_posted": 1764906270,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27739",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
         "company_name": "AT&T",
         "id": "f56b005e-88d3-4b9d-b5e4-1b1d5ce98e4a",
         "title": "AT&T Labs Intern - Advanced Degrees",
@@ -504,28 +118,6 @@
             "Parsippany-Troy Hills, NJ"
         ],
         "company_url": "https://simplify.jobs/c/Zoetis",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Gilead Sciences",
-        "id": "c7c6c9ac-a549-4565-9ba8-e75405b01a24",
-        "title": "Intern \u2013 Market Research - Advanced Analytics",
-        "active": false,
-        "terms": [
-            "Summer 2025"
-        ],
-        "date_updated": 1765386573,
-        "date_posted": 1764486853,
-        "url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern--Market-Research--Advanced-Analytics_R0048355",
-        "locations": [
-            "San Mateo, CA",
-            "Parsippany-Troy Hills, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Gilead-Sciences",
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": []
@@ -1344,27 +936,6 @@
     {
         "source": "Simplify",
         "category": "AI/ML/Data",
-        "company_name": "Zoetis",
-        "id": "075039d5-afbb-4ba6-a32f-6a52771de8fc",
-        "title": "Tech and Digital Intern: Process Optimization & Automation Developer",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1764832905,
-        "date_posted": 1764832905,
-        "url": "https://zoetis.wd5.myworkdayjobs.com/zoetis/job/Parsippany/Tech-and-Digital-Intern---Process-Optimization---Automation-Developer_JR00019607-2",
-        "locations": [
-            "Parsippany-Troy Hills, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Zoetis",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
         "company_name": "Public Service Enterprise Group",
         "id": "706c4803-7992-41ed-a99b-b4ef6612ea71",
         "title": "Summer 2026 \u2013 Technical Intern - Voice of the Customer Team",
@@ -1552,52 +1123,6 @@
             "Kalamazoo, MI"
         ],
         "company_url": "https://simplify.jobs/c/Zoetis",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Zoetis",
-        "id": "1374dbba-65b8-4bad-8f03-ef7cf0d3b814",
-        "title": "Tech and Digital Intern: Process Optimization & Automation Developer",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1764733752,
-        "date_posted": 1764733752,
-        "url": "https://zoetis.wd5.myworkdayjobs.com/zoetis/job/Parsippany/Tech-and-Digital-Intern---Process-Optimization---Automation-Developer_JR00019606-2",
-        "locations": [
-            "Parsippany-Troy Hills, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Zoetis",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Hardware",
-        "company_name": "Thermo Fisher Scientific",
-        "id": "1ae291a9-944a-405f-a261-e4e85c4da6d0",
-        "title": "Field Service Engineer Apprentice",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1764534444,
-        "date_posted": 1764534444,
-        "url": "https://thermofisher.wd5.myworkdayjobs.com/ThermoFisherCareers/job/Remote-Massachusetts-USA/Field-Service-Engineer-Apprentice---Multiple-Locations_R-01334931",
-        "locations": [
-            "Philadelphia, PA",
-            "Newark, NJ",
-            "Kansas City, MO",
-            "Massachusetts",
-            "San Diego, CA"
-        ],
-        "company_url": "https://simplify.jobs/c/Thermo-Fisher-Scientific",
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": []
@@ -6777,7 +6302,7 @@
         "company_name": "thyssenkrupp",
         "id": "ccf39ec4-c9ad-4fc2-bac6-17ab53ca8bdc",
         "title": "Trader Trainee - Industrial Minerals",
-        "active": true,
+        "active": false,
         "terms": [
             "N/A"
         ],
@@ -6857,7 +6382,7 @@
         "company_name": "Smiths Detection Group",
         "id": "244c4d01-6a38-4298-9fef-4a12ee37a4ea",
         "title": "Technical Service Engineer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "N/A"
         ],
@@ -7230,7 +6755,7 @@
         "company_name": "GE Healthcare",
         "id": "372d94d1-a83d-44fb-a919-4261fb51f503",
         "title": "Field Engineer Apprentice",
-        "active": false,
+        "active": true,
         "terms": [
             "Fall 2026"
         ],
@@ -7361,7 +6886,7 @@
         "company_name": "PGIM",
         "id": "ae61434b-9142-44d7-96d5-7e8a5731372f",
         "title": "Real Estate - Equity Investment Analyst Program",
-        "active": true,
+        "active": false,
         "terms": [
             "N/A"
         ],
@@ -7592,6 +7117,94 @@
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": [
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "Smiths Detection Group",
+        "id": "b384c506-de73-4735-9896-9f16b0054f1a",
+        "title": "Technical Service Engineer Intern",
+        "active": false,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1785163892,
+        "date_posted": 1785161108,
+        "url": "https://jobs.smartrecruiters.com/SmithsGroup2/744000140008569",
+        "locations": [
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Smiths-Detection-Group",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "SRI International",
+        "id": "33e07ede-5d28-4a3b-bf01-3140aceac8da",
+        "title": "Drexel University Co-op: Software Engineering/Full stack development",
+        "active": true,
+        "terms": [
+            "Fall 2026"
+        ],
+        "date_updated": 1785194281,
+        "date_posted": 1785190047,
+        "url": "https://careers-sri.icims.com/jobs/6432/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/SRI-International",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Medtronic",
+        "id": "43929c26-d19b-4057-9543-bf087c4bbf62",
+        "title": "Software Engineer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1785624482,
+        "date_posted": 1785542400,
+        "url": "https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Fridley-Minnesota-United-States-of-America/Software-Engineering-Intern---Summer-2027_R73630",
+        "locations": [
+            "Boston, MA",
+            "Santa Ana, CA",
+            "Fridley, MN",
+            "Santa Rosa, CA",
+            "Irvine, CA",
+            "Mansfield, MA",
+            "Mounds View, MN",
+            "Tempe, AZ",
+            "Memphis, TN",
+            "Brooklyn Center, MN",
+            "Plymouth, MN",
+            "Brooklyn Park, MN",
+            "Fort Worth, TX",
+            "Dexter, MI",
+            "North Haven, CT",
+            "Lafayette, CO",
+            "Minneapolis, MN",
+            "Newton, MA",
+            "Jacksonville, FL",
+            "Eatontown, NJ",
+            "Boulder, CO"
+        ],
+        "company_url": "https://simplify.jobs/c/Medtronic",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
             "Master's"
         ]
     }
