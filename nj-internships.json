@@ -1,234 +1,6 @@
 [
     {
         "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "AT&T",
-        "id": "f56b005e-88d3-4b9d-b5e4-1b1d5ce98e4a",
-        "title": "AT&T Labs Intern - Advanced Degrees",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1764920260,
-        "date_posted": 1764920260,
-        "url": "https://att.wd1.myworkdayjobs.com/ATTSpecialInvite/job/Middletown-New-Jersey/AT-T-Labs-Internship---Advanced-Degrees_R-89564",
-        "locations": [
-            "Austin, TX",
-            "Bothell, WA",
-            "Dallas, TX",
-            "San Ramon, CA",
-            "Redmond, WA",
-            "Plano, TX",
-            "Bedminster, NJ",
-            "Alpharetta, GA",
-            "Middletown Township, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/ATT",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "AT&T",
-        "id": "d636941a-f03a-4646-9a6d-36941ee55059",
-        "title": "AT&T Labs Internship - Undergraduate and Masters Degrees",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1764941586,
-        "date_posted": 1764941586,
-        "url": "https://att.wd1.myworkdayjobs.com/ATTSpecialInvite/job/Middletown-New-Jersey/AT-T-Labs-Internship---Undergraduate-and-Masters-Degrees_R-89788",
-        "locations": [
-            "Austin, TX",
-            "Bothell, WA",
-            "Dallas, TX",
-            "San Ramon, CA",
-            "Redmond, WA",
-            "Plano, TX",
-            "Bedminster, NJ",
-            "Alpharetta, GA",
-            "Middletown Township, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/ATT",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Hardware",
-        "company_name": "GE Healthcare",
-        "id": "606f7c06-a20e-483e-afeb-22ac84219504",
-        "title": "Field Engineer Apprentice",
-        "active": false,
-        "terms": [
-            "Spring 2026"
-        ],
-        "date_updated": 1765251841,
-        "date_posted": 1765251841,
-        "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Remote/Field-Engineer-Apprentice--Central-New-Jersey--NJ-_R4023412-1",
-        "locations": [
-            "Jackson Township, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/GE-Healthcare",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "date_updated": 1767712029,
-        "sponsorship": "Does Not Offer Sponsorship",
-        "active": false,
-        "degrees": [
-            "Bachelor's"
-        ],
-        "url": "https://careers-sharpusa.icims.com/jobs/8567/ai-process-automation-intern/job",
-        "company_name": "Sharp Electronics",
-        "title": "AI Process Automation Intern",
-        "locations": [
-            "Montvale, NJ"
-        ],
-        "terms": [
-            "Spring 2026"
-        ],
-        "category": "Data Science, AI & Machine Learning",
-        "source": "AlmondCroffle",
-        "id": "1c807a36-6e7e-4362-9c09-e982d95cf7b3",
-        "date_posted": 1765288214,
-        "company_url": "",
-        "is_visible": true
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "Zoetis",
-        "id": "a5f4b474-a438-41c4-b204-e98b01c83da6",
-        "title": "ZOETIS Tech & Digital \u2013 Solutions Architecture & Engineering Intern - Ztd - Gms",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1765377631,
-        "date_posted": 1765377631,
-        "url": "https://zoetis.wd5.myworkdayjobs.com/zoetis/job/Parsippany/ZOETIS-Tech---Digital--ZTD--Solutions-Architecture---Engineering-Intern--GMS_JR00019615-2",
-        "locations": [
-            "Parsippany-Troy Hills, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Zoetis",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Nokia",
-        "id": "c2771724-65e0-4832-9bd6-37edc0f48251",
-        "title": "Decentralized AI Intern - AI",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1765408011,
-        "date_posted": 1765408011,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/28483",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Nokia",
-        "id": "85936719-64fd-4449-85a0-07ced6ced379",
-        "title": "GenAI Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1765408021,
-        "date_posted": 1765408021,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27970",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Nokia",
-        "id": "7f6e95f6-60be-41e6-b5bc-5c87b50cc1fe",
-        "title": "AI/ML Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1765408946,
-        "date_posted": 1765408946,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27580",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Public Service Enterprise Group",
-        "id": "63490c4b-5714-45f8-a160-2ab0befd7b96",
-        "title": "Summer 2026 \u2013 Technical Intern - Electric Asset Strategy",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1765418747,
-        "date_posted": 1765418747,
-        "url": "https://jobs.pseg.com/job/South-Plainfield-Summer-2026-Technical-Intern-Electric-Asset-Strategy-NJ-07080/1348924600/?ats=successfactors",
-        "locations": [
-            "South Plainfield, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Public-Service-Enterprise-Group",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Nokia",
-        "id": "b807a63c-2fe7-485f-9f8a-279c1b5d16f1",
-        "title": "Bell Labs Radio Systems 6G Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1765494299,
-        "date_posted": 1765494299,
-        "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/28494",
-        "locations": [
-            "Berkeley Heights, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Nokia",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
         "category": "Software",
         "company_name": "Nokia",
         "id": "fcbd10cc-1fff-4531-9a3f-5581a21400f1",
@@ -5029,7 +4801,7 @@
         "company_name": "Kanshe Infotech",
         "id": "b075f87f-70d6-4067-8b91-9fd15fa20351",
         "title": "Python Fullstack Training",
-        "active": true,
+        "active": false,
         "terms": [
             "N/A"
         ],
@@ -6913,7 +6685,7 @@
         "company_name": "PGIM",
         "id": "68ceeffa-36f0-4cd6-9256-42fd6f4f016d",
         "title": "Real Estate Equity Investment Analyst Program",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2027"
         ],
@@ -6940,7 +6712,7 @@
         "company_name": "Prudential Financial",
         "id": "d1a12763-bd6a-435c-bc94-05274ad822f1",
         "title": "Real Estate Equity Investment Analyst Program",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2027"
         ],
@@ -7206,6 +6978,146 @@
         "degrees": [
             "Bachelor's",
             "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "JP Morgan Chase",
+        "id": "98635871-6276-41e4-ad95-172485704a2c",
+        "title": "Data & AI Intern - Analyst",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1785740979,
+        "date_posted": 1785738259,
+        "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773869",
+        "locations": [
+            "Palo Alto, CA",
+            "Newark, DE",
+            "Plano, TX",
+            "Chicago, IL",
+            "Jersey City, NJ",
+            "Columbus, OH",
+            "NYC",
+            "Wilmington, DE"
+        ],
+        "company_url": "https://simplify.jobs/c/JP-Morgan-Chase",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "JP Morgan Chase",
+        "id": "1bf46509-1ef7-44c8-9af8-cbe0dbe392ff",
+        "title": "Data Internship - Data & AI Program",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1785740962,
+        "date_posted": 1785738269,
+        "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775223",
+        "locations": [
+            "Palo Alto, CA",
+            "Newark, DE",
+            "Plano, TX",
+            "Chicago, IL",
+            "Jersey City, NJ",
+            "Columbus, OH",
+            "NYC",
+            "Wilmington, DE"
+        ],
+        "company_url": "https://simplify.jobs/c/JP-Morgan-Chase",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "JP Morgan Chase",
+        "id": "33f7cf59-11b2-4422-b6b4-0d340392d3b9",
+        "title": "Software Engineer Intern - Software Engineer Program",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1785740952,
+        "date_posted": 1785738260,
+        "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773759",
+        "locations": [
+            "Palo Alto, CA",
+            "Houston, TX",
+            "Tampa, FL",
+            "Plano, TX",
+            "Chicago, IL",
+            "Jersey City, NJ",
+            "Columbus, OH",
+            "NYC",
+            "Wilmington, DE"
+        ],
+        "company_url": "https://simplify.jobs/c/JP-Morgan-Chase",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "SRI International",
+        "id": "0184a4dc-b3d8-4d2b-ab22-6675bc6e4ec3",
+        "title": "Embedded Software Engineer Co-op",
+        "active": true,
+        "terms": [
+            "Fall 2026"
+        ],
+        "date_updated": 1785795572,
+        "date_posted": 1785794886,
+        "url": "https://careers-sri.icims.com/jobs/6431/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Princeton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/SRI-International",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "WebMD",
+        "id": "21ff534d-4d4b-4caf-aaf9-39ed035a0f0a",
+        "title": "Business Intelligence Intern",
+        "active": false,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1785824516,
+        "date_posted": 1785824093,
+        "url": "https://jobs.jobvite.com/webmd/job/oQBjAfw4?nl=1&nl=1&fr=false",
+        "locations": [
+            "Newark, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/1c9c570e-45f7-4abc-a498-b455727b820b",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
         ]
     }
 ]
