@@ -1,69 +1,6 @@
 [
     {
         "source": "Simplify",
-        "category": "Software",
-        "company_name": "Zoetis",
-        "id": "c2b9b682-81f0-4cf3-82c7-3d7382da05c4",
-        "title": "Robotic Process Automation Developer Intern - RPA",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1766128526,
-        "date_posted": 1766128526,
-        "url": "https://zoetis.wd5.myworkdayjobs.com/zoetis/job/Parsippany/Robotic-Process-Automation--RPA--Developer-Intern_JR00019798-2",
-        "locations": [
-            "Parsippany-Troy Hills, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Zoetis",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Roche",
-        "id": "1a4328ef-dc13-4c6e-b095-fbeea1124d21",
-        "title": "Intern - Data Insights Unit",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1766175007,
-        "date_posted": 1766175007,
-        "url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Branchburg/XMLNAME-2026-Summer-Intern---Data-Insights-Unit_202512-132013",
-        "locations": [
-            "Somerset County, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Roche",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Atlantic Health System",
-        "id": "4b3b2fab-4f4b-4625-8fa0-b212a5c814db",
-        "title": "Pharmacy \u2013 Intern - Data Analytics",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1766185746,
-        "date_posted": 1766185746,
-        "url": "https://erqh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/24720",
-        "locations": [
-            "Morristown, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Atlantic-Health-System",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
         "category": "AI/ML/Data",
         "company_name": "TD Bank",
         "id": "16f6f038-f271-42cd-b835-a3ae3262ad6d",
@@ -228,48 +165,6 @@
             "Newark, NJ"
         ],
         "company_url": "https://simplify.jobs/c/Public-Service-Enterprise-Group",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Public Service Enterprise Group",
-        "id": "1692df5f-e87d-4d6a-ad69-81bab76d7446",
-        "title": "Technical Intern - Outside Plant Distribution Asset Mgmt",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1766532389,
-        "date_posted": 1766532389,
-        "url": "https://jobs.pseg.com/job/Edison-Summer-2026-Technical-Intern-Outside-Plant-Distribution-Asset-Mgmt-NJ-08817/1351953900/?ats=successfactors",
-        "locations": [
-            "Edison, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Public-Service-Enterprise-Group",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "AbbVie",
-        "id": "e2367c3d-4be5-4b5d-aff3-039fec081dac",
-        "title": "Statistics Intern - PhD",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1766222335,
-        "date_posted": 1766222335,
-        "url": "https://jobs.smartrecruiters.com/AbbVie/3743990010808696",
-        "locations": [
-            "Livingston, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/AbbVie",
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": []
@@ -6336,7 +6231,7 @@
         "company_name": "JP Morgan Chase",
         "id": "98635871-6276-41e4-ad95-172485704a2c",
         "title": "Data & AI Intern - Analyst",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2027"
         ],
@@ -6367,7 +6262,7 @@
         "company_name": "JP Morgan Chase",
         "id": "1bf46509-1ef7-44c8-9af8-cbe0dbe392ff",
         "title": "Data Internship - Data & AI Program",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2027"
         ],
@@ -6476,7 +6371,7 @@
         "company_name": "Analytical Mechanics Associates",
         "id": "1ed38264-654d-4366-b1fc-9e0df58b47a0",
         "title": "Research Scientist Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Fall 2026"
         ],
@@ -6544,7 +6439,7 @@
         "company_name": "Analytical Mechanics Associates",
         "id": "3bbe3661-8a0b-43c9-a4f7-5c1b984cc3f9",
         "title": "Computer Science/Engineering Intern - Computer Vision Applications",
-        "active": true,
+        "active": false,
         "terms": [
             "Fall 2026"
         ],
@@ -6642,7 +6537,7 @@
         "company_name": "Crowe",
         "id": "d02658b8-38cb-4fc7-9841-62916abfefc2",
         "title": "Machine Learning Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2026"
         ],
@@ -6749,5 +6644,253 @@
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "L3Harris Technologies",
+        "id": "f3e59677-5514-4b20-94b5-e6729edf6fd5",
+        "title": "Software Engineering Intern",
+        "active": true,
+        "terms": [
+            "Fall 2026"
+        ],
+        "date_updated": 1787006881,
+        "date_posted": 1787006774,
+        "url": "https://jobs.l3harris.com/job/Clifton-Software-Engineering-Intern-(Clifton,-NJ)-1-NJ-07014/1420083900/?ats=successfactors",
+        "locations": [
+            "Clifton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/L3Harris-Technologies",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "iFLIP4",
+        "id": "188a7730-e0e6-4d6b-b1fb-5550f2812d43",
+        "title": "PHP Programmer Intern - Social Enterprise",
+        "active": true,
+        "terms": [
+            "N/A"
+        ],
+        "date_updated": 1787015807,
+        "date_posted": 1787015506,
+        "url": "https://jobs.smartrecruiters.com/iFLIP4/75391381",
+        "locations": [
+            "East Hanover, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/IFLIP4",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Marmon Holdings",
+        "id": "b31bb072-a6b6-48b7-b762-03f1b353fdf8",
+        "title": "Data & Process Automation Intern - Duty Drawback",
+        "active": true,
+        "terms": [
+            "Fall 2026"
+        ],
+        "date_updated": 1787147281,
+        "date_posted": 1787097600,
+        "url": "https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Newark-NJ/Data---Process-Automation-Intern---Duty-Drawback_JR0000045184",
+        "locations": [
+            "Newark, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Marmon-Holdings",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "AMD",
+        "id": "a5a8ff7e-b250-4699-8d5f-b15adf724936",
+        "title": "Firmware Engineer Intern/Co-op",
+        "active": true,
+        "terms": [
+            "Winter 2027",
+            "Summer 2027"
+        ],
+        "date_updated": 1787293602,
+        "date_posted": 1787293338,
+        "url": "https://careers.amd.com/jobs/90801?icims=1",
+        "locations": [
+            "Secaucus, NJ",
+            "Rochester, NY",
+            "Austin, TX",
+            "Longmont, CO",
+            "Fishkill, NY",
+            "Fort Collins, CO",
+            "Massachusetts"
+        ],
+        "company_url": "https://simplify.jobs/c/AMD",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "AMD",
+        "id": "501d315c-b9a3-47c7-b07e-24c99ed76f46",
+        "title": "Hardware Design Verification Engineer Intern/Co-op",
+        "active": true,
+        "terms": [
+            "Winter 2027",
+            "Summer 2027"
+        ],
+        "date_updated": 1787293607,
+        "date_posted": 1787293338,
+        "url": "https://careers.amd.com/jobs/90813?icims=1",
+        "locations": [
+            "Secaucus, NJ",
+            "Rochester, NY",
+            "Austin, TX",
+            "Longmont, CO",
+            "Fishkill, NY",
+            "Fort Collins, CO",
+            "Boxborough, MA"
+        ],
+        "company_url": "https://simplify.jobs/c/AMD",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "AMD",
+        "id": "2b9774d4-2b94-4dc3-9aca-7b5dc857eaa2",
+        "title": "Firmware Engineer Intern/Co-op",
+        "active": true,
+        "terms": [
+            "Spring 2027",
+            "Summer 2027"
+        ],
+        "date_updated": 1787293604,
+        "date_posted": 1787293339,
+        "url": "https://careers.amd.com/jobs/90805?icims=1",
+        "locations": [
+            "Secaucus, NJ",
+            "Rochester, NY",
+            "Austin, TX",
+            "Longmont, CO",
+            "Fishkill, NY",
+            "Fort Collins, CO",
+            "Boxborough, MA"
+        ],
+        "company_url": "https://simplify.jobs/c/AMD",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "AMD",
+        "id": "16ab9e56-fd38-43a4-a048-7cca73f13c2d",
+        "title": "Hardware Design Verification Engineering Intern/Co-op",
+        "active": true,
+        "terms": [
+            "Winter 2027",
+            "Summer 2027",
+            "Fall 2027"
+        ],
+        "date_updated": 1787293608,
+        "date_posted": 1787293338,
+        "url": "https://careers.amd.com/jobs/90820?icims=1",
+        "locations": [
+            "Secaucus, NJ",
+            "Rochester, NY",
+            "Austin, TX",
+            "Longmont, CO",
+            "Fishkill, NY",
+            "Fort Collins, CO",
+            "Boxborough, MA"
+        ],
+        "company_url": "https://simplify.jobs/c/AMD",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Crowe",
+        "id": "440a78fd-1099-4f5d-9384-4cda25b60ab3",
+        "title": "AI Functional Intern",
+        "active": true,
+        "terms": [
+            "Winter 2027"
+        ],
+        "date_updated": 1787306045,
+        "date_posted": 1787097600,
+        "url": "https://crowe.wd12.myworkdayjobs.com/en-US/external_careers/job/Chicago-IL-USA/AI-Functional-Intern---WINTER-2027_R-71015",
+        "locations": [
+            "Lexington, KY",
+            "Boston, MA",
+            "Indianapolis, IN",
+            "Houston, TX",
+            "Louisville, KY",
+            "Knoxville, TN",
+            "Nashville, TN",
+            "Washington, DC",
+            "SF",
+            "Austin, TX",
+            "Cleveland, OH",
+            "LA",
+            "Tampa, FL",
+            "San Jose, CA",
+            "Livingston, NJ",
+            "Grand Rapids, MI",
+            "Miami, FL",
+            "Dallas, TX",
+            "The Woodlands, TX",
+            "Plano, TX",
+            "Chicago, IL",
+            "Tallahassee, FL",
+            "Charlotte, NC",
+            "Fort Lauderdale, FL",
+            "Oakbrook Terrace, IL",
+            "Burlington, VT",
+            "Sacramento, CA",
+            "Columbus, OH",
+            "Hartford, CT",
+            "Springfield, IL",
+            "NYC",
+            "Denver, CO",
+            "Atlanta, GA",
+            "Fort Wayne, IN",
+            "South Bend, IN",
+            "Sarasota, FL",
+            "Costa Mesa, CA"
+        ],
+        "company_url": "https://simplify.jobs/c/Crowe",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
     }
 ]
