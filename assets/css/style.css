@@ -5497,3 +5497,710 @@ body.dark-mode .impact-deck-card img {
     order: -1;
   }
 }
+
+/* ==========================================================================
+   AI4BTP — Faculty AI Consultation & Scheduler Styles
+   ========================================================================== */
+
+.ai4btp-hero {
+  position: relative;
+  padding: 110px 0 40px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.ai4btp-hero .hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  background: rgba(122, 92, 255, 0.12);
+  border: 1px solid rgba(122, 92, 255, 0.3);
+  color: var(--text);
+  margin-bottom: 18px;
+}
+
+.ai4btp-hero h1 {
+  font-size: clamp(2.2rem, 4.5vw, 3.4rem);
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 18px;
+  letter-spacing: -0.02em;
+}
+
+.ai4btp-hero .lead {
+  max-width: 760px;
+  margin: 0 auto 28px;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--card-text-color, #475569);
+}
+
+.ai4btp-cta-group {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+/* Three Pillars / Feature Grid */
+.ai4btp-pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 32px 0 48px;
+}
+
+.ai4btp-pillar-card {
+  border: 1px solid var(--glass-line);
+  border-radius: 18px;
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  padding: 26px 22px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.ai4btp-pillar-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(122, 92, 255, 0.35);
+  box-shadow: 0 16px 36px rgba(10, 20, 40, 0.12);
+}
+
+.pillar-icon-box {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, rgba(0, 230, 255, 0.15), rgba(122, 92, 255, 0.18));
+  border: 1px solid rgba(122, 92, 255, 0.2);
+}
+
+.ai4btp-pillar-card h3 {
+  font-size: 1.25rem;
+  margin: 0 0 10px;
+  color: var(--text);
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.ai4btp-pillar-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--card-text-color, #475569);
+  flex-grow: 1;
+}
+
+/* Demo Videos Section */
+.ai4btp-videos-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.video-placeholder-card {
+  border: 1px solid var(--glass-line);
+  border-radius: 18px;
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  padding: 16px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.video-placeholder-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(0, 230, 255, 0.4);
+}
+
+.video-placeholder-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  overflow: hidden;
+  background: radial-gradient(circle at 50% 30%, #17243c, #070d19);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  user-select: none;
+}
+
+/* Tech mesh pattern overlay in video frame */
+.video-placeholder-frame::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(rgba(0, 230, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 230, 255, 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.video-play-badge {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent-2), var(--accent-1));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 24px rgba(0, 230, 255, 0.45);
+  margin-bottom: 12px;
+  z-index: 2;
+  transition: transform 0.25s ease;
+}
+
+.video-placeholder-card:hover .video-play-badge {
+  transform: scale(1.08);
+}
+
+.video-play-badge svg {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+  margin-left: 3px;
+}
+
+.video-badge-tag {
+  z-index: 2;
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 4px 10px;
+  border-radius: 6px;
+  color: var(--accent-1);
+  margin-bottom: 8px;
+}
+
+.video-placeholder-text {
+  z-index: 2;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #f1f5f9;
+  max-width: 80%;
+  margin: 0;
+}
+
+.video-placeholder-sub {
+  z-index: 2;
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 4px;
+}
+
+.video-card-meta {
+  padding: 14px 6px 4px;
+}
+
+.video-card-meta h4 {
+  margin: 0 0 4px;
+  font-size: 1.08rem;
+  color: var(--text);
+}
+
+.video-card-meta p {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--card-text-color, #64748b);
+  line-height: 1.45;
+}
+
+/* Scheduler Main Layout */
+.ai4btp-scheduler-layout {
+  display: grid;
+  grid-template-columns: 1.4fr 0.9fr;
+  gap: 28px;
+  align-items: start;
+  margin-top: 24px;
+}
+
+.scheduler-card {
+  border: 1px solid var(--glass-line);
+  border-radius: 20px;
+  background: var(--card-bg);
+  backdrop-filter: blur(14px);
+  padding: 28px;
+  box-shadow: var(--shadow);
+}
+
+.scheduler-step {
+  margin-bottom: 28px;
+  padding-bottom: 24px;
+  border-bottom: 1px dashed var(--glass-line);
+}
+
+.scheduler-step:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.step-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.step-num {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent-2), var(--accent-1));
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.step-title {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+/* Topic Chips */
+.topic-chips-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.topic-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--glass-line);
+  background: var(--input-bg);
+  color: var(--text);
+  font-size: 0.88rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.topic-chip:hover {
+  border-color: var(--accent-2);
+  transform: translateY(-1px);
+}
+
+.topic-chip.selected {
+  background: linear-gradient(135deg, rgba(122, 92, 255, 0.18), rgba(0, 230, 255, 0.12));
+  border-color: var(--accent-2);
+  color: var(--text);
+  font-weight: 700;
+  box-shadow: 0 0 0 2px rgba(122, 92, 255, 0.25);
+}
+
+/* Modality Selector */
+.modality-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.modality-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--glass-line);
+  background: var(--input-bg);
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.modality-btn:hover {
+  border-color: var(--accent-2);
+}
+
+.modality-btn.selected {
+  background: linear-gradient(135deg, rgba(122, 92, 255, 0.16), rgba(0, 230, 255, 0.1));
+  border-color: var(--accent-2);
+  box-shadow: 0 0 0 2px rgba(122, 92, 255, 0.2);
+}
+
+.modality-btn .mode-icon {
+  font-size: 1.3rem;
+}
+
+/* Date Selector / Strip */
+.date-selector-container {
+  margin-bottom: 18px;
+}
+
+.date-selector-label {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+  display: block;
+}
+
+.date-chips-scroll {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  scrollbar-width: thin;
+}
+
+.date-chip {
+  flex: 0 0 74px;
+  padding: 10px 6px;
+  border-radius: 10px;
+  border: 1px solid var(--glass-line);
+  background: var(--input-bg);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.date-chip:hover {
+  border-color: var(--accent-2);
+}
+
+.date-chip.selected {
+  background: linear-gradient(135deg, var(--accent-2), #5939e6);
+  border-color: var(--accent-2);
+  color: #ffffff !important;
+  box-shadow: 0 4px 14px rgba(122, 92, 255, 0.35);
+}
+
+.date-chip.selected .date-day-name,
+.date-chip.selected .date-day-num,
+.date-chip.selected .date-month {
+  color: #ffffff;
+}
+
+.date-day-name {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--card-text-color, #64748b);
+  display: block;
+}
+
+.date-day-num {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text);
+  display: block;
+  margin: 2px 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.date-month {
+  font-size: 0.72rem;
+  color: var(--card-text-color, #64748b);
+  display: block;
+}
+
+/* Time Slots Grid */
+.time-slots-container {
+  margin-top: 14px;
+}
+
+.time-slots-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
+  gap: 8px;
+}
+
+.time-slot-btn {
+  padding: 9px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--glass-line);
+  background: var(--input-bg);
+  color: var(--text);
+  font-size: 0.86rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.time-slot-btn:hover {
+  border-color: var(--accent-1);
+  transform: translateY(-1px);
+}
+
+.time-slot-btn.selected {
+  background: linear-gradient(135deg, var(--accent-1), #00b4d8);
+  color: #0b1220;
+  border-color: var(--accent-1);
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(0, 230, 255, 0.35);
+}
+
+/* Live Selected Booking Pill */
+.selected-slot-pill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: rgba(0, 230, 255, 0.08);
+  border: 1px solid rgba(0, 230, 255, 0.25);
+  margin-top: 14px;
+  font-size: 0.88rem;
+  color: var(--text);
+}
+
+.selected-slot-pill strong {
+  color: var(--accent-2);
+}
+
+/* Scheduler Sidebar / Info Cards */
+.scheduler-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.scheduler-info-card {
+  border: 1px solid var(--glass-line);
+  border-radius: 18px;
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  padding: 22px;
+  box-shadow: var(--shadow);
+}
+
+.scheduler-info-card h3 {
+  font-size: 1.15rem;
+  margin: 0 0 12px;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.scheduler-info-card ul {
+  padding-left: 20px;
+  margin: 0 0 12px;
+}
+
+.scheduler-info-card li {
+  margin-bottom: 8px;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--card-text-color, #475569);
+}
+
+.mentor-tags-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.mentor-tag {
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: rgba(122, 92, 255, 0.1);
+  color: var(--text);
+  border: 1px solid rgba(122, 92, 255, 0.2);
+}
+
+/* Booking Confirmation View */
+.booking-confirmed-card {
+  border: 1px solid rgba(0, 200, 120, 0.35);
+  border-radius: 20px;
+  background: var(--card-bg);
+  backdrop-filter: blur(16px);
+  padding: 32px;
+  text-align: center;
+  box-shadow: 0 18px 48px rgba(0, 200, 120, 0.12);
+  display: none;
+}
+
+.booking-confirmed-card.active {
+  display: block;
+  animation: contentSlideUp 0.4s ease forwards;
+}
+
+.confirm-badge-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(0, 200, 120, 0.15);
+  border: 2px solid #00c878;
+  color: #00c878;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  margin: 0 auto 16px;
+}
+
+.confirm-details-box {
+  background: var(--input-bg);
+  border: 1px solid var(--glass-line);
+  border-radius: 12px;
+  padding: 18px;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.confirm-details-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--glass-line);
+  font-size: 0.92rem;
+}
+
+.confirm-details-row:last-child {
+  border-bottom: none;
+}
+
+.confirm-details-row .row-label {
+  color: var(--card-text-color, #64748b);
+  font-weight: 500;
+}
+
+.confirm-details-row .row-value {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.confirm-actions-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* FAQ Accordion */
+.ai4btp-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.faq-item {
+  border: 1px solid var(--glass-line);
+  border-radius: 14px;
+  background: var(--card-bg);
+  overflow: hidden;
+  transition: border-color 0.2s ease;
+}
+
+.faq-question {
+  width: 100%;
+  text-align: left;
+  padding: 16px 20px;
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: inherit;
+}
+
+.faq-arrow {
+  transition: transform 0.25s ease;
+  font-size: 0.85rem;
+}
+
+.faq-item.open .faq-arrow {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 20px;
+  color: var(--card-text-color, #475569);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.faq-item.open .faq-answer {
+  max-height: 300px;
+  padding: 0 20px 18px;
+}
+
+/* Responsive Breakpoints for AI4BTP */
+@media (max-width: 900px) {
+  .ai4btp-pillars-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .ai4btp-videos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ai4btp-scheduler-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .ai4btp-hero {
+    padding-top: 85px;
+  }
+
+  .modality-group {
+    grid-template-columns: 1fr;
+  }
+
+  .time-slots-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .scheduler-card {
+    padding: 20px 16px;
+  }
+}
+

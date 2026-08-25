@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3D4TYEWL38"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-3D4TYEWL38");
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSAI — AI4BTP Faculty AI Consultation & Scheduler</title>
+    <link rel="icon" type="image/png" href="data/photos/logo.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- ===== Header ===== -->
+    <header class="header">
+      <div class="nav container">
+        <!-- Hamburger menu (mobile only) -->
+        <nav>
+          <button
+            class="ham-menu"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+
+        <!-- Navigation links - shared markup for desktop and mobile -->
+        <nav class="nav-links off-screen-menu" aria-label="Main navigation">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+
+            <!-- Projects with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="projects.html" class="nav-link">Projects</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Projects submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="projects.html">All Projects</a></li>
+                <li><a href="anatomyvr.html">AnatomyVR</a></li>
+                <li><a href="digitaltwin.html">Digital Twin</a></li>
+                <li><a href="ai4btp.html">AI4BTP</a></li>
+              </ul>
+            </li>
+
+            <!-- Learning with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="learning.html" class="nav-link">Learning</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Learning submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="learning.html">Tutorials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="events.html" class="nav-link">Events</a>
+            </li>
+
+            <!-- Opportunities with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="opportunities.html" class="nav-link">Opportunities</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Opportunities submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="scholarships.html">Scholarships</a></li>
+                <li><a href="research.html">Research</a></li>
+              </ul>
+            </li>
+
+            <!-- Achievements with dropdown -->
+            <li class="nav-item has-dropdown">
+              <a href="Achievements.html" class="nav-link">Achievements</a>
+              <button
+                class="dropdown-toggle"
+                aria-label="Toggle Achievements submenu"
+                aria-expanded="false"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 11L3 6h10z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="competitions.html">Competitions</a></li>
+                <li><a href="publications.html">Publications</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="join.html" class="nav-link">Join</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Join button (mobile only) -->
+        <a class="join-button btn mobile-only" href="join.html">Join</a>
+      </div>
+    </header>
+
+    <!-- ===== Hero Section ===== -->
+    <section class="ai4btp-hero">
+      <div class="container">
+        <div class="hero-badge reveal">🎓 Faculty & Department AI Initiative</div>
+        <h1 class="reveal delay-1">
+          <span>AI4BTP — AI Assistance for</span><br />
+          <span class="hero-gradient">Faculty & Educators</span>
+        </h1>
+        <p class="lead reveal delay-2">
+          Empowering faculty across all academic disciplines to integrate modern AI tools, curriculum modules, automation workflows, and machine learning solutions through 1-on-1 collaboration with CSAI student mentors.
+        </p>
+        <div class="ai4btp-cta-group reveal delay-3">
+          <a class="btn primary glow-pulse" href="#scheduler">Book a Consultation Slot</a>
+          <a class="btn" href="#demo-videos">Watch Demo Videos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Program Pillars ===== -->
+    <section class="section" style="padding-top: 10px">
+      <div class="container">
+        <div class="ai4btp-pillars-grid">
+          <div class="ai4btp-pillar-card reveal">
+            <div class="pillar-icon-box">🤝</div>
+            <h3>1-on-1 Student Mentorship</h3>
+            <p>
+              Work directly with skilled CSAI club students who provide dedicated assistance with prompt engineering, LLM integration, AI tools, and personalized technical walkthroughs.
+            </p>
+          </div>
+
+          <div class="ai4btp-pillar-card reveal delay-1">
+            <div class="pillar-icon-box">📚</div>
+            <h3>Curriculum & Course Design</h3>
+            <p>
+              Incorporate ethical AI assignments, interactive coding sandboxes, automated grading assistance, and cutting-edge domain examples into your syllabus.
+            </p>
+          </div>
+
+          <div class="ai4btp-pillar-card reveal delay-2">
+            <div class="pillar-icon-box">⚡</div>
+            <h3>Research & Workflow Automation</h3>
+            <p>
+              Streamline departmental data analysis, document parsing, Python scripting, and machine learning pipelines with student-supported rapid prototyping.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Demo Videos Section ===== -->
+    <section class="section" id="demo-videos" style="background: rgba(10, 20, 40, 0.02)">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="reveal">Demo Videos & Walkthroughs</h2>
+          <p class="lead reveal delay-1">
+            Explore recorded walkthroughs and case studies demonstrating student-faculty AI collaboration.
+          </p>
+        </div>
+
+        <div class="ai4btp-videos-grid">
+          <!-- Video Placeholder 1 -->
+          <div class="video-placeholder-card reveal delay-1">
+            <div class="video-placeholder-frame">
+              <!-- Video Placeholder Container (Ready for YouTube or video embed) -->
+              <div class="video-badge-tag">Demo 1 • Coming Soon</div>
+              <div class="video-play-badge">
+                <svg viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </div>
+              <p class="video-placeholder-text">AI4BTP Program Overview & Faculty Walkthrough</p>
+              <span class="video-placeholder-sub">Video placeholder — High-resolution recording will be uploaded here</span>
+            </div>
+            <div class="video-card-meta">
+              <h4>Program Introduction & Consultation Workflow</h4>
+              <p>
+                A step-by-step tour showing how faculty can prepare for a consultation, common topics covered, and live assistance examples.
+              </p>
+            </div>
+          </div>
+
+          <!-- Video Placeholder 2 -->
+          <div class="video-placeholder-card reveal delay-2">
+            <div class="video-placeholder-frame">
+              <!-- Video Placeholder Container (Ready for YouTube or video embed) -->
+              <div class="video-badge-tag">Demo 2 • Coming Soon</div>
+              <div class="video-play-badge">
+                <svg viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </div>
+              <p class="video-placeholder-text">AI in the Classroom — Case Study & Live Tools</p>
+              <span class="video-placeholder-sub">Video placeholder — High-resolution recording will be uploaded here</span>
+            </div>
+            <div class="video-card-meta">
+              <h4>Practical AI Integration Case Study</h4>
+              <p>
+                Demonstrating real-world AI applications built with faculty partners, including automated rubric assists and interactive course aids.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Interactive Faculty Scheduler Section ===== -->
+    <section class="section" id="scheduler">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="reveal">Faculty AI Consultation Scheduler</h2>
+          <p class="lead reveal delay-1">
+            Select an available time slot below to reserve a 1-on-1 meeting with CSAI student mentors.
+          </p>
+        </div>
+
+        <div class="ai4btp-scheduler-layout">
+          <!-- Left Column: Scheduler Card -->
+          <div class="scheduler-card-wrap reveal delay-2">
+            <div class="scheduler-card" id="scheduler-form-card">
+              <form id="faculty-booking-form" novalidate>
+                <!-- Step 1: Focus Area -->
+                <div class="scheduler-step">
+                  <div class="step-header">
+                    <span class="step-num">1</span>
+                    <h3 class="step-title">Select Consultation Topic</h3>
+                  </div>
+                  <div class="topic-chips-group">
+                    <button
+                      type="button"
+                      class="topic-chip selected"
+                      data-topic="Curriculum & Course AI Integration"
+                    >
+                      <span>📘</span> Curriculum & Course AI Integration
+                    </button>
+                    <button
+                      type="button"
+                      class="topic-chip"
+                      data-topic="Generative AI & Prompt Engineering"
+                    >
+                      <span>✨</span> Generative AI & Prompt Engineering
+                    </button>
+                    <button
+                      type="button"
+                      class="topic-chip"
+                      data-topic="Python Scripting & Automation"
+                    >
+                      <span>🐍</span> Python Scripting & Automation
+                    </button>
+                    <button
+                      type="button"
+                      class="topic-chip"
+                      data-topic="Machine Learning & Data Analysis"
+                    >
+                      <span>📊</span> Machine Learning & Data Analysis
+                    </button>
+                    <button
+                      type="button"
+                      class="topic-chip"
+                      data-topic="General AI Tools & Hands-on Setup"
+                    >
+                      <span>⚙️</span> General AI Tools & Hands-on Setup
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Step 2: Date & Slot -->
+                <div class="scheduler-step">
+                  <div class="step-header">
+                    <span class="step-num">2</span>
+                    <h3 class="step-title">Choose Meeting Format & Time Slot</h3>
+                  </div>
+
+                  <!-- Meeting Modality -->
+                  <div class="modality-group">
+                    <button
+                      type="button"
+                      class="modality-btn selected"
+                      data-mode="In-Person (CSAI Lab, Mercer Campus)"
+                    >
+                      <span class="mode-icon">🏛️</span>
+                      <div>
+                        <strong>In-Person Meeting</strong>
+                        <div style="font-size: 0.78rem; opacity: 0.75">CSAI Lab (Engineering & Tech Bldg)</div>
+                      </div>
+                    </button>
+
+                    <button
+                      type="button"
+                      class="modality-btn"
+                      data-mode="Virtual (Google Meet / Zoom)"
+                    >
+                      <span class="mode-icon">💻</span>
+                      <div>
+                        <strong>Virtual Session</strong>
+                        <div style="font-size: 0.78rem; opacity: 0.75">Google Meet / Zoom Screen-share</div>
+                      </div>
+                    </button>
+                  </div>
+
+                  <!-- Date Selector -->
+                  <div class="date-selector-container">
+                    <label class="date-selector-label">Available Dates (Upcoming Business Days):</label>
+                    <div class="date-chips-scroll" id="date-chips-scroll">
+                      <!-- Dynamic date chips generated via ai4btp.js -->
+                    </div>
+                  </div>
+
+                  <!-- Time Slots Grid -->
+                  <div class="time-slots-container">
+                    <label class="date-selector-label">Available 45-Min Time Slots:</label>
+                    <div class="time-slots-grid" id="time-slots-grid">
+                      <!-- Dynamic time slot buttons generated via ai4btp.js -->
+                    </div>
+                  </div>
+
+                  <!-- Selected Slot Pill -->
+                  <div class="selected-slot-pill" id="selected-slot-pill">
+                    <span id="selected-slot-text">Loading available times...</span>
+                  </div>
+                </div>
+
+                <!-- Step 3: Faculty Details -->
+                <div class="scheduler-step">
+                  <div class="step-header">
+                    <span class="step-num">3</span>
+                    <h3 class="step-title">Faculty Information & Session Goals</h3>
+                  </div>
+
+                  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                    <div>
+                      <label class="label" for="faculty-name">Faculty Name *</label>
+                      <input
+                        class="input"
+                        id="faculty-name"
+                        name="faculty_name"
+                        placeholder="e.g., Prof. Sarah Jenkins"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <label class="label" for="faculty-email">Institutional Email *</label>
+                      <input
+                        class="input"
+                        type="email"
+                        id="faculty-email"
+                        name="faculty_email"
+                        placeholder="e.g., sjenkins@mccc.edu"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                    <div>
+                      <label class="label" for="faculty-dept">Academic Department *</label>
+                      <input
+                        class="input"
+                        id="faculty-dept"
+                        name="faculty_dept"
+                        placeholder="e.g., Business, STEM, Humanities"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <label class="label" for="faculty-course">Course or Research Focus</label>
+                      <input
+                        class="input"
+                        id="faculty-course"
+                        name="faculty_course"
+                        placeholder="e.g., Intro to Business / Data Analytics"
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label class="label" for="faculty-goals">What specific AI topics or questions would you like to cover? *</label>
+                    <textarea
+                      class="input"
+                      id="faculty-goals"
+                      name="faculty_goals"
+                      rows="3"
+                      placeholder="Briefly describe what you'd like to achieve (e.g., exploring ChatGPT for syllabus assignments, automated data parsing, learning Python basics for research)..."
+                      required
+                    ></textarea>
+                  </div>
+
+                  <button class="btn primary glow-pulse" type="submit" style="width: 100%; padding: 14px; font-size: 1.05rem; margin-top: 10px;">
+                    Confirm & Reserve Appointment
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <!-- Booking Confirmed View -->
+            <div class="booking-confirmed-card" id="booking-confirmed-card">
+              <div class="confirm-badge-icon">✓</div>
+              <h3 style="font-size: 1.6rem; margin: 0 0 6px; color: var(--text);">Consultation Confirmed!</h3>
+              <p style="color: var(--card-text-color, #475569); margin: 0 0 16px;">
+                Your appointment has been successfully scheduled with the CSAI student mentor team.
+              </p>
+
+              <div class="confirm-details-box">
+                <div class="confirm-details-row">
+                  <span class="row-label">Reference ID:</span>
+                  <span class="row-value" id="conf-ref-id">AI4BTP-8492</span>
+                </div>
+                <div class="confirm-details-row">
+                  <span class="row-label">Focus Area:</span>
+                  <span class="row-value" id="conf-topic">Curriculum & Course AI Integration</span>
+                </div>
+                <div class="confirm-details-row">
+                  <span class="row-label">Date & Time:</span>
+                  <span class="row-value" id="conf-date-time">Thu, Oct 24 (1:00 PM - 1:45 PM)</span>
+                </div>
+                <div class="confirm-details-row">
+                  <span class="row-label">Location / Mode:</span>
+                  <span class="row-value" id="conf-mode">In-Person — Mercer Campus CSAI Lab</span>
+                </div>
+                <div class="confirm-details-row">
+                  <span class="row-label">Faculty Contact:</span>
+                  <span class="row-value" id="conf-faculty-info">Prof. Jenkins • sjenkins@mccc.edu</span>
+                </div>
+              </div>
+
+              <div class="confirm-actions-row">
+                <a class="btn primary" id="add-to-gcal-btn" href="#" target="_blank">
+                  📅 Add to Google Calendar
+                </a>
+                <button class="btn" id="add-to-cal-btn" type="button">
+                  📥 Download .ICS Event
+                </button>
+                <button class="btn" id="reset-booking-btn" type="button">
+                  Book Another Session
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Info & Expectations -->
+          <div class="scheduler-sidebar reveal delay-3">
+            <div class="scheduler-info-card">
+              <h3><span>💡</span> What to Expect</h3>
+              <ul>
+                <li><strong>45-Minute Dedicated Session:</strong> Focused, collaborative 1-on-1 time with student mentors.</li>
+                <li><strong>Live Co-Working & Demos:</strong> We test prompts, write sample code, or build workflows together in real-time.</li>
+                <li><strong>Resource Takeaways:</strong> Receive customized documentation, code repositories, or reference links after each meeting.</li>
+                <li><strong>No Prior Coding Required:</strong> We adapt our guidance to any comfort level and discipline.</li>
+              </ul>
+            </div>
+
+            <div class="scheduler-info-card">
+              <h3><span>🛠️</span> Student Skill Areas</h3>
+              <p style="font-size: 0.88rem; color: var(--card-text-color, #475569); margin: 0 0 10px;">
+                Our student team has hands-on experience across a broad spectrum of AI tools and domains:
+              </p>
+              <div class="mentor-tags-cloud">
+                <span class="mentor-tag">ChatGPT & Claude</span>
+                <span class="mentor-tag">Google Gemini API</span>
+                <span class="mentor-tag">Python & Pandas</span>
+                <span class="mentor-tag">PyTorch / TensorFlow</span>
+                <span class="mentor-tag">Prompt Engineering</span>
+                <span class="mentor-tag">Computer Vision</span>
+                <span class="mentor-tag">NLP & Text Analysis</span>
+                <span class="mentor-tag">Unity 3D / Simulation</span>
+                <span class="mentor-tag">Automated Grading</span>
+                <span class="mentor-tag">LaTeX & Markdown</span>
+              </div>
+            </div>
+
+            <div class="scheduler-info-card" style="border-color: rgba(0, 230, 255, 0.25);">
+              <h3><span>🏫</span> Department Workshops</h3>
+              <p style="font-size: 0.88rem; color: var(--card-text-color, #475569); margin: 0 0 12px;">
+                Interested in hosting a custom AI workshop for your entire department or faculty division?
+              </p>
+              <a class="btn" href="join.html" style="font-size: 0.86rem; padding: 8px 14px;">Contact CSAI Leadership</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ Section ===== -->
+    <section class="section" style="padding-top: 10px">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="reveal">Frequently Asked Questions</h2>
+          <p class="lead reveal delay-1">
+            Common questions about the AI4BTP faculty consultation program.
+          </p>
+        </div>
+
+        <div class="ai4btp-faq-list reveal delay-2">
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Who are the student mentors conducting these sessions?</span>
+              <span class="faq-arrow">▼</span>
+            </button>
+            <div class="faq-answer">
+              Mentors are upper-level Mercer CSAI club members with demonstrated project experience in artificial intelligence, machine learning, Python development, and applied software engineering. Mentors work under the guidance of club faculty advisors.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Do I need any programming or technical background to participate?</span>
+              <span class="faq-arrow">▼</span>
+            </button>
+            <div class="faq-answer">
+              Not at all! Consultations are designed for educators from all academic fields—including humanities, social sciences, business, arts, and STEM. We tailor every discussion to your specific goals and comfort level.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Are there any costs or fees for booking a consultation?</span>
+              <span class="faq-arrow">▼</span>
+            </button>
+            <div class="faq-answer">
+              No. AI4BTP is a free collaborative initiative provided by the CSAI club to foster cross-disciplinary innovation and support faculty excellence across campus.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Where do in-person meetings take place?</span>
+              <span class="faq-arrow">▼</span>
+            </button>
+            <div class="faq-answer">
+              In-person sessions are held at the CSAI Computer Science Lab in the Engineering & Technology (ET) Building on the Mercer campus. If you prefer to meet in your departmental office, you can note that in the session goals when booking.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Can students help design an entire assignment or project rubric?</span>
+              <span class="faq-arrow">▼</span>
+            </button>
+            <div class="faq-answer">
+              Yes! Students can assist in creating sample prompt challenges, drafting AI policy guidelines for coursework, building starter code repositories, or configuring sandbox environments for student exercises.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+      © 2025 CSAI — Computer Science + AI Club
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/side-bar.js"></script>
+    <script src="assets/js/ai4btp.js"></script>
+  </body>
+</html>
