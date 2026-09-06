@@ -1,73 +1,6 @@
 [
     {
         "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Zoetis",
-        "id": "7d0d02d8-8858-47ab-8a16-1d14e1f59758",
-        "title": "Data Science Intern",
-        "active": false,
-        "terms": [
-            "Spring 2026"
-        ],
-        "date_updated": 1767372217,
-        "date_posted": 1767372217,
-        "url": "https://zoetis.wd5.myworkdayjobs.com/zoetis/job/Parsippany/Data-Science-Intern_JR00019746",
-        "locations": [
-            "Parsippany-Troy Hills, NJ",
-            "Kalamazoo, MI"
-        ],
-        "company_url": "https://simplify.jobs/c/Zoetis",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Zoetis",
-        "id": "1666130c-fe9c-4600-91b5-abe7af4fe194",
-        "title": "Enterprise Architecture Intern",
-        "active": false,
-        "terms": [
-            "Spring 2026"
-        ],
-        "date_updated": 1767740846,
-        "date_posted": 1767740846,
-        "url": "https://zoetis.wd5.myworkdayjobs.com/zoetis/job/Parsippany/Enterprise-Architecture-Intern_JR00019759-2",
-        "locations": [
-            "Remote in USA",
-            "Parsippany-Troy Hills, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Zoetis",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Red Bull",
-        "id": "544a60d6-4acb-4da7-a139-d7a61d0521b7",
-        "title": "Intern - Academy Performance Analysis",
-        "active": false,
-        "terms": [
-            "Spring 2026"
-        ],
-        "date_updated": 1767925590,
-        "date_posted": 1767925590,
-        "url": "https://jobs.smartrecruiters.com/RedBull/744000102417128",
-        "locations": [
-            "Livingston, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Red-Bull",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
         "category": "Hardware",
         "company_name": "KLA",
         "id": "6d5dd94f-5ebb-43bd-b9ee-ded0ecd21256",
@@ -5883,7 +5816,7 @@
         "company_name": "Red Bull",
         "id": "9a3e5294-d914-4470-8231-855d92e407d6",
         "title": "Data Science Intern - Data Science",
-        "active": true,
+        "active": false,
         "terms": [
             "Fall 2026"
         ],
@@ -6123,7 +6056,7 @@
         "company_name": "JP Morgan Chase",
         "id": "33f7cf59-11b2-4422-b6b4-0d340392d3b9",
         "title": "Software Engineer Intern - Software Engineer Program",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2027"
         ],
@@ -6224,7 +6157,7 @@
         "company_name": "SciTec",
         "id": "8cc2b117-a376-460c-9c26-471a354baad2",
         "title": "Intern - Multiple Teams",
-        "active": true,
+        "active": false,
         "terms": [
             "Fall 2026"
         ],
@@ -6245,7 +6178,7 @@
         "company_name": "PGIM",
         "id": "9cc8a439-1e3e-458b-86ca-a66d29624c35",
         "title": "Public Credit Summer Investment Analyst Intern - Portfolio Analysis Group",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2027"
         ],
@@ -6343,7 +6276,7 @@
         "company_name": "Prudential Financial",
         "id": "65197f8f-da14-4232-bf6e-d1107a25b6b7",
         "title": "Public Credit Summer Investment Analyst Intern - Portfolio Analysis Group",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2027"
         ],
@@ -6504,7 +6437,7 @@
         "company_name": "iFLIP4",
         "id": "188a7730-e0e6-4d6b-b1fb-5550f2812d43",
         "title": "PHP Programmer Intern - Social Enterprise",
-        "active": true,
+        "active": false,
         "terms": [
             "N/A"
         ],
@@ -6797,7 +6730,7 @@
         "company_name": "Johnson & Johnson",
         "id": "37a55467-4513-486e-8cca-8f80493a2231",
         "title": "Technology Co-op - Technology LDP",
-        "active": true,
+        "active": false,
         "terms": [
             "Fall 2027"
         ],
@@ -6833,7 +6766,7 @@
         "company_name": "Johnson & Johnson",
         "id": "eb1c0149-e214-495c-9f38-fab6db73b250",
         "title": "Technology Intern - Technology LDP",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2027"
         ],
@@ -6867,7 +6800,7 @@
         "company_name": "Johnson & Johnson",
         "id": "c27512ed-8f71-432a-b2eb-8c8bb19332c9",
         "title": "Technology Co-op - Technology LDP",
-        "active": true,
+        "active": false,
         "terms": [
             "Spring 2027"
         ],
@@ -7012,7 +6945,7 @@
         "company_name": "DTCC",
         "id": "f940c913-da8e-4109-8de2-54cd5d65acfa",
         "title": "Product Management Intern - 2027 Internship Program",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2027"
         ],
@@ -7061,7 +6994,7 @@
         "company_name": "Smiths Detection Group",
         "id": "a978ff38-52c5-44c8-b7ca-fc5bba5a02a7",
         "title": "Technical Service Engineer Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "N/A"
         ],
@@ -7084,7 +7017,7 @@
         "company_name": "Verisk",
         "id": "11d79971-ac6a-48a4-aea8-bb00009860a9",
         "title": "AI Intern - Summer Internship Program",
-        "active": false,
+        "active": true,
         "terms": [
             "Summer 2027"
         ],
@@ -7108,7 +7041,7 @@
         "company_name": "Medtronic",
         "id": "bc8cef80-2478-4abe-8166-7f6a226c4edd",
         "title": "Engineering Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Summer 2027"
         ],
@@ -7151,7 +7084,7 @@
         "company_name": "Thea Energy",
         "id": "6dff04f5-449d-4564-b9e7-0d27f6293f2f",
         "title": "Physics Intern",
-        "active": true,
+        "active": false,
         "terms": [
             "Fall 2026"
         ],
@@ -7168,6 +7101,509 @@
             "Bachelor's",
             "Master's",
             "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "Prudential Financial",
+        "id": "072f68b7-77cd-4453-9eb5-a882662b6cbb",
+        "title": "Product and Institutional Client Intern - Multiple Teams",
+        "active": false,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788153023,
+        "date_posted": 1788134400,
+        "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2027-Product-and-Institutional-Client--Internship-Program_R-124910-1",
+        "locations": [
+            "Newark, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Prudential-Financial",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "PGIM",
+        "id": "291a74b3-3479-4222-a696-a3837c1c7e00",
+        "title": "Product and Institutional Client Intern - Multiple Teams",
+        "active": false,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788152614,
+        "date_posted": 1788134400,
+        "url": "https://pru.wd5.myworkdayjobs.com/pgim_careers/job/Newark-NJ-USA/PGIM--2027-Product-and-Institutional-Client--Internship-Program_R-124910-2",
+        "locations": [
+            "Newark, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/PGIM",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Exelon",
+        "id": "d2e61e69-8f4f-4006-8163-9aeec299bede",
+        "title": "Data Science Intern - Data Science/Analytics",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788202694,
+        "date_posted": 1788202233,
+        "url": "https://careers.comed.com/jobs/30120?icims=1",
+        "locations": [
+            "Washington, DC",
+            "Newark, DE",
+            "Philadelphia, PA",
+            "Chicago, IL",
+            "Oakbrook Terrace, IL",
+            "Hamilton, NJ",
+            "Baltimore, MD"
+        ],
+        "company_url": "https://simplify.jobs/c/Exelon",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's",
+            "Associate's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "United Parcel Service",
+        "id": "26b43fcb-cddd-4373-8bf4-87f591f866ee",
+        "title": "Information Technology Intern - Multiple Teams",
+        "active": false,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788217082,
+        "date_posted": 1788134400,
+        "url": "https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/US---UPS-TECHNOLOGY-HEADQUARTERS--DATACENTER-NJRAR/UPS-Technology-Group-Summer-2027-Internship---NJ_R26029748",
+        "locations": [
+            "Mahwah, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/United-Parcel-Service",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "PricewaterhouseCoopers (PwC)",
+        "id": "bee35b4a-8dfd-4d26-b25f-6258446fd54f",
+        "title": "Digital Assurance & Transparency Intern - Multiple Teams",
+        "active": false,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788215937,
+        "date_posted": 1788134400,
+        "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Entry_Level_Careers/job/IL-Rosemont/Digital-Assurance---Transparency--DAT----Tech---Intern---Summer-2027_756925WD",
+        "locations": [
+            "SF",
+            "Florham Park, NJ",
+            "Rosemont, IL",
+            "Chicago, IL",
+            "Silicon Valley, CA",
+            "NYC"
+        ],
+        "company_url": "https://simplify.jobs/c/PwC",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "ZS",
+        "id": "bfd24658-9d27-4663-b02c-2b76b6042f78",
+        "title": "Decision Analytics Associate Intern - University Students",
+        "active": true,
+        "terms": [
+            "Winter 2026"
+        ],
+        "date_updated": 1788270898,
+        "date_posted": 1788270669,
+        "url": "https://jobs.zs.com/jobs/63439?icims=1",
+        "locations": [
+            "Boston, MA",
+            "South SF",
+            "Philadelphia, PA",
+            "Thousand Oaks, CA",
+            "Chicago, IL",
+            "Princeton, NJ",
+            "NYC",
+            "Bellevue, WA",
+            "Evanston, IL",
+            "San Diego, CA"
+        ],
+        "company_url": "https://simplify.jobs/c/ZS",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "ZS",
+        "id": "bec0bfec-8232-4a08-b412-7acf9ff7b4fc",
+        "title": "Business Technology Solutions Intern - North America - University Students",
+        "active": false,
+        "terms": [
+            "Winter 2026"
+        ],
+        "date_updated": 1788270903,
+        "date_posted": 1788270668,
+        "url": "https://jobs.zs.com/jobs/63472?icims=1",
+        "locations": [
+            "Boston, MA",
+            "South SF",
+            "Philadelphia, PA",
+            "Thousand Oaks, CA",
+            "Chicago, IL",
+            "Princeton, NJ",
+            "NYC",
+            "Bellevue, WA",
+            "Evanston, IL"
+        ],
+        "company_url": "https://simplify.jobs/c/ZS",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "ZS",
+        "id": "210ca429-111e-4cdd-a2e5-f00827fbb0e3",
+        "title": "Advanced Data Science Associate Intern - University Students",
+        "active": true,
+        "terms": [
+            "Winter 2026"
+        ],
+        "date_updated": 1788270892,
+        "date_posted": 1788270669,
+        "url": "https://jobs.zs.com/jobs/63368?icims=1",
+        "locations": [
+            "South SF",
+            "Chicago, IL",
+            "Princeton, NJ",
+            "Bellevue, WA"
+        ],
+        "company_url": "https://simplify.jobs/c/ZS",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "AIG",
+        "id": "0be0c565-a038-4aba-ab90-fe68679282f4",
+        "title": "Summer Intern - Data Office",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788288197,
+        "date_posted": 1788220800,
+        "url": "https://aig.wd1.myworkdayjobs.com/aig/job/GA-Atlanta/XMLNAME-2027-Early-Careers--Summer-Intern--Data-Office---United-States--Atlanta--GA--Charlotte--NC--Parsippany--NJ--Jersey-City--NJ---New-York--NY_JR2603655-1",
+        "locations": [
+            "Charlotte, NC",
+            "Jersey City, NJ",
+            "NYC",
+            "Parsippany-Troy Hills, NJ",
+            "Atlanta, GA"
+        ],
+        "company_url": "https://simplify.jobs/c/AIG",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Verisk",
+        "id": "1920c9e2-0339-4167-aa3a-3a0e8dd29095",
+        "title": "Technology Intern - Summer Internship Program",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788290189,
+        "date_posted": 1788290038,
+        "url": "https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4722",
+        "locations": [
+            "Holmdel, NJ",
+            "Jersey City, NJ",
+            "Lehi, UT"
+        ],
+        "company_url": "https://simplify.jobs/c/Verisk",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's",
+            "Bootcamp"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "AIG",
+        "id": "79bdac78-fd53-48d8-a72e-ed29d100a963",
+        "title": "Summer Intern - Data Office",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788293036,
+        "date_posted": 1788220800,
+        "url": "https://aig.wd1.myworkdayjobs.com/en-US/early_careers/job/GA-Atlanta/XMLNAME-2027-Early-Careers--Summer-Intern--Data-Office---United-States--Atlanta--GA--Charlotte--NC--Parsippany--NJ--Jersey-City--NJ---New-York--NY_JR2603655",
+        "locations": [
+            "Charlotte, NC",
+            "Jersey City, NJ",
+            "NYC",
+            "Parsippany-Troy Hills, NJ",
+            "Atlanta, GA"
+        ],
+        "company_url": "https://simplify.jobs/c/AIG",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Ingredion",
+        "id": "c2e6377c-2c49-47ed-a0e6-12520a2d17a4",
+        "title": "Digital Innovation Intern",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788308660,
+        "date_posted": 1788220800,
+        "url": "https://ingredion.wd1.myworkdayjobs.com/IngredionCareers/job/Bridgewater-NJ/Digital-Innovation-Intern_Req-40180-1",
+        "locations": [
+            "Bridgewater, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Ingredion",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Product",
+        "company_name": "NJM Insurance Group",
+        "id": "e1ba63cb-576e-4561-8453-e83787707f2c",
+        "title": "Insurance Product Management Analyst Intern 3",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788307613,
+        "date_posted": 1788220800,
+        "url": "https://njm.wd1.myworkdayjobs.com/njm/job/NJM---Trenton/Insurance-Product-Management-Analyst-Intern-3_R2008190",
+        "locations": [
+            "Trenton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/NJM-Insurance-Group",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Quant",
+        "company_name": "DTCC",
+        "id": "d6a23635-30c7-46eb-b86c-354647994436",
+        "title": "Model Risk Management Intern - 2027 Internship Program",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788424568,
+        "date_posted": 1787701823,
+        "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214401",
+        "locations": [
+            "Jersey City, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/DTCC",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Jones Lang LaSalle",
+        "id": "66c7fcea-148a-4aa8-9f82-41ec7ddb7676",
+        "title": "Mechatronics Technician Apprentice",
+        "active": false,
+        "terms": [
+            "Fall 2026"
+        ],
+        "date_updated": 1787603732,
+        "date_posted": 1787529600,
+        "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Edison-NJ/Mechatronics-and-Robotics-Apprentice_REQ530520",
+        "locations": [
+            "Edison, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Jones-Lang-LaSalle",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Crum & Forster Insurance",
+        "id": "fab8f803-ffef-4464-a672-22c36e3ededa",
+        "title": "Actuarial, Data Science or Product Services Intern - Commercial Lines",
+        "active": false,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788445364,
+        "date_posted": 1788444161,
+        "url": "https://careers-cfins.icims.com/jobs/5108/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Morristown, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Crum-And-Forster-Insurance",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Red Bull",
+        "id": "6c1b495d-c993-4a1e-80fc-bb8b295e7c8b",
+        "title": "Academy Scouting Intern - Academy Scout",
+        "active": true,
+        "terms": [
+            "Fall 2026"
+        ],
+        "date_updated": 1788467602,
+        "date_posted": 1785460019,
+        "url": "https://jobs.smartrecruiters.com/RedBull/744000140784792",
+        "locations": [
+            "Morristown, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Red-Bull",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Rockefeller Capital Management",
+        "id": "fc428819-fa67-4635-beea-612c5eec041c",
+        "title": "Analyst Intern - Core Platforms",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1788519241,
+        "date_posted": 1786680017,
+        "url": "https://careers-rcm.icims.com/jobs/5354/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Hamilton Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Rockefeller-Capital-Management",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Barclays",
+        "id": "64a35586-2a6e-4c71-9919-ca8c55f250ed",
+        "title": "Technology Developer Intern - Technology",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788560386,
+        "date_posted": 1788480000,
+        "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Building-400-Whippany-Campus-Jefferson-Park/XMLNAME-2027-Technology-Developer-Summer-Internship-Program-Whippany_JR-0000123234",
+        "locations": [
+            "Hanover, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Barclays",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Ingredion",
+        "id": "59eeafd7-d976-4ac4-a145-c4d9d431a5c1",
+        "title": "AI Solutions & Value MBA Intern",
+        "active": true,
+        "terms": [
+            "Winter 2026"
+        ],
+        "date_updated": 1788560821,
+        "date_posted": 1788480000,
+        "url": "https://ingredion.wd1.myworkdayjobs.com/IngredionCareers/job/Westchester-IL/AI-Solutions---Value-MBA-Intern_Req-40221-1",
+        "locations": [
+            "Westchester, IL",
+            "Bridgewater, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Ingredion",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "MBA"
         ]
     }
 ]
