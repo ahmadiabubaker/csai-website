@@ -1,234 +1,279 @@
-// Updated fetch to load events for the currently viewed month (past and future) and event linking for Google Calendar popup
-(async function() {
-  const calendarId = "c4769cf5e094f410896fe0672353e6cfcbc5caa1c173a4aca481c41463da0e7d@group.calendar.google.com";
-  const apiKey = "AIzaSyCz4WpkbLSLDxRJV8XoUIayrmbAtEC6wnI";
+/**
+ * CSAI Events Calendar Rendering Script
+ * 
+ * Features:
+ * - Loads events from window.CSAI_EVENTS or data/events.json
+ * - Renders a semantic, responsive 7-column month grid
+ * - Generates direct Google Calendar add links on event pill click
+ * - Preserves visual theme with smooth hover states and stable layout
+ */
 
-  // Fetch strategy:
-  // - 'byMonth': fetch only the current view month
-  // - 'window': fetch a window of months around the current view
-  // - 'all': fetch entire calendar (paginated) — can be heavy on large calendars
-  // Default to a wider window for convenience: 1 year past, 2 years future
-  const FETCH_STRATEGY = 'window'; // change to 'byMonth' or 'all' if desired
-  const WINDOW_PAST_MONTHS = 12;   // months before the view month
-  const WINDOW_FUTURE_MONTHS = 24; // months after the view month
+(function () {
+  'use strict';
 
-  // Simple caches
-  // per-month cache so we don't re-fetch when navigating back
-  const monthCache = {}; // key: YYYY-MM -> [events]
-  // cache for a window range
-  let windowCacheKey = null; // `${startISO}_${endISO}`
-  let windowCacheEvents = null;
-  // cache for all-events fetch
-  let allEventsCache = null;
-
-  // Build start (inclusive) and end (exclusive) RFC3339 timestamps for a given month in local time
-  function getMonthRange(date) {
-    const year = date.getFullYear();
-    const month = date.getMonth();
-    const start = new Date(year, month, 1, 0, 0, 0, 0);
-    // Google Calendar API treats timeMax as exclusive, so use the first day of the next month at 00:00
-    const end = new Date(year, month + 1, 1, 0, 0, 0, 0);
-    return { startISO: start.toISOString(), endISO: end.toISOString() };
+  // Helper to escape HTML characters
+  function escapeHtml(str) {
+    if (str == null) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
   }
 
-  function monthKeyFromDate(date) {
-    const y = date.getFullYear();
-    const m = String(date.getMonth() + 1).padStart(2, '0');
-    return `${y}-${m}`;
+  // Helper to zero-pad numbers
+  function pad(num) {
+    return String(num).padStart(2, '0');
   }
 
-  async function fetchEventsForRange(startISO, endISO) {
-    const url = `https://www.googleapis.com/calendar/v3/calendars/${calendarId}/events?key=${apiKey}&singleEvents=true&orderBy=startTime&timeMin=${encodeURIComponent(startISO)}&timeMax=${encodeURIComponent(endISO)}`;
-    const res = await fetch(url);
-    const data = await res.json();
+  // Parse 12-hour or 24-hour time string (e.g. "12:00 PM", "11:30 AM", "13:30")
+  function parseTime(timeStr) {
+    if (!timeStr || typeof timeStr !== 'string') return null;
+    const match = timeStr.trim().match(/^(\d{1,2}):(\d{2})\s*(AM|PM)?$/i);
+    if (!match) return null;
 
-    if (!data.items) return [];
+    let hours = parseInt(match[1], 10);
+    const minutes = parseInt(match[2], 10);
+    const meridian = match[3] ? match[3].toUpperCase() : null;
 
-    return data.items.map(ev => {
-      const isAllDay = !!ev.start?.date; // Detect all-day events
-      return {
-        id: ev.id,
-        htmlLink: ev.htmlLink,
-        title: ev.summary || '',
-        description: ev.description || '',
-        location: ev.location || '',
-        // For all-day, Google returns date-only (YYYY-MM-DD). For timed events, dateTime.
-        startISO: isAllDay ? ev.start.date : ev.start.dateTime,
-        endISO: isAllDay ? ev.end?.date : ev.end?.dateTime,
-        isAllDay
-      };
-    });
+    if (meridian === 'PM' && hours < 12) hours += 12;
+    if (meridian === 'AM' && hours === 12) hours = 0;
+
+    return { hours, minutes };
   }
 
-  async function fetchAllEvents() {
-    if (allEventsCache) return allEventsCache;
-    const startISO = new Date(1970, 0, 1).toISOString();
-    const endISO = new Date(2100, 0, 1).toISOString();
-    const base = `https://www.googleapis.com/calendar/v3/calendars/${calendarId}/events?key=${apiKey}&singleEvents=true&orderBy=startTime&maxResults=2500&timeMin=${encodeURIComponent(startISO)}&timeMax=${encodeURIComponent(endISO)}`;
-    let pageToken = undefined;
-    let all = [];
-    do {
-      const url = pageToken ? `${base}&pageToken=${encodeURIComponent(pageToken)}` : base;
-      const res = await fetch(url);
-      const data = await res.json();
-      if (data.items && data.items.length) {
-        const mapped = data.items.map(ev => {
-          const isAllDay = !!ev.start?.date;
-          return {
-            id: ev.id,
-            htmlLink: ev.htmlLink,
-            title: ev.summary || '',
-            description: ev.description || '',
-            location: ev.location || '',
-            startISO: isAllDay ? ev.start.date : ev.start.dateTime,
-            endISO: isAllDay ? ev.end?.date : ev.end?.dateTime,
-            isAllDay
-          };
-        });
-        all = all.concat(mapped);
-      }
-      pageToken = data.nextPageToken;
-    } while (pageToken);
-    allEventsCache = all;
-    return allEventsCache;
+  // Format a Date object to Google Calendar UTC string (YYYYMMDDTHHMMSSZ)
+  function formatIsoForGCal(date) {
+    return date.toISOString().replace(/[-:]|\.\d{3}/g, '');
   }
 
-  // Function to format date/time for Google Calendar link
-  function formatForGoogleCalendar(isoString, isAllDay) {
+  // Format a date string (YYYY-MM-DD) to Google Calendar Date string (YYYYMMDD)
+  function formatDateOnlyForGCal(dateStr) {
+    return dateStr.replace(/-/g, '');
+  }
+
+  // Normalize an event object into standard calendar format
+  function normalizeEvent(raw) {
+    if (!raw || !raw.date || !raw.title) return null;
+
+    const dateParts = raw.date.split('-').map(n => parseInt(n, 10));
+    if (dateParts.length !== 3 || isNaN(dateParts[0]) || isNaN(dateParts[1]) || isNaN(dateParts[2])) {
+      return null;
+    }
+
+    const [year, month, day] = dateParts;
+    const startTimeParsed = parseTime(raw.startTime);
+
+    let isAllDay = !startTimeParsed;
+    let gStart = '';
+    let gEnd = '';
+    let displayTime = '';
+
     if (isAllDay) {
-      // All-day event: YYYYMMDD
-      return isoString.replace(/-/g, '');
+      // All day event format: YYYYMMDD/YYYYMMDD (next day exclusive for Google Calendar)
+      const startGCal = formatDateOnlyForGCal(raw.date);
+      const nextDay = new Date(year, month - 1, day + 1);
+      const nextDayStr = `${nextDay.getFullYear()}-${pad(nextDay.getMonth() + 1)}-${pad(nextDay.getDate())}`;
+      const endGCal = formatDateOnlyForGCal(nextDayStr);
+
+      gStart = startGCal;
+      gEnd = endGCal;
+      displayTime = 'All Day';
     } else {
-      // Timed event: YYYYMMDDTHHMMSSZ
-      return new Date(isoString).toISOString().replace(/[-:]|\.\d{3}/g, '');
+      const startDate = new Date(year, month - 1, day, startTimeParsed.hours, startTimeParsed.minutes, 0);
+      let endDate;
+
+      const endTimeParsed = parseTime(raw.endTime);
+      if (endTimeParsed) {
+        endDate = new Date(year, month - 1, day, endTimeParsed.hours, endTimeParsed.minutes, 0);
+        if (endDate <= startDate) {
+          // If ends past midnight, add 1 day
+          endDate = new Date(year, month - 1, day + 1, endTimeParsed.hours, endTimeParsed.minutes, 0);
+        }
+      } else {
+        // Default duration: 1 hour
+        endDate = new Date(startDate.getTime() + 60 * 60 * 1000);
+      }
+
+      gStart = formatIsoForGCal(startDate);
+      gEnd = formatIsoForGCal(endDate);
+      displayTime = raw.startTime;
+      if (raw.endTime) {
+        displayTime = `${raw.startTime} – ${raw.endTime}`;
+      }
     }
-  }
 
-  const calEl = document.getElementById('calendar');
-  if (!calEl) return;
-
-  const headerTitle = calEl.querySelector('.cal-title');
-  const grid = calEl.querySelector('.cal-grid');
-  const prevBtn = calEl.querySelector('[data-cal-prev]');
-  const nextBtn = calEl.querySelector('[data-cal-next]');
-
-  let view = new Date();
-  view.setDate(1);
-
-  function pad(n){ return String(n).padStart(2,'0'); }
-  function localDateKeyFromDate(d){
-    return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
-  }
-  function localDateKeyFromISO(iso, isAllDay){
-    // if Google returned a date-only string for all-day events, use it directly
-    if (isAllDay && /^\d{4}-\d{2}-\d{2}$/.test(iso)) return iso;
-    return localDateKeyFromDate(new Date(iso));
-  }
-
-  function getWindowRange(date, pastMonths, futureMonths) {
-    const start = new Date(date.getFullYear(), date.getMonth() - pastMonths, 1);
-    const end = new Date(date.getFullYear(), date.getMonth() + futureMonths + 1, 1);
-    return { startISO: start.toISOString(), endISO: end.toISOString() };
-  }
-
-  async function getEventsForView(date) {
-    if (FETCH_STRATEGY === 'all') {
-      return await fetchAllEvents();
+    // Build Google Calendar template link
+    const gCalUrl = new URL('https://calendar.google.com/calendar/render');
+    gCalUrl.searchParams.set('action', 'TEMPLATE');
+    gCalUrl.searchParams.set('text', raw.title);
+    gCalUrl.searchParams.set('dates', `${gStart}/${gEnd}`);
+    if (raw.description) {
+      gCalUrl.searchParams.set('details', raw.description);
     }
-    if (FETCH_STRATEGY === 'window') {
-      const { startISO, endISO } = getWindowRange(date, WINDOW_PAST_MONTHS, WINDOW_FUTURE_MONTHS);
-      const key = `${startISO}_${endISO}`;
-      if (windowCacheKey === key && windowCacheEvents) return windowCacheEvents;
-      const events = await fetchEventsForRange(startISO, endISO);
-      windowCacheKey = key;
-      windowCacheEvents = events;
-      return events;
+    if (raw.location) {
+      gCalUrl.searchParams.set('location', raw.location);
     }
-    // default: byMonth
-    const key = monthKeyFromDate(date);
-    if (monthCache[key]) return monthCache[key];
-    const { startISO, endISO } = getMonthRange(date);
-    const events = await fetchEventsForRange(startISO, endISO);
-    monthCache[key] = events;
-    return events;
+
+    return {
+      title: raw.title,
+      date: raw.date,
+      startTime: raw.startTime || '',
+      endTime: raw.endTime || '',
+      location: raw.location || '',
+      description: raw.description || '',
+      displayTime,
+      isAllDay,
+      gCalUrl: gCalUrl.toString()
+    };
   }
 
-  async function render() {
-    const month = view.getMonth();
-    const year = view.getFullYear();
-    headerTitle.textContent = view.toLocaleString(undefined, { month: 'long', year: 'numeric' });
+  // Load events from window.CSAI_EVENTS or fetch data/events.json
+  async function loadEventsData() {
+    if (Array.isArray(window.CSAI_EVENTS) && window.CSAI_EVENTS.length > 0) {
+      return window.CSAI_EVENTS;
+    }
+    try {
+      const response = await fetch('data/events.json', { cache: 'no-store' });
+      if (response.ok) {
+        const data = await response.json();
+        if (Array.isArray(data)) return data;
+      }
+    } catch (e) {
+      console.warn('Could not fetch data/events.json, checking global fallback', e);
+    }
+    return window.CSAI_EVENTS || [];
+  }
 
-    // Simple loading state
-    grid.innerHTML = '<div class="cal-cell" style="grid-column: 1 / -1; min-height:auto; text-align:center; padding:12px;">Loading events…</div>';
+  // Initialize calendar when DOM is ready
+  async function initCalendar() {
+    const calEl = document.getElementById('calendar');
+    if (!calEl) return;
 
-    const firstDay = new Date(year, month, 1);
-  // Use JS weekday (0 = Sunday) so calendar columns are Sun..Sat
-  const startWeekday = firstDay.getDay();
-    const daysInMonth = new Date(year, month + 1, 0).getDate();
+    const headerTitle = calEl.querySelector('.cal-title');
+    const grid = calEl.querySelector('.cal-grid');
+    const prevBtn = calEl.querySelector('[data-cal-prev]');
+    const nextBtn = calEl.querySelector('[data-cal-next]');
 
-  // Header names starting with Sunday
-  const names = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
-    // Fetch events for this month while we prepare DOM
-  const events = await getEventsForView(view);
-    // Group by local day key
-    const byDay = events.reduce((acc, ev) => {
-      const day = localDateKeyFromISO(ev.startISO, ev.isAllDay);
-      (acc[day] = acc[day] || []).push(ev);
-      return acc;
-    }, {});
+    const rawEvents = await loadEventsData();
+    const normalizedEvents = rawEvents
+      .map(normalizeEvent)
+      .filter(Boolean);
 
-    grid.innerHTML = '';
-    names.forEach(n => {
-      const head = document.createElement('div');
-      head.className = 'cal-cell';
-      head.style.minHeight = 'auto';
-      head.innerHTML = `<strong>${n}</strong>`;
-      grid.appendChild(head);
+    // Group events by "YYYY-MM-DD"
+    const eventsByDate = {};
+    normalizedEvents.forEach(ev => {
+      if (!eventsByDate[ev.date]) {
+        eventsByDate[ev.date] = [];
+      }
+      eventsByDate[ev.date].push(ev);
     });
 
-    for (let i = 0; i < startWeekday; i++) {
-      const blank = document.createElement('div');
-      blank.className = 'cal-cell';
-      grid.appendChild(blank);
-    }
-    for (let d = 1; d <= daysInMonth; d++) {
-      const cell = document.createElement('div');
-      cell.className = 'cal-cell';
-      const dateObj = new Date(year, month, d);
-      const dayKey = localDateKeyFromDate(dateObj);
+    // Calendar state: start at current month
+    let viewDate = new Date();
+    viewDate.setDate(1);
 
-      cell.innerHTML = `<div class="cal-day">${d}</div><div class="cal-events"></div>`;
-      const wrap = cell.querySelector('.cal-events');
+    const weekdayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
-      (byDay[dayKey] || []).forEach(ev => {
-        const a = document.createElement('a');
-        a.className = 'cal-pill';
-        a.title = ev.title;
+    function render() {
+      const year = viewDate.getFullYear();
+      const month = viewDate.getMonth();
 
-        const displayTime = ev.isAllDay
-          ? 'All Day'
-          : new Date(ev.startISO).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+      // Update header title (e.g. "September 2026")
+      if (headerTitle) {
+        headerTitle.textContent = viewDate.toLocaleString('en-US', {
+          month: 'long',
+          year: 'numeric'
+        });
+      }
 
-        a.textContent = `${ev.title} (${displayTime})`;
+      // Calculate grid constraints
+      const firstDayWeekday = new Date(year, month, 1).getDay(); // 0 (Sun) - 6 (Sat)
+      const totalDaysInMonth = new Date(year, month + 1, 0).getDate();
 
-        // Use formatted start/end for Google Calendar
-        const gStart = formatForGoogleCalendar(ev.startISO, ev.isAllDay);
-        const gEnd = formatForGoogleCalendar(ev.endISO || ev.startISO, ev.isAllDay);
-        const gTitle = encodeURIComponent(ev.title);
-        const gDesc = encodeURIComponent(ev.description);
-        const gLoc = encodeURIComponent(ev.location);
+      // Clear grid
+      grid.innerHTML = '';
 
-        a.href = `https://www.google.com/calendar/render?action=TEMPLATE&text=${gTitle}&details=${gDesc}&location=${gLoc}&dates=${gStart}/${gEnd}`;
-        a.target = '_blank';
-        wrap.appendChild(a);
+      // 1. Render Weekday Header Row (Black header row)
+      weekdayNames.forEach(name => {
+        const headerCell = document.createElement('div');
+        headerCell.className = 'cal-cell cal-weekday-header';
+        headerCell.setAttribute('role', 'columnheader');
+        headerCell.innerHTML = `<span>${name}</span>`;
+        grid.appendChild(headerCell);
       });
 
-      grid.appendChild(cell);
+      // 2. Render Blank Leading Cells before the 1st
+      for (let i = 0; i < firstDayWeekday; i++) {
+        const blankCell = document.createElement('div');
+        blankCell.className = 'cal-cell cal-cell-blank';
+        blankCell.setAttribute('aria-hidden', 'true');
+        grid.appendChild(blankCell);
+      }
+
+      // 3. Render Month Day Cells
+      for (let day = 1; day <= totalDaysInMonth; day++) {
+        const dayCell = document.createElement('div');
+        dayCell.className = 'cal-cell cal-day-cell';
+        dayCell.setAttribute('role', 'gridcell');
+
+        const dateKey = `${year}-${pad(month + 1)}-${pad(day)}`;
+        const daysEvents = eventsByDate[dateKey] || [];
+
+        // Day number
+        const dayNumberEl = document.createElement('div');
+        dayNumberEl.className = 'cal-day';
+        dayNumberEl.textContent = day;
+        dayCell.appendChild(dayNumberEl);
+
+        // Events list container
+        const eventsContainer = document.createElement('div');
+        eventsContainer.className = 'cal-events';
+
+        daysEvents.forEach(ev => {
+          const pill = document.createElement('a');
+          pill.className = 'cal-pill';
+          pill.href = ev.gCalUrl;
+          pill.target = '_blank';
+          pill.rel = 'noopener noreferrer';
+          pill.title = `${ev.title} (${ev.displayTime}) — Click to add to Google Calendar`;
+
+          pill.innerHTML = `
+            <span class="cal-pill-title">${escapeHtml(ev.title)}</span>
+            <strong class="cal-pill-time">${escapeHtml(ev.displayTime)}</strong>
+          `;
+
+          eventsContainer.appendChild(pill);
+        });
+
+        dayCell.appendChild(eventsContainer);
+        grid.appendChild(dayCell);
+      }
     }
+
+    // Navigation event listeners
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => {
+        viewDate.setMonth(viewDate.getMonth() - 1);
+        render();
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => {
+        viewDate.setMonth(viewDate.getMonth() + 1);
+        render();
+      });
+    }
+
+    // Initial render
+    render();
   }
 
-  prevBtn.addEventListener('click', () => { view.setMonth(view.getMonth() - 1); void render(); });
-  nextBtn.addEventListener('click', () => { view.setMonth(view.getMonth() + 1); void render(); });
-
-  void render();
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initCalendar);
+  } else {
+    initCalendar();
+  }
 })();
