@@ -1,34 +1,67 @@
 [
   {
-    "title": "Sprinternship Informational Session",
-    "date": "2026-09-08",
-    "startTime": "12:00 PM",
-    "endTime": null,
-    "location": "",
-    "description": "Learn about the Sprinternship opportunity and how to apply."
-  },
-  {
-    "title": "Club Meeting",
-    "date": "2026-09-15",
-    "startTime": "12:00 PM",
-    "endTime": null,
-    "location": "",
-    "description": "CSAI general club meeting and project updates."
+    "title": "Weekly DTAI Check-in",
+    "description": "Team sync and progress updates.",
+    "location": "Online",
+    "startISO": "2025-09-23T00:30:00.000Z",
+    "endISO": "2025-09-23T01:30:00.000Z",
+    "recurrence": {
+      "frequency": "weekly",
+      "interval": 1
+    }
   },
   {
     "title": "Club Day",
-    "date": "2026-09-22",
-    "startTime": "11:30 AM",
-    "endTime": "3:30 PM",
-    "location": "Campus Center",
-    "description": "Visit the CSAI table at Club Day to learn more about our AI initiatives and upcoming events!"
+    "description": "Showcase our club and activities.",
+    "location": "School Gym",
+    "startISO": "2025-09-23T15:00:00.000Z",
+    "endISO": "2025-09-23T17:30:00.000Z"
+  },
+  {
+    "title": "Learn Git and GitHub",
+    "description": "Beginner-friendly workshop on version control.",
+    "location": "Room 204",
+    "startISO": "2025-09-27T01:00:00.000Z",
+    "endISO": "2025-09-27T02:00:00.000Z"
+  },
+  {
+    "title": "Weekly Club Meeting",
+    "description": "Come to BS102",
+    "location": "BS102",
+    "startISO": "2025-09-23T16:00:00.000Z",
+    "endISO": "2025-09-23T17:00:00.000Z",
+    "recurrence": {
+      "frequency": "weekly",
+      "interval": 1,
+      "byDay": ["TU"]
+    }
+  },
+  {
+    "title": "Sprinternship Informational Session",
+    "description": "Learn about the Sprinternship opportunity and how to apply.",
+    "location": "",
+    "startISO": "2026-09-08T16:00:00.000Z",
+    "endISO": "2026-09-08T17:00:00.000Z"
+  },
+  {
+    "title": "Club Meeting",
+    "description": "CSAI general club meeting and project updates.",
+    "location": "",
+    "startISO": "2026-09-15T16:00:00.000Z",
+    "endISO": "2026-09-15T17:00:00.000Z"
+  },
+  {
+    "title": "Club Day",
+    "description": "Showcase our club and activities.",
+    "location": "School Gym",
+    "startISO": "2026-09-22T15:30:00.000Z",
+    "endISO": "2026-09-22T19:30:00.000Z"
   },
   {
     "title": "NY Creates Internship Info Session",
-    "date": "2026-09-29",
-    "startTime": "12:45 PM",
-    "endTime": "1:30 PM",
+    "description": "Information session with NY Creates discussing internship opportunities in tech and semiconductors.",
     "location": "",
-    "description": "Information session with NY Creates discussing internship opportunities in tech and semiconductors."
+    "startISO": "2026-09-29T16:45:00.000Z",
+    "endISO": "2026-09-29T17:30:00.000Z"
   }
 ]

@@ -1907,122 +1907,53 @@ body.dark-mode .candidate-bar {
 
 /* ===== Calendar Styles ===== */
 .calendar {
-  max-width: 960px;
+  max-width: 900px;
   margin: 40px auto;
   background: var(--card-bg);
   border-radius: 12px;
-  padding: 24px;
+  padding: 20px;
   box-shadow: var(--shadow);
-  box-sizing: border-box;
 }
 
 .cal-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
-  gap: 12px;
-}
-
-.cal-header .cal-title {
-  margin: 0;
-  font-size: 1.5rem;
-  font-weight: 800;
-  text-align: center;
-  color: var(--text);
+  margin-bottom: 16px;
 }
 
 .cal-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 6px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-/* Black Day-of-Week Header Row */
-.cal-weekday-header {
-  background: #0b1220 !important;
-  color: #ffffff !important;
-  font-weight: 700;
-  font-size: 12px;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 8px 4px !important;
-  min-height: auto !important;
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  user-select: none;
-  border: 1px solid #0b1220 !important;
+  gap: 4px;
 }
 
 .cal-cell {
-  min-height: 110px;
+  min-height: 100px;
   border: 1px solid var(--glass-line);
   background: var(--input-bg);
-  border-radius: 8px;
-  padding: 6px;
+  padding: 4px;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
-  transition: background 0.15s ease;
-}
-
-.cal-cell-blank {
-  background: rgba(10, 20, 40, 0.02);
-  border: 1px dashed rgba(10, 20, 40, 0.08);
-  pointer-events: none;
 }
 
 .cal-day {
-  font-weight: 700;
-  font-size: 13px;
-  color: var(--text);
+  font-weight: bold;
   margin-bottom: 4px;
-  user-select: none;
 }
 
 .cal-events {
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  flex: 1;
-  overflow-y: auto;
+  gap: 2px;
 }
 
 .cal-pill {
-  display: block;
-  background: var(--accent-1, #00e6ff);
-  color: #0b1220;
-  border-radius: 7px;
-  padding: 4px 6px;
-  font-size: 11px;
-  line-height: 1.3;
-  text-decoration: none;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
-  word-break: break-word;
-  cursor: pointer;
-}
-
-.cal-pill:hover,
-.cal-pill:focus-visible {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 230, 255, 0.45);
-  filter: brightness(1.05);
-  outline: none;
-}
-
-.cal-pill-title {
-  font-weight: 500;
-}
-
-.cal-pill-time {
-  font-weight: 800;
-  margin-left: 2px;
+  background: var(--accent-1);
+  color: var(--text-invert);
+  border-radius: 8px;
+  padding: 2px 6px;
+  font-size: 12px;
 }
 
 /* ===== Responsive Embed for Demo Pages ===== */
@@ -2102,20 +2033,18 @@ body.dark-mode .candidate-bar {
   height: 10px;
   border-radius: 50%;
 }
-
 /* ===== Mobile Calendar Scaling (tightened to avoid overflow) ===== */
 @media (max-width: 768px) {
   .calendar {
     max-width: 100%;
-    padding: 12px 8px;
-    overflow: hidden;
+    padding: 8px;
+    overflow: hidden; /* prevent children from spilling out */
   }
 
   .cal-header {
     gap: 8px;
     align-items: center;
     flex-wrap: nowrap;
-    margin-bottom: 12px;
   }
 
   .cal-header .btn {
@@ -2127,8 +2056,8 @@ body.dark-mode .candidate-bar {
 
   .cal-header .cal-title {
     flex: 1 1 auto;
-    margin: 0 4px;
-    font-size: 15px;
+    margin: 0 6px;
+    font-size: 14px;
     font-weight: 700;
     text-align: center;
     white-space: nowrap;
@@ -2141,36 +2070,33 @@ body.dark-mode .candidate-bar {
     gap: 3px;
     width: 100%;
     box-sizing: border-box;
-  }
-
-  .cal-weekday-header {
-    font-size: 10px;
-    padding: 6px 2px !important;
-    border-radius: 4px;
+    grid-auto-rows: minmax(
+      64px,
+      auto
+    ); /* give a bit more vertical room so wrapped titles fit without spilling */
   }
 
   .cal-cell {
-    min-height: 80px;
-    padding: 4px 3px;
-    overflow: hidden;
-    border-radius: 6px;
-  }
-
-  .cal-day {
-    font-size: 11px;
-    margin-bottom: 3px;
+    min-height: 72px; /* increase to allow 2-line event titles */
+    padding: 6px 4px;
+    overflow: hidden; /* avoid content overflow */
+    display: flex;
+    flex-direction: column;
   }
 
   .cal-events {
-    gap: 3px;
-    max-height: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    /* allow a small vertical scroll if day has many events */
+    max-height: calc(100% - 30px);
     overflow-y: auto;
   }
 
   .cal-pill {
-    font-size: 10px;
-    padding: 2px 4px;
-    border-radius: 5px;
+    font-size: 12px;
+    padding: 2px 6px;
+    /* allow wrapping and limit to 2 lines so titles are readable on phones */
     white-space: normal;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -2185,7 +2111,7 @@ body.dark-mode .candidate-bar {
 /* extra-tight rules for small phones */
 @media (max-width: 480px) {
   .calendar {
-    padding: 8px 4px;
+    padding: 6px;
   }
   .cal-header .btn {
     padding: 6px 8px;
@@ -2194,25 +2120,26 @@ body.dark-mode .candidate-bar {
   .cal-header .cal-title {
     font-size: 13px;
   }
-  .cal-weekday-header {
-    font-size: 9px;
-    padding: 4px 1px !important;
-    letter-spacing: 0;
-  }
   .cal-cell {
-    min-height: 70px;
-    padding: 3px 2px;
-    border-radius: 4px;
-  }
+    min-height: 76px;
+    padding: 4px;
+  } /* give even more height on very small screens so wrapped titles are visible */
+
   .cal-pill {
-    font-size: 8.5px;
-    padding: 2px 3px;
-    border-radius: 4px;
-    line-height: 1.2;
+    font-size: 9px;
+    padding: 1px 5px;
+    border-radius: 6px;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
+
   .cal-day {
     font-size: 10px;
-    margin-bottom: 2px;
   }
 }
 
