@@ -1,39 +1,13 @@
 [
   {
-    "title": "Weekly DTAI Check-in",
+    "title": "DTAI-Weekly MTG",
     "description": "Team sync and progress updates.",
     "location": "Online",
-    "startISO": "2025-09-23T00:30:00.000Z",
-    "endISO": "2025-09-23T01:30:00.000Z",
+    "startISO": "2025-09-22T00:30:00.000Z",
+    "endISO": "2025-09-22T01:30:00.000Z",
     "recurrence": {
       "frequency": "weekly",
       "interval": 1
-    }
-  },
-  {
-    "title": "Club Day",
-    "description": "Showcase our club and activities.",
-    "location": "School Gym",
-    "startISO": "2025-09-23T15:00:00.000Z",
-    "endISO": "2025-09-23T17:30:00.000Z"
-  },
-  {
-    "title": "Learn Git and GitHub",
-    "description": "Beginner-friendly workshop on version control.",
-    "location": "Room 204",
-    "startISO": "2025-09-27T01:00:00.000Z",
-    "endISO": "2025-09-27T02:00:00.000Z"
-  },
-  {
-    "title": "Weekly Club Meeting",
-    "description": "Come to BS102",
-    "location": "BS102",
-    "startISO": "2025-09-23T16:00:00.000Z",
-    "endISO": "2025-09-23T17:00:00.000Z",
-    "recurrence": {
-      "frequency": "weekly",
-      "interval": 1,
-      "byDay": ["TU"]
     }
   },
   {
@@ -63,5 +37,12 @@
     "location": "",
     "startISO": "2026-09-29T16:45:00.000Z",
     "endISO": "2026-09-29T17:30:00.000Z"
+  },
+  {
+    "title": "Learn Git and GitHub",
+    "description": "Beginner-friendly workshop on version control.",
+    "location": "Room 204",
+    "startISO": "2025-09-27T01:00:00.000Z",
+    "endISO": "2025-09-27T02:00:00.000Z"
   }
 ]
