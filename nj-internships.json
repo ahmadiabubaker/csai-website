@@ -1,149 +1,6 @@
 [
     {
         "source": "Simplify",
-        "category": "Hardware",
-        "company_name": "KLA",
-        "id": "6d5dd94f-5ebb-43bd-b9ee-ded0ecd21256",
-        "title": "Product Development Engineering Intern",
-        "active": false,
-        "terms": [
-            "Spring 2026"
-        ],
-        "date_updated": 1767974971,
-        "date_posted": 1767974971,
-        "url": "https://kla.wd1.myworkdayjobs.com/UR/job/Totowa-NJ/Product-Development-Engineering-Intern_2533189",
-        "locations": [
-            "Paterson, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/KLA",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's",
-            "Master's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Legend Biotech",
-        "id": "12b210c5-5087-4020-9561-f79f5ca40ff1",
-        "title": "Master Data Management & Governance Intern",
-        "active": false,
-        "terms": [
-            "Spring 2026"
-        ],
-        "date_updated": 1768260400,
-        "date_posted": 1768260400,
-        "url": "https://job-boards.greenhouse.io/legendcareers/jobs/4632787005",
-        "locations": [
-            "Bridgewater Township, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Legend-Biotech",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's",
-            "Master's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "Prudential Financial",
-        "id": "491db16c-1030-4f0c-ae80-8fb6bf61aa6b",
-        "title": "PGIM: Quantitative Solutions \u2013 Investment Technology Associate Intern - MBA/Masters",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1768261084,
-        "date_posted": 1768261084,
-        "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2026-Quantitative-Solutions--Investment-Technology-Summer-Associate-Internship--MBA-Masters-_R-122963-1",
-        "locations": [
-            "Newark, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Prudential-Financial",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Master's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "Quant",
-        "company_name": "Prudential Financial",
-        "id": "acb989f6-837e-45f5-95c2-376bd9963297",
-        "title": "PGIM: 2026 Quantitative Solutions \u2013 Multi-Asset Summer Associate Internship - PhD/MBA/Masters",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1768261085,
-        "date_posted": 1768261085,
-        "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2026-Quantitative-Solutions--Multi-Asset-Summer-Associate-Internship--PhD-MBA-Masters-_R-122961-1",
-        "locations": [
-            "Newark, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Prudential-Financial",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Master's",
-            "MBA",
-            "PhD"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "Commvault",
-        "id": "c6de2776-dffd-48d6-a05e-3e84d0e0bbad",
-        "title": "Technical Enablement Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1768288766,
-        "date_posted": 1768288766,
-        "url": "https://job-boards.greenhouse.io/commvault/jobs/5051679008",
-        "locations": [
-            "Shrewsbury, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Commvault",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Software",
-        "company_name": "AT&T",
-        "id": "5eabb7b9-2c8c-464a-9848-96fc90320411",
-        "title": "Technology Development Program Intern - 2026",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1768346409,
-        "date_posted": 1768346409,
-        "url": "https://att.wd1.myworkdayjobs.com/ATTCollegeSpecialInvite/job/Dallas-Texas/Technology-Development-Program-Intern--2026-_R-80658-1",
-        "locations": [
-            "Dallas, TX",
-            "Bothell, WA",
-            "Atlanta, GA",
-            "Middletown Township, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/ATT",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's"
-        ]
-    },
-    {
-        "source": "Simplify",
         "category": "AI/ML/Data",
         "company_name": "Genmab",
         "id": "3189ff40-123b-4cd0-aff2-989d5bc00a49",
@@ -412,30 +269,6 @@
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": []
-    },
-    {
-        "source": "Simplify",
-        "category": "Hardware",
-        "company_name": "KLA",
-        "id": "68a5c4c4-0281-4735-9b76-9aa50bcaed3a",
-        "title": "Product Development Engineering Intern",
-        "active": false,
-        "terms": [
-            "Spring 2026"
-        ],
-        "date_updated": 1767974971,
-        "date_posted": 1767974971,
-        "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Totowa-NJ/Product-Development-Engineering-Intern_2533189-1",
-        "locations": [
-            "Paterson, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/KLA",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's",
-            "Master's"
-        ]
     },
     {
         "source": "Simplify",
@@ -2088,29 +1921,6 @@
             "Linden, NJ"
         ],
         "company_url": "https://simplify.jobs/c/Merck",
-        "is_visible": true,
-        "sponsorship": "Other",
-        "degrees": [
-            "Bachelor's"
-        ]
-    },
-    {
-        "source": "Simplify",
-        "category": "AI/ML/Data",
-        "company_name": "Legend Biotech",
-        "id": "df3c8033-e375-4f8e-8156-b96b8f36013a",
-        "title": "Operational Modelling Intern",
-        "active": false,
-        "terms": [
-            "Summer 2026"
-        ],
-        "date_updated": 1771889621,
-        "date_posted": 1768346690,
-        "url": "https://job-boards.greenhouse.io/legendcareers/jobs/4649027005",
-        "locations": [
-            "Bridgewater Township, NJ"
-        ],
-        "company_url": "https://simplify.jobs/c/Legend-Biotech",
         "is_visible": true,
         "sponsorship": "Other",
         "degrees": [
@@ -6708,7 +6518,7 @@
         "company_name": "Johnson & Johnson",
         "id": "e11ccff1-b1a1-4f6c-9f29-cab7a87af101",
         "title": "Data Operations & Analytics Co-op",
-        "active": true,
+        "active": false,
         "terms": [
             "Fall 2026"
         ],
@@ -6892,7 +6702,7 @@
         "company_name": "AMD",
         "id": "a554688a-fa61-4d32-8d02-a22d0e78ac6a",
         "title": "Research Engineering Intern/Co-op - AMD Research",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2027",
             "Summer 2027"
@@ -7235,7 +7045,7 @@
         "company_name": "ZS",
         "id": "bfd24658-9d27-4663-b02c-2b76b6042f78",
         "title": "Decision Analytics Associate Intern - University Students",
-        "active": true,
+        "active": false,
         "terms": [
             "Winter 2026"
         ],
@@ -7521,7 +7331,7 @@
         "company_name": "Red Bull",
         "id": "6c1b495d-c993-4a1e-80fc-bb8b295e7c8b",
         "title": "Academy Scouting Intern - Academy Scout",
-        "active": true,
+        "active": false,
         "terms": [
             "Fall 2026"
         ],
@@ -7604,6 +7414,852 @@
         "sponsorship": "Other",
         "degrees": [
             "MBA"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Merck",
+        "id": "0de01dac-3569-4e3a-a5e8-b53a36e66025",
+        "title": "Digital Strategy & Insights Intern - Global Supplier Management Group",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788848135,
+        "date_posted": 1788825600,
+        "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Global-Supplier-Management-Group-Digital-Strategy---Insights--DS-I----Intern_R416016",
+        "locations": [
+            "Rahway, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Merck",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Merck",
+        "id": "d821204c-7e67-4b02-abf4-bebf71adda84",
+        "title": "Portfolio Resource Forecasting Intern",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788848093,
+        "date_posted": 1788825600,
+        "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2027-Future-Talent-Program---Portfolio-Resource-Forecasting---Intern_R414068",
+        "locations": [
+            "North Wales, PA",
+            "Rahway, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Merck",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Merck",
+        "id": "fb5852a4-7dd6-4402-9294-65ab39f88f85",
+        "title": "Information Science Intern - Future Talent Program",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788848093,
+        "date_posted": 1788825600,
+        "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Information-Science---Intern_R413651",
+        "locations": [
+            "Rahway, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Merck",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Merck",
+        "id": "f93be601-39da-4fc8-ab4a-538dbf9976e3",
+        "title": "Co-op",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788847985,
+        "date_posted": 1788825600,
+        "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Global-Workplace---Enterprise-Services-Global-Real-Estate--GRES--Co-op_R415296",
+        "locations": [
+            "Rahway, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Merck",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Merck",
+        "id": "de7d9512-c0e4-43f7-a88e-43788fdedd9c",
+        "title": "Business Enablement Intern",
+        "active": true,
+        "terms": [
+            "Winter 2026"
+        ],
+        "date_updated": 1788847989,
+        "date_posted": 1788825600,
+        "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2027-Future-Talent-Program---Business-Enablement---Intern_R410960",
+        "locations": [
+            "North Wales, PA",
+            "Rahway, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Merck",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Merck",
+        "id": "e2818b99-0f21-4936-b942-da56f97129bd",
+        "title": "Global Data Management and Standards Intern",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788848005,
+        "date_posted": 1788825600,
+        "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Global-Data-Management-and-Standards--GDMS----Intern_R412060",
+        "locations": [
+            "Rahway, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Merck",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Merck",
+        "id": "269c98bf-a12b-4ef0-a2c5-4b7d30d453e2",
+        "title": "Business Intelligence Intern - Research Lab",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788847966,
+        "date_posted": 1788825600,
+        "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2027-Future-Talent-Program---Business-Intelligence---Intern_R412411",
+        "locations": [
+            "North Wales, PA",
+            "Rahway, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Merck",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Trimble",
+        "id": "ca3d442d-982e-4251-b443-6e607ffd2504",
+        "title": "Software Engineer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788907456,
+        "date_posted": 1788825600,
+        "url": "https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/US---CO-Westminster/Software-Engineering-Intern_R57676",
+        "locations": [
+            "Dayton, OH",
+            "Knoxville, TN",
+            "Portsmouth, NH",
+            "Princeton, NJ",
+            "Lake Oswego, OR",
+            "Westminster, CO",
+            "Sunnyvale, CA",
+            "Atlanta, GA"
+        ],
+        "company_url": "https://simplify.jobs/c/Trimble",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Verizon Communications",
+        "id": "a6556164-3a4b-4673-ac5d-c68da66d752d",
+        "title": "AI/ML Engineering Intern - Consumer Group",
+        "active": false,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788965918,
+        "date_posted": 1788912000,
+        "url": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Verizon-Consumer-Group--AI-ML-Engineering-Summer-2027-Internship_R-1100605",
+        "locations": [
+            "Basking Ridge, Bernards, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Verizon-Communications",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Cigna Group",
+        "id": "ea24724d-1fd5-458d-96a6-2c4026e58fe7",
+        "title": "Software Engineering Intern - Technology Development Program - Software Engineering Track",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788992965,
+        "date_posted": 1788912000,
+        "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/St-Louis-MO/The-Cigna-Group-s-Technology-Development-Program----Software-Engineering-Track-Summer-Internship_26009527",
+        "locations": [
+            "Bloomington, MN",
+            "Austin, TX",
+            "Morris Plains, NJ",
+            "St. Louis, MO",
+            "Bloomfield, CT"
+        ],
+        "company_url": "https://simplify.jobs/c/Cigna-Group",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Cigna Group",
+        "id": "b4c471c9-9a26-433f-a75a-81237cee7603",
+        "title": "Data & Analytics Engineering Intern - Technology Development Program",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1788993015,
+        "date_posted": 1788912000,
+        "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/The-Cigna-Group-s-Technology-Development-Program---Data---Analytics-Engineering-Track-Summer-Internship_26009533",
+        "locations": [
+            "Bloomington, MN",
+            "Morris Plains, NJ",
+            "St. Louis, MO",
+            "Bloomfield, CT"
+        ],
+        "company_url": "https://simplify.jobs/c/Cigna-Group",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Tradeweb",
+        "id": "650452ad-6e0f-4df6-856e-155fc576cd80",
+        "title": "Software Developer Intern - STP",
+        "active": false,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1789003310,
+        "date_posted": 1789002871,
+        "url": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301914",
+        "locations": [
+            "Jersey City, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Tradeweb",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Tradeweb",
+        "id": "ff7a5dc0-ac69-4d08-b776-4be6c49870fe",
+        "title": "AI Software Engineer Intern",
+        "active": false,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1789003308,
+        "date_posted": 1789002870,
+        "url": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301902",
+        "locations": [
+            "Jersey City, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Tradeweb",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Tradeweb",
+        "id": "d4e2aca7-ceb5-47c7-987d-ea15e4f31918",
+        "title": "Market Data Developer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1789003698,
+        "date_posted": 1789002871,
+        "url": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301910",
+        "locations": [
+            "Jersey City, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Tradeweb",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Tradeweb",
+        "id": "cfcf9dcd-330d-431b-8720-ccdbd7192fea",
+        "title": "Credit Software Engineer Intern",
+        "active": false,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1789003291,
+        "date_posted": 1789002872,
+        "url": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301915",
+        "locations": [
+            "Jersey City, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Tradeweb",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Tradeweb",
+        "id": "16018151-94b6-4172-ab4e-e415056f5970",
+        "title": "Data Platform Intern",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1789003291,
+        "date_posted": 1789002870,
+        "url": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301904",
+        "locations": [
+            "Jersey City, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Tradeweb",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Tradeweb",
+        "id": "11d28ca0-2c46-4a29-b2c1-8a406ffbf8c9",
+        "title": "Java Software Engineer Intern",
+        "active": false,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1789003698,
+        "date_posted": 1789002871,
+        "url": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301907",
+        "locations": [
+            "Jersey City, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Tradeweb",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Tradeweb",
+        "id": "a5dccfc9-2d23-4297-a215-bdd5dae4a022",
+        "title": "Node.js Developer Intern",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1789003289,
+        "date_posted": 1789002871,
+        "url": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301912",
+        "locations": [
+            "Jersey City, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Tradeweb",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": []
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Tradeweb",
+        "id": "d96d4e29-9756-428f-b59c-e62f8b941911",
+        "title": "C++ Distributed Systems Developer Intern - C++ Core Services",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1789003285,
+        "date_posted": 1789002870,
+        "url": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301903",
+        "locations": [
+            "Jersey City, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Tradeweb",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Tradeweb",
+        "id": "54620b79-626d-4450-bffd-b2749d556272",
+        "title": "Application Software Engineering Internship - IFI Application",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1789003285,
+        "date_posted": 1789002871,
+        "url": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301906",
+        "locations": [
+            "Jersey City, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Tradeweb",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Rockefeller Capital Management",
+        "id": "8db6ea78-3c40-41b2-9388-56379c84d193",
+        "title": "Summer Analyst Intern - Core Platforms",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1789004048,
+        "date_posted": 1789003125,
+        "url": "https://careers-rcm.icims.com/jobs/5574/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Hamilton Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Rockefeller-Capital-Management",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Rockefeller Capital Management",
+        "id": "95f3caed-4c98-4f22-908d-29d73e4abbdc",
+        "title": "Analyst Intern - Core Platforms",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1789004008,
+        "date_posted": 1789003125,
+        "url": "https://careers-rcm.icims.com/jobs/5573/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Hamilton Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Rockefeller-Capital-Management",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Rockefeller Capital Management",
+        "id": "420f3d0b-1d54-4f51-8d47-bfbf5af053fa",
+        "title": "Summer Analyst Intern - Core Platforms",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1789004035,
+        "date_posted": 1789003125,
+        "url": "https://careers-rcm.icims.com/jobs/5575/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Hamilton Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Rockefeller-Capital-Management",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Tradeweb",
+        "id": "e968f97d-32d7-4c91-8d49-194045d74346",
+        "title": "Engineering Intern - Distributed Ledger Technology - Engineering",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1789003955,
+        "date_posted": 1789002870,
+        "url": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301905",
+        "locations": [
+            "Jersey City, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Tradeweb",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "L3Harris Technologies",
+        "id": "cc2a43c3-1ce7-4b42-9f92-236adb09d59e",
+        "title": "Software Engineer Intern",
+        "active": true,
+        "terms": [
+            "Winter 2026"
+        ],
+        "date_updated": 1789079251,
+        "date_posted": 1789078492,
+        "url": "https://jobs.l3harris.com/job/Clifton-Intern,-Software-Engineer-NJ-07014/1428512900/?ats=successfactors",
+        "locations": [
+            "Clifton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/L3Harris-Technologies",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's",
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Accenture",
+        "id": "14e80d85-4ad4-4325-8b16-b03eeeb9834d",
+        "title": "Technology Summer Analyst - Multiple Teams",
+        "active": true,
+        "terms": [
+            "Summer 2026"
+        ],
+        "date_updated": 1789079271,
+        "date_posted": 1788998400,
+        "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Chicago-Accenture-Tower-Corp/Technology-Summer-Analyst---Various-Locations---NAELFY27_R00355981",
+        "locations": [
+            "Boston, MA",
+            "Seattle, WA",
+            "SF",
+            "Austin, TX",
+            "Detroit, MI",
+            "LA",
+            "Morristown, NJ",
+            "Dallas, TX",
+            "Philadelphia, PA",
+            "Chicago, IL",
+            "Charlotte, NC",
+            "Arlington County, Arlington, VA",
+            "St. Louis, MO",
+            "NYC",
+            "Atlanta, GA",
+            "San Diego, CA"
+        ],
+        "company_url": "https://simplify.jobs/c/Accenture-FS",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Hardware",
+        "company_name": "L3Harris Technologies",
+        "id": "96cb7017-c8f1-4f02-92ae-1626a4d433b8",
+        "title": "Software Engineer Intern",
+        "active": true,
+        "terms": [
+            "Winter 2026"
+        ],
+        "date_updated": 1789079235,
+        "date_posted": 1789078489,
+        "url": "https://jobs.l3harris.com/job/Clifton-Intern,-Software-Engineer-NJ-07014/1428513900/?ats=successfactors",
+        "locations": [
+            "Clifton, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/L3Harris-Technologies",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's",
+            "PhD"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "TD Bank",
+        "id": "b76f087b-87ac-46aa-87cf-36b7ef985f21",
+        "title": "Data Analyst Co-op - Global Technology & Solutions",
+        "active": true,
+        "terms": [
+            "Winter 2027"
+        ],
+        "date_updated": 1789107136,
+        "date_posted": 1789084800,
+        "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Spring-Co-op---Global-Technology---Solutions---Data-Analyst_R_1510236",
+        "locations": [
+            "Mt Laurel Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/TD-Bank",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "TD Bank",
+        "id": "85246fff-7e47-4644-a0e6-36d4ef176665",
+        "title": "Data Engineer Co-op - Global Technology & Solutions",
+        "active": true,
+        "terms": [
+            "Spring 2027"
+        ],
+        "date_updated": 1789107110,
+        "date_posted": 1789084800,
+        "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Spring-Co-op---Global-Technology---Solutions---Data-Engineer_R_1510111",
+        "locations": [
+            "Mt Laurel Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/TD-Bank",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "TD Bank",
+        "id": "194a2192-6413-4ed0-9957-dfe5dc3f3f0c",
+        "title": "Software Engineer Co-op - Global Technology & Solutions",
+        "active": true,
+        "terms": [
+            "Spring 2027"
+        ],
+        "date_updated": 1789107114,
+        "date_posted": 1789084800,
+        "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Spring-Co-op---Global-Technology---Solutions---Software-Engineer--SWE-_R_1509773",
+        "locations": [
+            "Mt Laurel Township, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/TD-Bank",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Merck",
+        "id": "7b663a85-a116-4378-8d03-6fea9b19f071",
+        "title": "Data Analytics and Insights Intern",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1789165850,
+        "date_posted": 1789084800,
+        "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Data-Analytics-and-Insights---Intern_R413657",
+        "locations": [
+            "Rahway, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Merck",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Merck",
+        "id": "5136601c-2b56-4a3e-bb67-dfda666a1d5e",
+        "title": "Quality Assurance Research Clinical Quality, Analytics & AI Co-op",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1789165859,
+        "date_posted": 1789084800,
+        "url": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---QA-Research-Clinical-Quality--Analytics---AI---Co-Op_R414840",
+        "locations": [
+            "Upper Gwynedd Township, PA",
+            "Rahway, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Merck",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Avis Budget Group",
+        "id": "eda842f1-d620-457e-ae05-ed16e654890f",
+        "title": "Revenue Management Intern - Accelerate",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1789170945,
+        "date_posted": 1789084800,
+        "url": "https://avisbudget.wd1.myworkdayjobs.com/abg_careers/job/379-Interpace-Pkwy-Parsippany-07054/Accelerate---Revenue-Management-Summer-2027-Intern_R0190482",
+        "locations": [
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Avis-Budget-Group",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "Software",
+        "company_name": "Avis Budget Group",
+        "id": "8262d1b0-a155-42eb-b4f5-a14a377ffb1b",
+        "title": "Transformation Engineer Intern - Accelerate",
+        "active": true,
+        "terms": [
+            "Summer 2027"
+        ],
+        "date_updated": 1789170927,
+        "date_posted": 1789084800,
+        "url": "https://avisbudget.wd1.myworkdayjobs.com/abg_careers/job/379-Interpace-Pkwy-Parsippany-07054/Accelerate---Transformation-Engineer-Summer-2027-Intern_R0190388",
+        "locations": [
+            "Parsippany-Troy Hills, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Avis-Budget-Group",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's"
+        ]
+    },
+    {
+        "source": "Simplify",
+        "category": "AI/ML/Data",
+        "company_name": "Cooper University Health Care",
+        "id": "24833818-6ff2-491a-8e1b-ae7d1315db17",
+        "title": "Enterprise Analytics Intern",
+        "active": true,
+        "terms": [
+            "Winter 2026"
+        ],
+        "date_updated": 1789175343,
+        "date_posted": 1789175131,
+        "url": "https://careers-cooperhealth.icims.com/jobs/85692/job?mobile=true&needsRedirect=false",
+        "locations": [
+            "Camden, NJ"
+        ],
+        "company_url": "https://simplify.jobs/c/Cooper-University-Health-Care",
+        "is_visible": true,
+        "sponsorship": "Other",
+        "degrees": [
+            "Bachelor's",
+            "Master's"
         ]
     }
 ]
